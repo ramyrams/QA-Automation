@@ -10,7 +10,7 @@
 * [Selenium framework concept](https://github.com/djangofan/selenium-framework-concept2)
 * [SeleniumBabyFramework-II](https://github.com/SenthilKumarSelenium/SeleniumBabyFramework-II)
 * [Selenium Framework](https://github.com/thiyagarajan/Selenium-Framework)
-* [](https://github.com/priyamarimuthu/Selenium_Framework)
+* [Selenium_Framewor](https://github.com/priyamarimuthu/Selenium_Framework)
 * [Automation Framework for Appium & Selenium which easily integrates with CI](https://github.com/aniket-21/AutomationFramework)
 * [omelet](https://github.com/springernature/omelet)
 * [POM-Framework-Java-Jenkins-TestNG-AntBuild-Appium](https://github.com/asheikabrar/Selenium)
