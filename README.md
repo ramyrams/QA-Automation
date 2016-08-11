@@ -45,6 +45,7 @@
 
 * [Agile, DevOps, and What They Mean for Testers](https://www.stickyminds.com/interview/agile-devops-and-what-they-mean-testers-interview-jeff-payne)
 
+* [Ideas On How To Succeed As A Tester](https://dojo.ministryoftesting.com/lessons/ideas-on-how-to-succeed-as-a-tester)
 
  
 
