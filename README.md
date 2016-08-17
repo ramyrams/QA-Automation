@@ -1,5 +1,9 @@
 # QA
 
+# Test Automation
+* [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
+
+
 ## Selenium Automation
 * [Keyword Driven Automation Framework with Selenium 2](https://github.com/sayems/keyword-driven-framework)
 * [Automation testing using Selenium WebDriver and Java](https://github.com/ggasoftware/gga-selenium-framework)
