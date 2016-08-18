@@ -31,13 +31,14 @@
 * [page object pattern](https://github.com/PaulSodimu/PageObjectPattern)
 * [seleniumPageFactoryFramework](https://github.com/kasthurikranthikumar/seleniumPageFactoryFramework)
 * [SeleniumHybridFramework](https://github.com/ashvinisharma/SeleniumHybridFramework)
-
-
 * [T.J. Maher Github](https://github.com/tjmaher)
-* [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
-* [SDLC vs STLC](https://fasteningcode.com/2016/08/03/sdlc-vs-stlc/)
-* [The Exploratory Testing Chrome Plugin](https://www.simple-talk.com/dotnet/net-development/exploratory-testing-chrome-plugin/)
+
+# Selenium
 * [Future of Selenium](http://test-able.blogspot.com/2016/07/future-of-selenium.html)
+
+
+#  Exploratory Testing 
+* [The Exploratory Testing Chrome Plugin](https://www.simple-talk.com/dotnet/net-development/exploratory-testing-chrome-plugin/)
 
 
 # Web Application Security
@@ -46,9 +47,10 @@
 # Web Application Penetration Testing
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
 
-
+# Testing
+* [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
+* [SDLC vs STLC](https://fasteningcode.com/2016/08/03/sdlc-vs-stlc/)
 * [Agile, DevOps, and What They Mean for Testers](https://www.stickyminds.com/interview/agile-devops-and-what-they-mean-testers-interview-jeff-payne)
-
 * [Ideas On How To Succeed As A Tester](https://dojo.ministryoftesting.com/lessons/ideas-on-how-to-succeed-as-a-tester)
 
  
