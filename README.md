@@ -2,9 +2,10 @@
 
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
+* [Selenium Test Automation: From the ground up](http://www.softwaretestingclub.com/profiles/blogs/selenium-test-automation-from-the-ground-up)
 
 
-## Selenium Automation
+## Selenium Automation Frameworks
 * [Keyword Driven Automation Framework with Selenium 2](https://github.com/sayems/keyword-driven-framework)
 * [Automation testing using Selenium WebDriver and Java](https://github.com/ggasoftware/gga-selenium-framework)
 * [Selenium 2 Test Automation Framework By Grazitti Interactive](https://github.com/GrazittiInteractive/Selenium_2_Framework)
@@ -33,7 +34,6 @@
 
 
 * [T.J. Maher Github](https://github.com/tjmaher)
-* 
 * [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
 * [SDLC vs STLC](https://fasteningcode.com/2016/08/03/sdlc-vs-stlc/)
 * [The Exploratory Testing Chrome Plugin](https://www.simple-talk.com/dotnet/net-development/exploratory-testing-chrome-plugin/)
