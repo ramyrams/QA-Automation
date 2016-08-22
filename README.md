@@ -4,6 +4,7 @@
 
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
+* [QA Automation](https://essenceoftesting.blogspot.com/2016/08/vodqa-pune-less-talk-only-action-agenda.html)
 * [Selenium Test Automation: From the ground up](http://www.softwaretestingclub.com/profiles/blogs/selenium-test-automation-from-the-ground-up)
 
 
