@@ -1,5 +1,7 @@
 # QA
 
+* [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
+
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
 * [Selenium Test Automation: From the ground up](http://www.softwaretestingclub.com/profiles/blogs/selenium-test-automation-from-the-ground-up)
