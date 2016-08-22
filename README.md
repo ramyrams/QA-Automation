@@ -67,8 +67,15 @@
 
 
 # Web Analytics Automation Testing Framework 
+* [Web Analytics Automation Testing Framework](https://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html)
+* [WAAT](https://github.com/anandbagmar/WAAT)
 
 # Performance testing 
+
+# Headless Testing
+
+# Reponsive Design Testing
+
 
 # Testing
 * [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
