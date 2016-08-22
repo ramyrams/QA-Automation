@@ -52,6 +52,12 @@
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
 
 # REST API Testing
+* [Restful API Testing](https://github.com/stekycz/restful-api-testing)
+* [Testing RESTful APIs](https://github.com/chitamoor/Rester)
+* [apickli - REST API integration testing framework with cucumber.js](https://github.com/apickli/apickli)
+* [Cucumber steps to easily test REST-based XML and JSON APIs](https://github.com/jayzes/cucumber-api-steps)
+* [JSON driven test runner for REST APIs](https://github.com/peter/jsonapitest)
+* [Behat](https://github.com/deminy/behat-rest-testing)
 
 # BDD through cucumber 
 
