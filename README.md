@@ -51,6 +51,19 @@
 # Web Application Penetration Testing
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
 
+# REST API Testing
+
+# BDD through cucumber 
+
+#Appium
+
+# TFS for Testers
+
+
+# Web Analytics Automation Testing Framework 
+
+# Performance testing 
+
 # Testing
 * [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
 * [SDLC vs STLC](https://fasteningcode.com/2016/08/03/sdlc-vs-stlc/)
