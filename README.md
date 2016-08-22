@@ -34,6 +34,7 @@
 * [seleniumPageFactoryFramework](https://github.com/kasthurikranthikumar/seleniumPageFactoryFramework)
 * [SeleniumHybridFramework](https://github.com/ashvinisharma/SeleniumHybridFramework)
 * [T.J. Maher Github](https://github.com/tjmaher)
+* [Selenium Tests Framework](https://github.com/tarun3kumar/seleniumtestsframework)
 
 # Selenium
 * [Future of Selenium](http://test-able.blogspot.com/2016/07/future-of-selenium.html)
