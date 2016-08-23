@@ -40,6 +40,7 @@
 # Selenium
 * [Future of Selenium](http://test-able.blogspot.com/2016/07/future-of-selenium.html)
 
+# Appium
 
 #  Exploratory Testing 
 * [The Exploratory Testing Chrome Plugin](https://www.simple-talk.com/dotnet/net-development/exploratory-testing-chrome-plugin/)
@@ -47,9 +48,26 @@
 
 # Web Application Security
 * [Four Things You Shouldn't Forget About Web Application Security](http://www.ehacking.net/2016/05/4-things-not-to-forget-web-application-security.html)
+* [Web Application Security Testing Cheat Sheet](https://www.owasp.org/index.php/Web_Application_Security_Testing_Cheat_Sheet)
+* [APPROACHES, TOOLS AND TECHNIQUES FOR SECURITY TESTING](http://www.3pillarglobal.com/insights/approaches-tools-techniques-for-security-testing)
+* 
+
+# Cross-Browser Web App Testing
+
+# Cross-Device Web App Testing
+
+# Exploratory Testing
+# Accessibility Testing
+# Localization Testing
+
 
 # Web Application Penetration Testing
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
+
+# Web Analytics Automation Testing Framework 
+* [Web Analytics Automation Testing Framework](https://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html)
+* [WAAT](https://github.com/anandbagmar/WAAT)
+* 
 
 # REST API Testing
 * [Restful API Testing](https://github.com/stekycz/restful-api-testing)
@@ -61,20 +79,23 @@
 
 # BDD through cucumber 
 
-#Appium
+
 
 # TFS for Testers
 
 
-# Web Analytics Automation Testing Framework 
-* [Web Analytics Automation Testing Framework](https://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html)
-* [WAAT](https://github.com/anandbagmar/WAAT)
+
 
 # Performance testing 
+* [Performance Testing Guidance for Web Applications](https://msdn.microsoft.com/en-us/library/bb924375.aspx)
+
+# Load Testing
 
 # Headless Testing
 
 # Reponsive Design Testing
+
+
 
 
 # Testing
