@@ -104,7 +104,6 @@
 # Reponsive Design Testing
 
 
-![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 
 # Testing
 * [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
@@ -113,5 +112,7 @@
 * [Ideas On How To Succeed As A Tester](https://dojo.ministryoftesting.com/lessons/ideas-on-how-to-succeed-as-a-tester)
 
  
+# Images
+![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 
 
