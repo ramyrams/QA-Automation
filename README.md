@@ -2,6 +2,9 @@
 
 * [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
 
+# Tools
+* [Web Site Test Tools and Site Management Tools](http://www.softwareqatest.com/qatweb1.html)
+
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
 * [QA Automation](https://essenceoftesting.blogspot.com/2016/08/vodqa-pune-less-talk-only-action-agenda.html)
@@ -88,6 +91,7 @@
 # TFS for Testers
 
 
+# Database testing
 
 
 # Performance testing 
@@ -100,7 +104,7 @@
 # Reponsive Design Testing
 
 
-
+![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 
 # Testing
 * [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
