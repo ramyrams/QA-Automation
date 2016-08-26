@@ -116,4 +116,9 @@
 # Images
 ![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 ![The Use of Tradition and Dogma in Testing](http://testerstories.com/files/combine-triangle-with-quadrant.png)
+![](http://moolya.com/wp-content/uploads/2016/02/Upgrade-version_Mobile-App-Test-Model_1.png)
+![](http://moolya.com/wp-content/uploads/2015/12/Mobile-app-testing.png)
+![](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya.png)
+![](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya_2.png)
+
 
