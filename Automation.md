@@ -2,6 +2,9 @@
 * [Tester's toolbox](http://awesome-testing.blogspot.com/2016/04/testers-toolbox-alternative-guide.html)
 * [A curated list of awesome test automation frameworks, tools, libraries, and software for different programming languages.](https://github.com/atinfo/awesome-test-automation)
 
+# Java
+* [Java Links](https://github.com/Vedenin/useful-java-links/)
+
 # Appium
 * [Appium Tutorial](http://toolsqa.com/mobile-automation/appium/appium-tutorial/)
 
