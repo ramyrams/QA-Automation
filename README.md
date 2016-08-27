@@ -77,6 +77,8 @@
 * 
 
 # REST API Testing
+* [REST-Assured framework overview](http://testdetective.com/rest-assured-framework-overview/)
+* [REST-Assured: going deeper](http://testdetective.com/rest-assured-going-deeper/)
 * [Restful API Testing](https://github.com/stekycz/restful-api-testing)
 * [Testing RESTful APIs](https://github.com/chitamoor/Rester)
 * [apickli - REST API integration testing framework with cucumber.js](https://github.com/apickli/apickli)
