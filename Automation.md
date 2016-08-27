@@ -1,3 +1,19 @@
+# Web App QA Automation with Selenium
+
+1. Programming language - Java - Java for Testers 
+2. Selenium 
+3. TestNG
+4. Gradle
+5. Jenkins
+
+# REST API Automation with Rest-Assured
+1. Programming language - Java - Java for Testers 
+2. Concepts: HTTP, REST API
+3. TestNG
+4. Rest Assured Framework - [Github](https://github.com/rest-assured/rest-assured) - [A Guide to REST-assured](http://www.baeldung.com/rest-assured-tutorial)
+5. Gradle
+6. Jenkins
+ 
 
 * [Tester's toolbox](http://awesome-testing.blogspot.com/2016/04/testers-toolbox-alternative-guide.html)
 * [A curated list of awesome test automation frameworks, tools, libraries, and software for different programming languages.](https://github.com/atinfo/awesome-test-automation)
