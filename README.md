@@ -2,6 +2,9 @@
 
 * [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
 
+# QA Basic
+* [Types of Performance Testing](http://www.softwaretestingclub.com/profiles/blogs/types-of-performance-testing)
+
 # Tools
 * [Web Site Test Tools and Site Management Tools](http://www.softwareqatest.com/qatweb1.html)
 
