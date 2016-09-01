@@ -3,6 +3,7 @@
 * [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
 
 # QA Basic
+* [6 Basic Skills That Every Tester (Mainly Fresher) Should Have](http://www.softwaretestinghelp.com/basic-skills-that-every-tester-fresher-should-have/)
 * [Types of Performance Testing](http://www.softwaretestingclub.com/profiles/blogs/types-of-performance-testing)
 
 # Tools
