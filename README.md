@@ -1,6 +1,7 @@
 # QA
 
 * [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
+* [What is Testing](https://fasteningcode.com/2016/09/06/what-is-testing-an-overview-day1/)
 
 # QA Basic
 * [6 Basic Skills That Every Tester (Mainly Fresher) Should Have](http://www.softwaretestinghelp.com/basic-skills-that-every-tester-fresher-should-have/)
