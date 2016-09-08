@@ -119,14 +119,13 @@
 * [Ideas On How To Succeed As A Tester](https://dojo.ministryoftesting.com/lessons/ideas-on-how-to-succeed-as-a-tester)
 * [How to come up with test ideas](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html)
 
+http://www.altencalsoftlabs.com/blogs/2016/05/12/mobile-application-security-testing-importance-and-how-it-works/
  
 # Images
 ![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 ![The Use of Tradition and Dogma in Testing](http://testerstories.com/files/combine-triangle-with-quadrant.png)
-![](http://moolya.com/wp-content/uploads/2016/02/Upgrade-version_Mobile-App-Test-Model_1.png)
-![](http://moolya.com/wp-content/uploads/2015/12/Mobile-app-testing.png)
-![](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya.png)
-![](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya_2.png)
-
-
-![1](https://cloud.githubusercontent.com/assets/659851/18248163/191e6a2e-734d-11e6-979e-d7f9e9ccebce.png)
+![1](http://moolya.com/wp-content/uploads/2016/02/Upgrade-version_Mobile-App-Test-Model_1.png)
+![2](http://moolya.com/wp-content/uploads/2015/12/Mobile-app-testing.png)
+![3](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya.png)
+![4](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya_2.png)
+![51](https://cloud.githubusercontent.com/assets/659851/18248163/191e6a2e-734d-11e6-979e-d7f9e9ccebce.png)
