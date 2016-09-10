@@ -37,3 +37,9 @@
 
 
 * [A collection of awesome penetration testing resources, tools and other shiny things](https://github.com/enaqx/awesome-pentest)
+
+
+https://dzone.com/refcardz/getting-started-selenium
+https://dzone.com/refcardz/html5-new-standards-web-interactivity
+https://dzone.com/refcardz/mobile-web-application-testing
+https://dzone.com/refcardz/core-java
