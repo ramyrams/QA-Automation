@@ -39,6 +39,9 @@
 * [A collection of awesome penetration testing resources, tools and other shiny things](https://github.com/enaqx/awesome-pentest)
 
 
+
+* [Lessons learned from Automating - Instantiated](http://blog.eviltester.com/2016/09/lessons-learned-from-automating.html)
+
 https://dzone.com/refcardz/getting-started-selenium
 https://dzone.com/refcardz/html5-new-standards-web-interactivity
 https://dzone.com/refcardz/mobile-web-application-testing
