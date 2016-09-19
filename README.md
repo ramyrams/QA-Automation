@@ -72,7 +72,8 @@
 * [Penetration Testing Framework 0.59](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
 * [Automated Security Testing in a Continuous Delivery Pipeline](http://devops.com/2015/04/06/automated-security-testing-continuous-delivery-pipeline/)
 * [Network Security Auditing Tools and Techniques](http://www.ciscopress.com/articles/article.asp?p=1606900&seqNum=4)
-
+* [PENETRATION TESTING PRACTICE LAB](https://www.amanhardikar.com/mindmaps/Practice.html)
+* 
 # Web Application Penetration Testing
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
 
