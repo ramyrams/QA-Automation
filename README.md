@@ -77,6 +77,12 @@
 # Web Application Penetration Testing
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
 
+# Free Ethical Hacking Course
+* http://techean.com/certified-ethical-hacker-full-course/
+* https://www.mediafire.com/folder/vkjc94ocqx386/EC-Council_-_Certified_Ethical_Hacker_%28CEH%29_v9#vkjc94ocqx386
+
+
+
 # Web Analytics Automation Testing Framework 
 * [Web Analytics Automation Testing Framework](https://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html)
 * [WAAT](https://github.com/anandbagmar/WAAT)
