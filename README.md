@@ -136,3 +136,5 @@ http://www.altencalsoftlabs.com/blogs/2016/05/12/mobile-application-security-tes
 ![3](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya.png)
 ![4](http://moolya.com/wp-content/uploads/2015/12/Tested-by-Moolya_2.png)
 ![51](https://cloud.githubusercontent.com/assets/659851/18248163/191e6a2e-734d-11e6-979e-d7f9e9ccebce.png)
+![](http://www.ministryoftesting.com/wp-content/uploads/2016/06/30-Day-Challenge.png)
+![](http://i1.wp.com/adventuresinqa.com/wp-content/uploads/2016/09/30_days_of_mobile_testing-Adventures-in-QA.png)
