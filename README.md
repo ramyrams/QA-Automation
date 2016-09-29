@@ -55,6 +55,7 @@
 
 
 # Web Application Security
+* [WEB APPLICATION SECURITY TESTS](http://www.amanhardikar.com/mindmaps/webapptest.html)
 * [Four Things You Shouldn't Forget About Web Application Security](http://www.ehacking.net/2016/05/4-things-not-to-forget-web-application-security.html)
 * [Web Application Security Testing Cheat Sheet](https://www.owasp.org/index.php/Web_Application_Security_Testing_Cheat_Sheet)
 * [APPROACHES, TOOLS AND TECHNIQUES FOR SECURITY TESTING](http://www.3pillarglobal.com/insights/approaches-tools-techniques-for-security-testing)
