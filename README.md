@@ -9,6 +9,7 @@
 
 # Tools
 * [Web Site Test Tools and Site Management Tools](http://www.softwareqatest.com/qatweb1.html)
+* [Software Testing Tools for Your QA Team](http://sauceio.com/index.php/2016/09/software-testing-tools-for-your-qa-team/?)
 
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
