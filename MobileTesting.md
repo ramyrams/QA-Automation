@@ -6,3 +6,5 @@
 ![1](https://c2.staticflickr.com/8/7241/7159412943_15f5232b02_o.png)
 ![1](http://blog.perfectomobile.com/wp-content/uploads/2014/06/MobileTestPillars-3.png)
 ![1](http://solutions.pyramidci.com/wp-content/uploads/2016/07/pyramid-mobile-testing-solution11.jpg)
+![1](https://djdegrood.files.wordpress.com/2014/05/valoris-mobile-development-and-testing-mindmap-may-2014.jpg)
+![1](http://www.gallop.net/blog/wp-content/uploads/2016/03/mobile-test-automation-using-appium-ios-android.jpg)
