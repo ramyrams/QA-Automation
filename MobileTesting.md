@@ -20,3 +20,4 @@
 ![1](http://www.gallop.net/images/mobile-testing-offerings-keyfacts.png)
 ![1](http://www.gallop.net/sites/default/files/MobileTestingCoE_0.png)
 ![1](http://www.gallop.net/images/mobile-testing-methodology.png)
+![1](http://www.gallop.net/images/mindmap-info.png)
