@@ -22,6 +22,22 @@
 * Performance testing
 * Security testing
 
+# Testing Tools
+* Server-side automation testing tools: JMeter, Selenium, QTP, and FitNesse
+* Unit testing tools: OCUnit, TestNG 
+* Appium
+* Selenium
+* Experitest
+* Silk Mobile
+* Custom test harness: C#, JS, Java, and C++
+* Squish
+* Robotium
+* TestComplete
+* EggPlant
+
+
+
+
 
 * [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
 * [What is Testing](https://fasteningcode.com/2016/09/06/what-is-testing-an-overview-day1/)
