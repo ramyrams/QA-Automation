@@ -12,3 +12,5 @@
 ![1](http://3.bp.blogspot.com/-pjr3WDNU-WQ/U5bKR-E8xdI/AAAAAAAAACI/vORaoj_dIzw/s1600/Mobile+App+Testing+Challenges.png)
 ![1](http://usabilitygeek.com/wp-content/uploads/2016/03/usability-testing-mobile-apps-1-page.jpg)
 ![1](http://farm8.staticflickr.com/7241/7159412943_6e4fc00354_z.jpg)
+![1](https://www.smashingmagazine.com/wp-content/uploads/2014/12/03-testing-in-ci-process-opt.png)
+![1](https://www.owasp.org/images/4/4c/Reverse_Engineering_Arsenals.png)
