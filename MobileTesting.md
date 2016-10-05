@@ -8,3 +8,5 @@
 ![1](http://solutions.pyramidci.com/wp-content/uploads/2016/07/pyramid-mobile-testing-solution11.jpg)
 ![1](https://djdegrood.files.wordpress.com/2014/05/valoris-mobile-development-and-testing-mindmap-may-2014.jpg)
 ![1](http://www.gallop.net/blog/wp-content/uploads/2016/03/mobile-test-automation-using-appium-ios-android.jpg)
+![1](http://4.bp.blogspot.com/-UnKqwaW4gdY/U5b99kPSStI/AAAAAAAAACk/uaAZE4jD0aM/s1600/Test+Strategies+for+mobile+application.png)
+![1](http://3.bp.blogspot.com/-pjr3WDNU-WQ/U5bKR-E8xdI/AAAAAAAAACI/vORaoj_dIzw/s1600/Mobile+App+Testing+Challenges.png)
