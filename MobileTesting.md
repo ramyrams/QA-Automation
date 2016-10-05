@@ -16,3 +16,5 @@
 ![1](https://www.owasp.org/images/4/4c/Reverse_Engineering_Arsenals.png)
 ![1](http://blog.bugraptors.com/wp-content/uploads/2016/01/tst1.gif)
 ![1](http://www.cybage.com/enterprise-mobility/PublishingImages/mobile-application-testing-scope.jpg)
+![1](https://www.owasp.org/images/9/98/2-18-2013_4-47-36_AM.png)
+![1](http://www.gallop.net/images/mobile-testing-offerings-keyfacts.png)
