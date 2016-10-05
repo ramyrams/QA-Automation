@@ -18,3 +18,5 @@
 ![1](http://www.cybage.com/enterprise-mobility/PublishingImages/mobile-application-testing-scope.jpg)
 ![1](https://www.owasp.org/images/9/98/2-18-2013_4-47-36_AM.png)
 ![1](http://www.gallop.net/images/mobile-testing-offerings-keyfacts.png)
+![1](http://www.gallop.net/sites/default/files/MobileTestingCoE_0.png)
+![1](http://www.gallop.net/images/mobile-testing-methodology.png)
