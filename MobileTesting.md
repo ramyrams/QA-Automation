@@ -14,3 +14,5 @@
 ![1](http://farm8.staticflickr.com/7241/7159412943_6e4fc00354_z.jpg)
 ![1](https://www.smashingmagazine.com/wp-content/uploads/2014/12/03-testing-in-ci-process-opt.png)
 ![1](https://www.owasp.org/images/4/4c/Reverse_Engineering_Arsenals.png)
+![1](http://blog.bugraptors.com/wp-content/uploads/2016/01/tst1.gif)
+![1](http://www.cybage.com/enterprise-mobility/PublishingImages/mobile-application-testing-scope.jpg)
