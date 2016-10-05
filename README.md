@@ -1,5 +1,28 @@
 # QA
 
+# QA services portfolio
+* General mobile application quality assurance
+* Mobile automation testing
+* Mobile games testing
+* Cross-platform testing
+* OEM package validation
+* Device-specific validation
+* Performance testing
+* Compliance testing: PCI and HIPPA
+* Carrier-specific validation testing
+* Publisher validation testing: OEM HIG and publisher conformance
+* Usability testing
+* Security testing
+* Energy profiling
+* Field simulation testing
+* Manual functional testing
+* Compatibility testing
+* Usability testing
+* Test automation
+* Performance testing
+* Security testing
+
+
 * [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
 * [What is Testing](https://fasteningcode.com/2016/09/06/what-is-testing-an-overview-day1/)
 
