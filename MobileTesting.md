@@ -4,3 +4,5 @@
 ![1](http://bitbar.com/wp-content/uploads/old_testdroid/2015/03/Comparing-Android-Testing-Frameworks.png)
 ![1](http://www.360logica.com/wp-content/uploads/2012/12/Mobile-Apps-Testing-Process.gif)
 ![1](https://c2.staticflickr.com/8/7241/7159412943_15f5232b02_o.png)
+![1](http://blog.perfectomobile.com/wp-content/uploads/2014/06/MobileTestPillars-3.png)
+![1](http://solutions.pyramidci.com/wp-content/uploads/2016/07/pyramid-mobile-testing-solution11.jpg)
