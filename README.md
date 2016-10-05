@@ -11,6 +11,19 @@
 * [Web Site Test Tools and Site Management Tools](http://www.softwareqatest.com/qatweb1.html)
 * [Software Testing Tools for Your QA Team](http://sauceio.com/index.php/2016/09/software-testing-tools-for-your-qa-team/?)
 
+# Web App Baisc Testing
+* [auditing and performance metrics for Progressive Web Apps](https://github.com/GoogleChrome/lighthouse)
+* [Analyze your site performance](https://developers.google.com/speed/pagespeed/)
+* [Website Speed Test](https://tools.pingdom.com/)
+* [Web Page Analyzer](http://www.websiteoptimization.com/services/analyze/)
+* [WebSitePulse](http://www.websitepulse.com/)
+* [Test a website's performance](https://www.webpagetest.org/)
+* [YSlow](http://yslow.org/)
+* [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+* [gtmetrix.com](https://gtmetrix.com/)
+
+
+
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
 * [QA Automation](https://essenceoftesting.blogspot.com/2016/08/vodqa-pune-less-talk-only-action-agenda.html)
