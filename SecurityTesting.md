@@ -5,11 +5,22 @@
 * Pre-certification security audit
 * Static code analysis
 
-## OWASP Top 10
+# OWASP Top 10
 * [OWASP Top 10](http://www.slideshare.net/jeremiahgrossman/owasp-top-10-2010-release-candidate-1)
 * [Solvay secure application layer](http://www.slideshare.net/sdeleersnyder/solvay-secure-application-layer-v2015-seba)
 * [OWASP Top 10 Web Application Vulnerabilities](http://www.slideshare.net/RevistaSG/owasp-top-10-web-application-vulnerabilities)
 
+# Videos
+* [Complete Security Course](https://www.youtube.com/user/StevesLectures/videos)
+* [Protecting Your Web Apps from the Tyranny of Evil with OWASP - Troy Hunt - FireBootCamp](https://www.youtube.com/watch?v=Pn6wdvh0X7g)
+* [Web Attacks, OWASP Top 10 and Cookies ](https://www.youtube.com/watch?v=6Gx7BLxViW4)
+* [Web Fingerprinting: How, Who, and Why?](https://www.youtube.com/watch?v=aSfh0efL7rs)
+* [Can You Track Me Now? ](https://www.youtube.com/watch?v=NjuhdKUH6U4)
+* [OWASP AppSec EU 2013: Burp Pro - Real-life tips and tricks](https://www.youtube.com/watch?v=MI3GxJfKalE)
+* [How to Stop Web Application Attacks](https://www.youtube.com/watch?v=QkPTmagSlP4)
+* [How To Break Web Software - A look at security vulnerabilities in web ](https://www.youtube.com/watch?v=jXP7b-xby6Usoftware)
+* [How to Architect Secure Web Applications](https://www.youtube.com/watch?v=LCg3nAZvgis)
+* [Web Security and HTTPS](https://www.youtube.com/watch?v=ZsN6HcX47FY)
 
 
 ![1](http://www.a1qa.com/wp-content/uploads/2015/08/xsecurity-testing-how-we-test.jpg.pagespeed.ic.yfkYanXyOT.webp)
