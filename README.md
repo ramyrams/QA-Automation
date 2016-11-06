@@ -105,6 +105,11 @@
 
 #  Exploratory Testing 
 * [The Exploratory Testing Chrome Plugin](https://www.simple-talk.com/dotnet/net-development/exploratory-testing-chrome-plugin/)
+* [What is Exploratory Testing](http://www.slideshare.net/QualiTest-Group/what-is-exploratory-testing?next_slideshow=1)
+* [Exploratory Automated Testing
+](https://www.qualitestgroup.com/documents/articles/Automated_Exploratory_Testing.pdf)
+* [8 Steps for Successful Automated Exploratory Testing with Selenium HQ](http://www.itexico.com/blog/bid/97670/8-Steps-for-Successful-Automated-Exploratory-Testing-with-Selenium-HQ)
+
 
 
 # Web Application Security
