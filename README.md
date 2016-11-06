@@ -104,12 +104,16 @@
 # Appium
 
 #  Exploratory Testing 
+https://applause-prodmktg.s3.amazonaws.com/2016/01/11/12/16/34/8ce8b2b4-b2d7-416c-80c9-acc064cc7cea/123.png
+
 * [The Exploratory Testing Chrome Plugin](https://www.simple-talk.com/dotnet/net-development/exploratory-testing-chrome-plugin/)
 * [What is Exploratory Testing](http://www.slideshare.net/QualiTest-Group/what-is-exploratory-testing?next_slideshow=1)
 * [Exploratory Automated Testing
 ](https://www.qualitestgroup.com/documents/articles/Automated_Exploratory_Testing.pdf)
 * [8 Steps for Successful Automated Exploratory Testing with Selenium HQ](http://www.itexico.com/blog/bid/97670/8-Steps-for-Successful-Automated-Exploratory-Testing-with-Selenium-HQ)
 
+### Tool for Exploratory Testing 
+https://github.com/Cognifide/aet
 
 
 # Web Application Security
