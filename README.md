@@ -2,6 +2,12 @@
 
 * [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
 
+# Test plan
+* [Test plan questions](http://erik.brickarp.se/2016/11/test-plan-questions.html)
+* [Web Test Automation Test plan ]()
+* [Mobile Test Automation Test plan ]()
+* [Performence Test plan ]()
+
 
 # QA services portfolio
 * General mobile application quality assurance
