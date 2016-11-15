@@ -1,5 +1,8 @@
 # QA
 
+* [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
+
+
 # QA services portfolio
 * General mobile application quality assurance
 * Mobile automation testing
