@@ -31,6 +31,17 @@
 * Performance testing
 * Security testing
 
+# Testing
+* Smoke testing
+* Localization testing
+* Usability testing
+* Reliability testing
+* Website testing
+* Performance testing
+* Load Testing 
+* Stress Testing
+
+
 # Testing Tools
 * Server-side automation testing tools: JMeter, Selenium, QTP, and FitNesse
 * Unit testing tools: OCUnit, TestNG 
