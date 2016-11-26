@@ -200,6 +200,11 @@ https://github.com/Cognifide/aet
 
 http://www.altencalsoftlabs.com/blogs/2016/05/12/mobile-application-security-testing-importance-and-how-it-works/
  
+ https://dzone.com/articles/load-testing-and-stress-testing
+ https://dzone.com/articles/the-software-tester-modern-vs-traditional
+ 
+ http://www.getzephyr.com/insights/benefits-automated-test-management
+ 
 # Images
 ![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 ![The Use of Tradition and Dogma in Testing](http://testerstories.com/files/combine-triangle-with-quadrant.png)
