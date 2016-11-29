@@ -132,6 +132,9 @@ https://applause-prodmktg.s3.amazonaws.com/2016/01/11/12/16/34/8ce8b2b4-b2d7-416
 ](https://www.qualitestgroup.com/documents/articles/Automated_Exploratory_Testing.pdf)
 * [8 Steps for Successful Automated Exploratory Testing with Selenium HQ](http://www.itexico.com/blog/bid/97670/8-Steps-for-Successful-Automated-Exploratory-Testing-with-Selenium-HQ)
 
+* [A retrospective critique of an exploratory testing session](http://blog.eviltester.com/2016/11/a-retrospective-critique-of-exploratory.html)
+
+
 ### Tool for Exploratory Testing 
 https://github.com/Cognifide/aet
 
