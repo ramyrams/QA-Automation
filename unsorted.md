@@ -1,3 +1,12 @@
+
+
+* [8 ways to transform your testing center of excellence](http://techbeacon.com/8-ways-transform-your-testing-center-excellence)
+* [The 7 soft skills every QA tester needs](http://techbeacon.com/7-soft-skills-every-qa-tester-needs)
+
+
+
+
+
 https://visualstudiomagazine.com/articles/2016/11/01/lazy-loading-in-entity-framework.aspxhttp://www.webdesignerdepot.com/2016/11/12-javascript-libraries-to-watch-in-2017/
 http://www.softwaretestingclub.com/profiles/blogs/types-of-testing
 http://qahiccupps.blogspot.com/2016/11/the-anatomy-of-definition-of-testing.html
