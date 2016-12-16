@@ -46,3 +46,6 @@ https://dzone.com/refcardz/getting-started-selenium
 https://dzone.com/refcardz/html5-new-standards-web-interactivity
 https://dzone.com/refcardz/mobile-web-application-testing
 https://dzone.com/refcardz/core-java
+
+
+* [5 Common Mistakes in Automated Testing](https://dzone.com/articles/common-mistakes-in-automation-testing)
