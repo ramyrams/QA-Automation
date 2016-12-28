@@ -47,6 +47,8 @@ https://dzone.com/refcardz/html5-new-standards-web-interactivity
 https://dzone.com/refcardz/mobile-web-application-testing
 https://dzone.com/refcardz/core-java
 
+FREE API Security Test Tools
+https://www.joecolantonio.com/2016/07/19/3-free-api-security-tools/
 
 * [3 Automation Testing Conversations You Need to Have with Your Manager](https://www.joecolantonio.com/2016/12/08/3-automation-testing-conversations-need-manager/)
 
