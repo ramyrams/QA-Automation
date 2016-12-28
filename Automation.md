@@ -59,3 +59,9 @@ https://www.joecolantonio.com/2016/07/19/3-free-api-security-tools/
 * [3 Automation Testing Conversations You Need to Have with Your Manager](https://www.joecolantonio.com/2016/12/08/3-automation-testing-conversations-need-manager/)
 
 * [5 Common Mistakes in Automated Testing](https://dzone.com/articles/common-mistakes-in-automation-testing)
+
+
+4 Essential Test Data Strategies
+https://www.joecolantonio.com/2016/06/09/4-test-data-strategies-automation/
+5 Proven Secrets of Test Automation 
+https://www.joecolantonio.com/2016/05/26/5-secrets-test-automation/
