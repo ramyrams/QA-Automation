@@ -65,3 +65,9 @@ https://www.joecolantonio.com/2016/07/19/3-free-api-security-tools/
 https://www.joecolantonio.com/2016/06/09/4-test-data-strategies-automation/
 5 Proven Secrets of Test Automation 
 https://www.joecolantonio.com/2016/05/26/5-secrets-test-automation/
+
+Visual Test Automation
+
+https://applitools.com/
+
+
