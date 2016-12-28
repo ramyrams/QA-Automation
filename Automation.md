@@ -48,4 +48,6 @@ https://dzone.com/refcardz/mobile-web-application-testing
 https://dzone.com/refcardz/core-java
 
 
+* [3 Automation Testing Conversations You Need to Have with Your Manager](https://www.joecolantonio.com/2016/12/08/3-automation-testing-conversations-need-manager/)
+
 * [5 Common Mistakes in Automated Testing](https://dzone.com/articles/common-mistakes-in-automation-testing)
