@@ -39,6 +39,12 @@
 * [A collection of awesome penetration testing resources, tools and other shiny things](https://github.com/enaqx/awesome-pentest)
 
 
+Six Performance Testing Mistakes Newbies Make
+https://www.joecolantonio.com/2016/09/02/six-performance-testing-mistakes-newbies-make-avoid-slipping/
+
+
+The Top 8 Essential JavaScript Automation Frameworks
+https://www.joecolantonio.com/2016/06/14/top-8-essential-javascript-automation-frameworks/
 
 * [Lessons learned from Automating - Instantiated](http://blog.eviltester.com/2016/09/lessons-learned-from-automating.html)
 
