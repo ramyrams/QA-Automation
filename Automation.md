@@ -66,8 +66,6 @@ https://www.joecolantonio.com/2016/06/09/4-test-data-strategies-automation/
 5 Proven Secrets of Test Automation 
 https://www.joecolantonio.com/2016/05/26/5-secrets-test-automation/
 
-Visual Test Automation
-
-https://applitools.com/
-
-
+# Visual Test Automation
+* [Visual Test Automation](https://applitools.com/)
+* [Applitools – What is Visual Validation Testing](https://www.joecolantonio.com/2015/03/11/applitools-how-to-get-started-with-visual-validation-testing/)
