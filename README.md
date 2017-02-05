@@ -166,6 +166,13 @@ https://github.com/Cognifide/aet
 * [APPROACHES, TOOLS AND TECHNIQUES FOR SECURITY TESTING](http://www.3pillarglobal.com/insights/approaches-tools-techniques-for-security-testing)
 * [OWASP TESTING GUIDE](https://www.owasp.org/images/5/56/OWASP_Testing_Guide_v3.pdf)
 
+# Visual Validation
+The Top 21 FREE Visual Validation Tools for Testers
+https://www.joecolantonio.com/2017/02/02/top-21-free-visual-validation-tools-testers/
+
+
+
+
 # Cross-Browser Web App Testing
 
 # Cross-Device Web App Testing
