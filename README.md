@@ -2,6 +2,26 @@
 
 * [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
 
+# Tools
+* Bug Tracking:  Eventum, JIRA
+* Test Case Management:  MS Excel
+* Task Management: Trello , KanbanFlow, MS Excel
+* Collaboration Software: Confluence,MS Excel
+* Website Redirect & HTTP Headers: Redirects Checker
+* Google Analytics Analyzer: Google Chrome Add-on Tag Assistant, Google Analytics Debugger
+* SSL/TLS Certification Checker: Symantec SSL Checker, SSL Shopper Checker, Qualys SSL Server Test
+* Broken Links Checker: My Links, 
+* Developer Tools: Browser Developer Tools, FireBug, Chris pederick Web Developer
+* Screen Capture: qSnap, Jing, Awesome Screenshot, Screencastify, Snipping Tool
+* Responsive Design Testing:  Responsinator, Troy Responsinator, 
+* API Functional Testing:  SoapUI OpenSource, PostMan
+* Code Viewer: JSON Viewer
+* Fonts Identify: WhatFont
+* Performance Testing: BlazeMeter Recorder, Page Speed Insights, YSlow, GTMetrix
+* Print Friendly:  CleanPrint
+* Save for Later:  Pocket, Basket
+
+
 # Test plan
 * [Test plan questions](http://erik.brickarp.se/2016/11/test-plan-questions.html)
 * [Web Test Automation Test plan ]()
