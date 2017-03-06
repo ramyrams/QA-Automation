@@ -187,6 +187,11 @@ https://gist.github.com/cvrebert/adf91e429906a4d746cd
 How to automate a visual regression test
 http://www.creativebloq.com/web-design/automate-visual-regression-testing-111517944
 
+Automated testing of look and feel for your responsive websites
+http://galenframework.com/
+
+
+
 
 # Cross-Browser Web App Testing
 
