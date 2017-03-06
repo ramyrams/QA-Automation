@@ -14,6 +14,7 @@
 * **Developer Tools:** Browser Developer Tools, FireBug, Chris pederick Web Developer
 * **Screen Capture:** qSnap, Jing, Awesome Screenshot, Screencastify, Snipping Tool
 * **Responsive Design Testing:**  Responsinator, Troy Responsinator, 
+* **Visual Regression Testing:** applitools.com, PhantomCSS
 * **API Functional Testing:**  SoapUI OpenSource, PostMan
 * **Code Viewer:** JSON Viewer
 * **Fonts Identify:** WhatFont
