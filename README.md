@@ -169,7 +169,7 @@ https://github.com/Cognifide/aet
 # Visual Validation
 The Top 21 FREE Visual Validation Tools for Testers
 https://www.joecolantonio.com/2017/02/02/top-21-free-visual-validation-tools-testers/
-
+* [UI regression testing - automate or stick to old ways?](http://www.softwaretestingclub.com/forum/topics/ui-regression-testing-automate-or-stick-to-old-ways)
 
 
 
