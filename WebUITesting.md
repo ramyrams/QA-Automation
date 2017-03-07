@@ -15,5 +15,6 @@ But how do you test JavaScript that heavily depends on the DOM and user interact
 * Codecov.io: Integrates your Istanbul code coverage into your workflow. Upload your reports to the cloud, visually include code coverage reports into Github pull requests, and award yourself with a spiffy badge, among other things.
 * Browserify: Lets us use ‘require’ in the browser like you can in Node. Together with:
 * Babelify: Uses the babel transpiler to turn our ES6/ES2015 code ES5 compatible. Write ES6 code in your front end and your tests without fear.
+* ngMock – module for injecting and mocking angular services in AngularJS unit tests 
 * Optional: yarn (for package installing and precise repository versioning)
 * Optional: standard (for linting)
