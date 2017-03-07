@@ -16,6 +16,7 @@ But how do you test JavaScript that heavily depends on the DOM and user interact
 * Browserify: Lets us use ‘require’ in the browser like you can in Node. Together with:
 * Babelify: Uses the babel transpiler to turn our ES6/ES2015 code ES5 compatible. Write ES6 code in your front end and your tests without fear.
 * ngMock – module for injecting and mocking angular services in AngularJS unit tests 
+* proxyquire - Proxies nodejs require in order to allow overriding dependencies during testing.
 * Optional: yarn (for package installing and precise repository versioning)
 * Optional: standard (for linting)
 
