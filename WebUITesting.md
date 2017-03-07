@@ -18,3 +18,6 @@ But how do you test JavaScript that heavily depends on the DOM and user interact
 * ngMock – module for injecting and mocking angular services in AngularJS unit tests 
 * Optional: yarn (for package installing and precise repository versioning)
 * Optional: standard (for linting)
+
+
+![1](http://jasonwatmore.com/_content/images/angular-unit-testing-2.png)
