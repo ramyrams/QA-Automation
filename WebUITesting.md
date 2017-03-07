@@ -1,5 +1,8 @@
 # Web UI Testing
 
+When it comes to testing in JavaScript, I would say that there are two types of tests: unit tests and end to end tests, which are also referred to as integration tests or functional tests depending on who you talk to and what articles you read.
+
+
 * Mocha: A test framework. It runs our unit tests and reports back when it fails.
 * Chai: An assertion library. I use it mainly for the syntactic sugar it provides for my tests (it makes my TDD code more expressive and readable)
 * Sinon: Enables test spies, stubs and mocks so you can simulate events and the behaviour of third parties in your tests.
