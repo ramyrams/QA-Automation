@@ -33,6 +33,16 @@ In generall test frameworks are expected to:
 * [The Let’s Code JavaScript Tool & Module Recommendations](http://www.letscodejavascript.com/v3/blog/2014/03/dependency_recommendations)
 
 
+* [Unit Test Your JavaScript Using Mocha and Chai](https://www.sitepoint.com/unit-test-javascript-mocha-chai/)
+* [Creating a Fully Tested Web App](http://www.overfitted.com/blog/?p=338)
+* [Client-side testing with Mocha and Karma](https://sean.is/writing/client-side-testing-with-mocha-and-karma/)
+* [Setting up a project using karma with mocha and chai](http://attackofzach.com/setting-up-a-project-using-karma-with-mocha-and-chai/)
+* [Testing in Browsers and Node with Mocha, Chai, Sinon, and Testem](http://knpw.rs/blog/testing-in-browsers-and-node)
+* [A Karma, Mocha, Gulp and Browserify Workflow](http://www.roblayton.com/2015/03/a-karma-mocha-gulp-and-browserify.html)
+* [How to setup testing using Typescript, Mocha, Chai, Sinon, Karma and Webpack](https://templecoding.com/blog/2016/02/02/how-to-setup-testing-using-typescript-mocha-chai-sinon-karma-and-webpack/)
+* [Testing with Webpack 2,inject-loader, karma,mocha, chai and sinon](https://cafedev.org/article/2016/12/testing-with-wepack-2-inject-loader-karma-mocha-chai-and-sinon/)
+* [Mocks, Stubs, and Injections: Unit Testing in Angular.JS](https://www.martin-brennan.com/mocks-stubs-and-injections-unit-testing-in-angular-js/)
+
 
 * [Karma + Mocha + Sinon + Chai = ❤](https://github.com/kmees/karma-sinon-chai)
 * [karma-mocha-chai-sinon](https://www.npmjs.com/package/karma-mocha-chai-sinon)
