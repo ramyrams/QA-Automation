@@ -27,7 +27,8 @@ In generall test frameworks are expected to:
 * support mocks, spies, stubs (Sinon.JS, Jasmine)
 * generate code coverage reports (Istanbul)
 
-
+## UI Testing Basic
+* [JavaScript Testing: Unit vs Functional vs Integration Tests](https://www.sitepoint.com/javascript-testing-unit-functional-integration/)
 * [An Introduction To Unit Testing In AngularJS Applications](https://www.smashingmagazine.com/2014/10/introduction-to-unit-testing-in-angularjs/)
 * [The Let’s Code JavaScript Tool & Module Recommendations](http://www.letscodejavascript.com/v3/blog/2014/03/dependency_recommendations)
 
