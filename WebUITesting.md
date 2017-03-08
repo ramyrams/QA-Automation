@@ -56,6 +56,9 @@ In generall test frameworks are expected to:
 * [JavaScript Testing utilities for React](https://github.com/airbnb/enzyme)
 
 
+## Mocha Vs Jasmine
+![1](https://image.slidesharecdn.com/unit-testing-140920200733-phpapp02/95/unit-testing-front-end-javascript-7-638.jpg)
+
 ## NPM Packages
 ![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb251.png)
 
