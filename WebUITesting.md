@@ -33,4 +33,9 @@ In generall test frameworks are expected to:
 
 
 
+* [Karma + Mocha + Sinon + Chai = ❤](https://github.com/kmees/karma-sinon-chai)
+* [karma-mocha-chai-sinon](https://www.npmjs.com/package/karma-mocha-chai-sinon)
+* [JavaScript Testing utilities for React](https://github.com/airbnb/enzyme)
+
+
 ![1](http://jasonwatmore.com/_content/images/angular-unit-testing-2.png)
