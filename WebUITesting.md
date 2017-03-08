@@ -28,5 +28,9 @@ In generall test frameworks are expected to:
 * generate code coverage reports (Istanbul)
 
 
+* [An Introduction To Unit Testing In AngularJS Applications](https://www.smashingmagazine.com/2014/10/introduction-to-unit-testing-in-angularjs/)
+* [The Let’s Code JavaScript Tool & Module Recommendations](http://www.letscodejavascript.com/v3/blog/2014/03/dependency_recommendations)
+
+
 
 ![1](http://jasonwatmore.com/_content/images/angular-unit-testing-2.png)
