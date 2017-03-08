@@ -56,4 +56,23 @@ In generall test frameworks are expected to:
 * [JavaScript Testing utilities for React](https://github.com/airbnb/enzyme)
 
 
+## NPM Packages
+![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb251.png)
+
+## TypeScript Configuration File
+![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb252.png)
+
+## Karma Configuration File
+![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb253.png)
+
+
+![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb254.png)
+
+# Gulp Configuration File
+![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb255.png)
+
+## Code and Unit Tests
+![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb256.png)
+![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb257.png)
+
 ![1](http://jasonwatmore.com/_content/images/angular-unit-testing-2.png)
