@@ -20,5 +20,13 @@ But how do you test JavaScript that heavily depends on the DOM and user interact
 * Optional: yarn (for package installing and precise repository versioning)
 * Optional: standard (for linting)
 
+In generall test frameworks are expected to:
+* provide test structure (Mocha, Jasmine, Jest)
+* run tests and display test results (Mocha, Jasmine, Jest, Karma)
+* make assertions (Chai, Jasmine)
+* support mocks, spies, stubs (Sinon.JS, Jasmine)
+* generate code coverage reports (Istanbul)
+
+
 
 ![1](http://jasonwatmore.com/_content/images/angular-unit-testing-2.png)
