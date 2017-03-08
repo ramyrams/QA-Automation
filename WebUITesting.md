@@ -42,6 +42,9 @@ In generall test frameworks are expected to:
 * [How to setup testing using Typescript, Mocha, Chai, Sinon, Karma and Webpack](https://templecoding.com/blog/2016/02/02/how-to-setup-testing-using-typescript-mocha-chai-sinon-karma-and-webpack/)
 * [Testing with Webpack 2,inject-loader, karma,mocha, chai and sinon](https://cafedev.org/article/2016/12/testing-with-wepack-2-inject-loader-karma-mocha-chai-and-sinon/)
 * [Mocks, Stubs, and Injections: Unit Testing in Angular.JS](https://www.martin-brennan.com/mocks-stubs-and-injections-unit-testing-in-angular-js/)
+* [How to set up Mocha + Chai + Sinon + Karma + Browserify +Istanbul + Codecov](https://jaredtong.com/2016/01/08/how-to-set-up-mocha-chai-sinon-karma-browserify-istanbul-codecov/)
+
+
 
 ## Mocha 
 * [Mocha Feature](http://ricostacruz.com/mocha/)
