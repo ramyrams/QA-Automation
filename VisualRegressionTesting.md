@@ -8,6 +8,13 @@
 * [VisualReview, a human-friendly tool for testing and reviewing visual regressions](https://github.com/xebia/VisualReview)
 * [Spectre - Spectre is a web application to diff screenshots](https://github.com/wearefriday/spectre)
 
+Regression testing tool for WebdriverIO
+https://github.com/webdriverio/webdrivercss
+
+Visual/CSS regression testing with PhantomJS
+https://github.com/Huddle/PhantomCSS
+
+
 ## PPT
 * [Intro to Visual Test Automation with Applitools Eyes](https://www.slideshare.net/Applitools/intro-to-visual-test-automation-with-applitools-eyes)
 * [PayPal's NemoJS and Applitools Eyes - Visual Testing with Node.js](https://www.slideshare.net/Applitools/paypals-nemojs-and-applitools-eyes-visual-testing-with-nodejs)
@@ -21,15 +28,9 @@
 * [How to level-up your Selenium tests with Visual Testing #SeleniumCamp](https://www.slideshare.net/moshemilman/how-to-levelup-your-selenium-tests-with-visual-testing-seleniumcamp)
 * [SeConf2015: Advanced Automated Visual Testing With Selenium](https://www.slideshare.net/adamcarmi/seconf2015-advanced-automated-visual-testing-with-selenium)
 
-
+## Video
 Applitools - How to Get Started with Visual Validation Testing
 https://www.youtube.com/watch?v=KOdQAyDIvJI
-
-Regression testing tool for WebdriverIO
-https://github.com/webdriverio/webdrivercss
-
-Visual/CSS regression testing with PhantomJS
-https://github.com/Huddle/PhantomCSS
 
 Visual Regression Testing
 https://visualregressiontesting.com/
@@ -55,8 +56,8 @@ Using Wraith for Visual Regression Testing
 
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
 
-https://cdn.css-tricks.com/wp-content/uploads/2015/11/output.png
-https://s3-us-west-2.amazonaws.com/screener.io/img/marketing/masthead.png
-https://camo.githubusercontent.com/86548322fd816ccca0672e22434f1ae8b3687abf/687474703a2f2f7765626472697665722e696f2f696d616765732f7765626472697665726373732f6865726f2e706e67
+![1](https://cdn.css-tricks.com/wp-content/uploads/2015/11/output.png)
+![1](https://s3-us-west-2.amazonaws.com/screener.io/img/marketing/masthead.png)
+![1](https://camo.githubusercontent.com/86548322fd816ccca0672e22434f1ae8b3687abf/687474703a2f2f7765626472697665722e696f2f696d616765732f7765626472697665726373732f6865726f2e706e67)
 
-https://camo.githubusercontent.com/51b5fd397766569b72dabc8d3e6dd1e8df92c4c5/687474703a2f2f693836362e70686f746f6275636b65742e636f6d2f616c62756d732f61623232372f6372616967746175622f61626f75745f7a707365633230633038382e6a7067
+![1](https://camo.githubusercontent.com/51b5fd397766569b72dabc8d3e6dd1e8df92c4c5/687474703a2f2f693836362e70686f746f6275636b65742e636f6d2f616c62756d732f61623232372f6372616967746175622f61626f75745f7a707365633230633038382e6a7067)
