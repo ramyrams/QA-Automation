@@ -22,6 +22,30 @@
 * **Print Friendly:**  CleanPrint
 * **Save for Later:**  Pocket, Basket
 
+# Testing Tools
+* Server-side automation testing tools: JMeter, Selenium, QTP, and FitNesse
+* Unit testing tools: OCUnit, TestNG 
+* Appium
+* Selenium
+* Experitest
+* Silk Mobile
+* Custom test harness: C#, JS, Java, and C++
+* Squish
+* Robotium
+* TestComplete
+* EggPlant
+
+# Tests
+* Web Application Functional Testing 
+* Mobile Application Functional Testing 
+* Visual Regression Testing 
+* Application Security Testing 
+* Performance testing
+* API Testing
+* Penetration Testing
+* Database testing
+* Reponsive Design Testing	
+
 
 # Test plan
 * [Test plan questions](http://erik.brickarp.se/2016/11/test-plan-questions.html)
@@ -62,18 +86,7 @@
 
 
 
-# Testing Tools
-* Server-side automation testing tools: JMeter, Selenium, QTP, and FitNesse
-* Unit testing tools: OCUnit, TestNG 
-* Appium
-* Selenium
-* Experitest
-* Silk Mobile
-* Custom test harness: C#, JS, Java, and C++
-* Squish
-* Robotium
-* TestComplete
-* EggPlant
+
 
 
 
