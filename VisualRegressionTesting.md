@@ -1,12 +1,14 @@
 
-Visual Test Automation - Home
-https://applitools.com/
+# VisualRegressionTesting
 
-VisualReview, a human-friendly tool for testing and reviewing visual regressions
-https://github.com/xebia/VisualReview
+* []()
 
-Spectre - Spectre is a web application to diff screenshots.
-https://github.com/wearefriday/spectre
+## Tools
+* [Visual Test Automation - Home](https://applitools.com/)
+* [VisualReview, a human-friendly tool for testing and reviewing visual regressions](https://github.com/xebia/VisualReview)
+* [Spectre - Spectre is a web application to diff screenshots](https://github.com/wearefriday/spectre)
+
+
 
 Intro to Visual Test Automation with Applitools Eyes
 https://www.slideshare.net/Applitools/intro-to-visual-test-automation-with-applitools-eyes
