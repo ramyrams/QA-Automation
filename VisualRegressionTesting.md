@@ -1,3 +1,11 @@
+# Visual Regression Testing
+
+* [The Top 21 FREE Visual Validation Tools for Testers](https://www.joecolantonio.com/2017/02/02/top-21-free-visual-validation-tools-testers/)
+* [UI regression testing - automate or stick to old ways](http://www.softwaretestingclub.com/forum/topics/ui-regression-testing-automate-or-stick-to-old-ways)
+* [Survey of screenshot-based CSS testing tools](https://gist.github.com/cvrebert/adf91e429906a4d746cd)
+* [How to automate a visual regression test](http://www.creativebloq.com/web-design/automate-visual-regression-testing-111517944)
+
+
 
 # Visual Regression Testing
 * [Visual Regression Testing](https://visualregressiontesting.com/)
@@ -10,6 +18,8 @@
 * [Visual/CSS regression testing with PhantomJS](https://github.com/Huddle/PhantomCSS)
 * [Visual test automation for web apps](https://screener.io/)
 * [Using Wraith for Visual Regression Testing](https://pantheon.io/docs/guides/visual-diff-with-wraith/)
+Wraith — A responsive screenshot comparison tool
+https://github.com/BBC-News/wraith
 
 ## PPT
 * [Intro to Visual Test Automation with Applitools Eyes](https://www.slideshare.net/Applitools/intro-to-visual-test-automation-with-applitools-eyes)
@@ -29,7 +39,7 @@
 * [Visual Regression Testing with PhantomCSS](https://www.sitepoint.com/visual-regression-testing-with-phantomcss/)
 * [A better way to do visual regression testing](http://screenster.io/a-better-way-to-do-visual-regression-testing/)
 
-c
+
 
 ## Video
 * [Applitools - How to Get Started with Visual Validation Testing](https://www.youtube.com/watch?v=KOdQAyDIvJI)
