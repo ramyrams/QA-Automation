@@ -53,11 +53,9 @@ https://screener.io/
 https://pantheon.io/docs/guides/visual-diff-with-wraith/
 Using Wraith for Visual Regression Testing
 
-
+## Quick Reference 
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
-
 ![1](https://cdn.css-tricks.com/wp-content/uploads/2015/11/output.png)
 ![1](https://s3-us-west-2.amazonaws.com/screener.io/img/marketing/masthead.png)
 ![1](https://camo.githubusercontent.com/86548322fd816ccca0672e22434f1ae8b3687abf/687474703a2f2f7765626472697665722e696f2f696d616765732f7765626472697665726373732f6865726f2e706e67)
-
 ![1](https://camo.githubusercontent.com/51b5fd397766569b72dabc8d3e6dd1e8df92c4c5/687474703a2f2f693836362e70686f746f6275636b65742e636f6d2f616c62756d732f61623232372f6372616967746175622f61626f75745f7a707365633230633038382e6a7067)
