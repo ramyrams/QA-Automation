@@ -1,7 +1,5 @@
 
 # Visual Regression Testing
-
-* []()
 * [Visual Regression Testing](https://visualregressiontesting.com/)
 
 ## Tools
@@ -28,7 +26,7 @@
 * [SeConf2015: Advanced Automated Visual Testing With Selenium](https://www.slideshare.net/adamcarmi/seconf2015-advanced-automated-visual-testing-with-selenium)
 
 
-## PPT
+## Read
 * [Visual Regression Testing with PhantomCSS](https://css-tricks.com/visual-regression-testing-with-phantomcss/)
 * [Visual Regression Testing with PhantomCSS](https://www.sitepoint.com/visual-regression-testing-with-phantomcss/)
 * [A better way to do visual regression testing](http://screenster.io/a-better-way-to-do-visual-regression-testing/)
@@ -36,10 +34,7 @@
 
 
 ## Video
-Applitools - How to Get Started with Visual Validation Testing
-https://www.youtube.com/watch?v=KOdQAyDIvJI
-
-
+* [Applitools - How to Get Started with Visual Validation Testing](https://www.youtube.com/watch?v=KOdQAyDIvJI)
 
 ## Quick Reference 
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
