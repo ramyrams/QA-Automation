@@ -18,8 +18,7 @@
 * [Visual/CSS regression testing with PhantomJS](https://github.com/Huddle/PhantomCSS)
 * [Visual test automation for web apps](https://screener.io/)
 * [Using Wraith for Visual Regression Testing](https://pantheon.io/docs/guides/visual-diff-with-wraith/)
-Wraith — A responsive screenshot comparison tool
-https://github.com/BBC-News/wraith
+* [Wraith — A responsive screenshot comparison tool](https://github.com/BBC-News/wraith)
 
 ## PPT
 * [Intro to Visual Test Automation with Applitools Eyes](https://www.slideshare.net/Applitools/intro-to-visual-test-automation-with-applitools-eyes)
