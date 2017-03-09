@@ -1,5 +1,5 @@
 
-# VisualRegressionTesting
+# Visual Regression Testing
 
 * []()
 
