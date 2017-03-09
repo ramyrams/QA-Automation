@@ -21,21 +21,14 @@
 * **Performance Testing:** BlazeMeter Recorder, Page Speed Insights, YSlow, GTMetrix
 * **Print Friendly:**  CleanPrint
 * **Save for Later:**  Pocket, Basket
+* **Server-side automation testing tools:** JMeter, Selenium, QTP, and FitNesse
+* **Unit testing tools:** OCUnit, TestNG 
+* **Custom test harness:** C#, JS, Java, and C++
+* **Mobile Application Testing:** Appium
 
-# Testing Tools
-* Server-side automation testing tools: JMeter, Selenium, QTP, and FitNesse
-* Unit testing tools: OCUnit, TestNG 
-* Appium
-* Selenium
-* Experitest
-* Silk Mobile
-* Custom test harness: C#, JS, Java, and C++
-* Squish
-* Robotium
-* TestComplete
-* EggPlant
 
 # Tests
+* Website testing
 * Web Application Functional Testing 
 * Mobile Application Functional Testing 
 * Visual Regression Testing 
@@ -81,12 +74,6 @@
 * Localization testing
 * Usability testing
 * Reliability testing
-* Website testing
-* Performance testing
-
-
-
-
 
 
 
