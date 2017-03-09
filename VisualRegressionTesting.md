@@ -4,14 +4,15 @@
 * []()
 * [Visual Regression Testing](https://visualregressiontesting.com/)
 
-
-
 ## Tools
 * [Visual Test Automation - Home](https://applitools.com/)
 * [VisualReview, a human-friendly tool for testing and reviewing visual regressions](https://github.com/xebia/VisualReview)
 * [Spectre - Spectre is a web application to diff screenshots](https://github.com/wearefriday/spectre)
 * [Regression testing tool for WebdriverIO](https://github.com/webdriverio/webdrivercss)
-* Visual/CSS regression testing with PhantomJS](https://github.com/Huddle/PhantomCSS)
+* [Visual/CSS regression testing with PhantomJS](https://github.com/Huddle/PhantomCSS)
+* [Visual/CSS regression testing with PhantomJS](https://github.com/Huddle/PhantomCSS)
+* [Visual test automation for web apps](https://screener.io/)
+* [https://pantheon.io/docs/guides/visual-diff-with-wraith/](Using Wraith for Visual Regression Testing)
 
 
 ## PPT
@@ -26,29 +27,19 @@
 * [How to level-up your Selenium tests with Visual Testing #SeleniumCamp](https://www.slideshare.net/moshemilman/how-to-levelup-your-selenium-tests-with-visual-testing-seleniumcamp)
 * [SeConf2015: Advanced Automated Visual Testing With Selenium](https://www.slideshare.net/adamcarmi/seconf2015-advanced-automated-visual-testing-with-selenium)
 
+
+## PPT
+* [Visual Regression Testing with PhantomCSS](https://css-tricks.com/visual-regression-testing-with-phantomcss/)
+* [Visual Regression Testing with PhantomCSS](https://www.sitepoint.com/visual-regression-testing-with-phantomcss/)
+* [A better way to do visual regression testing](http://screenster.io/a-better-way-to-do-visual-regression-testing/)
+
+
+
 ## Video
 Applitools - How to Get Started with Visual Validation Testing
 https://www.youtube.com/watch?v=KOdQAyDIvJI
 
 
-
-Visual Regression Testing with PhantomCSS
-https://css-tricks.com/visual-regression-testing-with-phantomcss/
-
-Visual/CSS regression testing with PhantomJS
-https://github.com/Huddle/PhantomCSS
-
-Visual Regression Testing with PhantomCSS
-https://www.sitepoint.com/visual-regression-testing-with-phantomcss/
-
-A better way to do visual regression testing
-http://screenster.io/a-better-way-to-do-visual-regression-testing/
-
-Visual test automation for web apps
-https://screener.io/
-
-https://pantheon.io/docs/guides/visual-diff-with-wraith/
-Using Wraith for Visual Regression Testing
 
 ## Quick Reference 
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
