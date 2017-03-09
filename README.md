@@ -168,28 +168,7 @@ https://github.com/Cognifide/aet
 * [OWASP TESTING GUIDE](https://www.owasp.org/images/5/56/OWASP_Testing_Guide_v3.pdf)
 
 # Visual Regression Testing tool
-The Top 21 FREE Visual Validation Tools for Testers
-https://www.joecolantonio.com/2017/02/02/top-21-free-visual-validation-tools-testers/
-* [UI regression testing - automate or stick to old ways?](http://www.softwaretestingclub.com/forum/topics/ui-regression-testing-automate-or-stick-to-old-ways)
-
-Learn Visual Regression Testing with a free 6-day email course on WebdriverCSS.
-https://visualregressiontesting.com/
-
-Visual Regression Testing with PhantomCSS
-https://css-tricks.com/visual-regression-testing-with-phantomcss/
-
-Wraith — A responsive screenshot comparison tool
-https://github.com/BBC-News/wraith
-
-Survey of screenshot-based CSS testing tools
-https://gist.github.com/cvrebert/adf91e429906a4d746cd
-
-How to automate a visual regression test
-http://www.creativebloq.com/web-design/automate-visual-regression-testing-111517944
-
-Automated testing of look and feel for your responsive websites
-http://galenframework.com/
-
+* [Go to Visual Regression Testing Page](https://github.com/ramyrams/QA/blob/master/VisualRegressionTesting.md)
 
 
 
