@@ -127,12 +127,7 @@ https://applause-prodmktg.s3.amazonaws.com/2016/01/11/12/16/34/8ce8b2b4-b2d7-416
 https://github.com/Cognifide/aet
 
 
-# Web Application Security
-* [WEB APPLICATION SECURITY TESTS](http://www.amanhardikar.com/mindmaps/webapptest.html)
-* [Four Things You Shouldn't Forget About Web Application Security](http://www.ehacking.net/2016/05/4-things-not-to-forget-web-application-security.html)
-* [Web Application Security Testing Cheat Sheet](https://www.owasp.org/index.php/Web_Application_Security_Testing_Cheat_Sheet)
-* [APPROACHES, TOOLS AND TECHNIQUES FOR SECURITY TESTING](http://www.3pillarglobal.com/insights/approaches-tools-techniques-for-security-testing)
-* [OWASP TESTING GUIDE](https://www.owasp.org/images/5/56/OWASP_Testing_Guide_v3.pdf)
+
 
 # Visual Regression Testing tool
 * [Go to Visual Regression Testing Page](https://github.com/ramyrams/QA/blob/master/VisualRegressionTesting.md)
@@ -147,14 +142,7 @@ https://github.com/Cognifide/aet
 # Accessibility Testing
 # Localization Testing
 
-# Penetration Testing
-* [Penetration Testing Framework 0.59](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
-* [Automated Security Testing in a Continuous Delivery Pipeline](http://devops.com/2015/04/06/automated-security-testing-continuous-delivery-pipeline/)
-* [Network Security Auditing Tools and Techniques](http://www.ciscopress.com/articles/article.asp?p=1606900&seqNum=4)
-* [PENETRATION TESTING PRACTICE LAB](https://www.amanhardikar.com/mindmaps/Practice.html)
-* 
-# Web Application Penetration Testing
-* [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
+
 
 # Free Ethical Hacking Course
 * http://techean.com/certified-ethical-hacker-full-course/
