@@ -8,7 +8,6 @@
 * [Spectre - Spectre is a web application to diff screenshots](https://github.com/wearefriday/spectre)
 * [Regression testing tool for WebdriverIO](https://github.com/webdriverio/webdrivercss)
 * [Visual/CSS regression testing with PhantomJS](https://github.com/Huddle/PhantomCSS)
-* [Visual/CSS regression testing with PhantomJS](https://github.com/Huddle/PhantomCSS)
 * [Visual test automation for web apps](https://screener.io/)
 * [https://pantheon.io/docs/guides/visual-diff-with-wraith/](Using Wraith for Visual Regression Testing)
 
