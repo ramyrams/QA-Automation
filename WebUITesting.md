@@ -1,5 +1,7 @@
 # Web UI Testing
 
+* [Front-End Testing: Demystified](https://www.slideshare.net/sethmcl/testing-web-apps-33612391)
+
 When it comes to testing in JavaScript, I would say that there are two types of tests: unit tests and end to end tests, which are also referred to as integration tests or functional tests depending on who you talk to and what articles you read.
 
 For me, I have found unit testing to be beneficial and relatively straightforward for code that does not involve the DOM much. Unit testing allows you to test modules in isolation and is great for (but not limited to) testing things like data structures, data manipulation, validation, etc. 
