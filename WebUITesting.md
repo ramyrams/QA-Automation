@@ -84,3 +84,6 @@ In generall test frameworks are expected to:
 ![1](https://msdnshared.blob.core.windows.net/media/2016/12/image_thumb257.png)
 
 ![1](http://jasonwatmore.com/_content/images/angular-unit-testing-2.png)
+
+![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
+
