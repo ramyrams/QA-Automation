@@ -25,7 +25,11 @@
 Applitools - How to Get Started with Visual Validation Testing
 https://www.youtube.com/watch?v=KOdQAyDIvJI
 
+Regression testing tool for WebdriverIO
+https://github.com/webdriverio/webdrivercss
 
+Visual/CSS regression testing with PhantomJS
+https://github.com/Huddle/PhantomCSS
 
 Visual Regression Testing
 https://visualregressiontesting.com/
@@ -52,3 +56,5 @@ Using Wraith for Visual Regression Testing
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
 
 https://cdn.css-tricks.com/wp-content/uploads/2015/11/output.png
+
+https://camo.githubusercontent.com/86548322fd816ccca0672e22434f1ae8b3687abf/687474703a2f2f7765626472697665722e696f2f696d616765732f7765626472697665726373732f6865726f2e706e67
