@@ -228,7 +228,7 @@ https://github.com/Cognifide/aet
 # Headless Testing
 
 # Reponsive Design Testing
-
+* [Galen Framework - Automated testing of look and feel for your responsive websites](http://galenframework.com/)
 
 
 # Testing
