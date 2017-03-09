@@ -56,5 +56,5 @@ Using Wraith for Visual Regression Testing
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
 
 https://cdn.css-tricks.com/wp-content/uploads/2015/11/output.png
-
+https://s3-us-west-2.amazonaws.com/screener.io/img/marketing/masthead.png
 https://camo.githubusercontent.com/86548322fd816ccca0672e22434f1ae8b3687abf/687474703a2f2f7765626472697665722e696f2f696d616765732f7765626472697665726373732f6865726f2e706e67
