@@ -59,8 +59,7 @@
 * Reliability testing
 * Website testing
 * Performance testing
-* Load Testing 
-* Stress Testing
+
 
 
 # Testing Tools
