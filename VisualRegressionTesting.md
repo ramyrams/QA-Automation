@@ -22,8 +22,8 @@
 * [SeConf2015: Advanced Automated Visual Testing With Selenium](https://www.slideshare.net/adamcarmi/seconf2015-advanced-automated-visual-testing-with-selenium)
 
 
-
-
+Applitools - How to Get Started with Visual Validation Testing
+https://www.youtube.com/watch?v=KOdQAyDIvJI
 
 
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
