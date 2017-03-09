@@ -29,7 +29,7 @@
 * [Visual Regression Testing with PhantomCSS](https://www.sitepoint.com/visual-regression-testing-with-phantomcss/)
 * [A better way to do visual regression testing](http://screenster.io/a-better-way-to-do-visual-regression-testing/)
 
-
+c
 
 ## Video
 * [Applitools - How to Get Started with Visual Validation Testing](https://www.youtube.com/watch?v=KOdQAyDIvJI)
