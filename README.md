@@ -102,6 +102,27 @@
 * [gtmetrix.com](https://gtmetrix.com/)
 
 
+# How Functional Testing Works
+Functional testing is typically conducted by providing an appropriate input to the function being tested (in line with the typical inputs expected in real-world use cases), and then verifying the result by comparing it to the expected result. This type of testing can answer questions about the capabilities of a software application, such as what actions users are able to perform.
+
+It’s typically approached from one of two perspectives:
+
+* **Requirements-focused testing**, which prioritizes requirements based on risk criteria in order to evaluate the most critical and important features and functions first.
+* **Business-process-focused testing**, which relies on knowledge of end-user business requirements to evaluate an application’s performance in the context of typical use cases.
+
+There are several specific functional testing techniques. The two primary techniques include white box testing and black box testing, although there are additional techniques including:
+
+* Smoke testing.
+* Unit testing.
+* User acceptance testing.
+* Integration testing.
+* Interface testing.
+* System testing.
+* Localization testing.
+* Regression testing.
+* Globalization testing.
+
+
 
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
