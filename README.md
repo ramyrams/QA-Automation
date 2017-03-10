@@ -188,7 +188,13 @@ https://github.com/Cognifide/aet
 # Web Analytics Automation Testing Framework 
 * [Web Analytics Automation Testing Framework](https://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html)
 * [WAAT](https://github.com/anandbagmar/WAAT)
-* 
+* Web Analytics Automation Testing Framework
+https://essenceoftesting.blogspot.sg/2016/07/any-waat-users-out-there.html
+https://github.com/anandbagmar/WAAT
+
+https://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html
+https://www.slideshare.net/abagmar/the-what-why-and-how-of-web-analytics-testing-web-iot-big-data
+http://mrselenium.blogspot.com/2014/12/automated-analytics-testing-published.html
 
 # REST API Testing
 * [REST-Assured framework overview](http://testdetective.com/rest-assured-framework-overview/)
