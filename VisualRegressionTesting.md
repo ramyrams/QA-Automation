@@ -43,6 +43,11 @@
 ## Video
 * [Applitools - How to Get Started with Visual Validation Testing](https://www.youtube.com/watch?v=KOdQAyDIvJI)
 
+
+# Automating Look & Feel, along with Functional validation
+https://essenceoftesting.blogspot.sg/2015/07/automating-look-feel-along-with.html
+
+
 ## Quick Reference 
 ![1](https://image.slidesharecdn.com/airwareseleniummeetup-end-to-endtestautomationwithnode-161020054638/95/fullstack-endtoend-test-automation-with-nodejs-one-year-later-40-638.jpg)
 ![1](https://cdn.css-tricks.com/wp-content/uploads/2015/11/output.png)
