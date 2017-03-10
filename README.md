@@ -1,6 +1,7 @@
 # QA
 
 * [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
+* [Career Path of a Tester!](https://essenceoftesting.blogspot.sg/2016/12/career-path-of-tester.html)
 
 # Tools
 * **Bug Tracking:**  Eventum, JIRA
