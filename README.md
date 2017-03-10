@@ -123,6 +123,19 @@ There are several specific functional testing techniques. The two primary techni
 * Globalization testing.
 
 
+# Non-functional Testing
+* Security testing.
+* Usability testing.
+* Operational readiness testing.
+* Endurance testing.
+* Interoperability testing.
+* Maintainability testing.
+* Ergonomics testing.
+* Availability testing.
+* Recoverability testing.
+* And others!
+
+
 
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
