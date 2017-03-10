@@ -42,6 +42,9 @@ https://essenceoftesting.blogspot.sg/2017/02/features-of-my-android-test-automat
 * [More Practice sites](http://www.techbeamers.com/websites-to-practice-selenium-webdriver-online/)
 
 
+What are the criteria for determining success for Test Automation?
+https://essenceoftesting.blogspot.sg/2014/04/what-are-criteria-for-determining.html
+
 * [A collection of awesome penetration testing resources, tools and other shiny things](https://github.com/enaqx/awesome-pentest)
 
 
