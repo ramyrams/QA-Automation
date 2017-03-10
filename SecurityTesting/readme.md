@@ -13,3 +13,5 @@
 * 
 # Web Application Penetration Testing
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
+
+http://resources.infosecinstitute.com/penetration-testing-benefits/#gref
