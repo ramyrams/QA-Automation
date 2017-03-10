@@ -5,6 +5,10 @@
 
 * [Performance testing using Team Services](https://www.visualstudio.com/en-us/docs/test/performance-testing/getting-started/getting-started-with-performance-testing)
 
+
+# Client-side Performance Testing workshop video
+https://essenceoftesting.blogspot.sg/2015/08/client-side-performance-testing.html
+
 https://speedtracker.org/test
 .
 
