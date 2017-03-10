@@ -46,6 +46,8 @@ In generall test frameworks are expected to:
 * [Mocks, Stubs, and Injections: Unit Testing in Angular.JS](https://www.martin-brennan.com/mocks-stubs-and-injections-unit-testing-in-angular-js/)
 * [How to set up Mocha + Chai + Sinon + Karma + Browserify +Istanbul + Codecov](https://jaredtong.com/2016/01/08/how-to-set-up-mocha-chai-sinon-karma-browserify-istanbul-codecov/)
 
+Protractor for Angular apps?
+https://essenceoftesting.blogspot.sg/2016/03/protractor-for-angular-apps.html
 
 
 ## Mocha 
