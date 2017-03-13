@@ -244,6 +244,10 @@ http://www.altencalsoftlabs.com/blogs/2016/05/12/mobile-application-security-tes
  How to Plan an Effective Test Automation in Agile Project
 https://dzone.com/articles/how-to-plan-an-effective-test-automation-in-agile
 
+# Allure
+* [Allure GitHub](https://github.com/allure-framework/allure1)
+* [Sample Allure Report](http://ci.qatools.ru/job/allure1_master-deploy/Allure_report/)
+
 # Images
 ![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 ![The Use of Tradition and Dogma in Testing](http://testerstories.com/files/combine-triangle-with-quadrant.png)
