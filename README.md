@@ -26,7 +26,7 @@
 * **Unit testing tools:** OCUnit, TestNG 
 * **Custom test harness:** C#, JS, Java, and C++
 * **Mobile Application Testing:** Appium
-
+* **Reporting:** Allure
 
 # Tests
 * Website testing
