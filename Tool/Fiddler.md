@@ -18,8 +18,7 @@
 
 
 
-FiddlerCap
-
+# FiddlerCap
 Capturing web traffic logs
 
 If you've reached this page, chances are good that you were asked to capture a Web Traffic log. Usually, this action is performed to track down a bug in your web browser or a website.
