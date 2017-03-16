@@ -15,3 +15,12 @@ Performance Testing with Fiddler Web Debugging Proxy http://www.telerik.com/vide
 Using Fiddler QuickExec Feature http://www.telerik.com/videos/fiddler/using-fiddler-quickexec-feature
 Tampering Client Requests and Server Responses with Fiddler http://www.telerik.com/videos/fiddler/tampering-client-requests-and-server-responses-fiddler
 
+
+
+FiddlerCap
+
+Capturing web traffic logs
+
+If you've reached this page, chances are good that you were asked to capture a Web Traffic log. Usually, this action is performed to track down a bug in your web browser or a website.
+
+You can use FiddlerCap to capture your Web Traffic, and send that capture to a debugging buddy who can troubleshoot the bug.
