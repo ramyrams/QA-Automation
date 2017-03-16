@@ -1,4 +1,5 @@
-Fiddler Documentation http://docs.telerik.com/fiddler/
+
+* [Fiddler Documentation](http://docs.telerik.com/fiddler/)
 
 
 Video
