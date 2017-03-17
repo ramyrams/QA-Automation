@@ -228,7 +228,7 @@ http://mrselenium.blogspot.com/2014/12/automated-analytics-testing-published.htm
 
 
 # Practice Website
-* [Damn Vulnerable Web Services](https://github.com/snoopysecurity/dvws) - Damn Vulnerable Web Services is an insecure web application with multiple vulnerable web service components that can be used to learn real world web service vulnerabilities.
+* [Damn Vulnerable Web Services](https://github.com/snoopysecurity/dvws) (http://www.dvwa.co.uk/)- Damn Vulnerable Web Services is an insecure web application with multiple vulnerable web service components that can be used to learn real world web service vulnerabilities.
 
 # Testing
 * [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
