@@ -227,10 +227,14 @@ http://mrselenium.blogspot.com/2014/12/automated-analytics-testing-published.htm
 * [Galen Framework - Automated testing of look and feel for your responsive websites](http://galenframework.com/)
 
 
+# Practice Website
+* [Damn Vulnerable Web Services](https://github.com/snoopysecurity/dvws)
+
 # Testing
 * [MOBILE APP OR MOBILE WEB?](http://magenic.com/Blog/Post/172/Mobile-App-or-Mobile-Web)
 * [SDLC vs STLC](https://fasteningcode.com/2016/08/03/sdlc-vs-stlc/)
-* [Agile, DevOps, and What They Mean for Testers](https://www.stickyminds.com/interview/agile-devops-and-what-they-mean-testers-interview-jeff-payne)
+* [Agile, DevOps, and What They Mean for Testers](https://www.stickyminds.com/interview/agile-devops-and-what-they-mean-testers-interview-
+jeff-payne)
 * [Ideas On How To Succeed As A Tester](https://dojo.ministryoftesting.com/lessons/ideas-on-how-to-succeed-as-a-tester)
 * [How to come up with test ideas](http://erik.brickarp.se/2016/08/how-to-come-up-with-test-ideas.html)
 
