@@ -1,7 +1,7 @@
 
 * [Fiddler Documentation](http://docs.telerik.com/fiddler/)
 
-* []()
+* [Fiddler Documentation Articles](https://github.com/telerik/fiddler-docs)
 # Video
 * [Getting Started with Fiddler Web Debugging Proxy](http://www.telerik.com/videos/fiddler)
 * [Fiddler Web Debugging Proxy - Filtering by Process](http://www.telerik.com/videos/fiddler/fiddler-web-debugging-proxy---filtering-by-process)
