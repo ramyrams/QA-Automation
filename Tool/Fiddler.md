@@ -24,3 +24,25 @@ Capturing web traffic logs
 If you've reached this page, chances are good that you were asked to capture a Web Traffic log. Usually, this action is performed to track down a bug in your web browser or a website.
 
 You can use FiddlerCap to capture your Web Traffic, and send that capture to a debugging buddy who can troubleshoot the bug.
+
+API Testing with Telerik Fiddler
+http://www.telerik.com/blogs/api-testing-with-telerik-fiddler
+
+
+https://docs.google.com/spreadsheets/d/1pT2jp4UgaE1EEDRL3oan4Rpj0XQFWCjYeowCU1_y9HA/edit?ts=58ca1f66#gid=2131877310
+Capture Traffic from iOS Device
+
+Click Tools > Fiddler Options > Connections.
+
+Click the checkbox by Allow remote computers to connect.
+
+
+Navigate to http://ipv4.fiddler:8888/
+
+Verify client iOS device can reach Fiddler by navigating in the browser to http://FiddlerMachineIP:8888. This address should return the Fiddler Echo Service page.
+
+
+
+
+https://dzone.com/articles/21-automated-deployment-tools-you-should-know
+
