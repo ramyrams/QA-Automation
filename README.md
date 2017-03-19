@@ -191,6 +191,17 @@ There are several specific functional testing techniques. The two primary techni
 * And others!
 
 
+# Testing Quadrants
+![1](http://istqbexamcertification.com/wp-content/uploads/2014/12/Agile_Testing_Quadrants.jpg)
+
+The four quadrants are described below:
+
+Quadrant Q1 – At unit level contains unit Tests, technology facing, tests subject to full automation and continuous integration.
+Quadrant Q2 – At system level, business facing, these are functional tests, examples, story tests, user experience prototypes, and simulations based on the acceptance criteria, be manual or automated. Created as a part of definition of done for a story
+Quadrant Q3 – At system or user acceptance level, business facing, contains tests exploratory testing, scenarios, process flows, usability testing, user acceptance testing, alpha testing, and beta testing. These tests are often manual and are user-oriented.
+Quadrant Q4 – At system or operational acceptance level, technology facing performance, load, stress, and scalability tests, security tests, maintainability, memory management, compatibility and interoperability, data migration, infrastructure, and recovery testing. These tests are often automated.
+
+
 
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
