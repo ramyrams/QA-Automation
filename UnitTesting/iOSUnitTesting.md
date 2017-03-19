@@ -1,4 +1,4 @@
-![1](
+
 
 
 WWDC 2016 : Continuous Integration with Xcode Server and XCTest updates
@@ -67,3 +67,4 @@ http://blog.mwaysolutions.com/2014/01/23/software-and-unit-testing-for-ios/
 iOS Unit Testing and UI Testing Tutorial
 https://www.raywenderlich.com/150073/ios-unit-testing-and-ui-testing-tutorial
 
+![1](http://blog.perfectomobile.com/wp-content/uploads/2016/06/OSAutoBlogChartFinal-1024x1024.png)
