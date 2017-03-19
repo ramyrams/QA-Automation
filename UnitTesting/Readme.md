@@ -2,7 +2,7 @@
 
 
 * [How to use Sinon.JS, a mocking library for testing](https://www.youtube.com/watch?v=SvudHPTEsIk)
-
+https://www.packtpub.com/books/content/unit-testing-and-end-end-testing
 
 https://engineering.linkedin.com/blog/2016/11/ios--test-pyramid
 
