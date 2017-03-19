@@ -12,6 +12,25 @@
 * **System tests** are executed at the highest level of the system, from the UI to check the whole application and its construction (load tests are in this category for instance). They check about 10% of the system.
 * **Manual/exploratory tests** are done by humans to explore the application for unexpected behaviors. They need the human creativity to hunt possible hidden bugs.
 
+The main idea is that you want more unit tests than any other level of test because they:
+* test the behaviour of the class / component rather than its implementation
+* have no dependencies on other classes / components
+* are easy to write & maintain (due to their independence)
+* quick to run
+
+Integrationn tests which:
+* test the integration between components / features / external 3rd party services
+* are dependant on the other components / features / external 3rd party services being available & stable enough to execute tests against.
+* ensure dependencies of the system being developed continue to work as expected
+* are slower than unit tests to run, but faster than acceptance tests to run
+
+Acceptance tests are:
+* a tool for conversing with business stakeholders (as they are generally written in human-readable language)
+* a means of knowing when we’re done (developing a component / feature)
+* checking the UI by actually clicking buttons on that UI
+* High dependency on other components / features
+* Brittle – easily broken if the UI changes
+* Slowest of the 3 automated test levels to run
 
 # Tools
 * **Bug Tracking:**  Eventum, JIRA
