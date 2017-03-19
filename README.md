@@ -313,6 +313,25 @@ http://www.altencalsoftlabs.com/blogs/2016/05/12/mobile-application-security-tes
  How to Plan an Effective Test Automation in Agile Project
 https://dzone.com/articles/how-to-plan-an-effective-test-automation-in-agile
 
+http://blogs.agilefaqs.com/2011/02/01/inverting-the-testing-pyramid/
+
+
+http://istqbexamcertification.com/what-is-definition-of-done-test-levels-in-agile-software/
+http://istqbexamcertification.com/what-are-testing-techniques-in-agile-development/
+http://istqbexamcertification.com/difference-between-regression-testing-and-retesting/
+http://istqbexamcertification.com/mobile-application-development-and-testing-checklist/
+http://istqbexamcertification.com/what-is-release-and-iteration-planning-in-agile-methodology/
+http://istqbexamcertification.com/what-is-continuous-integration-in-agile-methodology/
+http://istqbexamcertification.com/what-are-test-levels-in-agile-methodology/
+http://istqbexamcertification.com/what-is-testing-and-configuration-management-in-agile-development/
+http://istqbexamcertification.com/communicating-test-status-progress-and-product-quality-in-agile-methodology/
+http://istqbexamcertification.com/what-is-the-role-of-a-tester-in-agile-methodology/
+http://istqbexamcertification.com/what-is-planning-poker-effort-estimation-in-agile-methodology/
+http://istqbexamcertification.com/what-are-testing-techniques-in-agile-development/
+http://istqbexamcertification.com/what-is-exploratory-testing-in-agile-methodology/
+http://istqbexamcertification.com/what-are-the-tools-in-agile-projects/
+http://istqbexamcertification.com/what-are-build-and-distribution-tools-in-agile-software-testing/
+
 # Allure
 * [Allure GitHub](https://github.com/allure-framework/allure1)
 * [Sample Allure Report](http://ci.qatools.ru/job/allure1_master-deploy/Allure_report/)
