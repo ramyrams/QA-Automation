@@ -12,8 +12,8 @@ https://www.raywenderlich.com/22816/beginning-automated-testing-with-xcode-part-
 
 KIF iOS Integration Testing Framework
 https://github.com/kif-framework/KIF
-
-
+ iOS UI Automation Test Framework 
+https://github.com/google/EarlGrey
 iOS Unit Testing
 http://iosunittesting.com/links/
 
