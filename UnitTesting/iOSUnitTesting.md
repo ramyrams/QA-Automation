@@ -1,6 +1,11 @@
 ![1](
 
 
+Beginning Automated Testing With Xcode Part 2/2
+https://www.raywenderlich.com/22816/beginning-automated-testing-with-xcode-part-22
+
+KIF iOS Integration Testing Framework
+https://github.com/kif-framework/KIF
 
 
 
