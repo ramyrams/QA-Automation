@@ -1,6 +1,12 @@
 ![1](
 
 
+WWDC 2016 : Continuous Integration with Xcode Server and XCTest updates
+http://shashikantjagtap.net/wwdc-2016-continuous-integration-with-xcode-server-and-xctest-updates/
+
+#Tools
+https://iosdev.tools/tag?id=testing
+
 Beginning Automated Testing With Xcode Part 2/2
 https://www.raywenderlich.com/22816/beginning-automated-testing-with-xcode-part-22
 
