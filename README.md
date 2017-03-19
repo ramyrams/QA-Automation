@@ -3,6 +3,16 @@
 * [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
 * [Career Path of a Tester!](https://essenceoftesting.blogspot.sg/2016/12/career-path-of-tester.html)
 
+* [AUTOMATED TEST CLASSIFICATION](http://www.jamkey.fr/automated-test-classification/)
+* [TECHNICAL TEST STRATEGY](http://www.jamkey.fr/technical-test-strategy/)
+
+* **Unit tests** are written by the programmers for the programmers to ensure that the code is working at the deepest/lowest level. They should execute in milliseconds and target a 100% code coverage (at least 90%).
+* **Component tests** are a part of the acceptance tests and check the behavior of individual component. A component encapsulate a specific set of business rules. These kind of tests should be very quick as well because they are decoupled from the other components and should cover about half the system.
+* **Integration tests** are required to check the communication between components in order to verify that the “plumbing” has been done correctly. They ensure that the architectural structure of the system is correct. About 20% of the system is covered by integration tests.
+* **System tests** are executed at the highest level of the system, from the UI to check the whole application and its construction (load tests are in this category for instance). They check about 10% of the system.
+* **Manual/exploratory tests** are done by humans to explore the application for unexpected behaviors. They need the human creativity to hunt possible hidden bugs.
+
+
 # Tools
 * **Bug Tracking:**  Eventum, JIRA
 * **Test Case Management:**  MS Excel
