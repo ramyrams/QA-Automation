@@ -46,3 +46,10 @@ https://www.youtube.com/watch?v=wZQaEG-TCdU
 
 Automated UI Testing and Monitoring for your Mobile Apps
 https://www.youtube.com/watch?v=UbFz9btSQck
+
+Software and unit testing for iOS
+http://blog.mwaysolutions.com/2014/01/23/software-and-unit-testing-for-ios/
+
+iOS Unit Testing and UI Testing Tutorial
+https://www.raywenderlich.com/150073/ios-unit-testing-and-ui-testing-tutorial
+
