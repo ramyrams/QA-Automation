@@ -2,7 +2,7 @@
 * Load Testing 
 * Stress Testing
 
-
+http://www.testingexcellence.com/performance-testing-terminologies/
 * [Performance testing using Team Services](https://www.visualstudio.com/en-us/docs/test/performance-testing/getting-started/getting-started-with-performance-testing)
 
 
