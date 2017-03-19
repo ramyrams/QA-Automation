@@ -109,6 +109,28 @@ Acceptance tests are:
 * Reliability testing
 
 
+![1](https://jfiaffe.files.wordpress.com/2014/09/tests-pyramid.png?w=300&h=180)
+![1](http://www.duncannisbet.co.uk/wp-content/uploads/2012/07/test_pyramid-300x218.gif)
+![1](http://agilefaqs.com/images/consulting/image08.png)
+![1](https://www.researchgate.net/profile/Michael_Bruyneel/publication/263660941/figure/fig1/AS:296386974240773@1447675569499/Figure-1-The-pyramid-of-tests-divided-in-physical-and-virtual-testing-at-each-stage.png)
+![1](http://www.duncannisbet.co.uk/wp-content/uploads/2012/07/idealautomatedtestingpyramid-300x244.png)
+![1](http://www.duncannisbet.co.uk/wp-content/uploads/2012/07/businesstechnologyautomatedtestingpyramid-300x214.png)
+![1](http://www.duncannisbet.co.uk/wp-content/uploads/2012/07/softwaretestingicecreamconeantipattern-243x300.png)
+![1](http://fabiopereira.me/blog/wp-content/uploads/2012/03/testing-pyramid-fabio-pereira.png)
+![1](https://image.slidesharecdn.com/testpyramid-agilepuneconference-141124063730-conversion-gate02/95/inverting-test-pyramid-a-first-hand-experience-report-27-638.jpg?cb=1416812050)
+![1](https://image.slidesharecdn.com/testpyramid-agilepuneconference-141124063730-conversion-gate02/95/inverting-test-pyramid-a-first-hand-experience-report-28-638.jpg?cb=1416812050)
+![1](https://image.slidesharecdn.com/testpyramid-agilepuneconference-141124063730-conversion-gate02/95/inverting-test-pyramid-a-first-hand-experience-report-42-638.jpg?cb=1416812050)
+![1](https://image.slidesharecdn.com/anandbagmar-behaviordriventestingbdtinagile-120716204509-phpapp01/95/anand-bagmar-behavior-driven-testing-bdt-in-agile-7-728.jpg?cb=1342471601)
+![1](https://www.coveros.com/wp-content/uploads/2015/08/test-pyramid.png)
+![1](https://pbs.twimg.com/media/Bm_by_ICMAACjkI.png)
+![1](https://www.symbio.com/wp-content/uploads/2014/08/agile_pyramid2.jpg)
+![1](https://msdnshared.blob.core.windows.net/media/2016/03/image97.png)
+
+![1](http://4.bp.blogspot.com/-UQHE29u7SEw/VT8KCb47gsI/AAAAAAAAAbY/4goJHGgP8ks/s1600/Agile%2BTest%2BQuadrants_2.png)
+![1](http://3.bp.blogspot.com/-HN-CbUAAASA/VT8KQwIIIKI/AAAAAAAAAbw/iiqgQv3Ulmg/s1600/Agile%2BTest%2BQuadrants%2B-%2BV%26V.png)
+![1](http://1.bp.blogspot.com/-zzSElbkJMCo/VT8KQzsZZyI/AAAAAAAAAbg/I8f-DFqFspk/s1600/Agile%2BTest%2BQuadrants_2_with_Pyramid.png)
+![1](http://1.bp.blogspot.com/-_aIqlp3yxj4/VT8KQ0SJdTI/AAAAAAAAAbk/-K932lVzigE/s1600/Agile%2BTest%2BQuadrants_2_with_Pyramid_and_comments.png)
+
 
 
 
