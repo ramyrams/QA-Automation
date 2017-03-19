@@ -25,3 +25,25 @@ https://www.youtube.com/watch?v=JlHJFZvZyxw
 
 Awesome unit testing Android apps
 https://www.youtube.com/watch?v=8EhNE2n1kJA
+
+Android Testing - Getting Started with Espresso 2.0
+https://www.youtube.com/watch?v=TGU0B4qRlHY
+
+Advanced Espresso - Google I/O 2016
+https://www.youtube.com/watch?v=isihPOY2vS4&t=10s
+
+Droidcon NYC 2016 - Espresso: A Screenshot is Worth 1,000 Words
+https://www.youtube.com/watch?v=fhx_Ji5s3p4
+
+Espresso + Gradle + JenkinsEspresso + Gradle + Jenkins
+https://www.youtube.com/watch?v=U58yjkL6fRk
+
+GTAC 2013: Android UI Automation
+https://www.youtube.com/watch?v=O1u8iBLUFL0&t=17s
+
+GTAC 2014: Espresso, Spoon, Wiremock, Oh my!
+https://www.youtube.com/watch?v=-xQCNf_5NNM
+
+Espresso Is Awesome, But Where Are It's Edges?
+https://www.youtube.com/watch?v=h85ZaRvG2mU
+
