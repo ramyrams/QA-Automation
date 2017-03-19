@@ -19,7 +19,18 @@ https://essenceoftesting.blogspot.sg/2017/02/features-of-my-android-test-automat
 https://essenceoftesting.blogspot.sg/2017/02/sharing-implementation-of-cucumber-jvm.html
 https://essenceoftesting.blogspot.sg/2017/02/features-of-my-android-test-automation.html
 	
- 
+ Automated Test has the following benefits.
+
+* You can conduct more testing in a faster way.
+* You can run existing test scenario on many times by using automated test with same input and timing for each run.
+* Tester can spend more time in a smarter way to find bugs rather than concentrating on input and observing the result.
+* You can save the test object and rerun afterwards. The incremental cost to run automated test in negligible. Also, you have a better chance to find new bugs that may be introduced for changed software.
+* Many bugs are found when the system is run for long hours. That can be achieved more smartly by automated testing compared to manual testing.
+* Testing efficiency is the measurement of test that a tester runs in an hour. Higher efficiency lowers product development time and costs.
+* Testing effectiveness is the rate rate at which you can find bugs before software is released. Higher effectiveness produces better product with lesser cost and provides more customer satisfaction.
+* If you replace manual testing with automated test, that can reduce your testing time significantly. In the long run, it reduces your time to market the product and results in enormous cost benefit.
+* Earlier entry of the product in the market means that you have bigger share of the market. So you can achieve a greater margin of profit in the end.
+* Higher market share means lower unit cost. Higher volume means bigger discounts from the supplier and better operating efficiency.
 
 * [Tester's toolbox](http://awesome-testing.blogspot.com/2016/04/testers-toolbox-alternative-guide.html)
 * [A curated list of awesome test automation frameworks, tools, libraries, and software for different programming languages.](https://github.com/atinfo/awesome-test-automation)
