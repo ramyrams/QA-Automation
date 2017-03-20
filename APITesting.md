@@ -8,3 +8,5 @@ Web-Services Testing Made Simple
 karate https://github.com/intuit/karate
 
 http://wiremock.org/
+
+![1](https://www.soapui.org/soapui/media/images/dojo/Testing_Dojo_Illustrations_02_2new.png)
