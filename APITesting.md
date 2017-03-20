@@ -15,3 +15,5 @@ http://wiremock.org/
 https://www.npmjs.com/package/loopback-api-testing
 
 * [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping
+
+http://dareid.github.io/chakram/
