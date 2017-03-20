@@ -14,6 +14,11 @@ https://speedtracker.org/test
 # Tools
 * [Metasploit](https://www.metasploit.com/) - World's most used penetration testing software
 
+* [Locust](http://locust.io/) -  An open source load testing tool
+* [Gatling](http://gatling.io/) - Open-Source Load & Performance Testing Tool For Web Applications
+* [Taurus](http://gettaurus.org/) - Automation-friendly framework for Continuous Testing
+
+
 http://www.testingminded.com/2010/04/top-100-software-testing-blogs.html
 http://scott-barber.blogspot.com/2011/12/10-must-know-tips-for-performance-test.html
 https://www.invensis.net/blog/it/3-key-application-performance-testing-objectives
