@@ -16,7 +16,7 @@ https://speedtracker.org/test
 
 * [Locust](http://locust.io/) -  An open source load testing tool
 * [Gatling](http://gatling.io/) - Open-Source Load & Performance Testing Tool For Web Applications
-* [Taurus](http://gettaurus.org/) - Automation-friendly framework for Continuous Testing
+
 
 
 http://www.testingminded.com/2010/04/top-100-software-testing-blogs.html
