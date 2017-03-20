@@ -6,3 +6,5 @@ https://scotch.io/tutorials/write-api-tests-with-postman-and-newman?
 
 Web-Services Testing Made Simple
 karate https://github.com/intuit/karate
+
+http://wiremock.org/
