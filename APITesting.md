@@ -12,6 +12,6 @@ http://wiremock.org/
 ![1](https://www.soapui.org/soapui/media/images/dojo/Testing_Dojo_Illustrations_02_2new.png)
 
 ![1](https://www.soapui.org/soapui/media/images/dojo/Testing_Dojo_Illustrations_02_1new.png)
-
+https://www.npmjs.com/package/loopback-api-testing
 
 * [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping
