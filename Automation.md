@@ -14,6 +14,16 @@
 5. Gradle
 6. Jenkins
  
+ # Test Automation Best Practices [Read Detail](http://bqurious.com/test-automation-best-practices/)
+* Create An Automation Plan 
+* Identify Test Cases That Can Be Automated 
+* Develop Test Cases
+* Test Early And Frequently
+* Choose Appropriate Automated Testing Software And Tool
+* Segregate Your Automated Testing Skills And Efforts
+* Create Test Data
+* Create Test Cases That Are Reusable And Easy To Maintain
+
  # Android Test Automation Framework
 https://essenceoftesting.blogspot.sg/2017/02/features-of-my-android-test-automation.html
 https://essenceoftesting.blogspot.sg/2017/02/sharing-implementation-of-cucumber-jvm.html
