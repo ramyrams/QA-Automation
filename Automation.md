@@ -28,7 +28,13 @@
 https://essenceoftesting.blogspot.sg/2017/02/features-of-my-android-test-automation.html
 https://essenceoftesting.blogspot.sg/2017/02/sharing-implementation-of-cucumber-jvm.html
 https://essenceoftesting.blogspot.sg/2017/02/features-of-my-android-test-automation.html
-	
+
+* [When and How Much to Automate?](http://bqurious.com/when-and-how-much-to-automate/)
+* [Economic Perspectives and Financial Benefits Behind Test Automation](http://bqurious.com/economic-perspectives-and-financial-benefits-behind-test-automation/)
+* [The Role of Automation in Functional Testing](https://dzone.com/articles/the-role-of-automation-in-functional-testing)
+
+
+
  Automated Test has the following benefits.
 
 * You can conduct more testing in a faster way.
