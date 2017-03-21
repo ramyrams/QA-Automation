@@ -1,4 +1,16 @@
 
+
+According to Microsoft, the Core Performance Testing Activities are:
+
+1. **Identify Test Environment** – where it is important to have the exact replica of the production environment
+2. **Identify Performance Acceptance Criteria** – predefine the benchmarks of expected performance
+3. **Plan and Design Tests** – Identification of user test scenarios based on their importance, frequency and performance impact
+4. **Configure Test Environment** – setting up the test environment as in the first step
+5. **Implement Test Design** – scripting user scenarios with the help of performance testing tools
+6. **Execute Tests** – testing on scripted user scenarios against different user sets with different configurations
+7. **Analyze, Report and Retest** – Analyze test results with benchmarks, report results to stakeholders and Re-test if necessary
+
+
 ![1](http://www.abstracta.us/wp-content/uploads/2015/03/why-perf-testing-is-nec-chart-768x463.png)
 
 
