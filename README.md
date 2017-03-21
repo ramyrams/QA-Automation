@@ -79,6 +79,8 @@ Acceptance tests are:
 * [Mobile Test Automation Test plan ]()
 * [Performence Test plan ]()
 
+# Test Case
+* [Best Practices for Test Case Creation and Maintenance](https://dzone.com/articles/best-practices-for-test-case-creation-and-maintena)
 
 # QA services portfolio
 * General mobile application quality assurance
