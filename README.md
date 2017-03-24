@@ -202,6 +202,15 @@ Quadrant Q3 – At system or user acceptance level, business facing, contains te
 Quadrant Q4 – At system or operational acceptance level, technology facing performance, load, stress, and scalability tests, security tests, maintainability, memory management, compatibility and interoperability, data migration, infrastructure, and recovery testing. These tests are often automated.
 
 
+# What Are the Differences between Sanity and Regression Testing?
+* Sanity Testing is a surface-level testing, meaning that a tester checks whether whole functionality of the software works in a proper way. Regression Testing does not imply a surface-level testing.
+* Sanity Testing is a part of Regression Testing.
+* Testers carry out Sanity Testing if they have limited time for performing testing. Regression Testing is carried out when there is enough time for it.
+* Testers perform Sanity Testing manually. Testers can perform Regression Testing manually or with the help of different automated tools.
+* Sanity Testing does not influence the product cost. Since Regression Testing takes much time and efforts, it increases the product cost.
+* Non-complete test cases are conducted in the software in the course of Sanity Testing. In the course of Regression Testing complete test cases are conducted in the software.
+* Testers should not know many details on the software while performing Sanity Testing. Regression Testing is more extended.
+* Script is used for Regression Testing, but for Sanity Testing it is not.
 
 # Test Automation
 * [How to start learning test automation](http://awesome-testing.blogspot.com/2016/08/how-to-start-learning-test-automation.html?)
