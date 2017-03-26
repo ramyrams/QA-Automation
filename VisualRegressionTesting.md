@@ -5,6 +5,10 @@
 * [Survey of screenshot-based CSS testing tools](https://gist.github.com/cvrebert/adf91e429906a4d746cd)
 * [How to automate a visual regression test](http://www.creativebloq.com/web-design/automate-visual-regression-testing-111517944)
 
+# Visual Regression with CasperJS and PhantomCSS
+http://scrolltest.com/2017/03/24/visual-regression-casperjs-phantomcss-part-1/
+http://scrolltest.com/2017/03/24/visual-regression-casperjs-phantomcss-part-2/
+http://scrolltest.com/2017/03/24/visual-regression-casperjs-phantomcss-part-3/
 
 
 # Visual Regression Testing
