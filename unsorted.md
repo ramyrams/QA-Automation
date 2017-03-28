@@ -1,3 +1,6 @@
+https://player.vimeo.com/video/209699865
+
+http://thetesteye.com/blog/2017/03/implication-of-emphasis-on-automation-in-ci/
 
 
 * [8 ways to transform your testing center of excellence](http://techbeacon.com/8-ways-transform-your-testing-center-excellence)
