@@ -1,3 +1,30 @@
+
+# 20 Fundamentals for a Successful Test Automation Infrastructure [BY YONI FLENNER](http://blog.testproject.io/2017/03/26/test-automation-infrastructure-fundamentals/)
+1. Identify Page Elements (text fields, buttons, link etc.) and configure them in a certain class, in which you can implement functions that will perform several operations. For example: inserting text and clicking on a button by identifying the element beforehand – which is called Page Object.
+2. Write a mechanism that will be activated when a test fails.
+3. Write another mechanism to return the page to a certain point (for example: the main page) in order to create independent tests.
+4. Develop a report module and implement a report module for the executed automated tests.
+5. Add to the reports screenshots and recordings when tests fail.
+6. Implement the project in a way that will allow reading all parameters from external configuration files (for example: the location to save the reports).
+7. Incorporate Visual Testing for image comparison to test if the site looks as it is supposed to (for example: if a field moved by 6 pixels to the right, the test will fail).
+8. Create Cross-browser compatibility.
+9. Write log files to save information for the developers which will also include stack trace and other details from the exceptions, which will show up in case of a failed test.
+10. Object Repository – implement also a central place in which you’ll identify all of the elements’ properties in the application.
+11. Connect the system’s database to execute queries and draw information (Despite not having access to the application’s database, we can easily create a simulation for a portfolio).
+12. Implement the Data Driven Testing (DDT) method to read from CSV/ Excel files.
+13. Implement the Keyword Driven Testing (KDT) or BDD methods with Gherkin language.
+14. Create support for parallel testing on different environments.
+15. Connection to external libraries (for example: interface cloud services API such as YouTube)
+16. Create support for scheduling execution and interface CI systems (it’s possible to install Jenkins on the computer and working with it).
+17. Compatibility with Mobile device platforms.
+18. Expand to a compatibility with Desktop Apps.
+19. The test automation infrastructure should be written according to known Design Patterns, Clean Code methods, coding conventions that must be configured at the design level.
+20. Finally, documentation of the entire procedure from A to Z.
+The list clearly shows how Selenium is a very small component of the automation testing project.
+ 
+![1](http://blog.testproject.io/wp-content/uploads/2017/02/Automation-Framework.png)
+
+
 # Web App QA Automation with Selenium
 
 1. Programming language - Java - Java for Testers 
