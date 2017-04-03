@@ -1,7 +1,7 @@
 https://player.vimeo.com/video/209699865
 
 http://thetesteye.com/blog/2017/03/implication-of-emphasis-on-automation-in-ci/
-
+http://www.mehdi-khalili.com/the-ultimate-software-qa-process
 
 * [8 ways to transform your testing center of excellence](http://techbeacon.com/8-ways-transform-your-testing-center-excellence)
 * [The 7 soft skills every QA tester needs](http://techbeacon.com/7-soft-skills-every-qa-tester-needs)
