@@ -254,6 +254,14 @@ https://github.com/Cognifide/aet
 # Accessibility Testing
 # Localization Testing
 
+# Integrating Smoke Tests
+* [Integrating Smoke Tests into your Continuous Delivery Pipeline](https://blogs.msdn.microsoft.com/visualstudioalm/2017/04/04/integrating-smoke-tests-into-your-continuous-delivery-pipeline/)
+
+# AB Testing
+* [How to implement feature flags and A|B testing](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/04/how-to-implement-feature-flags-and-ab-testing/)
+
+# Exploratory Testing
+* [How to Make Software Better With Exploratory Testing](https://dzone.com/articles/how-to-make-software-better-with-exploratory-testi)
 
 
 # Free Ethical Hacking Course
