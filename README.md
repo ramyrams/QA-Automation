@@ -3,6 +3,8 @@
 * [Career Path of a Tester!](https://essenceoftesting.blogspot.sg/2016/12/career-path-of-tester.html)
 * [AUTOMATED TEST CLASSIFICATION](http://www.jamkey.fr/automated-test-classification/)
 * [TECHNICAL TEST STRATEGY](http://www.jamkey.fr/technical-test-strategy/)
+* [Continuous Testing](http://www.awesome-testing.com/2016/10/testops-3-continuous-testing.html)
+
 
 * **Unit tests** are written by the programmers for the programmers to ensure that the code is working at the deepest/lowest level. They should execute in milliseconds and target a 100% code coverage (at least 90%).
 * **Component tests** are a part of the acceptance tests and check the behavior of individual component. A component encapsulate a specific set of business rules. These kind of tests should be very quick as well because they are decoupled from the other components and should cover about half the system.
