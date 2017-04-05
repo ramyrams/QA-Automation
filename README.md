@@ -4,6 +4,7 @@
 * [AUTOMATED TEST CLASSIFICATION](http://www.jamkey.fr/automated-test-classification/)
 * [TECHNICAL TEST STRATEGY](http://www.jamkey.fr/technical-test-strategy/)
 * [Continuous Testing](http://www.awesome-testing.com/2016/10/testops-3-continuous-testing.html)
+* [What Tools Should I Learn? ](https://dojo.ministryoftesting.com/lessons/what-tools-should-i-learn)
 
 
 * **Unit tests** are written by the programmers for the programmers to ensure that the code is working at the deepest/lowest level. They should execute in milliseconds and target a 100% code coverage (at least 90%).
