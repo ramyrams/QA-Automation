@@ -19,3 +19,7 @@ https://www.npmjs.com/package/loopback-api-testing
 * [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping
 
 http://dareid.github.io/chakram/
+
+* [Test Cases for API Testing](http://www.software-testing-solutions.com/test-cases-for-api-testing)
+* [Best Practices For API Testing](http://www.mydbsync.com/blogs/best-practices-for-api-testing/)
+* [API testing best practices](http://www.ontestautomation.com/api-testing-best-practices/)
