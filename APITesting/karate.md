@@ -1,3 +1,3 @@
 # Karate
 
-* [Karate](https://github.com/intuit/karate) - Web-Services Testing Made Simple
+* [Karate](https://github.com/intuit/karate) - Web-Services Testing Made Simple - Opensource Github
