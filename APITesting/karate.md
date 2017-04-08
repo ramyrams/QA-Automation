@@ -1,6 +1,8 @@
 # Karate
 
 * [Karate](https://github.com/intuit/karate) - Web-Services Testing Made Simple - Opensource Github
+* [New automation framework released to test APIs: Introducing Karate, by Intuit India's Peter Thomas](http://www.tjmaher.com/2017/03/new-automation-framework-released-to.html)
+
 
 ## Peter's Hello World Example
 ```java
