@@ -2,7 +2,7 @@
 
 * [Karate](https://github.com/intuit/karate) - Web-Services Testing Made Simple - Opensource Github
 
-# Peter's Hello World Example
+## Peter's Hello World Example
 ```java
 Feature: karate 'hello world' example
 Scenario: create and retrieve a cat
@@ -17,9 +17,9 @@ Given path response.id
 When method get
 Then status 200
 ```
-
+## Example
 Over ten demos are on the Karate Demo Page: https://github.com/intuit/karate/tree/master/karate-demo
 
-# Video
+## Video
 * [Karate_ A DSL for writing web service API acceptance tests, BDD style](https://vimeo.com/209699865)
 * [Karate A REST Test Tool for API testing](https://www.youtube.com/watch?v=yKRR1j0A9Q4)
