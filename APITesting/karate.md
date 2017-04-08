@@ -18,3 +18,10 @@ Then status 200
 
 
 Over ten demos are on the Karate Demo Page: https://github.com/intuit/karate/tree/master/karate-demo
+
+
+ Karate_ A DSL for writing web service API acceptance tests, BDD style
+https://vimeo.com/209699865
+
+Karate A REST Test Tool for API testing
+https://www.youtube.com/watch?v=yKRR1j0A9Q4
