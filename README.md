@@ -129,6 +129,10 @@ Acceptance tests are:
 
 https://abstracta.us/2015/09/21/how-to-plan-test-case-automation-with-development-2/
 
+# Software Testing Wheels
+![1](https://abstracta.us/wp-content/uploads/2015/12/Testing-Wheel-Design-rgb_Gene%C2%A6u%CC%88rico-967x1024.jpg)
+https://abstracta.us/2015/12/15/the-software-testing-wheel/
+
 # Test Case
 * [Best Practices for Test Case Creation and Maintenance](https://dzone.com/articles/best-practices-for-test-case-creation-and-maintena)
 
