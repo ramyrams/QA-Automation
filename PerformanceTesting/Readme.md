@@ -19,6 +19,16 @@ According to Microsoft, the Core Performance Testing Activities are:
 
 
 
+https://abstracta.us/2017/03/24/how-to-make-a-performance-test-plan/
+https://abstracta.us/2015/10/12/why-performance-testing-is-necessary/
+https://abstracta.us/2017/02/24/best-time-start-performance-testing/
+https://abstracta.us/2016/10/17/shutterfly-continuous-performance-testing/
+https://abstracta.us/2015/09/14/performance-testing-in-production/
+https://abstracta.us/2015/07/30/top-10-factors-that-impact-application-performance/
+https://abstracta.us/2015/03/30/free-tools-to-process-logs-for-performance-analysis/
+https://abstracta.us/2015/03/30/types-of-performance-tests/
+https://abstracta.us/2015/03/30/system-performance-problems/
+
 http://www.abstracta.us/2017/03/16/how-to-make-performance-test-plan/
 http://www.abstracta.us/2017/02/24/best-time-start-performance-testing/
 http://www.abstracta.us/2017/01/06/gatling-vs-jmeter-findings/
