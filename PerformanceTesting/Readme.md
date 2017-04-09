@@ -18,6 +18,9 @@ According to Microsoft, the Core Performance Testing Activities are:
 
 
 
+LoadView Hands-on Review Tutorial: Load Testing from the Cloud
+http://www.softwaretestinghelp.com/loadview-tutorial/?
+
 
 https://abstracta.us/2017/03/24/how-to-make-a-performance-test-plan/
 https://abstracta.us/2015/10/12/why-performance-testing-is-necessary/
