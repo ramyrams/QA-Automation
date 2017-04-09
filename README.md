@@ -14,6 +14,21 @@ The following types of testing can be automated
 * **Performance** – providing assurance that the performance of the system will be adequate for both batch runs and online transactions in relation to business projections and requirements. 
 * **Load** – determining the points at which the capacity and performance of the system become degraded to the situation that hardware or software upgrades would be required. 
 
+
+Automated testers must follow the following guidelines to get the benefits of automation:
+* **Concise:** As simple as possible and no simpler. 
+* **Self-Checking:** Test reports its own results; needs no human interpretation. 
+* **Repeatable:** Test can be run many times in a row without human intervention. 
+* **Robust:** Test produces same result now and forever. Tests are not affected by changes in the external environment. 
+* **Sufficient:** Tests verify all the requirements of the software being tested. 
+* **Necessary:** Everything in each test contributes to the specification of desired behavior. 
+* **Clear:** Every statement is easy to understand. 
+* **Efficient:** Tests run in a reasonable amount of time. 
+* **Specific:** Each test failure points to a specific piece of broken functionality; unit test failures provide "defect triangulation". 
+* **Independent:** Each test can be run by itself or in a suite with an arbitrary set of other tests in any order. 
+* **Maintainable:** Tests should be easy to understand and modify and extend. 
+* **Traceable:** To and from the code it tests and to and from the requirements. 
+
 # Benefits of Automated Testing
 * **Reliable:** Tests perform precisely the same operations each time they are run, thereby eliminating human error 
 * **Repeatable:** You can test how the software reacts under repeated execution of the same operations. 
