@@ -183,6 +183,15 @@ https://www.codeproject.com/articles/5404/the-benefits-of-automated-unit-testing
 Better Unit Tests through Design Patterns: Repository, Adapter, Mocks, and more…
 http://www.benday.com/wp-content/uploads/2014/08/benday-agile-2014-unit-testing-v2.pdf
 
+# Test Pyramid
+* [1](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
+* [1](http://www.360logica.com/blog/wp-content/uploads/2014/07/A-sneak-peek-into-test-framework-test-pyramid-testing-pyramid.png)
+* [1](https://abstracta.us/wp-content/uploads/2015/10/Screen-Shot-2017-03-27-at-6.21.09-PM-min-1.png)
+* [1](https://abstracta.us/wp-content/uploads/2015/10/Agile-Pyramid-comic.png)
+
+* [Test Pyramid - Martin Flower](https://martinfowler.com/bliki/TestPyramid.html)
+
+
 # Podcost
 https://joecolantonio.com/testtalks/
 
