@@ -24,6 +24,13 @@ The following types of testing can be automated
 * **Fast:** Automated Tools run tests significantly faster than human users. 
 * **Cost Reduction:** As the number of resources for regression test are reduced.
 
+The following areas must be automated first
+1. Highly redundant tasks or scenarios 
+2. Repetitive tasks that are boring or tend to cause human error 
+3. Well-developed and well-understood use cases or scenarios first 
+4. Relatively stable areas of the application over volatile ones must be automated. 
+
+
 # Test Types
 
 * **Unit tests** are written by the programmers for the programmers to ensure that the code is working at the deepest/lowest level. They should execute in milliseconds and target a 100% code coverage (at least 90%).
