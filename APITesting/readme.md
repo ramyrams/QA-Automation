@@ -9,6 +9,10 @@ https://scotch.io/tutorials/write-api-tests-with-postman-and-newman?
 Web-Services Testing Made Simple
 karate https://github.com/intuit/karate
 
+
+3 FREE API Security Test Tools
+https://www.joecolantonio.com/2016/07/19/3-free-api-security-tools/
+
 http://wiremock.org/
 
 ![1](https://www.soapui.org/soapui/media/images/dojo/Testing_Dojo_Illustrations_02_2new.png)
