@@ -177,6 +177,12 @@ Acceptance tests are:
 * Is the error due to a defect in the test?
 
 
+The benefits of automated unit testing
+https://www.codeproject.com/articles/5404/the-benefits-of-automated-unit-testing
+
+Better Unit Tests through Design Patterns: Repository, Adapter, Mocks, and more…
+http://www.benday.com/wp-content/uploads/2014/08/benday-agile-2014-unit-testing-v2.pdf
+
 ![1](https://jfiaffe.files.wordpress.com/2014/09/tests-pyramid.png?w=300&h=180)
 ![1](http://www.duncannisbet.co.uk/wp-content/uploads/2012/07/test_pyramid-300x218.gif)
 ![1](http://agilefaqs.com/images/consulting/image08.png)
