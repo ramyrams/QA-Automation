@@ -12,6 +12,9 @@ Java DSL for easy testing of REST services
 https://github.com/swtestacademy/RestAssuredExample
 https://github.com/lroslonek/RestAssuredExample
 https://github.com/artemave/REST-assured-example
+https://github.com/badrisugavanam/RestAssuredProject
+https://github.com/cheungkayip/Cucumber-RestAssured
+https://github.com/spaciulis/rest_api_test_example
 https://github.com/roydekleijn/example-java-rest-assured
 https://github.com/mrsmoo/RestAssuredExample
 https://github.com/DavidRichard2016/SampleRestAssured
