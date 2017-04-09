@@ -6,6 +6,14 @@
 * [Continuous Testing](http://www.awesome-testing.com/2016/10/testops-3-continuous-testing.html)
 * [What Tools Should I Learn? ](https://dojo.ministryoftesting.com/lessons/what-tools-should-i-learn)
 
+The following types of testing can be automated
+* **Functional** – testing that operations perform as expected. 
+* **Regression** – testing that the behavior of the system has not changed. 
+* **Exception or Negative** – forcing error conditions in the system. 
+* **Stress** – determining the absolute capacities of the application and operational infrastructure. 
+* **Performance** – providing assurance that the performance of the system will be adequate for both batch runs and online transactions in relation to business projections and requirements. 
+* **Load** – determining the points at which the capacity and performance of the system become degraded to the situation that hardware or software upgrades would be required. 
+
 
 * **Unit tests** are written by the programmers for the programmers to ensure that the code is working at the deepest/lowest level. They should execute in milliseconds and target a 100% code coverage (at least 90%).
 * **Component tests** are a part of the acceptance tests and check the behavior of individual component. A component encapsulate a specific set of business rules. These kind of tests should be very quick as well because they are decoupled from the other components and should cover about half the system.
