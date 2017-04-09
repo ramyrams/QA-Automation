@@ -5,3 +5,6 @@ https://github.com/selenide-examples
 # Videos
 * Selenide101 – Getting up and running with real web tests (Alexei Vinogradov, Germany), part 1 
 https://www.youtube.com/watch?v=pCd_JRR-yFY
+
+* Selenide101 – Getting up and running with real web tests (Alexei Vinogradov, Germany), part 2 
+https://www.youtube.com/watch?v=OQUk6xYYSkw
