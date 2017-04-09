@@ -21,7 +21,8 @@ https://github.com/DavidRichard2016/SampleRestAssured
 https://github.com/vikramvi/RESTful-api-automation
 https://github.com/go2guy/RestAssured
 https://github.com/RyanBard/rest-assured-example
-
+https://github.com/jni-/rpn-calculator-cucumber
+https://github.com/justinjoseph89/RestAssuredExample
 https://github.com/moolya-testing/Automation-Java
 https://github.com/the-creative-tester/rest-assured-api-testing-example
 https://github.com/kollurupawankumar/RESTfulExampleTest
