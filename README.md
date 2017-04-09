@@ -29,6 +29,10 @@ Automated testers must follow the following guidelines to get the benefits of au
 * **Maintainable:** Tests should be easy to understand and modify and extend. 
 * **Traceable:** To and from the code it tests and to and from the requirements. 
 
+
+# ROI
+https://abstracta.us/2015/08/31/the-true-roi-of-test-automation/
+
 # Benefits of Automated Testing
 * **Reliable:** Tests perform precisely the same operations each time they are run, thereby eliminating human error 
 * **Repeatable:** You can test how the software reacts under repeated execution of the same operations. 
