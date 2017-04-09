@@ -18,3 +18,7 @@ https://github.com/DavidRichard2016/SampleRestAssured
 https://github.com/vikramvi/RESTful-api-automation
 https://github.com/go2guy/RestAssured
 https://github.com/RyanBard/rest-assured-example
+
+https://github.com/s1ider/rest-assured-example
+https://github.com/britka/rest-assured-example
+https://github.com/emersonluiz/start-rest-assured
