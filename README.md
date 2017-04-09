@@ -129,6 +129,13 @@ Acceptance tests are:
 
 https://abstracta.us/2015/09/21/how-to-plan-test-case-automation-with-development-2/
 
+
+
+# Test Case Writing Best Practices
+http://www.seapine.com/papers/test-case-writing-best-practices
+http://quicksoftwaretesting.com/test-case-writing-tips/
+http://www.testandtry.com/2010/02/24/8-tips-to-create-complete-test-cases/
+
 # Software Testing Wheels
 ![1](https://abstracta.us/wp-content/uploads/2015/12/Testing-Wheel-Design-rgb_Gene%C2%A6u%CC%88rico-967x1024.jpg)
 https://abstracta.us/2015/12/15/the-software-testing-wheel/
