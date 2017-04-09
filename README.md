@@ -14,6 +14,17 @@ The following types of testing can be automated
 * **Performance** – providing assurance that the performance of the system will be adequate for both batch runs and online transactions in relation to business projections and requirements. 
 * **Load** – determining the points at which the capacity and performance of the system become degraded to the situation that hardware or software upgrades would be required. 
 
+# Benefits of Automated Testing
+* **Reliable:** Tests perform precisely the same operations each time they are run, thereby eliminating human error 
+* **Repeatable:** You can test how the software reacts under repeated execution of the same operations. 
+* **Programmable:** You can program sophisticated tests that bring out hidden information from the application. 
+* **Comprehensive:** You can build a suite of tests that covers every feature in your application. 
+* **Reusable:** You can reuse tests on different versions of an application, even if the user interface changes. 
+* **Better Quality Software:** Because you can run more tests in less time with fewer resources 
+* **Fast:** Automated Tools run tests significantly faster than human users. 
+* **Cost Reduction:** As the number of resources for regression test are reduced.
+
+# Test Types
 
 * **Unit tests** are written by the programmers for the programmers to ensure that the code is working at the deepest/lowest level. They should execute in milliseconds and target a 100% code coverage (at least 90%).
 * **Component tests** are a part of the acceptance tests and check the behavior of individual component. A component encapsulate a specific set of business rules. These kind of tests should be very quick as well because they are decoupled from the other components and should cover about half the system.
