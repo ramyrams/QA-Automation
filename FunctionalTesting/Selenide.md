@@ -3,8 +3,9 @@ http://selenide.org/2016/09/28/bdd-with-selenide/
 https://github.com/selenide-examples
 
 # Videos
-* Selenide101 – Getting up and running with real web tests (Alexei Vinogradov, Germany), part 1 
+* [Selenide101 – Getting up and running with real web tests ](Alexei Vinogradov, Germany), part 1 
 https://www.youtube.com/watch?v=pCd_JRR-yFY
-
-* Selenide101 – Getting up and running with real web tests (Alexei Vinogradov, Germany), part 2 
+* [Selenide101 – Getting up and running with real web tests ](Alexei Vinogradov, Germany), part 2 
 https://www.youtube.com/watch?v=OQUk6xYYSkw
+* [Selenide: Concise UI Tests in Java](https://www.youtube.com/watch?v=fR8CyLcxBZ0)
+
