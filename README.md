@@ -152,6 +152,17 @@ Acceptance tests are:
 * Usability testing
 * Reliability testing
 
+# Regression Testing
+* Some strategies and factors to consider during this process include the following: 
+* Test fixed bugs promptly. The programmer might have handled the symptoms but not have gotten to the underlying cause.
+* Watch for side effects of fixes. The bug itself might be fixed but the fix might create other bugs.
+* Write a regression test for each bug fixed.
+* If two or more tests are similar, determine which is less effective and get rid of it.
+* Identify tests that the program consistently passes and archive them.
+* Focus on functional issues, not those related to design.
+* Make changes (small and large) to data and find any resulting corruption.
+* Trace the effects of the changes on program memory.
+
 
 ![1](https://jfiaffe.files.wordpress.com/2014/09/tests-pyramid.png?w=300&h=180)
 ![1](http://www.duncannisbet.co.uk/wp-content/uploads/2012/07/test_pyramid-300x218.gif)
