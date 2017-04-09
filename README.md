@@ -125,6 +125,10 @@ Acceptance tests are:
 * [Mobile Test Automation Test plan ]()
 * [Performence Test plan ]()
 
+
+
+https://abstracta.us/2015/09/21/how-to-plan-test-case-automation-with-development-2/
+
 # Test Case
 * [Best Practices for Test Case Creation and Maintenance](https://dzone.com/articles/best-practices-for-test-case-creation-and-maintena)
 
