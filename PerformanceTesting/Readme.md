@@ -1,3 +1,6 @@
+* 57% of users will abandon a site after 3 seconds if it doesn’t load -Kissmetrics
+* The average large US corporation experiences 87 hours of network downtime a year -Gartner
+
 
 
 According to Microsoft, the Core Performance Testing Activities are:
