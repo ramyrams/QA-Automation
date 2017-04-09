@@ -78,6 +78,9 @@ Acceptance tests are:
 * Brittle – easily broken if the UI changes
 * Slowest of the 3 automated test levels to run
 
+# Certification
+http://abstracta.academy/software-test-analyst-certification
+
 # Test Pyramid
 * [Test Automation Pyramid](https://www.slideshare.net/TAlexanderLystad/test-automation-pyramid)
 
