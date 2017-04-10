@@ -37,3 +37,25 @@ Along with the TDD advantages we would have some additional advantages using STD
 * Shorter development cycles
 * Faster security certifications for the application
 * Reduced Security Flaws
+
+
+# Security Test Automation Tools 
+
+Security Testing Tools
+
+## SAST (Static Analysis)
+
+As specified earlier we could use tools like Lint (Android), SonarCube (Java), Clang Static Analyzer (iOS) and Brakeman (Ruby).
+
+## DAST (Dynamic Analysis)
+
+Dynamic analysis needed to be run in background of your tests execution in the TDD process, which means we need a proxy enabled security tool which could be acting as a listener.
+
+We could think about tools like OWASP ZAP/BURP which could do the monitoring as well enables their user to attack the application on the local development environment.
+
+![1](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAeDAAAAJGRmYmFkNGUxLWQwZjktNGViNS1hYThmLTNlZTY3ZDFlNzNmMw.png)
+![1](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAdEAAAAJDYzNzI4NjJhLTJlYmQtNDM1Mi04NjM2LTgxMjkyZmY2OTEwOA.png)
+![1](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAlhAAAAJGUxOTIzYmJiLTMyOWQtNDQyNi1iNWFlLTk4MTMzZjA3ODZkNg.png)
+
+[Notes From](https://www.linkedin.com/pulse/security-test-driven-development-stdd-surendran-ethiraj)
+
