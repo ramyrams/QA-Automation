@@ -27,3 +27,13 @@ The processes would be slightly varied from the original TDD process
 * Write some code as per the security guidelines without affecting functional behavior
 * Run tests and Refactor code
 * Repeat
+
+# Advantages of STDD over TDD
+Along with the TDD advantages we would have some additional advantages using STDD process
+* Much less debug time
+* Code proven to meet requirements
+* Tests become Safety Net
+* Near zero defects
+* Shorter development cycles
+* Faster security certifications for the application
+* Reduced Security Flaws
