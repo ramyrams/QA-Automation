@@ -15,3 +15,15 @@
 * [Getting Started with Web Application Penetration Testing](http://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/)
 
 http://resources.infosecinstitute.com/penetration-testing-benefits/#gref
+
+# Security Test Automation
+
+The processes would be slightly varied from the original TDD process
+* Perform a Static Security Scan on the code written
+* Add a Test
+* Run all tests and trigger Dynamic Security scan in the background
+* See if the new one fails
+* See if any security flaw identified on the newly developed code
+* Write some code as per the security guidelines without affecting functional behavior
+* Run tests and Refactor code
+* Repeat
