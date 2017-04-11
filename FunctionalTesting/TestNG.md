@@ -52,3 +52,5 @@ public class ParameterizedTest {
  ```xml
 <parameter name="browser" value="firefox"/>
  ```
+
+http://www.softwaretestingmaterial.com/testng-interview-questions/
