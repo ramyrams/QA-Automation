@@ -30,3 +30,25 @@
 * Allows to add priorities to the test cases
 * Allows to configure parallel execution of test cases
 * Allows to parameterize the test cases
+
+
+ ```java
+// TestNG Interview Questions
+public class ParameterizedTest {
+	@Test
+	@Parameters("browser")
+	public void parameterizedTest(String browser){
+		if(browser.equals("firefox")){
+			System.out.println("Open Firefox Driver");
+		}else if(browser.equals("chrome")){
+			System.out.println("Open Chrome Driver");
+		}
+	}	
+}
+```
+
+# testng.xml file
+
+ ```xml
+<parameter name="browser" value="firefox"/>
+ ```
