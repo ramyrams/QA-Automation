@@ -1,3 +1,28 @@
+[Srijan Wednesday Webinars] Automating Visual Regression using ‘Galen’ 
+https://www.youtube.com/watch?v=dy0bXXQ3KOg
+
+
+Advanced Test Automation Techniques for Responsive Apps and Sites | Adam Car 
+https://www.youtube.com/watch?v=rT0BHJS01jI
+
+Automating the Responsive Website Testing | Pranathi Birudugadda 
+https://www.youtube.com/watch?v=vdLvVg2zmxQ
+
+
+Measuring Web Performance Using Selenium | Peter Hedenskog 
+https://www.youtube.com/watch?v=5GhClnSE8Bk
+
+Distributed Testing and Test Reporting | Christina Thalayasingam
+https://www.youtube.com/watch?v=FVkNY_BozP4
+
+
+The Ultimate Guide to API Design
+https://blog.qmo.io/ultimate-guide-to-api-design/
+
+
+The Field Guide for Log Management
+http://info.loggly.com/rs/734-FWR-987/images/Loggly_eBook_TheFieldGuideForLogManagement.pdf
+
 https://player.vimeo.com/video/209699865
 
 http://thetesteye.com/blog/2017/03/implication-of-emphasis-on-automation-in-ci/
