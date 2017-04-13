@@ -354,6 +354,9 @@ Quadrant Q4 – At system or operational acceptance level, technology facing per
 #  Exploratory Testing 
 https://applause-prodmktg.s3.amazonaws.com/2016/01/11/12/16/34/8ce8b2b4-b2d7-416c-80c9-acc064cc7cea/123.png
 
+* [How to Make Software Better With Exploratory Testing](https://dzone.com/articles/how-to-make-software-better-with-exploratory-testi)
+
+
 * [The Exploratory Testing Chrome Plugin](https://www.simple-talk.com/dotnet/net-development/exploratory-testing-chrome-plugin/)
 * [What is Exploratory Testing](http://www.slideshare.net/QualiTest-Group/what-is-exploratory-testing?next_slideshow=1)
 * [Exploratory Automated Testing
