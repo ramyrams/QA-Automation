@@ -109,6 +109,9 @@ http://abstracta.academy/software-test-analyst-certification
 * **Mobile Application Testing:** Appium
 * **Reporting:** Allure
 
+* [A Comparison of Automated Testing Tools](https://dzone.com/articles/a-comparison-of-automated-testing-tools)
+
+
 # Tests
 * Website testing
 * Web Application Functional Testing 
