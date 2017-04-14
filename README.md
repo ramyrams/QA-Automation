@@ -458,7 +458,7 @@ http://www.altencalsoftlabs.com/blogs/2016/05/12/mobile-application-security-tes
  
  https://dzone.com/articles/load-testing-and-stress-testing
  https://dzone.com/articles/the-software-tester-modern-vs-traditional
- 
+ http://angiejones.tech/test-automation-for-machine-learning/?
  http://www.getzephyr.com/insights/benefits-automated-test-management
  
  How to Plan an Effective Test Automation in Agile Project
