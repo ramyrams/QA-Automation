@@ -23,6 +23,7 @@ https://blog.qmo.io/ultimate-guide-to-api-design/
 The Field Guide for Log Management
 http://info.loggly.com/rs/734-FWR-987/images/Loggly_eBook_TheFieldGuideForLogManagement.pdf
 
+http://blog.testproject.io/2017/04/16/test-automation-best
 https://player.vimeo.com/video/209699865
 
 http://thetesteye.com/blog/2017/03/implication-of-emphasis-on-automation-in-ci/
