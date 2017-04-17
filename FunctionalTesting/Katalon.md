@@ -14,3 +14,6 @@ http://www.softwaretestinghelp.com/katalon-studio-tutorial/
 
 A Comparison of Automated Testing Tools
 https://www.katalon.com/blog/comparison-automated-testing-tools/
+
+
+http://www.126kr.com/article/7kbew5c09yx
