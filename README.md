@@ -49,6 +49,8 @@ The following areas must be automated first
 3. Well-developed and well-understood use cases or scenarios first 
 4. Relatively stable areas of the application over volatile ones must be automated. 
 
+What Is Regression Testing? Best Practices, Tutorials, and More 
+https://dzone.com/articles/what-is-regression-testing-best-practices-tutorial?
 
 # Test Types
 
