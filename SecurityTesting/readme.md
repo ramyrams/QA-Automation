@@ -57,5 +57,7 @@ We could think about tools like OWASP ZAP/BURP which could do the monitoring as 
 ![1](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAdEAAAAJDYzNzI4NjJhLTJlYmQtNDM1Mi04NjM2LTgxMjkyZmY2OTEwOA.png)
 ![1](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAlhAAAAJGUxOTIzYmJiLTMyOWQtNDQyNi1iNWFlLTk4MTMzZjA3ODZkNg.png)
 
+https://www.techworm.net/2016/08/top-10-websites-refresh-hacking-skills.html
+
 [Notes From](https://www.linkedin.com/pulse/security-test-driven-development-stdd-surendran-ethiraj)
 
