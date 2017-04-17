@@ -11,3 +11,6 @@ http://www.softwaretestinghelp.com/katalon-studio-to-solve-web-ui-test-automatio
 
 Katalon Studio Tutorial: A Free Test Automation Tool You Have Been Waiting For
 http://www.softwaretestinghelp.com/katalon-studio-tutorial/
+
+A Comparison of Automated Testing Tools
+https://www.katalon.com/blog/comparison-automated-testing-tools/
