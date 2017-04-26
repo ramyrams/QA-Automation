@@ -1,6 +1,12 @@
 [Srijan Wednesday Webinars] Automating Visual Regression using ‘Galen’ 
 https://www.youtube.com/watch?v=dy0bXXQ3KOg
 
+https://github.com/tjmaher/WebDriver_TheInternet_Advanced
+https://github.com/chromium/dom-distiller/blob/master/java/org/chromium/distiller/webdocument/WebTable.java
+http://www.tjmaher.com/2016/01/code-review-request-please-automated.html
+http://menonvarun.github.io/taf/
+https://gist.github.com/arunma/3206905
+https://gist.github.com/tjmaher
 
 
 Breaking the SonarQube Analysis with Jenkins Pipelines
