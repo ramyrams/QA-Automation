@@ -265,7 +265,7 @@ https://joecolantonio.com/testtalks/
 ![1](http://1.bp.blogspot.com/-_aIqlp3yxj4/VT8KQ0SJdTI/AAAAAAAAAbk/-K932lVzigE/s1600/Agile%2BTest%2BQuadrants_2_with_Pyramid_and_comments.png)
 
 
-
+http://adventuresinqa.com/2017/04/24/how-to-get-started-in-software-testing/
 
 * [QA Academy](https://github.com/TelerikAcademy/QA-Academy)
 * [What is Testing](https://fasteningcode.com/2016/09/06/what-is-testing-an-overview-day1/)
