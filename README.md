@@ -6,6 +6,10 @@
 * [Continuous Testing](http://www.awesome-testing.com/2016/10/testops-3-continuous-testing.html)
 * [What Tools Should I Learn? ](https://dojo.ministryoftesting.com/lessons/what-tools-should-i-learn)
 
+7 Quick Steps To Become a Great Automation Testing Engineer 
+https://dzone.com/articles/7-quick-steps-to-become-a-great-automation-testing?
+
+
 The following types of testing can be automated
 * **Functional** – testing that operations perform as expected. 
 * **Regression** – testing that the behavior of the system has not changed. 
