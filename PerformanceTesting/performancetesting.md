@@ -2,6 +2,10 @@
 * Load Testing 
 * Stress Testing
 
+A Complete Guide to Performance Testing Types: Steps, Best Practices, Metrics, and More 
+https://dzone.com/articles/a-complete-guide-to-performance-testing-type
+
+
 http://www.testingexcellence.com/performance-testing-terminologies/
 * [Performance testing using Team Services](https://www.visualstudio.com/en-us/docs/test/performance-testing/getting-started/getting-started-with-performance-testing)
 
