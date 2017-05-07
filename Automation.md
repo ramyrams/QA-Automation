@@ -1,4 +1,4 @@
-
+https://github.com/atinfo/awesome-test-automation
 # 20 Fundamentals for a Successful Test Automation Infrastructure [BY YONI FLENNER](http://blog.testproject.io/2017/03/26/test-automation-infrastructure-fundamentals/)
 1. Identify Page Elements (text fields, buttons, link etc.) and configure them in a certain class, in which you can implement functions that will perform several operations. For example: inserting text and clicking on a button by identifying the element beforehand – which is called Page Object.
 2. Write a mechanism that will be activated when a test fails.
