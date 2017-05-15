@@ -13,6 +13,53 @@ According to Microsoft, the Core Performance Testing Activities are:
 6. **Execute Tests** – testing on scripted user scenarios against different user sets with different configurations
 7. **Analyze, Report and Retest** – Analyze test results with benchmarks, report results to stakeholders and Re-test if necessary
 
+# Services Offered
+
+Our offers load/stress testing services to identify below:
+* Identify Performance leaks in the application by doing a performance testing on the applications
+* Identify Key areas where performance need to be improved
+
+Our Load Testing model has 3 stages as described below
+
+# Stage 1 – Test Planning Phase
+
+The following activities will be carried out as part of the Test Planning phase:
+* Identify performance goals and objectives
+* Identify the SLA’s for performance testing
+* Define phases for performance testing
+* Define Infrastructure
+* Identify Load Models
+* Identify Volumetrics (Load Mix)
+* Identify project support requirements
+* Determine the Acceptable test Conditions
+* Identify Performance Metrics
+* Identify Risks
+* Create Performance Test Plan
+ 
+
+# Stage 2 – Test Preparation Phase
+The following activities will be carried out as part of the Test Preparation phase:
+
+* Design Test Data Strategy
+* Identify requirements for test data
+* Identify Tools for Test data
+* Test Environment Setup
+* Test environment readiness check [Application deployment and configuration on the dedicated performance test environment ]
+* Test Data preparation & pre-requisites validation check
+* Test artifacts creation (automated test scripts preparation)
+* Dry tests / Validation tests will be carried out for go-ahead on actual tests
+ 
+
+# Stage 3 – Test Execution and Reporting Phase
+The following activities will be carried out as part of the Test Preparation phase:
+* Create Performance Test Scenarios
+* Execute Environment shakeout
+* Execute Baseline/Benchmark tests
+* Execute the performance tests
+* Analyze test results
+* Create Performance test execution report
+* Create Performance Test summary repor twith possible recommendations for performance optimization
+
 
 ![1](http://www.abstracta.us/wp-content/uploads/2015/03/why-perf-testing-is-nec-chart-768x463.png)
 
