@@ -494,6 +494,7 @@ http://istqbexamcertification.com/what-are-build-and-distribution-tools-in-agile
 * [Sample Allure Report](http://ci.qatools.ru/job/allure1_master-deploy/Allure_report/)
 https://github.com/allure-framework/
 # Images
+![1](http://www.zarantech.com/blog/wp-content/uploads/2017/05/Cost-to-fix-a-bug-in-software-development.png)
 ![Tool](https://www.perfectomobile.com/sites/default/files/images/diagrams/automation-tools-comparison-lrg_0.png)
 ![The Use of Tradition and Dogma in Testing](http://testerstories.com/files/combine-triangle-with-quadrant.png)
 ![1](http://moolya.com/wp-content/uploads/2016/02/Upgrade-version_Mobile-App-Test-Model_1.png)
