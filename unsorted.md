@@ -23,17 +23,17 @@ https://blog.sonarsource.com/breaking-the-sonarqube-analysis-with-jenkins-pipeli
 
 http://selenium-by-arun.blogspot.com/search/label/aaaa.%201.%20What%20is%20Selenium%3F
 
-Advanced Test Automation Techniques for Responsive Apps and Sites | Adam Car 
+Advanced Test Automation Techniques for Responsive Apps and Sites
 https://www.youtube.com/watch?v=rT0BHJS01jI
 
-Automating the Responsive Website Testing | Pranathi Birudugadda 
+Automating the Responsive Website Testing
 https://www.youtube.com/watch?v=vdLvVg2zmxQ
 
 
-Measuring Web Performance Using Selenium | Peter Hedenskog 
+Measuring Web Performance Using Selenium 
 https://www.youtube.com/watch?v=5GhClnSE8Bk
 
-Distributed Testing and Test Reporting | Christina Thalayasingam
+Distributed Testing and Test Reporting
 https://www.youtube.com/watch?v=FVkNY_BozP4
 
 
