@@ -242,6 +242,20 @@ http://www.benday.com/wp-content/uploads/2014/08/benday-agile-2014-unit-testing-
 
 * [Test Pyramid - Martin Flower](https://martinfowler.com/bliki/TestPyramid.html)
 
+# Continuous Testing
+1. Continuos Integration (CI) and unit tests
+2. Code coverage and static analysis 
+3. Continuous Delivery / Automated deployment
+4. Integration / E2E / Visual testing
+5. Performance testing
+6. Security testing (DevSecOps)
+7. Exploratory testing
+8. Testing in Production (TiP)
+
+# Testing in Production (TiP)
+* [Testing in Production](http://www.awesome-testing.com/2016/09/testops-2-testing-in-production.html)
+
+
 
 # Podcost
 https://joecolantonio.com/testtalks/
