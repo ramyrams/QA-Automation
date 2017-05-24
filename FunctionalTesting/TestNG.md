@@ -53,4 +53,5 @@ public class ParameterizedTest {
 <parameter name="browser" value="firefox"/>
  ```
 
-http://www.softwaretestingmaterial.com/testng-interview-questions/
+* http://www.softwaretestingmaterial.com/testng-interview-questions/
+* http://testng.org/doc/documentation-main.html#running-testng
