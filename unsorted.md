@@ -1,3 +1,20 @@
+
+Getting started on a testing project 
+http://nickytests.blogspot.com/2017/05/getting-started-on-testing-project.html
+
+
+
+Top 6 Challenges of API Testing
+https://devops.com/top-6-challenges-api-testing/
+
+How to Avoid False Results in Test Automation
+https://blog.testproject.io/2017/05/22/avoid-false-results-in-test-automation/
+
+
+
+
+
+
 [Srijan Wednesday Webinars] Automating Visual Regression using ‘Galen’ 
 https://www.youtube.com/watch?v=dy0bXXQ3KOg
 
