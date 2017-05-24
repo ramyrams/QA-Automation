@@ -5,12 +5,8 @@
 * [[Srijan Wednesday Webinars] Automating Visual Regression using ‘Galen’ ](https://www.youtube.com/watch?v=dy0bXXQ3KOg)
 * [A page of useful links for those starting security testing ](https://github.com/jessingrass/useful-security-links)
 * [A curated list of awesome test automation frameworks, tools, libraries, and software for different programming languages.](https://github.com/atinfo/awesome-test-automation)
-
-
-* [Software Testing Conferences](http://testingconferences.org/
-
-
-* [List of free software testing resources](https://github.com/ligurio/free-software-testing-books
+* [Software Testing Conferences](http://testingconferences.org/)
+* [List of free software testing resources](https://github.com/ligurio/free-software-testing-books)
 
 SecLists is the security tester's companion. It is a collection of multiple types of lists used during security assessments. List types include usernames, passwords, URLs, sensitive data grep strings, fuzzing payloads, and many more. 
 https://github.com/danielmiessler/SecLists
