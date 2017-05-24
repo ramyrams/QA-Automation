@@ -137,7 +137,7 @@ http://abstracta.academy/software-test-analyst-certification
 * [Mobile Test Automation Test plan ]()
 * [Performence Test plan ]()
 
-
+http://www.zarantech.com/blog/quality-assurance-project-management/
 
 https://abstracta.us/2015/09/21/how-to-plan-test-case-automation-with-development-2/
 
