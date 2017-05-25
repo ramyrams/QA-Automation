@@ -63,6 +63,12 @@ The following activities will be carried out as part of the Test Preparation pha
 
 ![1](http://www.abstracta.us/wp-content/uploads/2015/03/why-perf-testing-is-nec-chart-768x463.png)
 
+An Explanation of the Different Types of Performance Testing 
+https://dzone.com/articles/performance-testing-vs-load-testing-vs-stress-test
+
+JMeter Ramp-Up: The Ultimate Guide
+https://dzone.com/articles/jmeter-ramp-up-the-ultimate-guide
+
 
 
 LoadView Hands-on Review Tutorial: Load Testing from the Cloud
