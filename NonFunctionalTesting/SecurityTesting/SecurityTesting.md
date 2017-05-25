@@ -5,6 +5,19 @@
 * Pre-certification security audit
 * Static code analysis
 
+OWASP ZAP and R
+https://dzone.com/articles/owasp-zap-and-r
+
+Application Firewalls: Protecting Web Applications from Attacks 
+http://www.esecurityplanet.com/network-security/application-firewalls.html
+
+Hacking iOS Applications
+http://bjaberle.com/2017/05/hacking-ios-applications/
+
+3 Essential Components to Building a Security Testing Practice
+https://www.techwell.com/techwell-insights/2017/03/3-essential-components-building-security-testing-practice
+
+
 # OWASP Top 10
 * [OWASP Top 10](http://www.slideshare.net/jeremiahgrossman/owasp-top-10-2010-release-candidate-1)
 * [Solvay secure application layer](http://www.slideshare.net/sdeleersnyder/solvay-secure-application-layer-v2015-seba)
