@@ -17,3 +17,7 @@ https://www.katalon.com/blog/comparison-automated-testing-tools/
 
 
 http://www.126kr.com/article/7kbew5c09yx
+
+
+Drag and Drop Testing for Web Apps With Katalon Studio 
+https://dzone.com/articles/handle-drag-and-drop-testing-for-web-applications
