@@ -30,3 +30,24 @@ http://bitbar.com/guest-blog-automated-app-performance-testing-monkeys-not-inclu
 http://www.guru99.com/performance-testing.html
 http://www.radview.com/blog/4-types-of-load-testing-and-when-each-should-be-used/
 https://msdn.microsoft.com/en-us/library/bb924357.aspx
+
+
+JMeter Load Testing: Sending and Receiving Emails 
+https://dzone.com/articles/jmeter-load-testing-sending-and-receiving-emails
+
+Performance Optimizations: One Step Forward, 10 Steps Back 
+https://dzone.com/articles/performance-optimizations-one-step-forward-10-step
+
+What Makes Application Performance Monitoring Powerful for Airlines 
+https://dzone.com/articles/what-makes-application-performance-monitoring-powe
+
+
+Best Practices for Synthetic Monitoring
+https://dzone.com/articles/best-practices-for-synthetic-monitoring
+
+
+Web Performance 101 
+https://dzone.com/articles/web-performance-101
+
+Understanding Speed Index 
+https://dzone.com/articles/understanding-speed-index?
