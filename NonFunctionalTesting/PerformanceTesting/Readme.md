@@ -70,6 +70,9 @@ JMeter Ramp-Up: The Ultimate Guide
 https://dzone.com/articles/jmeter-ramp-up-the-ultimate-guide
 
 
+* [What Is Performance Testing? An Explanation for Business People](https://dzone.com/articles/what-is-performance-testing-an-explanation-for-bus)
+
+
 
 LoadView Hands-on Review Tutorial: Load Testing from the Cloud
 http://www.softwaretestinghelp.com/loadview-tutorial/?
