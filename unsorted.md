@@ -18,6 +18,16 @@ https://gist.github.com/arunma/3206905
 https://gist.github.com/tjmaher
 
 
+18 GitHub Projects for Testing
+http://www.kenst.com/2017/05/18-github-projects-for-testing/
+
+9 GitHub Lists for Testing
+http://www.kenst.com/2017/05/9-github-lists-for-testing/
+
+Hello, AI for Software Testing
+https://medium.com/ai-for-software-testing/hello-ai-for-software-testing-fdce3f5c0ff1
+
+
 Breaking the SonarQube Analysis with Jenkins Pipelines
 https://blog.sonarsource.com/breaking-the-sonarqube-analysis-with-jenkins-pipelines/
 
