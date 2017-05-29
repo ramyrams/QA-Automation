@@ -18,6 +18,20 @@ https://gist.github.com/arunma/3206905
 https://gist.github.com/tjmaher
 
 
+Load Testing Kafka With Ranger 
+https://dzone.com/articles/load-testing-kafka-with-ranger
+
+
+
+
+Container Considerations on Your DevOps Journey
+https://devops.com/container-considerations-devops-journey/
+
+Azure Monitoring
+https://stackify.com/azure-monitoring/
+
+Log Management
+https://stackify.com/log-management/
 18 GitHub Projects for Testing
 http://www.kenst.com/2017/05/18-github-projects-for-testing/
 
