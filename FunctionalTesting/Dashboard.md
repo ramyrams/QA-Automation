@@ -13,6 +13,22 @@ A free Community Edition is available on Windows, Mac and Linux operating system
 ![1](http://tech.trivago.com/img/posts/selenium-kibana/img2-kibana-flow.png)
 
 
+![1](http://tech.trivago.com/img/posts/selenium-kibana/img3-kibana_filters.jpg)
+![1](http://tech.trivago.com/img/posts/selenium-kibana/img5-kibana-full.jpg)
+![1](http://tech.trivago.com/img/posts/selenium-kibana/img1-main.png)
+
+
+# Tools
+* Jenkins, for job deployment and management
+* log4j setup for Kafka logging
+* Kafka message broker
+* Logstash for processing Kafka messages
+* Elasticsearch for data storage
+* Kibana for data visualization and exploration
+
+* [Elasticsearch and Kibana for Selenium Automation](http://tech.trivago.com/2015/12/02/selenium_with_kibana/)
+
+
 https://docs.xebialabs.com/xl-testview/how-to/filter-a-report-by-tag.html
 
 https://xebialabs.com/products/xl-testview/features/
