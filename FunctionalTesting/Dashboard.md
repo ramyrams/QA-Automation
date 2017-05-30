@@ -10,6 +10,9 @@ Jenkins integration is offered, where test results are drawn in directly and can
 
 A free Community Edition is available on Windows, Mac and Linux operating systems, allowing for one project plus a dashboard with standard reports. Flakiness and difference reports, together with OSS Test Tool plugins are also available. In the Pro version, which can purchased for $499 USD a month, LDAP Integration and Enterprise Test Tool plugins are available. The Enterprise version gives you an unlimited number of project slots. Outlined documentation covering every option is available on the XebiaLabs website.
 
+![1](http://tech.trivago.com/img/posts/selenium-kibana/img2-kibana-flow.png)
+
+
 https://docs.xebialabs.com/xl-testview/how-to/filter-a-report-by-tag.html
 
 https://xebialabs.com/products/xl-testview/features/
