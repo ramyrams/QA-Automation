@@ -30,7 +30,7 @@ A free Community Edition is available on Windows, Mac and Linux operating system
 * Kibana for data visualization and exploration
 
 * [Elasticsearch and Kibana for Selenium Automation](http://tech.trivago.com/2015/12/02/selenium_with_kibana/)
-
+* [Build impactful Test Automation dashboards using ELK stack](https://cdinsight.wordpress.com/2015/09/16/build-impactful-test-automation-dashboards-using-elk-stack/)
 
 https://docs.xebialabs.com/xl-testview/how-to/filter-a-report-by-tag.html
 
