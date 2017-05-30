@@ -4,6 +4,9 @@ ELK Stack
 Report Tools
 
 
+https://confengine.com/selenium-conf-2015/proposal/1289/making-your-results-visible-a-test-result-dashboard-and-comparison-tool
+
+
 XL TestView is a management and analysis tool for test results, offered up by XebiaLabs. XebiaLabs specialises in software solutions for DevOps, Continuous Delivery and is closely associated with the Jenkins CD-CI project. With XL TestView, users can have all relevant application tests defined, executed and analysed. A special feature is the central dashboard, where results are collected via different testing tools and analysed according to specific criteria. The overall quality of an application can be queried as well. The tool itself depends on existing applications from test recommendations.
 
 Jenkins integration is offered, where test results are drawn in directly and can be set together with other results. XL TestView also supports Cucumber, FitNesse, Selenium, Cubumber.js, TestNG, Gatling and Apache JMeter. With xUnit, support becomes available for JUnit, Maven, Gradle, Karma and Appium.
