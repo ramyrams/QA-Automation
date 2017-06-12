@@ -1,4 +1,16 @@
 
+13 Steps to Learn & Perfect Security Testing in your Org
+https://www.atlassian.com/blog/archives/13-steps-to-learn-perfect-security-testing-in-your-org
+
+Security Testing: Top Web Application Vulnerabilities
+http://www.xoriant.com/blog/security-testing/security-testing-web-application-vulnerabilities.html
+
+
+ALL YOU NEED TO KNOW ABOUT PENETRATION TESTING
+https://blog.testfort.com/security-testing/all-you-need-to-know-about-penetration-testing
+
+
+
 * Security assessment
 * Vulnerability scanning
 * Penetration testing
