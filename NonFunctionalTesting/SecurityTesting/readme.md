@@ -1,3 +1,9 @@
+
+
+13 Steps to Learn & Perfect Security Testing in your Org
+https://www.atlassian.com/blog/archives/13-steps-to-learn-perfect-security-testing-in-your-org
+
+
 # Web Application Security
 * [WEB APPLICATION SECURITY TESTS](http://www.amanhardikar.com/mindmaps/webapptest.html)
 * [Four Things You Shouldn't Forget About Web Application Security](http://www.ehacking.net/2016/05/4-things-not-to-forget-web-application-security.html)
