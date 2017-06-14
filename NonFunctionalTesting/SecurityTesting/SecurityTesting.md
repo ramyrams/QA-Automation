@@ -58,6 +58,33 @@ https://www.techwell.com/techwell-insights/2017/03/3-essential-components-buildi
 * [Running a Web Security Testing Program with OWASP ZAP and ThreadFix](https://www.youtube.com/watch?v=pPU2XTFyRmU
 * [Introduction to Web Application Security - Broken Authentication and Session Management](https://www.youtube.com/watch?v=5BpStW4zM44)
 
+
+Running a Web Security Testing Program with OWASP ZAP and ThreadFix 
+https://www.youtube.com/watch?v=pPU2XTFyRmU
+
+
+ Things That Undermine A Web Application Security Program
+https://www.whitehatsec.com/wp-content/uploads/2016/01/10.5_Things_that_Undermine_your_AppSec_Program_White_Paper.pdf
+
+
+Integrating Application Security into the Mobile Software Development Lifecycle
+https://www.whitehatsec.com/wp-content/uploads/2016/01/Mobile_SDLC_White_Paper.pdf
+
+
+Application Security Testing as a Foundation for Secure DevOps 
+https://www.whitehatsec.com/wp-content/uploads/2016/04/secure-devops-application-security.pdf
+
+OWASP Top Ten Cheat Sheet
+https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
+
+
+https://www.pcloudy.com/wp-content/uploads/2017/05/automation-process.jpg
+
+
+https://www.pcloudy.com/wp-content/uploads/2017/05/test-management-system.jpg
+
+
+
 ![1](http://www.a1qa.com/wp-content/uploads/2015/08/xsecurity-testing-how-we-test.jpg.pagespeed.ic.yfkYanXyOT.webp)
 ![1](http://www.a1qa.com/wp-content/uploads/2015/06/xsecurity-testing-radar.png.pagespeed.ic.7fGgK5jUR-.png)
 ![1](http://apps.testinsane.com/mindmaps/uploads/INSANE%20Web%20Security%20Testing%20MindMap.png)
