@@ -13,6 +13,7 @@
 
 # Courses
 * [Java Course](http://www.geeksforgeeks.org/java/)
+https://dzone.com/articles/20-dev-leaders-thoughts-on-great-java-devs
 * [Java For Testers](https://leanpub.com/javaForTesters/read)
 * [Learn Java Programming - Exercise ](https://github.com/mafudge/LearnJava)
 * [Java OOPs Concepts](https://www.javatpoint.com/java-oops-concepts)
