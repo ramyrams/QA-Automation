@@ -130,6 +130,33 @@ http://abstracta.academy/software-test-analyst-certification
 * Database testing
 * Reponsive Design Testing	
 
+* INITIATION
+  * Statement of Work
+  * Requirement Gathering
+
+* TEST REQUIREMENT & PLANNING
+  * Estimation
+  * Traceability Matrix
+  * Test Plan
+  * Risk Assessment
+
+* ENVIRONMENT SETUP & TEST DECISION
+  * Software / Hardware Configuration
+  * Vendor
+  * Test Scenarios & Cases
+  * Test Data Preparation
+
+* EXECUTION & DEFECT TRACKING
+  * Test Execution
+  * Capture Results
+  * Reviews  & Analysis
+  * Share Insights
+
+* CLOSURE REPORTING / MAINTENANCE
+  * Summary Reports
+  * Recommendations Report
+  * Client Acceptance
+  * Project Closure
 
 # Test plan
 * [Test plan questions](http://erik.brickarp.se/2016/11/test-plan-questions.html)
