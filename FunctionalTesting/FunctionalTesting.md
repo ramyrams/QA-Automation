@@ -1,6 +1,30 @@
 
 
 
+# FUNCTIONAL TESTING PROCESS
+* INITIATION
+  * Statement of Work
+  * Requirement Gathering
+* TEST REQUIREMENT & PLANNING
+  * Estimation
+  * Traceability Matrix
+  * Test Plan
+  * Risk Assessment
+* ENVIRONMENT SETUP & TEST DECISION
+  * Software / Hardware Configuration
+  * Vendor
+  * Test Scenarios & Cases
+  * Test Data Preparation
+* EXECUTION & DEFECT TRACKING
+  * Test Execution
+  * Capture Results
+  * Reviews  & Analysis
+  * Share Insights
+* CLOSURE REPORTING / MAINTENANCE
+  * Summary Reports
+  * Recommendations Report
+  * Client Acceptance
+  * Project Closure
 
 
 * [The complete Introduction to Functional Test Automation](https://abstracta.us/wp-content/uploads/2016/07/Automation_Ebook_Abstracta_2016.pdf)
