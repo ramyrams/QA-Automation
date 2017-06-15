@@ -18,6 +18,23 @@ https://gist.github.com/arunma/3206905
 https://gist.github.com/tjmaher
 
 
+http://www.logigear.com/services/technical-testing.html
+
+
+http://www.logigear.com/services/soa-testing.html
+
+
+
+
+http://qainfotech.com/automation-testing-services-and-tools.html
+
+http://qainfotech.com/security-testing-services.html
+
+http://testmatick.com/our-qa-services/
+
+
+
+
 Load Testing Kafka With Ranger 
 https://dzone.com/articles/load-testing-kafka-with-ranger
 
