@@ -2,6 +2,23 @@
 * Load Testing 
 * Stress Testing
 
+
+
+# Reasons to Execute Performance Testing?
+Performance testing establishes the accuracy of throughput, scalability, reliability and responsiveness of a system under a specific workload.
+Performance testing is usually executed in order to achieve the following:
+* **evaluating **production readiness
+* **assessing** against performance parameters
+* **Comparison** of performance uniqueness of numerous systems or configurations of systems
+* Locating the **basis** of performance related issues
+* **Tuning** the Support methods
+* Locating **throughput stages**
+* Establishing **conformity** with performance objectives and requisites 
+* amassing other performance-associates statistics to assist stakeholders formulating informed decisions
+* To Guarantee the **hardware configuration** suitability  for the performance of application
+
+
+
 A Complete Guide to Performance Testing Types: Steps, Best Practices, Metrics, and More 
 https://dzone.com/articles/a-complete-guide-to-performance-testing-type
 
