@@ -1,3 +1,16 @@
+# Why us?
+Availability - Round the clock availability to customers
+Tools and Methodologies - State-of-the-art tools and methodologies to guarantee maximum product quality in limited timeframe
+Domain Expertise - Wide domain and technology spectrum
+Best Processes - Adaptability and conformance to processes and best practices
+Proactive Communication - Precise, transparent communication and status reporting
+Flexible Kick-offs - Project initiation from minimum or nil requirement documentation
+Automation Expertise - Specialized automation teams for functional, mobile and non-functional testing
+Comprehensive QA - One-stop-shop for all QA needs adequately covering all stages of the project
+Ideally Equipped - Highly equipped test labs in prime locations in Bangalore – the IT hub of India
+Qualified Team - Specially trained engineers to fit into any stage of the project
+
+
 
 * [Getting started on a testing project](http://nickytests.blogspot.com/2017/05/getting-started-on-testing-project.html)
 * [Top 6 Challenges of API Testing](https://devops.com/top-6-challenges-api-testing/)
