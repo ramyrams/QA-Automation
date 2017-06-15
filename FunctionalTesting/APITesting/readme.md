@@ -1,4 +1,10 @@
 
+API Testing
+Specialized API and web services testing for REST, SOAP and related protocols for faster, more accurate functional tests that do not involve your GUI.
+Tests that do not involve the GUI not only run faster, exercise the functionality more thoroughly and are independent of completion of the user interface, they can also achieve test results that may be otherwise possible to accomplish using the GUI.
+We have been performing manual as well as automated API tests for REST, SOAP and related protocols for several applications.
+
+
 https://assertible.com/
 
 http://www.guru99.com/api-testing.html
