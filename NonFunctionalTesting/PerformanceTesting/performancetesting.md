@@ -17,7 +17,10 @@ Performance testing is usually executed in order to achieve the following:
 * amassing other performance-associates statistics to assist stakeholders formulating informed decisions
 * To Guarantee the **hardware configuration** suitability  for the performance of application
 
+![1](http://www.adactin.com/wp-content/uploads/2015/04/PerformanceTesting.png)
 
+# Process
+![1](http://www.adactin.com/wp-content/uploads/2015/04/Process_Performance-Testing.png)
 
 A Complete Guide to Performance Testing Types: Steps, Best Practices, Metrics, and More 
 https://dzone.com/articles/a-complete-guide-to-performance-testing-type
