@@ -118,6 +118,22 @@ http://apps.testinsane.com/mindmaps/Page/1/date_desc
 * **Mobile Application Testing:** Appium
 * **Reporting:** Allure
 
+Test Automation Equipments:
+Watir|Microfocus Test Partner|Microfocus Silk TestTM | Empirix e-Tester|Selenium|AutomatedQA TestComplete|IBM Rational Functional TesterTM | HP Unified Functional TestingTM ,
+Performance test Equipments:
+Apache Jmeter|Microfocus Silk PerformerTM |OpenSTA|HP Load RunnerTM|Microfocus QALoad|Emprix’s e-Load
+Test Management Equipments:
+Microfocus SilkCentral Testmanager| IBM Rational Quality Manager| TestLink |HP Quality Center
+Defect Management Equipments:
+JIRA|PVCS Tracker|Bugzilla|TestTrack|TestDirector|SpiraTest
+Memory Leak Equipments:
+Wily Introscope|Repro|Coverity Prevent|Purify|Quest Jprobe|Zone Ranger
+Code Coverage Equipments:
+Borland Optimizelt|Koalog Code Coverage|Cenqua Clover|Rational Pure Coverage
+Configuration Management Equipments:
+IBM Rational Clearcase|Perforce|Visual Source Safe|CVS
+
+
 * [A Comparison of Automated Testing Tools](https://dzone.com/articles/a-comparison-of-automated-testing-tools)
 
 
