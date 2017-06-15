@@ -90,6 +90,9 @@ http://abstracta.academy/software-test-analyst-certification
 # Test Pyramid
 * [Test Automation Pyramid](https://www.slideshare.net/TAlexanderLystad/test-automation-pyramid)
 
+# Mindmap
+http://apps.testinsane.com/mindmaps/Page/1/date_desc
+
 # Tools
 * **Bug Tracking:**  Eventum, JIRA
 * **Test Case Management:**  MS Excel
