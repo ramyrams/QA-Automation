@@ -1,4 +1,11 @@
 
+* Mobile Functional Analysis
+* Mobile Compatibility Examination
+* Mobile Usability Investigation
+* Mobile Performance Analysis
+* Mobile Security Examination
+
+
 # MOBILE APP TESTING PROCESS
 * END USER EXPERIENCE TESTING
   * Real User Testing
