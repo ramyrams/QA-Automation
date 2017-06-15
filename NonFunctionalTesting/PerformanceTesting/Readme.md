@@ -13,6 +13,30 @@ According to Microsoft, the Core Performance Testing Activities are:
 6. **Execute Tests** – testing on scripted user scenarios against different user sets with different configurations
 7. **Analyze, Report and Retest** – Analyze test results with benchmarks, report results to stakeholders and Re-test if necessary
 
+
+# PERFORMANCE TESTING PROCESS
+* COLLECT
+  * Assess Business Requirements
+  * Review Application Features
+  * Identify Key Elements to Setup Test Environment
+* PLAN & STRATEGIZE
+  * Identify Performance Test Matrices
+  * Define Baseline Values
+  * Define Timing, Tools & Types of Performance tests
+  * Creation of Test Plans
+* DEFINE & DESIGN
+  * Creation of Test Scenarios
+  * Define Test Data
+  * Configure Testing Environment
+* EXECUTE
+  * Execute Test Scenarios
+  * Validate Results
+  * Record Outcomes
+* DELIVER
+  * Analyze Results
+  * Make Recommendations
+  
+  
 # Services Offered
 
 Our offers load/stress testing services to identify below:
