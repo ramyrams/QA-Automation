@@ -1,4 +1,20 @@
 
+# MOBILE APP TESTING PROCESS
+* END USER EXPERIENCE TESTING
+  * Real User Testing
+  * User Reviews
+* DEVICE HARDWARE TESTING
+  * iOS Hardware Testing
+  * Android Hardware Testing
+* CROSS PLATFORM TESTING
+  * Compatibility Analysis
+  * Real Platform Analysis
+* APP ADAPTABILITY TESTING
+  * Operating System Adaptability
+  * Device Adaptability
+* COMMUNICATION MEDIUM TESTING
+  * App Wireless Testing
+  * App Network Testing
 
 
 
