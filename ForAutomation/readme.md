@@ -1,3 +1,22 @@
+
+# AUTOMATION TESTING PROCESS
+* ASSESSMENT PHASE
+  * Understanding of Business Requirements
+  * Evaluation of Testing Requirements
+Tool and Technology Selection
+* PLANNING PHASE
+  * Defining Scope and Resources
+  * Preparing Test Cases
+Tool Installation and Configuration
+* AUTOMATION & OPTIMIZATION PHASE
+  * Framework Implementation
+  * Script Preparation
+* EXECUTION PHASE
+  * Test Case Execution Result Capturing
+  * Review and Analysis
+* REPORTING PHASE
+  * Defect and Error Reporting
+
 https://github.com/atinfo/awesome-test-automation
 
 http://atinfo.github.io/at.info-knowledge-base/
