@@ -14,3 +14,5 @@ Types of Functional testing are
 * Usability Testing
 * System Testing
 * Globalization Testing
+
+* [1](https://www.tutorialspoint.com/software_testing_dictionary/images/functional_testing.jpg)
