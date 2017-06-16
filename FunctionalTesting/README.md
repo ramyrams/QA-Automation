@@ -15,4 +15,4 @@ Types of Functional testing are
 * System Testing
 * Globalization Testing
 
-* [1](https://www.tutorialspoint.com/software_testing_dictionary/images/functional_testing.jpg)
+![1](https://www.tutorialspoint.com/software_testing_dictionary/images/functional_testing.jpg)
