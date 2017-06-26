@@ -2,6 +2,9 @@
 Java Beginner 
 https://www.youtube.com/watch?v=9gtTdhNXbyw&list=PLhW3qG5bs-L_qj1L5hnHvJYeFpQ_g4UuU
 
+Java Best Practices
+https://github.com/in28minutes/java-best-practices
+
 
 Introduction to Collections https://docs.oracle.com/javase/tutorial/collections/intro/
 Java—An Introduction
