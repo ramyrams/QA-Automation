@@ -38,3 +38,6 @@ https://github.com/mfornos/awesome-microservices
 
 Awesome REST
 https://github.com/marmelab/awesome-rest
+
+
+![1](https://zeroturnaround.com/wp-content/uploads/2014/06/jtnt-mindmap.png)
