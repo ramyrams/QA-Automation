@@ -1,3 +1,23 @@
+http://www.cigniti.com/wp-content/uploads/Gallop-Devops-Capabilities.png
+
+https://www.projectlinkconsulting.com/s/cc_images/cache_7475062.jpg?t=1450710260
+
+Models
+https://insights.sei.cmu.edu/sei_blog/2013/11/using-v-models-for-testing.html
+
+https://www.slideshare.net/kmstechnology/introduction-to-agile-software-testing
+
+https://stackoverflow.com/questions/2741832/unit-tests-vs-functional-tests
+
+http://awesome-tech.readthedocs.io/qa/
+
+http://awesome-tech.readthedocs.io/images/devopsqbp.jpg
+
+IP Idea
+http://www.cigniti.com/blueswan/#Verita
+
+
+
 # Why us?
 Availability - Round the clock availability to customers
 Tools and Methodologies - State-of-the-art tools and methodologies to guarantee maximum product quality in limited timeframe
