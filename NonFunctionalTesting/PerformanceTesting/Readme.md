@@ -128,3 +128,5 @@ http://www.abstracta.us/2015/03/30/free-tools-to-process-logs-for-performance-an
 http://www.abstracta.us/2015/05/24/whats-more-important-the-tool-or-the-tester/
 http://www.abstracta.us/2015/03/30/types-of-performance-tests/
 http://www.abstracta.us/2015/05/18/how-importantnecessary-is-it-for-performance-testers-to-understand-the-architecture-of-systems-and-the-details-on-each-component/
+
+![1](http://fbrnc.net/images/1/2/4/1/6/124165079b019ed1a96340a4e82a9522fe0cfb3e-01cloudwatch.png)
