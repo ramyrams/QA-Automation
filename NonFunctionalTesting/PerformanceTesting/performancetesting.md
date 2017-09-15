@@ -42,6 +42,36 @@ https://speedtracker.org/test
 * [Gatling](http://gatling.io/) - Open-Source Load & Performance Testing Tool For Web Applications
 
 
+## Application Performance Management
+* Appdynamics - Appdynamics
+* Computer Associates:  dynaTrace
+* Correlsense - SharePath
+* New Relic - New Relic
+
+## End-User Experience and Website Monitoring
+* SOASTA - mPulse
+* Neustar - Website Monitoring Service
+* Google - WebPagetest
+
+## Performance Testing
+* Borland - Silk Performer
+* Hewlett Packard - LoadRunner
+* IBM - Rational Performance Tester
+* Microsoft - Visual Studio Team System
+* Neotys - Neoload
+* Quotium - Qtest
+* TestPlant - eggPlant Performance
+
+## Open Source
+* Gatling - Gatling
+* (The) Grinder - Grinder
+* JMeter - JMeter
+
+## SaaS Performance Testing
+* Blazemeter - Blazemeter
+* Compuware - Gomez
+* Intechnica - TrafficSpike
+
 
 http://www.testingminded.com/2010/04/top-100-software-testing-blogs.html
 http://scott-barber.blogspot.com/2011/12/10-must-know-tips-for-performance-test.html
