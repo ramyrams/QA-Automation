@@ -31,3 +31,5 @@ http://www.seleniumtests.com/2015/12/real-time-jmeter-result-using-backend.html
 
 http://techblogsearch.com/a/live-performance-result-monitoring-with-jmeter-grafana-influxdb.html
 
+https://blog.novatec-gmbh.de/automated-performance-regression-testing/
+
