@@ -102,6 +102,13 @@ LoadView Hands-on Review Tutorial: Load Testing from the Cloud
 http://www.softwaretestinghelp.com/loadview-tutorial/?
 
 
+https://abstracta.us/tools/introduction-to-taurus-an-alternative-to-jmeter/
+https://www.blazemeter.com/blog/taurus-new-star-test-automation-tools-constellation
+https://www.theseus.fi/bitstream/handle/10024/118673/Web%20Application%20Performance%20Requirements%20Deriving%20Methodology.pdf?sequence=1
+https://www.slideshare.net/ATASlides/continuous-performance-testing-with-taurus-and-jmeter
+http://zenq.com/Portals/0/PerformanceTestingWhitePaperrevisedV1.1.pdf
+
+
 https://abstracta.us/2017/03/24/how-to-make-a-performance-test-plan/
 https://abstracta.us/2015/10/12/why-performance-testing-is-necessary/
 https://abstracta.us/2017/02/24/best-time-start-performance-testing/
