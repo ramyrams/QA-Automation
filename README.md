@@ -308,6 +308,9 @@ https://joecolantonio.com/testtalks/
 
 # Videos
 
+![1](https://image.slidesharecdn.com/ourmaturitymodelabstracta2-160826194431/95/software-testing-maturity-model-and-assessment-by-abstracta-3-638.jpg?cb=1472240912)
+![1](https://image.slidesharecdn.com/ourmaturitymodelabstracta2-160826194431/95/software-testing-maturity-model-and-assessment-by-abstracta-4-638.jpg?cb=1472240912)
+
 ![1](https://jfiaffe.files.wordpress.com/2014/09/tests-pyramid.png?w=300&h=180)
 ![1](http://www.duncannisbet.co.uk/wp-content/uploads/2012/07/test_pyramid-300x218.gif)
 ![1](http://agilefaqs.com/images/consulting/image08.png)
