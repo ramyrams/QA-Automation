@@ -96,6 +96,8 @@ https://dzone.com/articles/jmeter-ramp-up-the-ultimate-guide
 
 * [What Is Performance Testing? An Explanation for Business People](https://dzone.com/articles/what-is-performance-testing-an-explanation-for-bus)
 
+# Key Performance Indicators (KPIs)
+https://www.nd.gov/itd/services/performance-testing
 
 
 LoadView Hands-on Review Tutorial: Load Testing from the Cloud
