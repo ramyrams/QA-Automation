@@ -1,6 +1,8 @@
 
 (Must Read)[https://www.slideshare.net/jvenet/performance-testing-overview-75018229]
 https://www.slideshare.net/SpringCentral/performance-testing-crashcourse
+https://www.slideshare.net/atulpant20/jmeter-performance-testing
+
 
 * 57% of users will abandon a site after 3 seconds if it doesn’t load -Kissmetrics
 * The average large US corporation experiences 87 hours of network downtime a year -Gartner
