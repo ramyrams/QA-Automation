@@ -16,7 +16,7 @@ http://awesome-tech.readthedocs.io/images/devopsqbp.jpg
 IP Idea
 http://www.cigniti.com/blueswan/#Verita
 
-
+https://www.guru99.com/cookie-testing-tutorial-with-sample-test-cases.html
 
 # Why us?
 Availability - Round the clock availability to customers
