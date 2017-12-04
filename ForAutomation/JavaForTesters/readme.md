@@ -13,10 +13,22 @@
 
 # Courses
 * [Java Course](http://www.geeksforgeeks.org/java/)
-https://dzone.com/articles/20-dev-leaders-thoughts-on-great-java-devs
+* https://dzone.com/articles/20-dev-leaders-thoughts-on-great-java-devs
 * [Java For Testers](https://leanpub.com/javaForTesters/read)
 * [Learn Java Programming - Exercise ](https://github.com/mafudge/LearnJava)
 * [Java OOPs Concepts](https://www.javatpoint.com/java-oops-concepts)
+
+# Interview
+* https://github.com/in28minutes/JavaInterviewQuestionsAndAnswers
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers/tree/master/en
+* https://github.com/in28minutes/interview-guide
+* https://github.com/MaximAbramchuck/awesome-interview-questions
+* https://github.com/svozniuk/java-interviews
+* https://github.com/Oleiva/Java-Interview-Questions
+* https://github.com/stripe/java-interview-prep
+* https://snowdream.github.io/115-Java-Interview-Questions-and-Answers/115-Java-Interview-Questions-and-Answers/en/
+
+
 
 # JavaCheatSheet
 * https://github.com/egek92/JavaCheatSheet
