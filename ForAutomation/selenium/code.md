@@ -69,4 +69,47 @@ public WebElement findHiddenElement(By locator) {
 }
 
 
+
+isElementPresent:
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.presenceOfElementLocated(locator)); 
+
+isElementClickable
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.elementToBeClickable(locator));
+
+isElementVisible
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.visibilityOf(element));
+
+List<WebElement> linkElements = driver.findelements(By.cssSelector('#linkhello'));
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.visibilityOfAllElements(linkElements));
+
+isElementInVisible
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.invisibilityOfElementLocated(locator)); 
+
+isElementEnabled
+WebElement element = driver.findElement(By.id(""));
+element.isEnabled();
+
+isElementDisplayed
+WebElement element = driver.findElement(By.id(""));
+element.isDisplayed();
+
+Wait for invisibility of element
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.invisibilityOfElementWithText(by));
+
+Wait for invisibility of element with Text
+WebDriverWait wait = new WebDriverWait(driver, waitTime);
+wait.until(ExpectedConditions.invisibilityOfElementWithText(by, strText));
+
+
+
+
 [Read complete](https://seleniumjava.com/2016/04/05/the-beginners-guide-to-explicit-waits/)
