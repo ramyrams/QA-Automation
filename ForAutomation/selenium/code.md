@@ -4,7 +4,7 @@
 
 https://seleniumjavadotcom.files.wordpress.com/2016/04/explicit-wait-flow1.jpg
 
-''''java
+```java
 
 //create the id locator for the searchBox element
 By searchBoxId = By.id("search-box");
@@ -22,7 +22,7 @@ WebElement searchBoxElement = wait.until(
 searchBoxElement.click();
 searchBoxElement.clear();
 searchBoxElement.sendKeys("java");
-''''
+```
 
 
 [Read complete](https://seleniumjava.com/2016/04/05/the-beginners-guide-to-explicit-waits/)
