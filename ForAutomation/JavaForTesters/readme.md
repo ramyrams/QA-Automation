@@ -13,6 +13,8 @@
 
 # Courses
 * [Java Course](http://www.geeksforgeeks.org/java/)
+* [Practice code](http://javaconceptoftheday.com/type-casting-in-java/)
+
 * https://dzone.com/articles/20-dev-leaders-thoughts-on-great-java-devs
 * [Java For Testers](https://leanpub.com/javaForTesters/read)
 * [Learn Java Programming - Exercise ](https://github.com/mafudge/LearnJava)
