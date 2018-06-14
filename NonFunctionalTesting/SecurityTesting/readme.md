@@ -1,5 +1,9 @@
 
 
+Security Testing Test Scenarios - By Naveen AutomationLabs
+http://www.naveenautomationlabs.com/2018/01/security-testing-test-scenarios-by.html
+
+
 13 Steps to Learn & Perfect Security Testing in your Org
 https://www.atlassian.com/blog/archives/13-steps-to-learn-perfect-security-testing-in-your-org
 
