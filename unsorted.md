@@ -144,3 +144,41 @@ https://www.zaptest.com/get-started?free-trial
 http://blogs.thinksys.com/is-test-design-crucial-step-toward-test-automation/
 https://testing.googleblog.com/2016/11/what-test-engineers-do-at-google.html
 
+http://20tvni1sjxyh352kld2lslvc.wpengine.netdna-cdn.com/wp-content/gallery/katalon/API-testing-tools.png
+https://dzone.com/articles/top-free-api-testing-tools-genuine-reviews?
+https://blog.testfort.com/functional-testing/api-testing-what-why-how
+http://toolsqa.com/blogs/top-api-testing-tools-review/
+https://www.cigniti.com/blog/software-quality-engineering-improve-api-testing/
+
+Headless Browser Testing 101
+https://saucelabs.com/blog/headless-browser-testing-101
+
+https://blog.testfort.com/testing-methodologies/dangers-of-continuous-integration
+
+
+
+Test Coverage
+http://www.satisfice.com/blog/archives/1711
+
+https://dzone.com/articles/the-6-most-common-performance-testing-mistakes-and
+
+Performance Test Analysis & Reporting
+http://www.mkltesthead.com/2018/04/performance-test-analysis-reporting-1.html
+
+# Generating Test Ideas
+https://chroniclesoftesting.blogspot.com/2018/06/generating-test-ideas.html
+
+Functional Vs Non-Functional Requireme
+nts – Essential Elements of SDLC
+https://www.evoketechnologies.com/blog/functional-non-functional-requirements-sdlc/
+
+Database Design Best Practices
+https://dzone.com/articles/database-design-best-practices
+
+Top 5 Challenges of Testing Automation
+https://dzone.com/articles/top-5-challenges-of-testing-automation
+
+
+Testing Progressive Web Apps
+https://dzone.com/articles/testing-progressive-web-apps-pwa-in-2018-part-3
+
