@@ -280,6 +280,14 @@ https://www.codeproject.com/articles/5404/the-benefits-of-automated-unit-testing
 Better Unit Tests through Design Patterns: Repository, Adapter, Mocks, and more…
 http://www.benday.com/wp-content/uploads/2014/08/benday-agile-2014-unit-testing-v2.pdf
 
+# Course
+
+Selenium & Java Training - WeekEnd Batch
+http://www.naveenautomationlabs.com/2017/12/selenium-java-training-course-content_29.html
+
+Sample Resume - Automation QA Engineer - 2-7 Years
+http://www.naveenautomationlabs.com/2017/12/sample-resume-automation-qa-engineer-2.html
+
 # Test Pyramid
 * [1](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
 * [1](http://www.360logica.com/blog/wp-content/uploads/2014/07/A-sneak-peek-into-test-framework-test-pyramid-testing-pyramid.png)
