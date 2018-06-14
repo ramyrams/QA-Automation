@@ -2,6 +2,9 @@
 
 * [TestNG Tutorial: Introduction, Installation, Features and Examples](http://blog.testproject.io/2017/04/03/testn)
 
+* [TestNG Interview Questions](http://www.naveenautomationlabs.com/2017/11/testng-interview-questions.html)
+
+
 
 Customize TestNG html Report
 http://www.seleniumeasy.com/testng-tutorials/testng-customize-emailable-html-report-example
