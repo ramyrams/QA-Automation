@@ -33,6 +33,22 @@ Automated testers must follow the following guidelines to get the benefits of au
 * **Maintainable:** Tests should be easy to understand and modify and extend. 
 * **Traceable:** To and from the code it tests and to and from the requirements. 
 
+# Selenium-Grid-Extras
+https://github.com/groupon/Selenium-Grid-Extras
+
+
+http://www.nalashaa.com/7-key-best-practices-of-software-test-automation/
+
+Podcast: The Testing Show
+https://www.qualitestgroup.com/resources/the-testing-show/
+
+
+Patterns in Automation
+https://www.automatetheplanet.com/failed-tests-analysis-decorator/
+https://www.automatetheplanet.com/strategy-design-pattern/
+https://seleniumcamp.com/talk/design-patterns-in-test-automation/
+https://blog.aspiresys.com/testing/design-patterns-in-test-automation-world/
+
 
 # ROI
 https://abstracta.us/2015/08/31/the-true-roi-of-test-automation/
