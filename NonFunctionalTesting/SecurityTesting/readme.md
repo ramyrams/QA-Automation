@@ -1,5 +1,18 @@
 
 
+
+Some tools include:
+
+* **BDD Security.** A security testing automation framework. This uses a natural language syntax to describe security functions as features.
+* **Microsoft Azure Advisor.** A configuration scanner that will identify whether cloud infrastructure tools are using the right software best practices.
+* **Mittn.** An open source test automation framework, which is ideal for those accustomed to Python.
+* **GauntIT.** A test automation framework, which is ideal for those accustomed to Ruby development.
+* **Burp Intruder.** A commercial application and infrastructure scanner, which can be used to ensure applications are interacting properly with the environment.
+* **OWASP Scanner.** An open source application and infrastructure scanner, similar to Burp Intruder.
+* **Veracode.** Veracode is a Code Analysis tool that can be used to find vulnerabilities within your application structure.
+Contrast Security. A runtime application security tool, Contrast Security will run inside of your application to identify any potential faults.
+
+
 Security Testing Test Scenarios - By Naveen AutomationLabs
 http://www.naveenautomationlabs.com/2018/01/security-testing-test-scenarios-by.html
 
