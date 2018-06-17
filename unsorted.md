@@ -1,7 +1,7 @@
 http://www.cigniti.com/wp-content/uploads/Gallop-Devops-Capabilities.png
 https://github.com/assertthat/selenium-shutterbug
 https://www.projectlinkconsulting.com/s/cc_images/cache_7475062.jpg?t=1450710260
-
+http://www.bestdevops.com/8-steps-for-a-successful-devops-transition/
 Models
 https://insights.sei.cmu.edu/sei_blog/2013/11/using-v-models-for-testing.html
 
