@@ -9,6 +9,10 @@
 7 Quick Steps To Become a Great Automation Testing Engineer 
 https://dzone.com/articles/7-quick-steps-to-become-a-great-automation-testing?
 
+# ROI
+https://abstracta.us/2015/08/31/the-true-roi-of-test-automation/
+https://dzone.com/articles/the-roi-of-automated-testing
+https://dzone.com/articles/additional-considerations-for-automated-testing
 
 The following types of testing can be automated
 * **Functional** – testing that operations perform as expected. 
@@ -50,8 +54,8 @@ https://seleniumcamp.com/talk/design-patterns-in-test-automation/
 https://blog.aspiresys.com/testing/design-patterns-in-test-automation-world/
 
 
-# ROI
-https://abstracta.us/2015/08/31/the-true-roi-of-test-automation/
+
+
 
 # Benefits of Automated Testing
 * **Reliable:** Tests perform precisely the same operations each time they are run, thereby eliminating human error 
