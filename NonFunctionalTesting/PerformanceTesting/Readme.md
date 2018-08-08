@@ -1,4 +1,13 @@
 
+
+Performance Testing Guidance for Web Applications
+https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924375(v=pandp.10)
+
+
+http://www.guidanceshare.com/wiki/Chapter_3_%E2%80%93_Risks_Addressed_Through_Performance_Testing
+
+https://www.safaribooksonline.com/library/view/performance-testing-guidance/9780735625709/ch03s04.html
+
 (Must Read)[https://www.slideshare.net/jvenet/performance-testing-overview-75018229]
 https://www.slideshare.net/SpringCentral/performance-testing-crashcourse
 https://www.slideshare.net/atulpant20/jmeter-performance-testing
