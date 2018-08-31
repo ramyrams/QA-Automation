@@ -1,3 +1,22 @@
+XPath in Selenium WebDriver: Complete Tutorial
+https://www.guru99.com/xpath-selenium.html
+
+How to Write Effective XPath Selenium Selectors
+https://www.swtestacademy.com/xpath-selenium/
+
+Choosing Effective XPaths
+http://toolsqa.com/selenium-webdriver/choosing-effective-xpath/
+
+
+https://www.automatetheplanet.com/selenium-webdriver-locators-cheat-sheet/
+
+https://www.red-gate.com/simple-talk/wp-content/uploads/imported/1269-Locators_table_1_0_2.pdf?file=4937
+
+
+https://devhints.io/xpath
+http://www.cheat-sheets.org/saved-copy/Locators_table_1_0_2.pdf
+
+https://saucelabs.com/resources/articles/selenium-tips-css-selectors
 
 XPath Cheatsheet:
 http://www.cheat-sheets.org/saved-copy/Locators_table_1_0_2.pdf
