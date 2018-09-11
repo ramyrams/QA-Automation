@@ -7,6 +7,7 @@
 ![1](https://2.bp.blogspot.com/-WEjSQJwOCL0/UzQu0-lPNRI/AAAAAAAACUM/3sK9dsckPUI/s1600/WebDriver_Commands.png)
 
 
+![1](https://1.bp.blogspot.com/-GVYxu3Ks2LI/VVQKjg8BUtI/AAAAAAAAC1w/8p-c8HVWCu0/s1600/Awesome_Test_Automation.jpg)
 
 * [Challenges faced using selenium automation testing, and how to solve them.](http://www.naveenautomationlabs.com/2017/11/challenges-faced-using-selenium.html)
 
