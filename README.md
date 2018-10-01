@@ -90,7 +90,7 @@ The main idea is that you want more unit tests than any other level of test beca
 * are easy to write & maintain (due to their independence)
 * quick to run
 
-Integrationn tests which:
+Integration tests which:
 * test the integration between components / features / external 3rd party services
 * are dependant on the other components / features / external 3rd party services being available & stable enough to execute tests against.
 * ensure dependencies of the system being developed continue to work as expected
@@ -331,7 +331,7 @@ http://www.naveenautomationlabs.com/2017/12/sample-resume-automation-qa-engineer
 
 
 
-# Podcost
+# Podcast
 https://joecolantonio.com/testtalks/
 
 # Videos
