@@ -6,3 +6,7 @@
   
   
   
+
+A load test is defined by **scenarios, counter sets, and run settings. **
+
+![1](https://docs.microsoft.com/en-us/visualstudio/test/media/load_test_editor.png?view=vs-2017)
