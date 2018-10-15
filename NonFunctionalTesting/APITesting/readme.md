@@ -134,6 +134,39 @@ Leverage local DB/FTP/mail servers to make testing more portable through the CI 
 * While taking RESTful API's into consideration, a feature named HATEOAS, an acronym for Hypermedia as the Engine of Application State, is a REST constraint provides an effective way for a client to interact with any network application.
 * An API's date and time must adhere to the time zone specifications meant for a particular locale
 
+https://dzone.com/articles/what-is-api-testing-and-are-you-doing-it-right
+
+## Contract Tests
+An API represents a contract between 2 or more applications. The contract describes how to interact with the interface, what services are available, and how to invoke them. This contract is important because it serves as the basis for the communication. If there's something wrong with the contract, nothing else really matters.
+
+* The service contract is written according to specifications.
+* A message request and response are semantically correct (schema validation).
+* The endpoint is valid (HTTP, MQ/JMS Topic/Queue, etc).
+* The service contract hasn't changed.
+
+## Component Tests
+Component tests are like unit tests for the API - you want to take the individual methods available in the API and test each one of them in isolation. You create these tests by making a test step for each method or resource that is available in the service contract.
+
+
+* The request payload is well-formed (schema validation).
+* The response payload is well-formed (schema validation).
+* The response status is as expected (200 OK, SQL result set returned, or even an error if that's what you're going for).
+* The response error payloads contain the correct error messages.
+* The response matches the expected baseline. This can take two forms:
+1. Regression/diff - the response payload looks exactly the same from call to call (a top-down approach where you essentially take a snapshot of the response and verify it every time). This can also be a great catalyst to identify API change (more about that later).
+2. Assertion - the individual elements in the response match your expectations (this is a more surgical, bottom-up approach targeted at a specific value in the response).
+* The service responds within an expected timeframe.
+
+
+## Scenario Tests
+Scenario testing tends to be what most people think about when they think about API testing. In this testing technique, you assemble the individual component tests into a sequence, much like the example I described above for the Amazon service.
+
+There are two great techniques for obtaining the sequence:
+* Review the user story to identify the individual API calls that are being made.
+* Exercise the UI and capture the traffic being made to the underlying APIs.
+
+
+
 https://www.soapui.org/learn/functional-testing/api-testing-101.html
 
 https://www.guru99.com/testing-rest-api-manually.html
