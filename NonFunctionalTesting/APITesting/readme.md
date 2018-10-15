@@ -247,3 +247,4 @@ https://smartbear.com/SmartBear/media/ebooks/REST-101.pdf
 https://www.testingxperts.com/wp-content/uploads/2015/12/API-Web-Services-Testing.png
 https://www.oxagile.com/assets/img/aqa-api/diagram-lg.png
 https://cdn-images-1.medium.com/max/1600/1*uiWyqqbkgsABSfNjb8KBuw.jpeg
+https://assertible.com/blog/4-common-api-errors-how-to-test-them
