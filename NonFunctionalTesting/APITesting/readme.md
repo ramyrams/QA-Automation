@@ -182,3 +182,33 @@ https://www.ontestautomation.com/wp-content/uploads/2014/07/api_test_scenarios.p
 https://github.com/shieldfy/API-Security-Checklist
 https://mathieu.fenniak.net/the-api-checklist/
 https://dzone.com/articles/what-is-api-testing-and-are-you-doing-it-right
+
+
+# API Testing Methodology
+
+Phase 1 – Test Plan Development. Deliverables include:
+* Test plan with an appropriate strategy to deal with client’s needs including individual API testing, smoke testing and full regression * testing.
+Recommendations on most appropriate test environment configuration to accomplish testing manual methods or via automated testing.
+
+Phase 2 – Test Script Development and Execution. Deliverables include:
+* Fully functioning Test Suites prioritized to client requirements.
+* Source code matching test cases, incorporated into the Test Suite with suites structured according to Phase 1.
+* Complete documentation, including source code and details on environment configurations and settings.
+
+Phase 3 – Report Generation and Analysis. Deliverables include:
+* Root Cause Analysis, highlighting trends with potential causes and providing actionable recommendations.
+* Determination of current health of the application and identification of critical application problem areas.
+* Detailed failure report, including a complete set of test results in appropriate format (e.g., graph; tabulated data) for either further analysis or presentation to management.
+
+Phase 4 – Script Maintenance and Requirements Management. Deliverables include:
+* Ensure newly introduced script compatibility (scalability) with existing script framework.
+* Provide recommendations on critical application areas and functions needing API performance and security testing.
+
+Phase 5 – Customization
+* Legacy API Script Review for coverage and functionality.
+* Specific test tools to evaluate APIs.
+* Specific test frameworks.
+* Specific programming language.
+* IDE integration with various version control tools.
+* Integration with Continuous Integration tool.
+* Integration or Migration to other platform or environment.
