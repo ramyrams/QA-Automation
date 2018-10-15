@@ -13,3 +13,7 @@ https://www.youtube.com/watch?v=xBjNhauVDio&list=PLhW3qG5bs-L_D4ZePNNjvmIULuu6mB
 https://www.youtube.com/watch?v=0nyUqIrQLBY
 
 https://www.youtube.com/watch?v=aqrxDxumKZQ
+
+
+# Sample
+https://github.com/katalon-studio-samples/jira-api-tests
