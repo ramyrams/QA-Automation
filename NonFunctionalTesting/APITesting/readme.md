@@ -170,6 +170,14 @@ There are two great techniques for obtaining the sequence:
 https://www.soapui.org/learn/functional-testing/api-testing-101.html
 
 https://www.guru99.com/testing-rest-api-manually.html
+https://www.stickyminds.com/article/methods-and-tools-data-driven-api-testing
+https://nordicapis.com/9-types-of-tests-to-perform-on-your-apis/
+
+http://uploads.pnsqc.org/2015/papers/t-062_Asha_paper.pdf
+https://www.interrait.com/sites/default/files/docs/WhitePaper_API%20Testing.pdf
+
+
+https://www.ontestautomation.com/wp-content/uploads/2014/07/api_test_scenarios.png
 
 https://github.com/shieldfy/API-Security-Checklist
 https://mathieu.fenniak.net/the-api-checklist/
