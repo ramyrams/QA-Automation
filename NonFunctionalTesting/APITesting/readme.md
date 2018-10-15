@@ -230,3 +230,13 @@ Register user : incorrect email
 Register user : already used email
 Register user : with wrong method like PUT instead of POST
 Register user : without request body
+
+
+1. Accuracy of data 
+2. Schema validation
+3. HTTP status codes
+4. Data type, validations, order and completeness 
+5. Authorization checks 
+6. Implementation of response timeout
+7. Error codes in case API returns, and 
+8. Non-functional testing like performance and security testing 
