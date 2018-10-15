@@ -240,3 +240,6 @@ Register user : without request body
 6. Implementation of response timeout
 7. Error codes in case API returns, and 
 8. Non-functional testing like performance and security testing 
+
+
+https://blog.aspiresys.com/testing/overcoming-test-coverage-challenges-in-api-testing/
