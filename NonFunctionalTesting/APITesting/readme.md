@@ -212,3 +212,21 @@ Phase 5 – Customization
 * IDE integration with various version control tools.
 * Integration with Continuous Integration tool.
 * Integration or Migration to other platform or environment.
+
+
+# Test cases for this would be
+
+Register user : Happy path ( everything right )
+Register user : without username value
+Register user : without email value
+Register user : without password value
+Register user : without username field
+Register user : without email field
+Register user : without password field
+Register user : username with short length
+Register user : password with short length
+Register user : invalid email
+Register user : incorrect email
+Register user : already used email
+Register user : with wrong method like PUT instead of POST
+Register user : without request body
