@@ -173,4 +173,4 @@ https://www.guru99.com/testing-rest-api-manually.html
 
 https://github.com/shieldfy/API-Security-Checklist
 https://mathieu.fenniak.net/the-api-checklist/
-
+https://dzone.com/articles/what-is-api-testing-and-are-you-doing-it-right
