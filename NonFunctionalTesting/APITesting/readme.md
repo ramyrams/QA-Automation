@@ -176,7 +176,7 @@ https://nordicapis.com/9-types-of-tests-to-perform-on-your-apis/
 http://uploads.pnsqc.org/2015/papers/t-062_Asha_paper.pdf
 https://www.interrait.com/sites/default/files/docs/WhitePaper_API%20Testing.pdf
 
-
+https://smartbear.com/SmartBear/media/ebooks/REST-101.pdf
 https://www.ontestautomation.com/wp-content/uploads/2014/07/api_test_scenarios.png
 
 https://github.com/shieldfy/API-Security-Checklist
