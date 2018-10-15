@@ -20,14 +20,14 @@
 * Who on your team is in charge of testing what?
 
 # What Types of API Testing Can I Do?
-Functionality testing — the API works and does exactly what it’s supposed to do.
-Reliability testing — the API can be consistently connected to and lead to consistent results
-Load testing — the API can handle a large amount of calls
-Creativity testing — the API can handle being used in different ways.
-Security testing — the API has defined security requirements including authentication, permissions and access controls. See some API security tips for protecting vital data
-Proficiency testing — the API increases what developers are able to do.
-API documentation testing — also called discovery testing, the API documentation easily guides the user.
-Negative Testing — checking for every kind of wrong input the user can possibly supply 
+* Functionality testing — the API works and does exactly what it’s supposed to do.
+* Reliability testing — the API can be consistently connected to and lead to consistent results
+* Load testing — the API can handle a large amount of calls
+* Creativity testing — the API can handle being used in different ways.
+* Security testing — the API has defined security requirements including authentication, permissions and access controls. See some API security tips for protecting vital data
+* Proficiency testing — the API increases what developers are able to do.
+* API documentation testing — also called discovery testing, the API documentation easily guides the user.
+* Negative Testing — checking for every kind of wrong input the user can possibly supply 
 
 # API test examples,
 * Checking API return values based on the input condition
