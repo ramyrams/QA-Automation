@@ -1,23 +1,23 @@
 # API Testing
 
 # Here are some of the most common reasons people test their APIs:
-Make sure it does what it’s supposed to do
-Make sure it can handle the load
-Find all the way users can mess things up
-Make sure your APIs work across devices, browsers, and operating systems
-It can be costly not to
+* Make sure it does what it’s supposed to do
+* Make sure it can handle the load
+* Find all the way users can mess things up
+* Make sure your APIs work across devices, browsers, and operating systems
+* It can be costly not to
 
 # What You Need To Start API Testing
-Who is your target audience? Who is your API consumer?
-What environment/s should the API typically be used?
-What aspects are you testing?
-What problems are we testing for?
-What are your priorities to test?
-What is supposed to happen in normal circumstances?
-What could potentially happen in abnormal circumstances?
-What is defined as a Pass or a Fail? What data is the desired output? What is the chain of events?
-What other APIs could this API interact with?
-Who on your team is in charge of testing what?
+* Who is your target audience? Who is your API consumer?
+* What environment/s should the API typically be used?
+* What aspects are you testing?
+* What problems are we testing for?
+* What are your priorities to test?
+* What is supposed to happen in normal circumstances?
+* What could potentially happen in abnormal circumstances?
+* What is defined as a Pass or a Fail? What data is the desired output? What is the chain of events?
+* What other APIs could this API interact with?
+* Who on your team is in charge of testing what?
 
 # What Types of API Testing Can I Do?
 Functionality testing — the API works and does exactly what it’s supposed to do.
@@ -30,22 +30,22 @@ API documentation testing — also called discovery testing, the API documentati
 Negative Testing — checking for every kind of wrong input the user can possibly supply 
 
 # API test examples,
-Checking API return values based on the input condition
-Verifying if the API doesn’t return anything at all or the wrong results
-Verifying if the API triggers some other event or calls another API
-Verifying if the API is updating any data structures.
+* Checking API return values based on the input condition
+* Verifying if the API doesn’t return anything at all or the wrong results
+* Verifying if the API triggers some other event or calls another API
+* Verifying if the API is updating any data structures.
 
 # API Testing Best Practices
-Test for the typical or expected results first
-Add stress to the system through a series of API load tests
-Test for failure. Make sure you understand how your API will fail. Just make sure the API fails consistently and gracefully
-Group test cases by test category
-Prioritize API function calls so that it will be easy for testers to test quickly and easily
-Limit the tests from as many variables as possible by keeping it as isolated as possible
-See how it handles unforeseen problems and loads by throwing as much as you can at it
-Perform well-planned call sequencing
-For complete test coverage, create test cases for all possible API input combinations
-Automate wherever you can
+* Test for the typical or expected results first
+* Add stress to the system through a series of API load tests
+* Test for failure. Make sure you understand how your API will fail. Just make sure the API fails consistently and gracefully
+* Group test cases by test category
+* Prioritize API function calls so that it will be easy for testers to test quickly and easily
+* Limit the tests from as many variables as possible by keeping it as isolated as possible
+* See how it handles unforeseen problems and loads by throwing as much as you can at it
+* Perform well-planned call sequencing
+* For complete test coverage, create test cases for all possible API input combinations
+* Automate wherever you can
 
 
 # Why API testing frameworks are necessary
