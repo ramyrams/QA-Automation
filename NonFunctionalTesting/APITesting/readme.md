@@ -183,7 +183,7 @@ https://github.com/shieldfy/API-Security-Checklist
 https://mathieu.fenniak.net/the-api-checklist/
 https://dzone.com/articles/what-is-api-testing-and-are-you-doing-it-right
 
-
+https://www.katalon.com/resources-center/blog/web-api-testing-interview-questions/
 # API Testing Methodology
 
 Phase 1 – Test Plan Development. Deliverables include:
