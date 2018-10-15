@@ -243,3 +243,4 @@ Register user : without request body
 
 https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
 https://blog.aspiresys.com/testing/overcoming-test-coverage-challenges-in-api-testing/
+https://smartbear.com/SmartBear/media/ebooks/REST-101.pdf
