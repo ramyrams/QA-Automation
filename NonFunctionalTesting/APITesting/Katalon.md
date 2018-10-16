@@ -22,7 +22,7 @@ https://github.com/katalon-studio-samples/jira-api-tests
 # Code Snippet
 https://forum.katalon.com/discussion/5259/how-to-set-http-header-with-variable
 
-'''groovy
+```groovy
 TestObjectProperty header4 = new TestObjectProperty("Cookie", ConditionType.EQUALS, "anyCookieHere")
 
-'''
+```
