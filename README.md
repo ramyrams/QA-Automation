@@ -1,3 +1,11 @@
+
+
+As a good first guess, Google often suggests a 70/20/10 split: 70% unit tests, 20% integration tests, and 10% end-to-end tests.
+
+![1](https://res.infoq.com/articles/contract-testing-spring-cloud-contract/en/resources/1image14-contract-testing-spring-cloud-1532762674022.png)
+
+
+
 # QA
 * [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
 * [Career Path of a Tester!](https://essenceoftesting.blogspot.sg/2016/12/career-path-of-tester.html)
