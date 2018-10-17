@@ -2,6 +2,11 @@
 
 # API For Practice
 https://reqres.in/
+http://jsonpath.com/
+
+https://help.testlodge.com/hc/en-us/articles/226734968-API-Test-cases
+
+https://docs.katalon.com/katalon-studio/videos/create_environment_profile.html
 
 Katalon Studio 18 - How to test API with Katalon Studio
 https://www.youtube.com/watch?v=Evikp4eQSGs
