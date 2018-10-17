@@ -56,6 +56,116 @@ String record = data.getValue(3, 4)
 println record
 
 
+//https://docs.katalon.com/katalon-studio/docs/common-call-test-case.html
+'Use WS keyword'
+WS.callTestCase(findTestCase('DDR_NavigateToPageThenVerifyPageTitle'), ['p_Protocol' : null, 'p_DomainName' : null, 'p_Path' : null, 'p_WindowTitle' : null])
+WS.callTestCase(null, null, FailureHandling.STOP_ON_FAILURE)
+
+//'Concatenate all strings end-to-end into one string.'
+//https://docs.katalon.com/katalon-studio/docs/common-concatenate.html
+WS.concatenate(['Katalon', 'Automation Tool'] as String[], FailureHandling.STOP_ON_FAILURE)
+WS.concatenate(null, FailureHandling.STOP_ON_FAILURE)
+
+'Verify if response object contains email@katalon.com value'
+//https://docs.katalon.com/katalon-studio/docs/ws-contains-string.html
+WS.containsString(resObj, 'email@katalon.com', false)
+WS.containsString(apiReesponse, responseText, false, FailureHandling.STOP_ON_FAILURE)
+
+
+//https://docs.katalon.com/katalon-studio/docs/common-delay.html
+//You want to delay the execution for 10 seconds.
+WS.delay(10)
+WS.delay(responseText, FailureHandling.STOP_ON_FAILURE)
+
+//https://docs.katalon.com/katalon-studio/docs/ws-send-request.html#example
+//'Send a SOAP request and returns its response'
+def response = WS.sendRequest(findTestObject('SOAP_ConvertWeight'))
+WS.sendRequest(null, FailureHandling.STOP_ON_FAILURE)
+
+WS.sendRequestAndVerify(null);
+WS.sendRequestAndVerify(null, FailureHandling.STOP_ON_FAILURE)
+
+//'Verify if checked data of checkpoint matches their source data.'
+//https://docs.katalon.com/katalon-studio/docs/common-verify-checkpoint.html
+WS.verifyCheckpoint(findCheckpoint('Checkpoints/chk_DataSnapshot'), false)
+WS.verifyCheckpoint(null, false, FailureHandling.STOP_ON_FAILURE)
+
+'Verify if comment\'s email after sending request is correct or not'
+//https://docs.katalon.com/katalon-studio/docs/ws-verify-element-property-value.html
+WS.verifyElementPropertyValue(response, '[0].email', 'Eliseo@gardner.biz')
+WS.verifyElementPropertyValue(apiReesponse, responseText, responseText, FailureHandling.STOP_ON_FAILURE)
+
+//'Verify number of expected employee contact records'
+//https://docs.katalon.com/katalon-studio/docs/ws-verify-elements-count.html
+WS.verifyElementsCount(resObj, 'employee.contacts', 3)
+WS.verifyElementsCount(apiReesponse, responseText, 0, FailureHandling.STOP_ON_FAILURE)
+
+'Verify converted weight after sending request is correct or not'
+//https://docs.katalon.com/katalon-studio/docs/ws-verify-element-text.html
+WS.verifyElementText(response, 'ConvertWeightResult', '3000')
+WS.verifyElementText(apiReesponse, responseText, responseText, FailureHandling.STOP_ON_FAILURE)
+
+//https://docs.katalon.com/katalon-studio/docs/common-verify-equal.html
+//Verify if two objects are equal.
+WS.verifyEqual(10, 10)
+WS.verifyEqual(apiReesponse, responseText, FailureHandling.STOP_ON_FAILURE)
+
+
+https://docs.katalon.com/katalon-studio/docs/common-verify-greater-than.html
+//Verify if the actual number is greater than the expected number.
+WS.verifyGreaterThan(apiReesponse, responseText)
+WS.verifyGreaterThan(12, 10)
+WS.verifyGreaterThan(apiReesponse, responseText, FailureHandling.STOP_ON_FAILURE)
+
+https://docs.katalon.com/katalon-studio/docs/common-verify-greater-than-or-equal.html
+WS.verifyGreaterThanOrEqual(apiReesponse, responseText)
+WS.verifyGreaterThanOrEqual(apiReesponse, responseText, FailureHandling.STOP_ON_FAILURE)
+
+//https://docs.katalon.com/katalon-studio/docs/common-verify-less-than.html
+WS.verifyLessThan(apiReesponse, responseText)
+WS.verifyLessThan(apiReesponse, responseText, FailureHandling.STOP_ON_FAILURE)
+
+//https://docs.katalon.com/katalon-studio/docs/common-verify-less-than-or-equal.html
+WS.verifyLessThanOrEqual(apiReesponse, responseText)
+WS.verifyLessThanOrEqual(apiReesponse, responseText, FailureHandling.STOP_ON_FAILURE)
+
+//https://docs.katalon.com/katalon-studio/docs/common-verify-match.html
+WS.verifyMatch(responseText, responseText, false)
+WS.verifyMatch('Katalon', '(K|T)atalon', true)
+WS.verifyMatch(responseText, responseText, false, FailureHandling.STOP_ON_FAILURE)
+
+//https://docs.katalon.com/katalon-studio/docs/common-verify-not-equal.html
+WS.verifyNotEqual(apiReesponse, responseText)
+WS.verifyNotEqual(apiReesponse, responseText, FailureHandling.STOP_ON_FAILURE)
+
+//https://docs.katalon.com/katalon-studio/docs/common-verify-not-match.html
+WS.verifyNotMatch(responseText, responseText, false)
+WS.verifyNotMatch('Katalon', '(L|T)atalon', true)
+WS.verifyMatch(responseText, responseText, false, FailureHandling.STOP_ON_FAILURE)
+
+WS.verifyNotEqual(apiReesponse, responseText)
+WS.verifyNotEqual(apiReesponse, responseText, FailureHandling.STOP_ON_FAILURE)
+
+WS.verifyNotMatch(responseText, responseText, false)
+WS.verifyNotMatch(responseText, responseText, false, FailureHandling.STOP_ON_FAILURE)
+
+'Verify if the response from "REST_Status Codes/POST_201" object returns the 201 status code'
+//https://docs.katalon.com/katalon-studio/docs/ws-verify-response-status-code.html
+WS.verifyResponseStatusCode(response, 201)
+
+
+/*FailureHandling.STOP_ON_FAILURE
+FailureHandling.CONTINUE_ON_FAILURE
+FailureHandling.OPTIONAL
+*/
+//WS.verifyResponseStatusCode(apiReesponse, 0, FailureHandling.STOP_ON_FAILURE)
+
+
+//https://docs.katalon.com/katalon-studio/docs/ws-verify-response-status-code-in-range.html
+WS.verifyResponseStatusCodeInRange(apiReesponse, 0, 0)
+WS.verifyResponseStatusCodeInRange(apiReesponse, 0, 0, FailureHandling.STOP_ON_FAILURE)
+
+
 
 println object.get("applications").get(0).get("id")
 
