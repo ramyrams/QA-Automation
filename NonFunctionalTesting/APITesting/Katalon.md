@@ -513,4 +513,13 @@ def result = WS.sendRequest(response)
 //Verify title from response
 WS.verifyElementPropertyValue(result, "title[0]", "Appiums", FailureHandling.STOP_ON_FAILURE)
 
+
+https://gist.github.com/executeautomation/464608d92e482c87a8772a9680588f80
+def response = WS.sendRequest(findTestObject('GetEAPosts', [('') : 3]))
+WS.verifyElementPropertyValue(response, '[2].title', 'Katalon Studio', FailureHandling.STOP_ON_FAILURE)
+//Post
+def response1 = WS.sendRequest(findTestObject('GetEAPosts'))
+WS.verifyResponseStatusCode(response1, 200, FailureHandling.STOP_ON_FAILURE)
+//Post to get element count
+WS.verifyElementsCount(response1, '[2].title', 14)
 ```
