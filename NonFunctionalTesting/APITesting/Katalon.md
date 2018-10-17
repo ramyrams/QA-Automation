@@ -486,7 +486,31 @@ ro2.setRestUrl("www.yoururl.com")
 WS.sendRequest(ro2)
 
 
+https://gist.github.com/executeautomation/72292183031b45e70445d27593d55e2c
 
+//POST object
+def request = (RequestObject)findTestObject('POST')
+String body = '{ "id": 20, "title": "Appiums", "author": "Karthik KK"}'
 
+try{
+	request.setBodyContent(new HttpTextBodyContent(body,"UTF-8", "application/json"))
+}
+catch(Exception ex){
+	println (ex.detailMessage)
+}
+//Make POST request
+WS.sendRequest(request)
+
+//Verify response with GET
+def response = (RequestObject)findTestObject('GET')
+
+List<TestObjectProperty> params = new ArrayList();
+params.add(new TestObjectProperty("id", ConditionType.EQUALS, "20"))
+response.setRestParameters(params)
+
+//Make GET Request
+def result = WS.sendRequest(response)
+//Verify title from response
+WS.verifyElementPropertyValue(result, "title[0]", "Appiums", FailureHandling.STOP_ON_FAILURE)
 
 ```
