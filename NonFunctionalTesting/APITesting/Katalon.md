@@ -12,6 +12,13 @@ https://petstore.swagger.io/
 https://petstore.swagger.io/
 
 
+https://docs.katalon.com/katalon-studio/videos/debug_automation_scripts_katalon_studio.html
+https://github.com/katalon-studio-samples
+https://docs.katalon.com/katalon-studio/videos/perform_api_testing_katalon_studio.html
+https://docs.katalon.com/katalon-studio/docs/assert-statements.html
+https://docs.katalon.com/katalon-studio/tutorials/connect_db_gui_testing.html
+
+
 https://help.testlodge.com/hc/en-us/articles/226734968-API-Test-cases
 
 https://docs.katalon.com/katalon-studio/videos/create_environment_profile.html
