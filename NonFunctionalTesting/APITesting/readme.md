@@ -165,6 +165,20 @@ There are two great techniques for obtaining the sequence:
 * Review the user story to identify the individual API calls that are being made.
 * Exercise the UI and capture the traffic being made to the underlying APIs.
 
+# Performance Tests
+Performance testing is usually relegated to the end of the testing process, in a performance-specific test environment. This is because performance testing solutions tend to be expensive, require specialized skill sets, and require specific hardware and environments. This is a big problem because APIs have service level agreements (SLAs) that must be met in order to release an application. If you wait until the very last moment to do your performance testing, failures to meet the SLAs can cause huge release delays.
+
+Doing performance testing earlier in the process allows you to discover performance-related issues before you run your full regression cycle. If you followed the testing process up to this point, this is actually going to be pretty easy because you have all of the underlying test cases you need in order to do performance testing. You can simply take your scenario tests, load them up into your performance testing tool, and run them with a higher number of users. If these tests fail, you can trace the failure back to the individual user story and have a better level of understanding for what will be affected. Managers can then use this understanding to make a go or no go decision about releasing the application.
+
+Security Tests
+Security testing is important to all stakeholders in your organization. If a security vulnerability is exposed and exploited, it can lead to significant reputation loss and financial penalties. Much like a user can accidentally use your APIs in ways you wouldn’t expect, a user can also intentionally try to exploit your APIs. A hacker can get a hold of your API, discover vulnerabilities, and take advantage of them.
+
+To safeguard against this type of behavior, you need to build test cases that attempt to perform these types of malicious attacks. You can leverage your existing test cases to do so, because a scenario test can provide the attack vector into the application. You can then re-use this attack vector to launch your penetration attacks. A good example of this is combining different types of parameter fuzzing or SQL injection attacks with your scenario tests. That way, any changes that propagate through the application will be picked up by your security tests. To learn more about API security testing, check out my colleague’s helpful blog post.
+
+# Omni-Channel Tests
+Because of the multiple interfaces that applications interact with (mobile, web, APIs, databases…), you will run into gaps in test coverage if you test any one of these in isolation, missing the subtleties of the complex interactions between these interfaces.
+
+Omni-channel tests comprehensively cover the application’s many interfaces to ensure thorough test coverage, by interweaving API and database tests into the validation of mobile and web UI interactions. This means taking a test that is exercising one of the interfaces and coordinating it with another – executing your UI tests such as Web (Selenium) or Mobile (Appium) and interlacing them with any of your API or database tests, exchanging data points from the system through the test execution. With effective omni-channel testing, you can create stable, reusable test cases that can be easily automated. 
 
 
 https://www.soapui.org/learn/functional-testing/api-testing-101.html
