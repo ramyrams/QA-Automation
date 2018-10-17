@@ -315,6 +315,164 @@ for(Map oneStud in details) {
 
 https://docs.katalon.com/katalon-studio/tutorials/parse_json_responses.html
 
+def response = WS.sendRequest(findTestObject('REST_CommentDetails')) 
+headerFields = response.getHeaderFields()
+println headerFields['Set-Cookie']
+
+
+def a = WS.sendRequest(findTestObject('New_Request_Auth', ['email' : 'sgappfr2@vpmel.fr', 'password' : 'azerty!!']))
+
+request.addProperty('WSS-Password Type', ConditionType.EQUALS, 'PasswordText')
+
+
+https://mrhaki.blogspot.com/2011/11/grassroots-groovy-reading-json-with.html
+
+
+'Create a new POST object using builder'
+def builder = new RestRequestObjectBuilder()
+def reqOrders = builder
+	.withRestRequestMethod('POST')
+	.withRestUrl('URL')
+	.withHttpHeaders([
+		new TestObjectProperty('Authorization', ConditionType.EQUALS, parsedUserToken),
+		new TestObjectProperty('Content-Type', ConditionType.EQUALS, 'application/json')
+	])
+	.withRestParameters([
+		new TestObjectProperty('service', ConditionType.EQUALS, 'value'),
+		new TestObjectProperty('userId', ConditionType.EQUALS, 'value'),
+		new TestObjectProperty('currency', ConditionType.EQUALS, 'value'),
+		new TestObjectProperty('price', ConditionType.EQUALS, 'value'),
+		new TestObjectProperty('amount', ConditionType.EQUALS, 'value'),
+		new TestObjectProperty('coins', ConditionType.EQUALS, 'value'),
+		new TestObjectProperty('lang', ConditionType.EQUALS, 'EN'),
+		new TestObjectProperty('returnPage', ConditionType.EQUALS, 'value')
+	])
+	.build()
+'Send a request'
+def respOrders = WSBuiltInKeywords.sendRequest(reqOrders)
+
+
+
+RequestObject requestObj = new RequestObject() 
+List<TestObjectProperty> headerParameters = new ArrayList() 
+
+//adding the header params
+headerParameters.add(new TestObjectProperty('Content-Type', 
+ConditionType.EQUALS, 'application/vnd.api+json'))
+headerParameters.add(new TestObjectProperty('session_id', ConditionType.EQUALS, 'xxxxx'))
+
+requestObj.setHttpHeaderProperties(headerParameters)
+requestObj.setRestUrl("url")
+requestObj.setRestRequestMethod("POST")
+
+WS.sendRequest(requestObj) 
+
+
+
+
+
+import com.kms.katalon.core.testobject.TestObjectProperty
+
+import com.kms.katalon.core.testobject.ConditionType
+
+'Get token'
+String token = WebUI.callTestCase(findTestCase('API/Authentication'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+'Scope to a project'
+RequestObject ScopeToProject = findTestObject('API/ScopeToProject')
+
+'Create new ArrayList'
+ArrayList<TestObjectProperty> HTTPHeader = new ArrayList<TestObjectProperty>()
+
+'Send token in HTTP header'
+HTTPHeader.add(new TestObjectProperty('X-Auth-Token', ConditionType.EQUALS, token))
+
+'Set that token'
+ScopeToProject.setHttpHeaderProperties(HTTPHeader)
+
+
+
+
+https://github.com/alexdeleon/groovy-json-schema
+
+
+
+
+//How to verify Array in Api Resful
+
+def jsonSlurper = new JsonSlurper()
+def res = jsonSlurper.parseText(response.getResponseText())
+println(res.errors.message[0])
+
+
+
+import groovy.json.JsonSlurper 
+
+class Example {
+   static void main(String[] args) {
+      def jsonSlurper = new JsonSlurper()
+      def object = jsonSlurper.parseText('{ "name": "John", "ID" : "1"}') 
+		
+      println(object.name);
+      println(object.ID);
+   } 
+}
+
+
+//How to get size of element in API Response
+
+def results = new groovy.json.JsonSlurper().parseText( response.getResponseBodyContent() )
+println results.size()
+
+'Get response text'
+
+response = WS.sendRequest(ScopeToProject)
+
+'Verify if scope to project was successfull'
+WS.verifyElementPropertyValue(response, 'data.currentProject', 'ab8e52e92deb459596e3911f9f09934c')
+
+
+
+import groovy.json.JsonSlurper
+responseData = WS.sendRequest(findTestObject("POST RESTFUL"));
+responseText = responseData.getResponseText();
+def json = new JsonSlurper().parseText(responseText)
+println json.results.size();
+
+
+
+
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import groovy.json.JsonSlurper
+
+// create a new instance of JsonSlurper
+JsonSlurper parser = new JsonSlurper()
+
+// build first RequestObject
+RequestObject ro = new RequestObject("x")
+ro.setRestRequestMethod("GET")
+ro.setRestUrl("https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test_data_file.json")
+
+// send request and get response text
+def resp = WS.sendRequest(ro).getResponseText()
+// parse response text as JSON
+def parsedResp = parser.parseText(resp)
+
+// get parameter you need from JSON response - parse it using dot notation
+def param = parsedResp.username[0]
+
+// build a second request and pass a param from 1st request
+RequestObject ro2 = new RequestObject("y")
+ro2.setHttpBody(param)
+ro2.setRestUrl("www.yoururl.com")
+
+WS.sendRequest(ro2)
+
+
+
 
 
 ```
