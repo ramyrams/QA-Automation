@@ -5,6 +5,13 @@ https://reqres.in/
 http://jsonpath.com/
 https://prnt.sc/
 
+
+# JSON for Import
+https://petstore.swagger.io/v2/swagger.json
+https://petstore.swagger.io/
+https://petstore.swagger.io/
+
+
 https://help.testlodge.com/hc/en-us/articles/226734968-API-Test-cases
 
 https://docs.katalon.com/katalon-studio/videos/create_environment_profile.html
