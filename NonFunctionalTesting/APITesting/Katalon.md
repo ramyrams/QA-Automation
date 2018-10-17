@@ -48,6 +48,15 @@ TestObjectProperty header4 = new TestObjectProperty("Cookie", ConditionType.EQUA
 v
 
 
+//get data
+def data = findTestData('Data Files/DB Data')
+// Get specific data (column, row) as a variable
+String record = data.getValue(3, 4)
+//print my variable
+println record
+
+
+
 println object.get("applications").get(0).get("id")
 
 
