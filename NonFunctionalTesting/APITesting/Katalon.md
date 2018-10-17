@@ -522,4 +522,7 @@ def response1 = WS.sendRequest(findTestObject('GetEAPosts'))
 WS.verifyResponseStatusCode(response1, 200, FailureHandling.STOP_ON_FAILURE)
 //Post to get element count
 WS.verifyElementsCount(response1, '[2].title', 14)
+
+//http://mundrisoft.com/tech-bytes/read-data-from-excel-sheet-using-katalon-studio/
+url = findTestData(“New Test Data”).getValue(“url”, 1)
 ```
