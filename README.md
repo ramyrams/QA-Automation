@@ -4,7 +4,7 @@ As a good first guess, Google often suggests a 70/20/10 split: 70% unit tests, 2
 
 ![1](https://res.infoq.com/articles/contract-testing-spring-cloud-contract/en/resources/1image14-contract-testing-spring-cloud-1532762674022.png)
 
-
+![1](https://toyerm.files.wordpress.com/2018/10/slide13.jpg)
 
 # QA
 * [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
