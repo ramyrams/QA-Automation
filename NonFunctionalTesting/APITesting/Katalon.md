@@ -3,6 +3,7 @@
 # API For Practice
 https://reqres.in/
 http://jsonpath.com/
+https://prnt.sc/
 
 https://help.testlodge.com/hc/en-us/articles/226734968-API-Test-cases
 
