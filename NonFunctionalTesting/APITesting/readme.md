@@ -1,5 +1,17 @@
 # API Testing
 
+
+The Three Levels of API Testing
+ 
+
+“APIs, by their nature as being over-the-wire [or network protocol], allow for testing at a variety of levels: behavioral, contractual, and solution-oriented," Breaks down API testing into three essential aspects:
+
+ * **Behavioral API testing** ensures that it delivers expected behavior and handles unexpected behavior properly. This is the lowest, most internal value. Behavioral testing ensures that the REST API delivers on the expected behavior and handles unexpected behavior properly. Does the code work?
+* **Contractual API testing** ensures that what is specified by the definition is what has actually been shipped via code. This falls at the middle level of needs. Contractual testing ensures that what is specified by the definition is what has actually been shipped via code. Does the API contract continue to function as we have defined it? With the right inputs? Outputs? Data formats?
+* **Solution-oriented API testing** ensures that the API as a whole supports the intended use cases that it was designed to solve. This falls as the highest, mostly external value. Solution-oriented testing ensures that the API as a whole supports the intended use cases that it was designed to solve. Does the API solve real problems that our customers have? Does it do something that people actually care about?
+
+
+
 # Here are some of the most common reasons people test their APIs:
 * Make sure it does what it’s supposed to do
 * Make sure it can handle the load
