@@ -291,8 +291,18 @@ https://assertible.com/blog/4-common-api-errors-how-to-test-them
 * Convert XML body to a JSON object
 * JSON Schema Validation
 * Error Handling
+1. Verify the end point avilability
+2. Ensure request parameter exists
+3. Ensure response parameter exists
+4. Ensure single endpoint works
+5. Ensure HTTP methods supported
+6. Ensure data validation
+7. Ensure error message
+8. Ensure functionality by calling multiple end points
 
 
+Performance Testing
+Security Testing
 # Test Cases for API Testing:
 * **Return value based on input condition:** it is relatively easy to test, as input can be defined and results can be authenticated
 * **Does not return anything:** When there is no return value, behavior of API on the system to be checked
