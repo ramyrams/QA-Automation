@@ -274,3 +274,81 @@ https://www.testingxperts.com/wp-content/uploads/2015/12/API-Web-Services-Testin
 https://www.oxagile.com/assets/img/aqa-api/diagram-lg.png
 https://cdn-images-1.medium.com/max/1600/1*uiWyqqbkgsABSfNjb8KBuw.jpeg
 https://assertible.com/blog/4-common-api-errors-how-to-test-them
+
+
+#What you can test in API testing
+* Check if response body contains a string
+* Check if response body is equal to a string
+* Check for a JSON value
+* Content-Type is present
+* Response time is less than 200ms
+* Status code is 200
+* Code name contains a string
+* Successful POST request status code
+* Use TinyValidator for JSON data
+* Decode base64 encoded data
+* Send an asynchronous request
+* Convert XML body to a JSON object
+* JSON Schema Validation
+* Error Handling
+
+
+# Test Cases for API Testing:
+* **Return value based on input condition:** it is relatively easy to test, as input can be defined and results can be authenticated
+* **Does not return anything:** When there is no return value, behavior of API on the system to be checked
+* **Trigger some other API/event/interrupt:** If output of an API triggers some event or interrupt, then those events and interrupt listeners should be tracked
+* **Update data structure:** Updating data structure will have some outcome or effect on the system, and that should be authenticated
+* **Modify certain resources:** If API call modifies some resources then it should be validated by accessing respective resources
+
+
+API Testng Case Study
+https://www.qualitylogic.com/wp-content/uploads/2017/01/QL_CaseStudy_Web-API-Tesing_011617.pdf
+
+
+https://community.smartbear.com/t5/SoapUI-Open-Source/Building-awesome-frameworks-in-SoapUI/td-p/162206
+
+
+https://json.org/example.html
+https://i.pinimg.com/564x/e2/46/40/e24640ffeb010fa8f9f1c15a560b3991.jpg
+
+
+API 
+https://i.pinimg.com/564x/ac/74/cc/ac74cc86f1a766d93276fc0979549808.jpg
+https://www.guru99.com/images/1-2015/api_testing.png
+
+
+
+https://assertible.com/blog/testing-and-validating-api-responses-with-json-schema
+
+* Endpoint URL status
+* Vaidate JSON Schema
+* Are we getting value
+* Is functionality works? 
+	Orders - (Find item, addtocard, payment, confirmation)
+
+ * Response Data is not structured correctly (JSON or XML)
+* Validate the status codes
+* validate the error message
+
+Fails to handle error conditions gracefully
+Unused flags
+Missing or duplicate functionality
+Reliability Issues. Difficulty in connecting and getting a response from API.
+Security Issues
+Multi-threading issues
+Performance Issues. API response time is very high.
+Improper errors/warning to caller
+Incorrect handling of valid argument values
+Response Data is not structured correctly (JSON or XML)
+
+
+https://github.com/alexdeleon/groovy-json-schema/blob/master/src/test/groovy/com/lumata/os/groovy/jsonschema/JsonSchemaTest.groovy
+
+Image
+https://qph.fs.quoracdn.net/main-qimg-3eb68dfe4b6b5d74562f36c43898a01f
+
+
+
+https://www.soapui.org/soapui/media/images/dojo/scenario_02.png
+
+
