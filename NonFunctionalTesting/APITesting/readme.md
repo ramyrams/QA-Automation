@@ -340,7 +340,16 @@ Performance Issues. API response time is very high.
 Improper errors/warning to caller
 Incorrect handling of valid argument values
 Response Data is not structured correctly (JSON or XML)
+Test Case
+Verify if API doesn’t return any response
+Fails to handle error conditions gracefully
+Input Parameter Validations
+Sequencing of the calls – an output of one can be input to the other type of conditions
+Validation of return codes based on the correctness of the input
+Performance of APIs –  Delayed in API Response time
 
+
+https://public.steelkiwi.com/media/filer_public/f4/00/f40020c0-8ed6-46b9-8c74-2c9b7f2dc44e/api_testing_useful_tools_postman_tutorial_and_hints_image_3.png
 
 https://github.com/alexdeleon/groovy-json-schema/blob/master/src/test/groovy/com/lumata/os/groovy/jsonschema/JsonSchemaTest.groovy
 
