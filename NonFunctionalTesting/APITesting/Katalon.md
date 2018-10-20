@@ -43,6 +43,70 @@ https://github.com/katalon-studio-samples/jira-api-tests
 https://forum.katalon.com/discussion/5259/how-to-set-http-header-with-variable
 
 ```groovy
+
+
+
+### Parsing JSON response using groovy
+
+import groovy.json.*
+
+def json = '''[ 
+    { "name": "John", "start_date": "2016-09-30", "sort_order": 1 },
+    { "name": "Tony", "start_date": "2016-06-30", "sort_order": 2 } ]'''
+
+def parsed = new JsonSlurper().parseText(json)
+
+assert parsed.name == ['John', 'Tony']
+
+
+### JsonSlurper
+JsonSlurper slurper = new JsonSlurper()
+Map parsedJson = slurper.parseText(jsonString)
+
+### Get a Key Value
+String idValue = parsedJson.menu.id
+String idValue2 = parsedJson.get("menu").get("id")
+
+
+### Verify if a Key Is Present in JSON
+
+import com.kms.katalon.core.util.KeywordUtil
+
+String getSelectedKey = parsedJson.menu.id
+
+if(getSelectedKey == null) {
+	KeywordUtil.markFailed("Key is not present")
+}
+
+
+//It is a simple check for the null — if the given key is not found, null is returned. But, there is one special case when this code won’t work, that is, if key “id” has value null in your JSON. For such cases, you should use more robust code:
+boolean isKeyPresent = parsedJson.get("menu").keySet().contains("id")
+
+if (!isKeyPresent) {
+	KeywordUtil.markFailed("Key is not present")
+}
+
+## Get an Array Element
+
+String idValue = parsedJson.menu.tools.actions[0].title
+String idValue2 = parsedJson.get("menu").get("tools").get("actions").get(0).get("title")
+
+
+### Get an Array Element Based on Some Condition
+
+
+def array1 = parsedJson.menu.tools.actions
+String onlickValue1 = ""
+for(def member : array1) {
+      if(member.id == 'Open') {
+      onlickValue1 = member.title
+      break
+      }
+}
+
+
+
+
 TestObjectProperty header4 = new TestObjectProperty("Cookie", ConditionType.EQUALS, "anyCookieHere")
 
 v
