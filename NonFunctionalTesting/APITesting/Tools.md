@@ -11,3 +11,7 @@
 
 * [Starwar API](https://swapi.co/) - The Star Wars API - good for schema validation
 * [REQ | RES](https://reqres.in/) - A hosted REST-API ready to respond to your AJAX requests.
+
+# Katalon API Testing Sample Project
+* https://github.com/katalon-studio-samples/jira-api-tests
+* https://github.com/executeautomation/KatalonAPITesting
