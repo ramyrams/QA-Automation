@@ -1,3 +1,19 @@
+https://www.blazemeter.com/blog/functional-api-testing-how-to-do-it-right
+http://www.tothenew.com/blog/api-testing-using-rest-client/
+https://www.neotys.com/insights/api-testing
+
+https://www.ca.com/en/blog-agile-requirements-designer/mbt-blog-series-api-testing-techniques-you-must-try-today.html
+
+How to GET a Cup of Coffee
+https://www.infoq.com/articles/webber-rest-workflow/
+https://www.softwaretestingmaterial.com/api-testing/
+
+https://katrinatester.blogspot.com/2015/09/api-web-services-microservices-testing.html
+
+
+API, Web Services & Microservices Testing Pathway
+https://katrinatester.blogspot.com/2015/09/api-web-services-microservices-testing.html
+
 # API Testing
 
 
