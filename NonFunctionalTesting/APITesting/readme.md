@@ -1,4 +1,7 @@
 
+* [vREST Cookbook](https://docs.optimizory.com/display/vrest/vREST+Cookbook)
+
+
 # Types of assertions
 * Status code
 * JSON path data
