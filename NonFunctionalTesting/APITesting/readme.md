@@ -1,4 +1,33 @@
 
+# Types of assertions
+* Status code
+* JSON path data
+* JSON validation
+* XPath XML data (XML/HTML)
+* Response header
+* Response time
+* Response text
+* HTML validation
+* Link checker
+
+* ![1](https://cdn2.hubspot.net/hubfs/208250/Blog_Images/api10.png)
+* ![1](https://assertible.com/images/feature-test-assertions.png)
+* ![1](https://assertible.com/images/user-guide-assertions-1.png)
+* ![1](https://assertible.com/images/user-guide-tests-4.png)
+
+
+* ![1](https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-slack-test-run-integration.png)
+* ![1](https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-github-status-check.png)
+
+* ![1](https://assertible.com/images/feature-test-assertions.png)
+* ![1](https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-json-schema-assertion-form.png)
+
+* ![1](http://i1.wp.com/blog.restlet.com/wp-content/uploads/2016/04/DHC-assertions-02-XPath.png)
+* ![1](http://i1.wp.com/blog.restlet.com/wp-content/uploads/2016/04/DHC-assertion-01-JSON-Path.png)
+
+# API Testing Business
+https://assertible.com/plans
+
 
 * ![1](https://d585tldpucybw.cloudfront.net/sfimages/default-source/productsimages/teststudio/apis/codessly-test-your-apis.png)
 * ![1](https://d585tldpucybw.cloudfront.net/sfimages/default-source/productsimages/teststudio/apis/verify-api-calls.jpg)
