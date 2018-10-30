@@ -2,6 +2,44 @@
 * [vREST Cookbook](https://docs.optimizory.com/display/vrest/vREST+Cookbook)
 
 
+# Writing your first test case
+https://docs.optimizory.com/download/attachments/10326993/configure-base-url.png 				
+https://docs.optimizory.com/download/attachments/10326993/add-contact-api-form.png				
+https://docs.optimizory.com/download/attachments/10326993/add-contact-api-details.png			
+https://docs.optimizory.com/download/attachments/10326993/add-contact-request-params.png		
+https://docs.optimizory.com/download/attachments/10326993/add-contact-raw-body.png				
+https://docs.optimizory.com/download/attachments/10326993/add-contact-request-headers.png		
+https://docs.optimizory.com/download/attachments/10326993/add-contact-response-validation.png	
+https://docs.optimizory.com/download/attachments/10326993/add-contact-assertions.png			
+https://docs.optimizory.com/download/attachments/10326993/dv-assertion-failed-empty-body.png	
+https://docs.optimizory.com/download/attachments/10326993/tc-failed-dynamic-props.png			
+https://docs.optimizory.com/download/attachments/10326993/testsuite.png							
+
+https://docs.optimizory.com/download/attachments/10327036/tc-environment-switcher.png
+
+https://docs.optimizory.com/download/attachments/10326995/assertions.png	
+
+https://docs.optimizory.com/download/attachments/11141404/write-tcs.png?version=1&modificationDate=1450876476700&api=v2
+
+https://docs.optimizory.com/download/attachments/10327081/trd-filter-testrun.png?version=1&modificationDate=1470119160499&api=v2
+https://docs.optimizory.com/download/attachments/10327081/trd-choose-tc.png?version=2&modificationDate=1470119380331&api=v2
+https://docs.optimizory.com/download/attachments/10327081/trd-expand-tc.png?version=1&modificationDate=1470119523870&api=v2
+https://docs.optimizory.com/download/attachments/10327081/trd-debug-tc.png?version=1&modificationDate=1470119600119&api=v2
+https://docs.optimizory.com/download/attachments/11141404/write-tcs.png?version=1&modificationDate=1450876476700&api=v2
+
+# JSON Response Validation Scenarios
+Let us see, how various types of responses can be validated in vREST.
+
+My API returns the static response.
+I just want to validate the schema of my response, not the actual content.
+My API returns some dynamic properties like _id, createdOn etc. and I want to ignore them during response validation.
+My API returns a very large response and I am interested in validating only a small part of my API response.
+My API returns some response in which some part of the response can be obtained from the responses of previous test cases.
+My API returns dynamic response and none of the above fit to my needs.
+
+
+
+
 # Types of assertions
 * Status code
 * JSON path data
