@@ -1,4 +1,8 @@
 
+30 Days of Security Testing – Day Three
+https://www.ministryoftesting.com/dojo/lessons/30-days-of-security-testing
+https://mikethetesternz.wordpress.com/2018/10/31/30-days-of-security-testing-day-three/
+
 # Tools
 
 Some tools include:
