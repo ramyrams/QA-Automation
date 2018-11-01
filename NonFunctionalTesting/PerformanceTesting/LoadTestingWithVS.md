@@ -1,4 +1,8 @@
 
+# Course
+Performance Testing with VSTS
+http://www.encartalabs.com/microsoft/performance-testing-with-vsts-training-course.php
+
 
 # Must Read - To Understand Planning and Load Test Results
 * [Software Performance and Load Testing / Application Optimization](https://testandattack.com/blog/)
