@@ -1,3 +1,9 @@
+
+
+# Must Read - To Understand Planning and Load Test Results
+* [Software Performance and Load Testing / Application Optimization](https://testandattack.com/blog/)
+
+
 1) Response time of the service when running a single request.
 2) Memory consumption used by the service when running a single request.
 3) Maximum number of concurrent requests supported by the service
