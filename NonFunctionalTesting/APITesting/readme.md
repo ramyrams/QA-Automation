@@ -14,6 +14,14 @@ WS-Security Status
 WS-Addressing Response Assertion
 WS-Addressing Request Assertion
 
+https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_image1_new.png
+https://www.soapui.org/soapui/media/images/stories/newfunctesting/feature-focus_2.png
+https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_4_new.png
+https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_5_new.png
+https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_6_new.png
+https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_7_new.png
+https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_8_new.png
+
 
 ![1](https://www.lambdatest.com/blog/wp-content/uploads/2018/04/Blog.jpg)
 * [vREST Cookbook](https://docs.optimizory.com/display/vrest/vREST+Cookbook)
