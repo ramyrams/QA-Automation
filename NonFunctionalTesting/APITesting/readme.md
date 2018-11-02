@@ -66,6 +66,12 @@ My API returns dynamic response and none of the above fit to my needs.
 * ![1](http://i1.wp.com/blog.restlet.com/wp-content/uploads/2016/04/DHC-assertions-02-XPath.png)
 * ![1](http://i1.wp.com/blog.restlet.com/wp-content/uploads/2016/04/DHC-assertion-01-JSON-Path.png)
 
+* ![1](https://public.steelkiwi.com/media/filer_public/95/71/9571c223-e99c-4166-a62d-b60587847e3e/api_testing_useful_tools_postman_tutorial_and_hints_image_6.png)
+* ![1](https://public.steelkiwi.com/media/filer_public/bb/b3/bbb31b29-f9f2-4a1e-8d84-a4adec7ae86f/api_testing_useful_tools_postman_tutorial_and_hints_image_7.png)
+* ![1](https://public.steelkiwi.com/media/filer_public/f4/00/f40020c0-8ed6-46b9-8c74-2c9b7f2dc44e/api_testing_useful_tools_postman_tutorial_and_hints_image_3.png)
+
+
+
 # API Testing Business
 https://assertible.com/plans
 
