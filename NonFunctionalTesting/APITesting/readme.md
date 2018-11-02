@@ -1,3 +1,20 @@
+Examples of assertions that is possible in SoapUI are:
+
+Schema Compliance
+Simple Contains
+Simple Not Contains
+SOAP Fault
+Not SOAP Fault
+SOAP Response
+Response SLA
+XPath Match
+XQuery Match
+Script Assertion
+WS-Security Status
+WS-Addressing Response Assertion
+WS-Addressing Request Assertion
+
+
 ![1](https://www.lambdatest.com/blog/wp-content/uploads/2018/04/Blog.jpg)
 * [vREST Cookbook](https://docs.optimizory.com/display/vrest/vREST+Cookbook)
 
