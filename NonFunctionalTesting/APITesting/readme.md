@@ -165,6 +165,23 @@ Load: Does the API load appropriately?
 Usability: Is the API easy to work with?
 Documentation: Are there documents that guide the user into the purpose of the API and how to use it?
 
+# Types of API Testing
+Integration testing, security testing, performance testing, usability testing are some of the terms that you might be aware of as you’re here. Well, API testing provides shade to all the terms under a single umbrella. Let me put it that way, when you perform API testing you make sure that your API passes the following tests.
+
+1. Functional Testing: To make sure that all the API endpoints are up and working and doing what exactly they are supposed to so.
+
+2. Reliability Testing: Making sure that the API works in case of connecting it to various devices and don’t just get disconnected any time.
+
+3. Load Testing: When various servers sends request to an API, it is necessary to make sure that the API responds to all of them.
+
+4. Stress Testing: When more than set number of requests is received by the API how does it behaves? Does it send some message? Works as intended. Mandatory to check.
+
+5. Security Testing: While giving authentication, it is important to make sure that no security breaches happen in between. No more than required data is shared. Have appropriate authentications, permissions, and access controls.
+
+6. Integration Testing: All the APIs connected to each other communicate properly. And addition of features in the API do not cause addition of some bugs in other API modules.
+
+7. Usability Testing: The API is functional and on the top of it, user-friendly.
+
 # API TestServer Features
 https://smartbear.com/product/ready-api/testserver/features/
 
