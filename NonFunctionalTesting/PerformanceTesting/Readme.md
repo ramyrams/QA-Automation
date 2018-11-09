@@ -5,6 +5,12 @@ Performance Testing Guidance for Web Applications
 https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924375(v=pandp.10)
 
 
+
+
+
+https://www.techwell.com/techwell-insights/2018/11/new-approach-load-testing-browser-level-users
+
+
 http://www.guidanceshare.com/wiki/Chapter_3_%E2%80%93_Risks_Addressed_Through_Performance_Testing
 
 https://www.safaribooksonline.com/library/view/performance-testing-guidance/9780735625709/ch03s04.html
