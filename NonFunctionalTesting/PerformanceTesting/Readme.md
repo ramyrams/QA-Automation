@@ -5,6 +5,8 @@ Performance Testing Guidance for Web Applications
 https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924375(v=pandp.10)
 
 
+https://dzone.com/articles/jmeter-how-to-distribute-user-load-in-the-test-pla
+
 
 
 
