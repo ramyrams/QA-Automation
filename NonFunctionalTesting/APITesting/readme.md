@@ -1,3 +1,16 @@
+http://www.tjmaher.com/2018/11/jason-ioannides-api-testing-from-entry.html
+
+Jason Ioannides, API Testing: From Entry Level to a PhD in 40 mins
+
+https://dzone.com/articles/effective-practices-for-api-test-automation
+https://dzone.com/articles/things-you-need-to-know-about-api-testing
+https://dzone.com/articles/10-api-testing-tips-for-beginners-soap-amp-rest
+
+https://dzone.com/articles/how-to-create-top-quality-rest-apis
+
+https://dzone.com/articles/things-you-need-to-know-about-api-testing
+
+
 Examples of assertions that is possible in SoapUI are:
 
 Schema Compliance
