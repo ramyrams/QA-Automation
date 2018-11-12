@@ -3,6 +3,12 @@
 # Getting Started Step-By-Step
 * http://json-schema.org/learn/getting-started-step-by-step.html
 
+## Tools
+* http://jsonvalidate.com/
+https://jsonformatter.org/
+https://www.jsonschemavalidator.net/
+https://json-schema-validator.herokuapp.com/
+
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
