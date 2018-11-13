@@ -1,5 +1,8 @@
 
 
+https://bytescout.com/blog/20-important-sql-queries.html
+
+
 ```sql
 ----------------------------------------------------
 -- Find Table From All The Databases By Table Name
