@@ -1,7 +1,7 @@
 
 
 https://bytescout.com/blog/20-important-sql-queries.html
-
+http://techslides.com/useful-sql-queries-and-commands
 
 ```sql
 ----------------------------------------------------
