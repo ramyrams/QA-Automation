@@ -11,6 +11,11 @@ https://dzone.com/articles/how-to-create-top-quality-rest-apis
 https://dzone.com/articles/things-you-need-to-know-about-api-testing
 
 
+https://fakejson.com/
+http://www.omdbapi.com/
+https://resttesttest.com/
+
+
 Examples of assertions that is possible in SoapUI are:
 
 Schema Compliance
