@@ -44,6 +44,16 @@ https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_7_ne
 https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_8_new.png
 
 
+API limits
+
+https://developers.rebrandly.com/docs/api-custom-url-shortener
+
+
+https://discourse-cdn-sjc2.com/standard10/uploads/ministryoftesting/original/2X/4/4aa5f0038416f22d3137cde5959f8da181e0b758.png
+
+Discussion 
+https://club.ministryoftesting.com/c/30-days-of-testing/30-days-of-api-testing
+
 ![1](https://www.lambdatest.com/blog/wp-content/uploads/2018/04/Blog.jpg)
 * [vREST Cookbook](https://docs.optimizory.com/display/vrest/vREST+Cookbook)
 
