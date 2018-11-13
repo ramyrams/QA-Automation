@@ -11,6 +11,9 @@ https://dzone.com/articles/how-to-create-top-quality-rest-apis
 https://dzone.com/articles/things-you-need-to-know-about-api-testing
 
 
+A collective list of public JSON APIs for use in web development.
+https://github.com/toddmotto/public-apis
+
 https://fakejson.com/
 http://www.omdbapi.com/
 https://resttesttest.com/
