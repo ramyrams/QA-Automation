@@ -1,0 +1,9 @@
+https://github.com/intuit/karate
+https://www.swtestacademy.com/karate-web-service-testing/
+https://semaphoreci.com/community/tutorials/testing-a-java-spring-boot-rest-api-with-karate
+https://www.swtestacademy.com/api-testing-with-rest-assured/
+https://www.swtestacademy.com/java-code-in-karate-api-tests/
+https://www.slideshare.net/ptrthomas/karate-mot-dallas-26oct2017
+https://www.slideshare.net/ptrthomas/api-test-automation-using-karate
+https://www.slideshare.net/ptrthomas/karate-mot-dallas-26oct2017
+https://docs.google.com/document/d/1ETTrdMVcBXaPjdKY-_67zCWBsi2Ctc5DIQUIfr02H7A/edit
