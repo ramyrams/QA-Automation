@@ -1,5 +1,9 @@
 
 
+# Software Testing Metrics & KPIs
+https://www.thinksys.com/qa-testing/software-testing-metrics-kpis/
+
+
 As a good first guess, Google often suggests a 70/20/10 split: 70% unit tests, 20% integration tests, and 10% end-to-end tests.
 
 ![1](https://res.infoq.com/articles/contract-testing-spring-cloud-contract/en/resources/1image14-contract-testing-spring-cloud-1532762674022.png)
