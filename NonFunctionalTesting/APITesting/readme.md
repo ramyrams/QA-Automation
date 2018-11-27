@@ -1,5 +1,6 @@
 # API Tesing
 
+![1](https://www.lambdatest.com/blog/wp-content/uploads/2018/04/Blog.jpg)
 
 Below are the skills a Team/Team Members needs to have to succeed with API Testing.
 * Have Curiosity to Learn and Research.
@@ -85,7 +86,7 @@ https://discourse-cdn-sjc2.com/standard10/uploads/ministryoftesting/original/2X/
 Discussion 
 https://club.ministryoftesting.com/c/30-days-of-testing/30-days-of-api-testing
 
-![1](https://www.lambdatest.com/blog/wp-content/uploads/2018/04/Blog.jpg)
+
 * [vREST Cookbook](https://docs.optimizory.com/display/vrest/vREST+Cookbook)
 
 
