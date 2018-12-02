@@ -7,7 +7,7 @@
 
 
 # 3. Configuring Proxy
-3.1 Setup Proxy in Zap
+## 3.1 Setup Proxy in Zap
 
 In the ZAP UI, go to Tools>Options>Local Proxy
 Make sure the port is set to 8080 (or the port you have configured in your browser)
