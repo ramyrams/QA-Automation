@@ -8,13 +8,12 @@
 
 # 3. Configuring Proxy
 ## 3.1 Setup Proxy in Zap
+* In the ZAP UI, go to Tools>Options>Local Proxy
+* Make sure the port is set to 8080 (or the port you have configured in your browser)
+* Hit the URL:, it should return Zap welcome page: https://127.0.0.1:8080
+![1](https://andrewedstrom.com/assets/images/zap2.jpg)
 
-In the ZAP UI, go to Tools>Options>Local Proxy
-Make sure the port is set to 8080 (or the port you have configured in your browser)
-https://127.0.0.1:8080
-https://andrewedstrom.com/assets/images/zap2.jpg
-
-3.2 Proxy Setup in the browser
+## 3.2 Proxy Setup in the browser
 3.2 Open your preferred browser and set up the proxy as shown here (You can use port 8080 as the port)
 https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/SettingUpBrowser/images/image02.png
 
