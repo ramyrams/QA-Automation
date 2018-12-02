@@ -2,8 +2,8 @@
 * [ZAP - Setting up ZAP for Browser](https://www.youtube.com/watch?time_continue=132&v=Uin07SHkQTE)
 
 # 1. Installation
-1.1 Download ZAP from here - https://github.com/zaproxy/zaproxy/wiki/Downloads
-1.2 Install and open ZAP  
+* 1.1 Download ZAP from here - https://github.com/zaproxy/zaproxy/wiki/Downloads
+* 1.2 Install and open ZAP  
 
 
 # 2. Configuring Proxy
