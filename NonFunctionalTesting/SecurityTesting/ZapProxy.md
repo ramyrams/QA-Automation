@@ -14,10 +14,9 @@
 ![1](https://andrewedstrom.com/assets/images/zap2.jpg)
 
 ## 3.2 Proxy Setup in the browser
-3.2 Open your preferred browser and set up the proxy as shown here (You can use port 8080 as the port)
-https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/SettingUpBrowser/images/image02.png
-
-How to Change Proxy Settings: https://www.wikihow.com/Change-Proxy-Settings
+* 3.2 Open your preferred browser and set up the proxy as shown here (You can use port 8080 as the port)
+![1](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/SettingUpBrowser/images/image02.png)
+* How to Change Proxy Settings: https://www.wikihow.com/Change-Proxy-Settings
 
 
 
