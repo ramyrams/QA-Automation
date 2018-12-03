@@ -1,4 +1,5 @@
 
+![1](https://dzone.com/storage/temp/10719722-types-of-performance-testing.png)
 
 Top 10 Open Source Performance Testing Tools
 https://www.testingexcellence.com/top-10-open-source-performance-testing-tools/
