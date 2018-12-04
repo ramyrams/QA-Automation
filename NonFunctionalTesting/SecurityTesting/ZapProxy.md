@@ -258,7 +258,9 @@ For user management, we can add 2 users, one valid user let it be the “Existin
 https://www.toobler.com/wp-content/uploads/2016/03/blogpic5-650x365.jpg
 
 
+# Authentication in ZAP
 
+https://www.swtestacademy.com/zap-authentication/
 
 Ref:
 https://medium.com/volosoft/running-penetration-tests-for-your-website-as-a-simple-developer-with-owasp-zap-493d6a7e182b
