@@ -95,10 +95,111 @@ The workspace window consists of 3 tabs:
 
 In the earlier version of OWASP ZAP, you had to configure your browser’s proxy to capture requests. But there’s a new cool feature JxBrowser! This is a Chromium-based browser integrated in OWASP ZAP. By default it has all the proxy configuration set up and lets OWASP ZAP to cross all the traffic over it. Hit the Launch Browser and navigate to your website.
 
-https://cdn-images-1.medium.com/max/900/1*I4xL_XOSp8x3NfdAZFvOIw.png
+![](https://cdn-images-1.medium.com/max/900/1*I4xL_XOSp8x3NfdAZFvOIw.png)
 
 
 # Navigating Your Website
 In order to extract the tree of your website, you need to crawl the website in JxBrowser. You should hit all the features, go thru all possible actions. This phase is very important!
 
 ** The more you explore your website, the more you get efficient results.**
+
+
+# Spidering Your Website
+Spidering a website means crawling all the links and getting structure of the website.
+
+
+# How to pentest a SPA (Single Page Application) Website?
+If it’s a SPA website, then you need to tell ZAP more information, in particular that one, parameters represents application structure rather than application data. To do this:
+
+* Double click your Context (in our test it’s a modern AspNet Zero SPA)
+* Select the ‘Structure’ tab
+* Add the ‘structural’ parameter(s)
+
+
+
+ ![](https://cdn-images-1.medium.com/max/1125/1*1Ik4DzP0XEYtNZhVsSIr8w.png)
+ 
+ If you cover all the features and actions of your SPA website, then you don’t need to spider!
+ 
+ # Extensions
+ 
+ There’s an extension marketplace added by the community. You can click the -3 Colored Boxes- icon to show up the list. To install an extension, click on the Marketplace tab and write extension name in the box. Then the click Install Selected button. That’s it! No need to restart.
+ 
+ 
+There are useful extensions! Some of them I can suggest;
+* Active Scanner rules
+* Passive Scanner rules
+* FuzzDB
+
+![](https://cdn-images-1.medium.com/max/900/1*TEfm5FlLgeUKfSlYVog6yA.png)
+
+
+# Configure Scan Policy
+
+Before scanning I recommend to set scan policy like shown below; 
+From the Analyse menu, select Scan Policy Manager. Click Modify button. In the Scan Policy window set Low => Threshold To All and click Go button. Same as Insane => Strength To All and click Go button. And to save click OK button. This will go all the attacks in memory and makes the scan robust.
+
+![](https://cdn-images-1.medium.com/max/900/1*lgppXnw1AvZVuUQuVsRZlA.png)
+
+
+
+# Start Attacking
+Attacking the target website is very straight forward.
+
+1 — Add your website to the Context. To do this, right click the target website in the left pane. Choose Include in Context and select Default Context. You can create a new context as well. Now you see there comes a new website URL in the pop-up window which adds your website as regular expression. Asterix (*) in URL, means attack all the URLs under this website. Before attacking, you can go thru the other options in the Default Context to fine tune your settings. Finally we click OK button.
+
+![](https://cdn-images-1.medium.com/max/1125/1*2WOpQfx3eYSWdT7gySc4Ug.png)
+
+
+2 — Show only the URLs in the current scope. By doing this you hide the other websites and you prevent accidental attacks.
+
+![](https://cdn-images-1.medium.com/max/900/1*EUouLjoVduUVckhPaf2Vuw.png)
+
+
+3 — Run a spider scan to traverse all paths in the website.
+![](https://cdn-images-1.medium.com/max/1125/1*YsTFDKIhfnU8N0x6ykMm3A.png)
+
+4 —Attack! This is the main goal. We’ll start Active Scan. An active scan can insert harmful data into your database. So run it only on the allowed websites. When you click Start Scan, it’ll start a progress which can be time consuming depending on the URL count.
+![](https://cdn-images-1.medium.com/max/1125/1*LUf1mHRdy-sm8wB-8i4kEw.png)
+
+
+# Fuzzer
+Fuzzing is sending unexpected or random data to the inputs of a website. Normally we validate inputs on client-side that’s why we ignore some problems in the back-end. When you fuzz key inputs (like a main search input of the website or the login page inputs) you can see coding errors and security loopholes. This is an optional security step. 
+If you want to run Fuzzer, locate to the request you want to fuzz from left the pane. Right click and choose Attack, then click Fuzz. In the Fuzzer window, you’ll see the request post data. Click on the post data and highlight the text you want to attack. On the right pane, click Add button. You’ll see Payloads window. Click Add button again. In the Add Payload window, choose File Fuzzers from type combo box. Select the file you want to use. This file is a database that will be used to brute force to the input. When it finishes, the results will be listed on the bottom tab called Fuzzer. The ones tagged with Fuzzed are suspicious and needs to be taken care.
+
+
+![](https://cdn-images-1.medium.com/max/1125/1*jh33btSXZi39T1StKyqLMQ.png)
+
+
+# Forced Browse
+The spider looks for known, organically linked URLs. But the spider cannot find a URL that’s not mentioned anywhere on the website. In that case, forced browsing comes in. Forced Browsing uses brute force dictionaries to check if there are any other hidden URLs like admin panel or something that can be hacked.
+
+![](https://cdn-images-1.medium.com/max/900/1*J_mVBfyzmFZGXO4oM1OQ-g.png)
+
+# Break
+
+Break is a very good function for intercepting and modifying the requests and responses. If you want to change any particular request post data or response data, right click on the site, choose Break, in the Add Break Point window click Save. Now, on the bottom pane you’ll see breakpoint is enabled. From now on all the requests will be intercepted by OWASP ZAP tool. Whenever you make a request from the original website, the ZAP window will bring to front and allow you to modify the request. After you press the green play button on the toolbar, ZAP brings you the response sent by the server. And you can modify response as well. So your browser will retrieve the altered response.
+
+https://cdn-images-1.medium.com/max/900/1*oWEr1IXHP8N-9n-NoqZP_Q.png
+
+
+# Results & Report
+You made a good job till here. Scanned your website for the known vulnerabilities. But without reporting those issues properly, you are not complete.
+
+You can see the issues on the Alerts tab that is located in the bottom pane. In the following screen, there are 5 alerts with colorized flags. If you have no red flag then you are lucky! For those with red flags, first focus on them and fix them asap.
+
+![](https://cdn-images-1.medium.com/max/900/1*fu5fr-4zQRcvsssxnjAu5A.png)
+
+
+When you click one of the alerts, it shows the related request & response window. There’s a nice reporting tool that generates a neat report file automatically. You can export reports as HTML, XML, JSON, Markdown … I generated a HTML report. You can see it’s a well-organized final report that you can send to any fellow as is.
+
+
+![](https://cdn-images-1.medium.com/max/900/1*I-93poX8ipmmcl7mqPdBwQ.png)
+
+
+![](https://cdn-images-1.medium.com/max/900/1*2DAwIEJhgLQd82t5WTgydA.png)
+
+
+
+Ref:
+https://medium.com/volosoft/running-penetration-tests-for-your-website-as-a-simple-developer-with-owasp-zap-493d6a7e182b
