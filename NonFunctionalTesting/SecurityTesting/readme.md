@@ -112,6 +112,24 @@ https://adhilton.pratt.duke.edu/sites/adhilton.pratt.duke.edu/files/u37/ERSS_10_
 https://www.darknet.org.uk/content/files/WebVulnScanners.pdf
 
 
+https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+
+https://resources.infosecinstitute.com/14-popular-web-application-vulnerability-scanners/#gref
+
+
+https://www.synopsys.com/blogs/software-security/complete-web-application-security-testing-checklist/
+
+https://www.odoo.com/security
+
+
+https://www.softwaretestinghelp.com/security-testing-of-web-applications/
+
+https://www.gantaspen.com/wp-content/uploads/2014/05/SSG-Labs_DestinationHotels_GrantAspen_SmokeTest_2014-04-18.pdf
+
+
+http://projects.webappsec.org/w/page/13246986/Web%20Application%20Security%20Scanner%20Evaluation%20Criteria
+
+
 # List of Demo websites of security testing purpose
 http://demo.testfire.net
 http://testphp.vulnweb.com
