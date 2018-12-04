@@ -99,4 +99,6 @@ https://cdn-images-1.medium.com/max/900/1*I4xL_XOSp8x3NfdAZFvOIw.png
 
 
 # Navigating Your Website
+In order to extract the tree of your website, you need to crawl the website in JxBrowser. You should hit all the features, go thru all possible actions. This phase is very important!
 
+** The more you explore your website, the more you get efficient results.**
