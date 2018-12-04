@@ -35,7 +35,7 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 ## 2.1 Setup Proxy in Zap
 * In the ZAP UI, go to Tools>Options>Local Proxy
 * Make sure the port is set to 8080 (or the port you have configured in your browser)
-* Hit the URL:, it should return Zap welcome page: https://127.0.0.1:8080
+* Hit the URL:, it should return Zap welcome page: https://127.0.0.1:8080 or http://zap/
 ![1](https://andrewedstrom.com/assets/images/zap2.jpg)
 
 ## 2.2 Proxy Setup in the browser
@@ -141,6 +141,9 @@ From the Analyse menu, select Scan Policy Manager. Click Modify button. In the S
 
 ![](https://cdn-images-1.medium.com/max/900/1*lgppXnw1AvZVuUQuVsRZlA.png)
 
+# Save the ZAP session
+Once you have manually explored the application it would be a good time to save the ZAP session so that you can look at it again.
+If your application has multiple roles then you should explore it with each role and save the sessions in separate files.
 
 
 # Start Attacking
@@ -198,6 +201,59 @@ When you click one of the alerts, it shows the related request & response window
 
 
 ![](https://cdn-images-1.medium.com/max/900/1*2DAwIEJhgLQd82t5WTgydA.png)
+
+
+
+https://www.pitsolutions.ch/blog/wp-content/uploads/2017/09/8.png
+
+
+Using ZAP, we can perform three types of automated scanning;
+
+Passive scanning – Passive scanning spiders your web-app and scans the responses without altering them. Only potential hazards can be detected by passive scanning
+Active scanning – By active scanning, we can both scan and attacks the web-application
+Fuzzing – Fuzzing allows us to modify the response from the web-app and view the results instantly
+
+
+Flexible Scan Policy Management
+ZAP provides the flexibility to compose a  scan policy based on the requirement of the tester for every  application. The Scan Policy Manager can be found at Analyse>>Scan Policy Manager under the menu bar.
+
+https://www.we45.com/hs-fs/hubfs/04_Scan_Policy.png
+
+AJAX spidering
+
+AJAX spidering is performed during a penetration test to discover requests on an AJAX-rich web application, which cannot be discovered with the regular Spidering tool. The AJAX spidering window can be accessed via  ZAP -> Tools ->AJAX Spider (on ZAP’s menu bar). The tool has configuration parameters such as maximum depth to crawl, maximum crawl states, maximum duration and other options to prevent the possibility of infinite crawling.
+
+
+Context includes:
+(i)Authentication
+(ii)Session management
+(iii)Users management
+
+
+
+Context: Form based authentication
+(I) log-in from target url: https://pr-uat.iptquote.com/login.php
+
+(ii) Login Request POST Data: username={%username%}&password={%password%}&proceed=login
+
+(iii) Set params as: username =password
+
+(iv) Include regex pattern for logged in or logged out response
+Regex pattern for logged in response :- \Qa href=”https://pr-uat.iptquote.com/login.php?proceed=logout\E
+
+
+https://www.toobler.com/wp-content/uploads/2016/03/blogpic3-650x365.jpg
+
+
+Context: Session Management
+https://www.toobler.com/wp-content/uploads/2016/03/blogpic4-650x365.jpg
+
+
+Context: User management
+For user management, we can add 2 users, one valid user let it be the “Existing user” here “superadmin” in our example and other is “Test User” invalid user.
+
+https://www.toobler.com/wp-content/uploads/2016/03/blogpic5-650x365.jpg
+
 
 
 
