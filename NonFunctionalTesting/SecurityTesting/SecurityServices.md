@@ -1,3 +1,48 @@
+# Black-Box Application Penetration Test
+During a Black-Box Penetration Test, VSR will analyze a customer’s application security with minimal prior knowledge. This testing includes web application penetration testing as well as thin-client and thick-client testing.
+
+* Penetration testing is performed from the perspective of a malicious attacker via a combination of manual penetration testing aided by industry-standard tools, including: Burp Suite, SQLmap, Metasploit, NMap, Nessus, etc.
+* Penetration testing covers OWASP Top 10 vulnerabilities, including: authorization and authentication flaws, Cross-Site-Request Forgery, Cross-Site-Scripting (XSS), insecure data storage, session management, SQL injection, etc.
+* Application penetration testing also includes more advanced flaws which are not normally detected by automated testing, such as: cryptographic flaws, side-channel attacks, business logic flaws, product integration, etc.
+* Applications are analyzed to determine potential weaknesses and then exploited.
+* Vulnerabilities are characterized by their impact and likelihood.
+* Detailed reproduction steps are provided for each discovered vulnerability.
+* A remediation plan is offered for each discovered vulnerability.
+
+
+# Application Security Code Review
+During an Application Security Code Review, VSR analyzes the source code of a customer’s application to identify security flaws and evaluate the overall security posture of the application.
+
+* Through a combination of static analysis and manual review, detailed analysis of the application’s behavior is performed, resulting in greater coverage of the attack surface area.
+* Once a vulnerability is discovered, we can definitively determine whether or not it is exploitable based on code context.
+* Vulnerabilities are characterized by their impact and likelihood.
+* Detailed reproduction steps are provided for each discovered vulnerability.
+* A detailed remediation plan that is specific to the context of the application is offered for each discovered vulnerability.
+* VSR can communicate directly with the development team to ensure vulnerabilities and their remediation are fully understood.
+
+
+# Application Security Architecture Review
+During an Application Security Architecture Review, VSR analyzes an application’s architecture from a high-level design perspective in order to provide secure development guidance. This process is best performed before the design of an application is finalized.
+
+* Components of the application and their interactions are analyzed from a design perspective in order to identify potential security weaknesses.
+* A wide range of areas are examined, including: authentication, authorization and access controls, encryption, host implementation and configuration, key life cycle management, * network infrastructure, sensitive data storage, session management, etc.
+* Application design is compared to industry best practices.
+* Comprehensive threat modeling is performed in the context of the application business requirements.
+* Vulnerabilities are characterized by their impact and likelihood, enumerating conflicts between business requirements and security considerations.
+* Alternative designs are proposed by VSR to mitigate identified vulnerbilities.
+
+
+# Mobile Application Penetration Test and Review
+During a Mobile Application Penetration Test and Review, VSR analyzes a mobile application’s security from the perspective of an attacker in the context of the customer’s mobile device and application policies. All common platforms are covered, including: Android, Blackberry, iOS and Windows.
+
+* Applications are reverse-engineered and instrumented as needed in order to analyze and determine potential vulnerabilities as well as evaluate the overall security posture of the application.
+* Penetration testing takes into consideration the unique scenarios presented by applications running on a mobile device, such as loss, theft and the presence of mobile malware.
+* Penetration testing is performed both in a rooted and non-rooted context.
+* Vulnerabilities are characterized by their impact and likelihood.
+* Detailed reproduction steps are provided for each discovered vulnerability.
+* A remediation plan is offered for each discovered vulnerability.
+
+
 # AUDIT, ASSURANCE AND IMPLEMENTATION PROCESS
 * CONTINUITY PLANNING
   * Business continuity and disaster recovery planning
