@@ -267,3 +267,43 @@ https://simplysecure.blog/2017/06/21/using-your-android-device-with-owasp-zap/
 
 Ref:
 https://medium.com/volosoft/running-penetration-tests-for-your-website-as-a-simple-developer-with-owasp-zap-493d6a7e182b
+
+
+Cloth Bleach
+Carpet clearner
+Plastic bucket
+Paste - Aque fressh extra clean pure breath action
+
+Mubbing system
+
+http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6823/pdf/imm6823.pdf
+
+Dynamic Scanning with OWASP ZAP for Identifying Security Threats
+https://medium.com/@PrakhashS/dynamic-scanning-with-owasp-zap-for-identifying-security-threats-complete-guide-52b3643eee04
+
+https://medium.com/blue-space/xss-crash-course-aee555d525d3
+
+
+https://medium.com/@PrakhashS/using-retire-js-with-zap-to-identify-vulnerabilities-in-javascript-libraries-7baad56690aa
+
+https://medium.com/@PrakhashS/overview-cross-site-request-forgery-csrf-recommended-approach-for-wso2-products-bb0e2437307
+
+
+https://medium.com/@PrakhashS/automating-the-boring-stuffs-using-zap-and-jenkins-continues-integration-d4461a6ace1a
+
+https://medium.com/@PrakhashS/automating-security-testing-of-web-applications-using-owasp-zed-attack-proxy-in-jenkins-aa0f9eafdcba
+
+
+https://medium.com/@Toobler/zap-penetration-testing-a-simple-tutorial-to-detect-vulnerabilities-e9a8311182a9
+
+
+https://www.we45.com/blog/how-to-integrate-zap-into-jenkins-ci-pipeline-we45-blog
+
+
+https://cyberarms.wordpress.com/2015/05/03/automatic-web-app-security-testing-with-owasp-zap/
+
+
+https://dzone.com/articles/scripting-authenticated-login-within-zap-vulnerabi
+
+
+
