@@ -54,3 +54,49 @@ Add the ZAP certificate to your system’s trusted certificates
 Next, we need to tell our system to trust messages forwarded to us by the ZAP proxy so that we will be able to visit urls that start with https://. To do this, we need to give the Operating System the ZAP proxy’s certificate.
 
 * https://2buntu.com/articles/1517/adding-ssl-certificates-from-owasp-zap-a-visual-walkthrough/
+
+
+
+ # Default Startup Dialog of Owasp Zap
+
+![](https://cdn-images-1.medium.com/max/900/1*p5deaD3oyywvFx83fLqOZQ.png)
+
+
+
+# Modes
+![](https://cdn-images-1.medium.com/max/1125/1*8RMpIlHk1tvDV69rJEaI1Q.png)
+
+** 1. Modes:** On the upper-left of the screen you see modes. There are 4 modes;
+
+* Standard Mode: Allows you to do anything to any website.
+* Attack Mode: Active scans any websites.
+* Safe Mode: Turns off all the harmful features while scanning.
+* Protected Mode: Allow you to scan websites in a particular scope. It prevents you to scan an unwanted website
+
+# Sites
+![](https://cdn-images-1.medium.com/max/900/1*tYOWTi-nlbOP6tog-zJF1w.png)
+
+ All the sites you access via the ZAP Proxy will be listed here. If your website makes a request to another website, you’ll see that under a separate site.
+
+2.1 — Show Only URLs in Scope: You should toggle this option on because the sites section gets ugly after some test. To focus your target website in the sites you should create a new context of your website and keep In Scope option checked. By doing this you will no longer see other websites that you are not interested in.
+
+
+# Workspace Window:
+
+The workspace window consists of 3 tabs:
+
+3.1 — Quick Start Window: It’s the direct and fastest way of starting an active scan. Enter the target website address in the URL to attack input and hit the attack button. It first crawls the website then performs active scan.
+
+3.2 — Request & Response Window: These are the most used parts of the UI. In the request tab, you see the window is divided into 2 parts. Upper shows request’s header and cookies and the bottom shows the post parameters as being sent to server. The response windows is similar to the request window. Shows the response header and body.
+![](https://cdn-images-1.medium.com/max/1125/1*Ez-q4tA2r5WvrZT-v8SmOQ.png)
+![](https://cdn-images-1.medium.com/max/1125/1*YKXJ-f-w1nFE4TSZE4VnCw.png)
+
+# Proxying Your Website: JxBrowser
+
+In the earlier version of OWASP ZAP, you had to configure your browser’s proxy to capture requests. But there’s a new cool feature JxBrowser! This is a Chromium-based browser integrated in OWASP ZAP. By default it has all the proxy configuration set up and lets OWASP ZAP to cross all the traffic over it. Hit the Launch Browser and navigate to your website.
+
+https://cdn-images-1.medium.com/max/900/1*I4xL_XOSp8x3NfdAZFvOIw.png
+
+
+# Navigating Your Website
+
