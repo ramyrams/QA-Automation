@@ -93,3 +93,45 @@ https://www.techworm.net/2016/08/top-10-websites-refresh-hacking-skills.html
 
 [Notes From](https://www.linkedin.com/pulse/security-test-driven-development-stdd-surendran-ethiraj)
 
+
+
+# Demo web sites for testing AppScan products
+* [](https://www-01.ibm.com/support/docview.wss?uid=swg21288823)
+
+
+https://www.youtube.com/watch?v=OtESfl1w5Xs
+
+http://www.lsablog.com/networksec/penetration/how-to-hack-www-testfire-net/
+https://ironwasp.org/report.html
+
+https://www.nebraskacert.org/csf/CSF-Jun2010.pdf
+https://lrs.itsa.org.tw/pluginfile.php/18373/mod_resource/content/0/Web_App_Security%E8%AA%B2%E7%A8%8B_%E6%B1%9F%E6%B8%85%E6%B3%89%E8%80%81%E5%B8%AB_%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf
+
+https://adhilton.pratt.duke.edu/sites/adhilton.pratt.duke.edu/files/u37/ERSS_10_Tara_Guest_Lecture.pdf
+
+https://www.darknet.org.uk/content/files/WebVulnScanners.pdf
+
+
+# List of Demo websites of security testing purpose
+http://demo.testfire.net
+http://testphp.vulnweb.com
+http://testasp.vulnweb.com
+http://testaspnet.vulnweb.com
+http://zero.webappsecurity.com
+http://crackme.cenzic.com
+http://www.webscantest.com
+http://scanme.nmap.org/
+
+
+https://www.testnet.org/testnet/download/presentaties-summerschool-2011/testnet_course_webappsec_testing.v2.pdf
+
+
+AltoroMutual
+AltoroMutual is an vulnerable-by-design web application created by WatchFire (now AppScan Standard) as a demo test application for their BlackBox Scanner.
+
+# Sample Report
+https://www.itsc.cuhk.edu.hk/images/content/privacy-security/vas-web/wasample.pdf
+
+
+http://www.crestech.in/pdf/SQLInjection.pdf
+
