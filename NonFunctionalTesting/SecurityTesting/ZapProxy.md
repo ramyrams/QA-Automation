@@ -262,5 +262,8 @@ https://www.toobler.com/wp-content/uploads/2016/03/blogpic5-650x365.jpg
 
 https://www.swtestacademy.com/zap-authentication/
 
+# Using Your Android Device with OWASP ZAP
+https://simplysecure.blog/2017/06/21/using-your-android-device-with-owasp-zap/
+
 Ref:
 https://medium.com/volosoft/running-penetration-tests-for-your-website-as-a-simple-developer-with-owasp-zap-493d6a7e182b
