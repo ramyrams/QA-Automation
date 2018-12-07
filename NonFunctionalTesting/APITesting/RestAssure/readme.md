@@ -4,6 +4,15 @@ https://developer.ibm.com/recipes/wp-content/uploads/sites/41/2018/06/Framework.
 Step by step
 https://restservicestesting.blogspot.com/
 
+
+https://github.com/vikramvi/RESTful-api-automation
+
+https://github.com/siva-thota/Rest_Assured/blob/master/REST-assured/src/test/java/com/steps/JasonValidationSteps.java
+
+Cucumber
+https://github.com/siva-thota/Rest_Assured/tree/master/REST-assured
+
+
 Quick start - http://toolsqa.com/rest-assured/rest-api-test-using-rest-assured/
 
 https://github.com/rest-assured/rest-assured/wiki/Usage
