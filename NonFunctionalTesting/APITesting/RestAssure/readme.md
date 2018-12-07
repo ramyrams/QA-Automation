@@ -8,6 +8,33 @@ Quick start - http://toolsqa.com/rest-assured/rest-api-test-using-rest-assured/
 
 https://github.com/rest-assured/rest-assured/wiki/Usage
 
+https://github.com/pranitha-mandadi/restAssuredMaven/blob/master/src/test/java/com/test/restAssured/BaseTest.java
+https://github.com/askeledz/rest-automation/blob/master/RESTtest_core/src/main/java/com/rest/autotests/core/util/Config.java
+
+good night
+https://github.com/askeledz/rest-automation
+
+Wiremock
+https://github.com/kendo1234/restassured/tree/master/src/test/java
+
+https://github.com/pazjing/rest-assured/tree/master/src/test/java/com/api/rest/api/restassuredhelper
+
+https://github.com/rushi2828/RestAssuredTests/blob/master/src/test/java/SampleTestBDD/GETMethodsTests.java
+
+
+https://github.com/lastdil/rest-assured/blob/master/src/test/java/authTest.java
+
+https://github.com/Srilathaky/Rest_Assured/tree/master/src/test/java/confirmation_testsuit
+
+Good One
+https://github.com/icedme666/ApiAuto
+
+
+
+Response Time Validation Rest Assured
+https://www.youtube.com/watch?v=wdec1cAA4x4
+
+
 https://semaphoreci.com/community/tutorials/testing-rest-endpoints-using-rest-assured
 
 https://www.youtube.com/watch?v=AbJrfP4ziIk&list=PLEiBaBxmVLi-hoi61aX-2agQb8EXSCT5f
