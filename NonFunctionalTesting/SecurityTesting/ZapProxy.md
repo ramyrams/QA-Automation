@@ -78,7 +78,9 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 * Safe Mode: Turns off all the harmful features while scanning.
 * Protected Mode: Allow you to scan websites in a particular scope. It prevents you to scan an unwanted website
 
-# Sites
+# Context
+* Contexts are a way to group relevant URLs, so that ZAP only shows you the traffic you care about.
+![](https://chrisdecairos.ca/content/images/2015/08/Create_Context.png)
 ![](https://cdn-images-1.medium.com/max/900/1*tYOWTi-nlbOP6tog-zJF1w.png)
 
  All the sites you access via the ZAP Proxy will be listed here. If your website makes a request to another website, you’ll see that under a separate site.
