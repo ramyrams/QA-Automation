@@ -93,6 +93,18 @@ There are 4 modes;
 ![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image10.png)
 
 
+# User Log Out detection
+* While ZAP is performing scans on the target sites, the session might become invalidated (ZAP may have visited the logout link or the session may have timed out). 
+* To make sure ZAP always has an active session to scan, we need to use the logout detection capability of ZAP.
+
+* Log in to your application
+* Click on the logout link
+* In Zap, navigate to the page which invokes the logout request. Right click and select “Exclude from” > “Scanner”. Click OK.
+![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image04.png)
+
+* Again right click on the same link and select “Exclude from” > “Spider”
+![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image01.png)
+
 
 
 
