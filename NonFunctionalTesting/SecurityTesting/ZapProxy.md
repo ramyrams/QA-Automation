@@ -47,16 +47,16 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 * How to Change Proxy Settings: https://www.wikihow.com/Change-Proxy-Settings
 
 
-# 3. Installing certificate
-3.1 Go to Tools>Options>Dynamic SSL Certificate. Click Generate and then click Save.
-3.2 Save the certificate in the desired location
-3.3 Open your browser and install the Certificate to your browser (Firefox, Chrome, IE) accordingly 
+# Generate Zap Certificate
+* 3.1 Go to Tools>Options>Dynamic SSL Certificate. Click Generate and then click Save.
+* 3.2 Save the certificate in the desired location
 
-
-Add the ZAP certificate to your system’s trusted certificates
-Next, we need to tell our system to trust messages forwarded to us by the ZAP proxy so that we will be able to visit urls that start with https://. To do this, we need to give the Operating System the ZAP proxy’s certificate.
-
-* https://2buntu.com/articles/1517/adding-ssl-certificates-from-owasp-zap-a-visual-walkthrough/
+# Installing certificate in Browser
+* Next, we need to tell our system to trust messages forwarded to us by the ZAP proxy so that we will be able to visit urls that start with https://. To do this, we need to give the Operating System the ZAP proxy’s certificate.
+* 3.3 Open your browser and install the Certificate to your browser (Firefox, Chrome, IE) accordingly 
+* Go to Options>Privacy & Security>Certificates>View Certificates>Authorities>Import
+* Refer: https://2buntu.com/articles/1517/adding-ssl-certificates-from-owasp-zap-a-visual-walkthrough/
+* Should see the OWASP Zap Attach Praxy Root CA certificate in the list
 
 
 
