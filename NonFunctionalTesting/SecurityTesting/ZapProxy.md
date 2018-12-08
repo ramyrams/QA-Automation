@@ -77,6 +77,16 @@ There are 4 modes;
 * **Safe Mode:** Turns off all the harmful features while scanning.
 * **Protected Mode:** Allow you to scan websites in a particular scope. It prevents you to scan an unwanted website
 
+# Enable All Tabs
+Go to View->Show all tabs
+
+# Shortcuts
+Ctl+Alt+p - Session Properties
+
+
+# Explore 
+What is the purpose of import/export of context?
+
 # Context
 * Contexts are a way to group relevant URLs, so that ZAP only shows you the traffic you care about.
 * Adding a site to the testing scope
@@ -91,6 +101,37 @@ There are 4 modes;
 ![](https://chrisdecairos.ca/content/images/2015/08/Create_Context.png)
 ![](https://cdn-images-1.medium.com/max/900/1*tYOWTi-nlbOP6tog-zJF1w.png)
 ![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image10.png)
+
+
+# User Auto-login if logged out (Only for applications with form based authentication)
+* Find the right Login Post request 
+* Flag As Context - > Form Based Auth Login Request
+* Select the username parameter field
+* Select the password parameter field
+
+
+* If user does get logged out during the course of testing, ZAP can automatically log back in so that it can continue with the tests. This functionality only works if your application has form based authentication.
+
+* Log in to your application
+* Check for the request that was sent when the application was authenticated (logged in). Right click on the request select “Flag as Context” > “TestFire: Form-based Auth Login request”
+![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image05.png)
+
+* In the session properties dialog that pops up make sure the Login URL is the same login URL of the application and the POST data is in the textbox. Make sure the username and password parameters are correct by selecting the appropriate username and password parameters from the list.
+
+![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image13.png)
+
+# Add User
+* In the left side bar click “Users” in the left side bar.
+* Click Add
+* Enter the username and password that your application uses
+![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image03.png)
+
+
+* Now click on  “Forced User” in the left bar. This tells ZAP which credentials to use if the user is logged out. You can optionally configure multiple users for the same application, but ZAP will only use the user you chose as “Forced User”
+* Make sure the user you have added is selected. Click OK
+* If Forced User is configured and logged-out indicator is added, a new button should appear at the top called “Forced User Mode”
+![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image07.png)
+
 
 
 # User Log Out detection
@@ -113,28 +154,6 @@ There are 4 modes;
 ![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image11.png)
 
 
-
-# User Auto-login if logged out (Only for applications with form based authentication)
-* If user does get logged out during the course of testing, ZAP can automatically log back in so that it can continue with the tests. This functionality only works if your application has form based authentication.
-
-* Log in to your application
-* Check for the request that was sent when the application was authenticated (logged in). Right click on the request select “Flag as Context” > “TestFire: Form-based Auth Login request”
-![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image05.png)
-
-* In the session properties dialog that pops up make sure the Login URL is the same login URL of the application and the POST data is in the textbox. Make sure the username and password parameters are correct by selecting the appropriate username and password parameters from the list.
-
-![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image13.png)
-
-* In the left side bar click “Users” in the left side bar.
-* Click Add
-* Enter the username and password that your application uses
-![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image03.png)
-
-
-* Now click on  “Forced User” in the left bar. This tells ZAP which credentials to use if the user is logged out. You can optionally configure multiple users for the same application, but ZAP will only use the user you chose as “Forced User”
-* Make sure the user you have added is selected. Click OK
-* If Forced User is configured and logged-out indicator is added, a new button should appear at the top called “Forced User Mode”
-![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image07.png)
 
 
 
