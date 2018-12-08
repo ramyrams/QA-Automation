@@ -38,7 +38,6 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 ## 2.1 Setup Proxy in Zap
 * In the ZAP UI, go to Tools>Options>Local Proxy
 * Make sure the port is set to 8080 (or the port you have configured in your browser)
-* Hit the URL:, it should return Zap welcome page: https://127.0.0.1:8080 or http://zap/ or https://localhost:8080
 ![1](https://andrewedstrom.com/assets/images/zap2.jpg)
 
 ## 2.2 Proxy Setup in the browser
@@ -58,7 +57,10 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 * Refer: https://2buntu.com/articles/1517/adding-ssl-certificates-from-owasp-zap-a-visual-walkthrough/
 * Should see the OWASP Zap Attach Praxy Root CA certificate in the list
 
-
+# Verify Zap & Browser Communication
+* Hit the URL:, it should return Zap welcome page: https://127.0.0.1:8080 or http://zap/ or https://localhost:8080
+* Zap Welcome page should appear
+![1](https://wpdevkvk.files.wordpress.com/2017/07/93.png?resize=900%2C497)
 
  # Default Startup Dialog of Owasp Zap
 
