@@ -38,7 +38,7 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 ## 2.1 Setup Proxy in Zap
 * In the ZAP UI, go to Tools>Options>Local Proxy
 * Make sure the port is set to 8080 (or the port you have configured in your browser)
-* Hit the URL:, it should return Zap welcome page: https://127.0.0.1:8080 or http://zap/
+* Hit the URL:, it should return Zap welcome page: https://127.0.0.1:8080 or http://zap/ or https://localhost:8080
 ![1](https://andrewedstrom.com/assets/images/zap2.jpg)
 
 ## 2.2 Proxy Setup in the browser
