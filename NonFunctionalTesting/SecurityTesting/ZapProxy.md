@@ -79,10 +79,25 @@ There are 4 modes;
 
 # Context
 * Contexts are a way to group relevant URLs, so that ZAP only shows you the traffic you care about.
+* Adding a site to the testing scope
+* By telling ZAP what the target site is, ZAP can limit the scope of the scan and only scan the target site for vulnerabilities.
+
+* Open the web application that you want to test.
+* In Zap you will find your website/application is displayed under sites.
+* To add your site to the scope of the test, right click on the target address and select Include in Context>New Context. This will tell * ZAP to perform scans only on this particular site and ignore all other requests and responses.
+* Choose a suitable name and set it as a context name (Eg: testfire)
+* If your application has multiple sites you can add all of them by right clicking on the URL and selecting “Include in Context”>”TestFire”
+
 ![](https://chrisdecairos.ca/content/images/2015/08/Create_Context.png)
 ![](https://cdn-images-1.medium.com/max/900/1*tYOWTi-nlbOP6tog-zJF1w.png)
+![](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/RunningScan/images/image10.png)
 
- All the sites you access via the ZAP Proxy will be listed here. If your website makes a request to another website, you’ll see that under a separate site.
+
+
+
+
+
+All the sites you access via the ZAP Proxy will be listed here. If your website makes a request to another website, you’ll see that under a separate site.
 
 2.1 — Show Only URLs in Scope: You should toggle this option on because the sites section gets ugly after some test. To focus your target website in the sites you should create a new context of your website and keep In Scope option checked. By doing this you will no longer see other websites that you are not interested in.
 
