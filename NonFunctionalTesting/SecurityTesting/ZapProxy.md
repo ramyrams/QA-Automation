@@ -71,12 +71,11 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 # Modes
 ![](https://cdn-images-1.medium.com/max/1125/1*8RMpIlHk1tvDV69rJEaI1Q.png)
 
-** 1. Modes:** On the upper-left of the screen you see modes. There are 4 modes;
-
-* Standard Mode: Allows you to do anything to any website.
-* Attack Mode: Active scans any websites.
-* Safe Mode: Turns off all the harmful features while scanning.
-* Protected Mode: Allow you to scan websites in a particular scope. It prevents you to scan an unwanted website
+There are 4 modes;
+* **Standard Mode:** Allows you to do anything to any website.
+* **Attack Mode:** Active scans any websites.
+* **Safe Mode:** Turns off all the harmful features while scanning.
+* **Protected Mode:** Allow you to scan websites in a particular scope. It prevents you to scan an unwanted website
 
 # Context
 * Contexts are a way to group relevant URLs, so that ZAP only shows you the traffic you care about.
