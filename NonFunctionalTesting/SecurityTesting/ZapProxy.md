@@ -19,9 +19,10 @@
 * [ZAP - Setting up ZAP for Browser](https://www.youtube.com/watch?time_continue=132&v=Uin07SHkQTE)
 
 # Setting up your ZAP Environment
-* 1.1 JAVA 8+ : In order to install ZAP you need to install JAVA 8+ to your Windows or Linux system.
-* 1.2 Download ZAP from here - https://github.com/zaproxy/zaproxy/wiki/Downloads
-* 1.3 Install and open ZAP  
+* 1 JAVA 8+ : In order to install ZAP you need to install JAVA 8+ to your Windows or Linux system.
+* 2 Download ZAP from here - https://github.com/zaproxy/zaproxy/wiki/Downloads
+* 3 Install and open ZAP  
+* 4. Foxy Proxy - https://www.youtube.com/watch?v=jHGNLvSpaLs
 
 # Starting OWASP ZAP
 
