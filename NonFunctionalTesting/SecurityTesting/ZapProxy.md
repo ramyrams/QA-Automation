@@ -399,7 +399,9 @@ https://medium.com/@PrakhashS/using-retire-js-with-zap-to-identify-vulnerabiliti
 
 https://medium.com/@PrakhashS/overview-cross-site-request-forgery-csrf-recommended-approach-for-wso2-products-bb0e2437307
 
+https://www.coveros.com/scripting-authenticated-login-within-zap-vulnerability-scanner/
 
+https://www.coveros.com/running-selenium-tests-zap/
 https://medium.com/@PrakhashS/automating-the-boring-stuffs-using-zap-and-jenkins-continues-integration-d4461a6ace1a
 
 https://medium.com/@PrakhashS/automating-security-testing-of-web-applications-using-owasp-zed-attack-proxy-in-jenkins-aa0f9eafdcba
