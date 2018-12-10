@@ -1,3 +1,11 @@
+
+
+https://www.swtestacademy.com/xpath-selenium/
+
+Ranorex Selocity - Auto-generate robust XPath, link text, RanoreXPath, and CSS selectors for use with Selenium.
+
+https://chrome.google.com/webstore/detail/ranorex-selocity/ocgghcnnjekfpbmafindjmijdpopafoe
+
 XPath in Selenium WebDriver: Complete Tutorial
 https://www.guru99.com/xpath-selenium.html
 
