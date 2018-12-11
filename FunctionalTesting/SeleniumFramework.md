@@ -2,7 +2,7 @@
 # Test Data Fakers
 * Brings the popular ruby faker gem to Java - http://dius.github.io/java-faker
 * Java fake data generator http://devskiller.github.io/jfairy/
-
+* Fabricator is a minimalist generator of random strings, numbers, etc. to help reduce some monotony particularly while writing automated tests or anywhere else you need anything random. It's written on scala but fully backward compatible with Java. http://biercoff.com/fabricator/
 
 ## Selenium Automation Frameworks
 * [Keyword Driven Automation Framework with Selenium 2](https://github.com/sayems/keyword-driven-framework)
