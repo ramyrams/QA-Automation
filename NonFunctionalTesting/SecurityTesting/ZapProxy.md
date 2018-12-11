@@ -19,33 +19,31 @@
 * [ZAP - Setting up ZAP for Browser](https://www.youtube.com/watch?time_continue=132&v=Uin07SHkQTE)
 
 # Setting up your ZAP Environment
-* 1 JAVA 8+ : In order to install ZAP you need to install JAVA 8+ to your Windows or Linux system.
-* 2 Download ZAP from here - https://github.com/zaproxy/zaproxy/wiki/Downloads
-* 3 Install and open ZAP  
-* 4. Foxy Proxy - https://www.youtube.com/watch?v=jHGNLvSpaLs
+* JAVA 8+ : In order to install ZAP you need to install JAVA 8+ to your Windows or Linux system.
+* Download ZAP from here - https://github.com/zaproxy/zaproxy/wiki/Downloads
+* Install and open ZAP  
+* Foxy Proxy - https://www.youtube.com/watch?v=jHGNLvSpaLs
 
 # Starting OWASP ZAP
-
-The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe**
-
+* The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe**
 * As it is a Java application, alternatively you can run the following command to start it. What it gives you extra configuration like scheduling your penetration test or starting with a particular URL.
 
 * **java -Xmx512m -jar zap-2.7.0.jar**
 
+# Configuring Zap Proxy & Browser
+To kick start the security, the following configuration needs to be don
+1. Configuring IP and port number 
+2. Configuring the certificate
 
-
-
-# 2. Configuring Proxy
-## 2.1 Setup Proxy in Zap
+## Setup Proxy in Zap
 * In the ZAP UI, go to Tools>Options>Local Proxy
 * Make sure the port is set to 8080 (or the port you have configured in your browser)
 ![1](https://andrewedstrom.com/assets/images/zap2.jpg)
 
-## 2.2 Proxy Setup in the browser
+## Proxy Setup in the browser
 * 3.2 Open your preferred browser and set up the proxy as shown here (You can use port 8080 as the port)
 ![1](https://security.secure.force.com/resource/1425350868000/ZapTutorialImages/ZapImages/SettingUpBrowser/images/image02.png)
 * How to Change Proxy Settings: https://www.wikihow.com/Change-Proxy-Settings
-
 
 # Generate Zap Certificate
 * 3.1 Go to Tools>Options>Dynamic SSL Certificate. Click Generate and then click Save.
@@ -63,13 +61,12 @@ The default install directory **C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe*
 * Zap Welcome page should appear
 ![1](https://wpdevkvk.files.wordpress.com/2017/07/93.png?resize=900%2C497)
 
- # Default Startup Dialog of Owasp Zap
+# ZAP UI
 
+## Default Startup Dialog of Owasp Zap
 ![](https://cdn-images-1.medium.com/max/900/1*p5deaD3oyywvFx83fLqOZQ.png)
 
-
-
-# Modes
+## Modes
 ![](https://cdn-images-1.medium.com/max/1125/1*8RMpIlHk1tvDV69rJEaI1Q.png)
 
 There are 4 modes;
@@ -83,6 +80,9 @@ Go to View->Show all tabs
 
 # Shortcuts
 Ctl+Alt+p - Session Properties
+
+
+
 
 
 # Explore 
