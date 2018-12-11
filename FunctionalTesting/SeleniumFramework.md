@@ -1,4 +1,8 @@
 
+# Test Data Fakers
+* Brings the popular ruby faker gem to Java - http://dius.github.io/java-faker
+* Java fake data generator http://devskiller.github.io/jfairy/
+
 
 ## Selenium Automation Frameworks
 * [Keyword Driven Automation Framework with Selenium 2](https://github.com/sayems/keyword-driven-framework)
