@@ -1,22 +1,19 @@
 # ZAP Proxy
 
 * OWASP (Open Web Application Security Project) is worldwide non-profit organization focused on improving the security of software.
-
 * OWASP ZAP (Zed Attack Proxy) is one of the world’s most popular security tool.
 
 
 ![1](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proxy_concept_en.svg/1200px-Proxy_concept_en.svg.png)
-
-
 ![1](https://img.wonderhowto.com/img/63/85/63563817867426/0/sploit-make-proxy-server-python.1280x600.jpg)
 
 # Concepts
-![1](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsConcepts)
+* [Concepts](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsConcepts)
 
 
 
 
-* [ZAP - Setting up ZAP for Browser](https://www.youtube.com/watch?time_continue=132&v=Uin07SHkQTE)
+
 
 # Setting up your ZAP Environment
 * JAVA 8+ : In order to install ZAP you need to install JAVA 8+ to your Windows or Linux system.
