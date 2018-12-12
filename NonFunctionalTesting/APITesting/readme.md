@@ -126,7 +126,27 @@ My API returns some response in which some part of the response can be obtained 
 My API returns dynamic response and none of the above fit to my needs.
 
 
+Below are the skills a Team/Team Members needs to have to succeed with API Testing.
 
+* Have Curiosity to Learn and Research.
+* Able to understand Business Requirements with Functional Requirements
+* Able to Collaborate and Communicate with Developers
+* Able to Read the API Documentation if readily available (or) Find them Online.
+* Testing Skills and Mindset how to Test with various conditions (rationally/logically).
+* Able to Plan the testing activity and Inform the relevant stakeholders (internal/external) about how the testing will be approached and Ask for feedback.
+* Have knowledge on SQL and Able to perform Queries (simple) to validate the information.
+* Have knowledge on How HTTP Works.
+* Have Knowledge about JSON and XML. (Basics)
+* Have Knowledge on REST vs SOAP. and Find out what APIs we are going to Test. 
+* Have Knowledge on API Testing Tools. Example - SOAP UI, POSTMAN, SWAGGER
+* Ablility to decide what tools we could use for API Testing.
+* Have Knowledge to use Web Developer Tools.
+* Additional: Have Knowledge on Fiddler, Charles, Fiddler.
+* From Danny Dainton: We should have Knowledge on Scripting. (Javascript) for Writing Tests on Postman.
+* From Yogitha (Ex-Colleague in Unilog): We should have knowledge on Groovy Scripts.
+* Having Knowledge about API Security. Security of APIs is essential.
+* Mentoring/Teaching the team/stakeholders on How the testing has been performed. (Remember: Not everyone will be able to know How testing is done)
+* Bonus: Be Open to Read/Learn about APIs Online/Books and how others are performing API Testing.
 
 # Types of assertions
 * Status code
