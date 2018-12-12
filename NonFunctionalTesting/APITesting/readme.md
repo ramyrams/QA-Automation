@@ -576,4 +576,162 @@ https://qph.fs.quoracdn.net/main-qimg-3eb68dfe4b6b5d74562f36c43898a01f
 
 https://www.soapui.org/soapui/media/images/dojo/scenario_02.png
 
+Why is API testing important?
+All forms of software is essential to identify bugs and inconsistencies both when you are releasing a product and as you make sure it continues to work when it’s out in the wild. It’s very clear that the risk of putting a bad and especially insecure product on the market is greater than the cost to test it.
 
+Here are just some of the examples of common security tests that your API could be vulnerable to:
+
+The API is what gives the value to the application. It’s what makes our phones “smart” and it’s what streamlines business processes. If any API doesn’t work efficiently and effectively, it will never be adopted, regardless if it is a free and open API or one that you charge per call or group of calls. What’s worse, if an API breaks because errors weren’t detected, it could not only break a single application but a chain of business processes hinged to it.
+
+
+
+Tests will surely vary but here are common API test examples:
+* Checking API return values based on the input condition.
+* Verifying if the API doesn’t return anything at all or the wrong results.
+* Verifying if the API triggers some other event or calls another API.
+* Verifying if the API is updating any data structures.
+
+
+Where can API testing can be automated?
+* API functional testing.
+* Creating loads of dynamic data to throw into your API testing.
+* Repeated test design.
+* Analyzing your functional test coverage to know what you're missing.
+* Ad-hoc testing.
+* Using the command-line to hook your tests to your build system.
+* Flipping between multiple environments quickly, including development, testing, and staging environments.
+* Testing protocols in a single, unified framework.
+* Using multiple data sets at the same time to cover different test scenarios.
+* As with all automation, speeding up the overall testing process.
+* Error testing, where you throw forced errors at the API to understand how it will react.
+* Testing in multiple languages.
+
+What are some API Testing best practices?
+* You’ve created your own API testing plan. Now it’s good to have a list of rules of thumb to follow in order to help make the test as successful as possible:
+* Test first for the typical or ordinary results, for what happens consistently and what doesn’t.
+* Add stress to the system through a series of API load tests. 
+* Test for failure. Keep working and working until you get a Fail output, making sure the API fails consistently and gracefully.
+* Group test cases by test category.
+* Parameters selection should be explicitly mentioned in the test case itself.
+* Prioritize API function calls so that it will be easy for testers to test in a timely fashion.
+* Limit the tests from as many variables as possible by keeping it as isolated as possible.
+* Automate API documentation creation with a standard like Swagger, but then run through the tests, making sure the documentation makes sense for all levels of user experience.
+* Throw anything you can at the API to test for how it handles unforeseen problems and loads.
+* Perform well-planned call sequencing.
+* Later on, get creative! For complete test coverage, create test cases for all possible API input combinations.
+* Reuse your tests to monitor your APIs in Production.
+* Automate whatever you can.
+* But trust your instincts if something seems off!
+
+
+Choosing an API Monitoring Tool
+Similar to web monitoring, API monitoring provides crucial performance data from which developers and operations teams alike can use to improve user experience. There are a variety of tools available, but selecting an API Monitoring solution that can provide actionable data is essential, not only to increase your ROI, but to get genuinely useful performance data. When choosing a solution, it’s good to keep these functionalities in mind:
+
+* Intuitive – You won’t use a tool you don’t understand. You especially won’t be able to take full advantage of the functionalities if you don’t like the tool. Finding an API monitoring tool that is easy to use and instinctual will reduce your ramp up time as well as increase the probability of your reliance on this tool.  
+* Reuse – Find a tool that lets you use what you’ve got. Reuse scripts from the tools your API developers and testers use to avoid doing the same tasks twice.
+* Run Options – Keeping your API monitors on a schedule that fits your needs is essential. Making sure you can run monitors in intervals of your preference or set blackout periods can be especially helpful when trying to gage performance over time. Almost just as important is the ability to run a monitor on demand – as either a test or a real run.
+* Sequencing and Assertions – Accuracy is key. APIs transactions that require sequential functionalities should be able to be monitored, so you receive monitoring data that takes into account the big picture functionalities with the detailed step validations. While it’s imperative to understand the speed and availability of your API, functional correctness is even more important. If your API is returning the wrong data, you’ve fallen into the trap of the illusion of availability, where your customers encounter a broken system and you’re blissfully unaware. Making sure you can add assertions and validate the data the API returns is an essential functionality for an API monitoring tool.  
+* Consumable and Shareable – A tool that can communicate data easily, swiftly, and clearly is vital to any operation. API performance is no exception. Selecting a tool that aggregates data and visualizes the data properly can help provide instant actionable insights for you to share with your teams to reduce your MTTR (mean-time-to-resolution).
+* Adaptable – Tool stacks can include all sorts of software. Make sure you have a tool that is adaptable and flexible, so it can fit into your stack, whatever your preferences may be.
+* Alerts – You have to actually know when something is wrong in order to fix it. Find a tool that prioritizes this, and you will be good to go!
+
+
+How to test an API
+
+
+Because APIs lack an interface, instead of typing in keystroke inputs and recording the outputs (black-box testing), an application must be used to send calls to the API to generate an output. APIs can be tested directly or as part of an integrated system, and often cover areas of functionality, security, performance, and reliability.
+
+This can be automated using an API testing tool or by manually writing code to drive the API. Some key considerations in API Testing include:
+
+* Setting Up an API Test Environment: Depending on your infrastructure for the app under test, you may need to configure the database and server for your application. However, in most cases, you only need to know where and how to address the application components and install your test tools.
+* API Test Tools: There are many API test tools. As with any tool type, there are commercial and open source options. Commercial tools are often divided into free (lower level of functionality) or professional versions that you must purchase.
+* API Protocols: REST and SOAP are the most common protocols that developers use to develop their APIs. Sometimes, developers may use a custom implementation of these protocols which may have special message handling requirements and parameter settings that you’ll need to be aware of.
+* API Performance: At XBOSoft, we use JMeter to conduct our API testing because it has a significant advantage in that API tests can easily be converted to performance tests. We also use a variety of other commercial and open source tools depending on the client’s software.
+* Parameter Setup: Testers must be knowledgeable of business rules associated with a product because some rules may have a different API implementation, thereby requiring different sequencing and parameters.Understanding the product’s business rules with the parameters and expected inputs/outputs is the key to all API testing. Because of this, we always first design manual test case/suites according to the product usage.
+
+
+API Testing Services
+API testing services form a critical component of our comprehensive software testing services. These are:
+
+* API Automated Testing
+Using API testing to prevent functional defects prevent up to 10 GUI defects later in the development cycle.
+* API Performance Testing
+If the product is sluggish, users will look for alternatives. Make sure that your application’s components integrate and function well under load before the UI is factored in.
+* API Security Testing
+Make sure the products’ “doors & windows” are locked. Don’t let non-authenticated entry into you and your users application usage records and data.
+
+
+# API Testing Methodology
+In that time, we have developed a systematic approach that ensures the key aspects of an overall test program are addressed. Our typical API Testing model is multi-phased. This allows for short-term engagements (Phases 1-3) where the testing baseline, strategy, development and execution are established whereby the client can then take over on-going responsibility for the associated testing. Phases 4 & 5 are part of longer-term partnerships where XBOSoft manages and executes the testing effort.
+
+Phase 1 – Test Plan Development. Deliverables include:
+* Test plan with an appropriate strategy to deal with client’s needs including individual API testing, smoke testing and full regression testing.
+* Recommendations on most appropriate test environment configuration to accomplish testing manual methods or via automated testing.
+
+Phase 2 – Test Script Development and Execution. Deliverables include:
+* Fully functioning Test Suites prioritized to client requirements.
+* Source code matching test cases, incorporated into the Test Suite with suites structured according to Phase 1.
+* Complete documentation, including source code and details on environment configurations and settings.
+
+Phase 3 – Report Generation and Analysis. Deliverables include:
+* Root Cause Analysis, highlighting trends with potential causes and providing actionable recommendations.
+* Determination of current health of the application and identification of critical application problem areas.
+* Detailed failure report, including a complete set of test results in appropriate format (e.g., graph; tabulated data) for either further analysis or presentation to management.
+
+Phase 4 – Script Maintenance and Requirements Management. Deliverables include:
+* Ensure newly introduced script compatibility (scalability) with existing script framework.
+* Provide recommendations on critical application areas and functions needing API performance and security testing.
+
+Phase 5 – Customization
+* Legacy API Script Review for coverage and functionality.
+* Specific test tools to evaluate APIs.
+* Specific test frameworks.
+* Specific programming language.
+* IDE integration with various version control tools.
+* Integration with Continuous Integration tool.
+* Integration or Migration to other platform or environment.
+
+# Six Steps for Better Apps: Testing Basics
+## Create an API Testing Environment
+* All API testing starts the same way: creating the right environment. Best bet? Use a test server configured with an API service. While it’s possible to set up the same in-house, a reputable API testing company can get testing off the ground immediately.
+
+##Choose API Testing Tools
+* Testing apps requires tools — some of the best open-source options include REST-assured for HTTP-based REST services and Postman for exploratory testing. Paid options are also available for more heavy-duty tasks.
+
+##Pick API Protocols
+* REST and SOAP are the most common options for API testing. REST is lightweight and supports a wide variety of data formats, while SOAP includes native retry logic for failed communications.
+
+##Measure API Performance
+* Next up? Measuring performance. Why? Because without performance data, it’s impossible to know if testing has the desired effect. Tools such as JMeter make it easy to convert API tests into performance metrics.
+
+##Establish API Parameters
+* To achieve ideal API testing output, testers must understand both specific business requirements and expected inputs and outputs — testing offers no benefit if parameters don’t match realistic outcomes. Before running any large-scale API test, establish basic parameters. If you’re using a third-party API testing service, make sure they design manual test cases and suites based on current product usage.
+
+##Leverage Test Automation
+* Manual testing is an effective way to target specific concerns or usage issues. Yet given the massive reach of apps across mobile devices, desktops and IoT offerings, it’s now critical to leverage automated API testing, performance testing and security testing to identify functional defects, latency and potential security risks.
+
+http://www.3pillarglobal.com/wp-content/uploads/2016/02/jmeter_3.png
+
+http://validata-software.com/images/blog/wp-content/uploads/2017/09/selenium1-1.jpg
+https://dzone.com/articles/10-effective-ways-for-successful-api-testing
+We  need to impliment in APi Framework
+https://smartbear.com/product/ready-api/overview/
+https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
+https://smartbear.com/product/ready-api/soapui/overview/
+https://www.melioratestlab.com/wp-content/uploads/2017/02/vaat2.png
+https://www.slideshare.net/EuroSTARConference/bj-rollison-slides
+https://www.slideshare.net/SmartBear_Software/evaluating-and-testing-web-apis
+https://cdn-images-1.medium.com/max/1600/0*MpGv5o8Ic-VAL11A.
+
+https://www.infoq.com/articles/gui-automation-patterns
+
+
+# Test Scenarios:
+https://optimusinfo-wpengine.netdna-ssl.com/wp-content/uploads/2014/11/Picture3b.png
+http://i2.wp.com/www.testautomationguru.com/wp-content/uploads/2017/03/rest005.png?zoom=1.25&resize=659%2C259
+
+# Data-Driven Testing:
+http://i0.wp.com/www.testautomationguru.com/wp-content/uploads/2017/03/rest004.png?w=1111
+
+# PERFORMANCE TESTING OF A RESTFUL API USING JMETER
+https://www.3pillarglobal.com/insights/performance-testing-of-a-restful-api-using-jmeter
