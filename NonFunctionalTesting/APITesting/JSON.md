@@ -11,6 +11,8 @@
 * https://www.freeformatter.com/json-escape.html - JSON Escape - 
 * https://www.csvjson.com/csv2json - Online tool to convert your CSV or TSV formatted data to JSON.
 * https://www.json-generator.com/ - JSON Genertor
+* https://www.cleancss.com/json-minify/
+* https://json-to-js.com/ - Convert JSON to JavaScript object
 
 # Online Schema JSON Tools
 * https://www.jsonschema.net/ - Create schema for JSON
