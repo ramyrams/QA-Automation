@@ -51,6 +51,10 @@ http://www.omdbapi.com/
 https://resttesttest.com/
 
 
+
+https://github.com/signalfx/swagger-cli-client/blob/master/example/petstore-schema.json
+
+
 Examples of assertions that is possible in SoapUI are:
 
 Schema Compliance
