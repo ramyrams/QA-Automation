@@ -6,17 +6,18 @@
 * https://codebeautify.org/jsonviewer - JSON tree stucture
 * https://jsonlint.com/
 * https://codebeautify.org/json-tools - JSON Tools
-*  https://reviews.thewindowsclub.com/online-json-tools
+* https://reviews.thewindowsclub.com/online-json-tools
 * https://www.freeformatter.com/ - Free Online Tools For Developers
 * https://www.freeformatter.com/json-escape.html - JSON Escape - 
 * https://www.csvjson.com/csv2json - Online tool to convert your CSV or TSV formatted data to JSON.
 * https://www.json-generator.com/ - JSON Genertor
 
+# Online Schema JSON Tools
 * https://www.jsonschema.net/ - Create schema for JSON
 * https://www.jsonschemavalidator.net/ - An online, interactive JSON Schema validator. 
 * https://easy-json-schema.github.io/ - 
 * https://json-schema-validator.herokuapp.com/
-
+* https://www.liquid-technologies.com/online-json-to-schema-converter
 
 
 {name: "John", age: 31, city: "New York"};
