@@ -5,6 +5,12 @@ http://www.bestdevops.com/8-steps-for-a-successful-devops-transition/
 Models
 https://insights.sei.cmu.edu/sei_blog/2013/11/using-v-models-for-testing.html
 
+14 Fundamental Leadership Qualities That A True Leader Must Possess
+https://www.softwaretestinghelp.com/leadership-qualities/
+
+How to Find the Best QA, Testing Companies
+http://www.softwaretestingtricks.com/2018/12/how-to-find-best-qa-testing-companies.html?
+
 https://www.slideshare.net/kmstechnology/introduction-to-agile-software-testing
 
 https://stackoverflow.com/questions/2741832/unit-tests-vs-functional-tests
