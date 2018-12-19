@@ -1,6 +1,8 @@
 
 * [No More Driver Exe Files in Selenium - Use WebDriverManager Library to avoid using exe files](https://github.com/bonigarcia/webdrivermanager)
 * [WebDriverManager Library Examples](https://github.com/bonigarcia/webdrivermanager-examples)
+4 Top Automation Testing Design Patterns (Plus 86 More)
+https://www.joecolantonio.com/automation-testing-design-patterns/
 
 
 ![1](https://3.bp.blogspot.com/-8SRE9KmaY9I/Ux8Hdn5wMbI/AAAAAAAACTk/u08BFl1gXLw/s1600/WebDriver_Commands.png)
