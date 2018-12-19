@@ -1,3 +1,9 @@
+Technical Skills of a Performance Test Engineer
+https://dzone.com/articles/technical-skills-of-performance-test-engineer
+
+Measuring Performance With Gatling
+https://dzone.com/articles/let-measure-performance-with-gatling
+
 
 ![1](https://dzone.com/storage/temp/10719722-types-of-performance-testing.png)
 
