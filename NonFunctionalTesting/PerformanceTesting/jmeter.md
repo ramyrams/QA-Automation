@@ -28,6 +28,8 @@ https://www.softwaretestingclass.com/wp-content/uploads/2014/03/performance-tesi
 # Jmeter Distributed (Remote) Testing: Master Slave Configuration
 ![](https://www.guru99.com/images/MasterJMeter.png)
 
+# Awesome JMeter
+* https://github.com/aliesbelik/awesome-jmeter/
 
 
 
