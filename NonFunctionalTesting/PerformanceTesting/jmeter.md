@@ -34,6 +34,12 @@ https://www.softwaretestingclass.com/wp-content/uploads/2014/03/performance-tesi
 # Performance testing framework
 * https://github.com/serputko/performance-testing-framework
 
+
+
+
+
+
+
 https://dzone.com/articles/how-to-spider-a-site-with-jmeter-a-tutorial
 
 
@@ -42,6 +48,29 @@ https://knowledgeworldforyou.wordpress.com/2015/02/02/how-to-use-badboy-tool-for
 https://www.softwaretestingclass.com/elements-of-jmeter-tutorial-training-3/
 
 https://www.javacodegeeks.com/2014/11/jmeter-tutorial-load-testing.html
+* [PERFORMANCE TESTING OF A RESTFUL API USING JMETER](https://www.3pillarglobal.com/insights/performance-testing-of-a-restful-api-using-jmeter)
+https://keyholesoftware.com/2017/12/11/jmeter-performance-and-load-testing/
+
+https://jmeter-plugins.org/
+
+
+https://jmeter-plugins.org/wiki/ResponseTimesOverTime/
+
+
+https://jmeter-plugins.org/wiki/ResponseTimesVsThreads/
+
+https://jmeter-plugins.org/wiki/ActiveThreadsOverTime/
+
+https://wiki.apache.org/jmeter/
+
+https://blog.trigent.com/getting-started-with-load-testing-of-web-applications-using-jmeter
+
+
+http://ipen.practicalperformanceanalyst.com/course/performance-testing-jmeter-tutorials-by-blazemeter/
+
+
+http://www.testautomationguru.com/jmeter-how-to-create-a-data-keyword-driven-framework-for-performance-testing/
+
 
 https://vmokshagroup.com/blog/performance-test-of-web-application-using-apache-jmeter/
 
