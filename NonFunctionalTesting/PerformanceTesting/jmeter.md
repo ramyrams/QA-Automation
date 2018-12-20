@@ -1,8 +1,38 @@
+
+# JMeter Performance Testing contains:
+https://www.softwaretestingclass.com/wp-content/uploads/2014/03/performance-tesitng-load-stress.jpg
+
+![](https://www.guru99.com/images/PerformanceTesting.png)
+![](https://www.guru99.com/images/JMeterPerformanceTest.png)
+![](https://www.guru99.com/images/JMeterApacheSampler.png)
+![](https://www.guru99.com/images/JMeterTestPlanFlow.png)
+
+
+
+
+# Thread Group
+![](https://www.guru99.com/images/JMeterAddThreadGroup.png)
+![](https://www.guru99.com/images/ThreadGroupJMeterPerformance.png)
+![](https://www.guru99.com/images/ThreadCountVSLoopCount.png)
+![](https://www.guru99.com/images/UserDelayHTTP.png)
+![](https://www.softwaretestingclass.com/wp-content/uploads/2014/03/thread-count-vs-loop-count.jpg)
+
+# Adding JMeter elements
+
+
+# Duration Assertion
+![](https://www.guru99.com/images/HTTPRequestAssertion.png)
+
+
+
+# Jmeter Distributed (Remote) Testing: Master Slave Configuration
+![](https://www.guru99.com/images/MasterJMeter.png)
+
+
+
+
 https://dzone.com/articles/how-to-spider-a-site-with-jmeter-a-tutorial
 
-
-https://www.guru99.com/images/JMeterPerformanceTest.png
-https://www.guru99.com/images/JMeterApacheSampler.png
 
 https://knowledgeworldforyou.wordpress.com/2015/02/02/how-to-use-badboy-tool-for-recording-jmeter-load-testing-scripts/
 
