@@ -1,6 +1,6 @@
 
 # JMeter Performance Testing contains:
-https://www.softwaretestingclass.com/wp-content/uploads/2014/03/performance-tesitng-load-stress.jpg
+![](https://www.softwaretestingclass.com/wp-content/uploads/2014/03/performance-tesitng-load-stress.jpg)
 
 ![](https://www.guru99.com/images/PerformanceTesting.png)
 ![](https://www.guru99.com/images/JMeterPerformanceTest.png)
@@ -70,7 +70,11 @@ https://blog.trigent.com/getting-started-with-load-testing-of-web-applications-u
 
 http://ipen.practicalperformanceanalyst.com/course/performance-testing-jmeter-tutorials-by-blazemeter/
 
+https://nico.vahlas.eu/2010/03/17/some-thoughts-on-stress-testing-web-applications-with-jmeter-part-1/
+https://nico.vahlas.eu/2010/03/30/some-thoughts-on-stress-testing-web-applications-with-jmeter-part-2/
+https://www.softwaretestingclass.com/learn-jmeter-performance-testing-jmeter-tutorial-series/
 
+https://www.guru99.com/jmeter-performance-testing.html
 http://www.testautomationguru.com/jmeter-how-to-create-a-data-keyword-driven-framework-for-performance-testing/
 
 
