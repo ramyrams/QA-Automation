@@ -19,6 +19,19 @@
 
 # Adding JMeter elements
 
+* Test Plan (JMeter Script)
+* Tread Group (Iser)
+* Samplers (Make a request)
+* Config Elements
+* Timer (add a delay)
+* Listener (reporting, logging and debugging)
+* Assertions (error checking)
+* PreProcessors (modify the request)
+* Postprecessors (parse the response)
+* Logic Controller
+* Workbench (temp working space(
+
+
 
 # Duration Assertion
 ![](https://www.guru99.com/images/HTTPRequestAssertion.png)
