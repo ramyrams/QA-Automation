@@ -48,6 +48,15 @@
 * https://github.com/serputko/performance-testing-framework
 
 
+# Order of execution / processing of Elements in JMeter
+Elements in JMeter are processed in the order shown below:
+* Configuration Elements
+* Pre-Processors
+* Timers
+* Sampler
+* Post-Processors
+* Assertions
+* Listeners
 
 
 # Video Series
