@@ -108,6 +108,87 @@ The project context is nothing more than those things that are, or may become, r
 * **Compliance criteria.** Understand the regulatory requirements related to your project. Obtain compliance documents to ensure that you have the specific language and context of any statement related to testing, as this information is critical to determining compliance tests and ensuring a compliant product. Also understand that the nature of performance testing makes it virtually impossible to follow the same processes that have been developed for functional testing.
 * **Project schedule.** Be aware of the project start and end dates, the hardware and environment availability dates, the flow of builds and releases, and any checkpoints and milestones in the project schedule.
 
+
+# Key Types of Performance Testing
+
+* **Performance test** - To determine or validate speed, scalability, and/or stability.
+* A performance test is a technical investigation done to determine or validate the responsiveness, speed, scalability, and/or stability characteristics of the product under test.
+
+* **Load test** - To verify application behavior under normal and peak load conditions.
+* Load testing is conducted to verify that your application can meet your desired performance objectives; these performance objectives are often specified in a service level agreement (SLA). A load test enables you to measure response times, throughput rates, and resource-utilization levels, and to identify your application’s breaking point, assuming that the breaking point occurs below the peak load condition.
+* Endurance testing is a subset of load testing. An endurance test is a type of performance test focused on determining or validating the performance characteristics of the product under test when subjected to workload models and load volumes anticipated during production operations over an extended period of time.
+* Endurance testing may be used to calculate Mean Time Between Failure (MTBF), Mean Time To Failure (MTTF), and similar metrics.
+
+
+* **Stress test** - To determine or validate an application’s behavior when it is pushed beyond normal or peak load conditions.
+* The goal of stress testing is to reveal application bugs that surface only under high load conditions. These bugs can include such things as synchronization issues, race conditions, and memory leaks. Stress testing enables you to identify your application’s weak points, and shows how the application behaves under extreme load conditions.
+* Spike testing is a subset of stress testing. A spike test is a type of performance test focused on determining or validating the performance characteristics of the product under test when subjected to workload models and load volumes that repeatedly increase beyond anticipated production operations for short periods of time.
+
+* **Capacity test** - To determine how many users and/or transactions a given system will support and still meet performance goals.
+* Capacity testing is conducted in conjunction with capacity planning, which you use to plan for future growth, such as an increased user base or increased volume of data. For example, to accommodate future loads, you need to know how many additional resources (such as processor capacity, memory usage, disk capacity, or network bandwidth) are necessary to support future usage levels.
+* Capacity testing helps you to identify a scaling strategy in order to determine whether you should scale up or scale out.
+
+
+# Summary Matrix of Benefits by Key Performance Test Types
+
+## Performance test
+Benefits
+* Determines the speed, scalability and stability characteristics of an application, thereby providing an input to making sound business decisions.
+* Focuses on determining if the user of the system will be satisfied with the performance characteristics of the application.
+* Identifies mismatches between performance-related expectations and reality.
+* Supports tuning, capacity planning, and optimization efforts.
+
+Challenges and Areas Not Addressed
+* May not detect some functional defects that only appear under load.
+* If not carefully designed and validated, may only be indicative of performance characteristics in a very small number of production scenarios.
+* Unless tests are conducted on the production hardware, from the same machines the users will be using, there will always be a degree of uncertainty in the results.
+
+
+## Load test
+Benefits
+* Determines the throughput required to support the anticipated peak production load.
+* Determines the adequacy of a hardware environment.
+* Evaluates the adequacy of a load balancer.
+* Detects concurrency issues.
+* Detects functionality errors under load.
+* Collects data for scalability and capacity-planning purposes.
+* Helps to determine how many users the application can handle before performance is compromised.
+* Helps to determine how much load the hardware can handle before resource utilization limits are exceeded.
+
+Challenges and Areas Not Addressed
+* Is not designed to primarily focus on speed of response.
+* Results should only be used for comparison with other related load tests.
+
+
+
+## Stress test
+Benefits
+* Determines if data can be corrupted by overstressing the system.
+* Provides an estimate of how far beyond the target load an application can go before causing failures and errors in addition to slowness.
+* Allows you to establish application-monitoring triggers to warn of impending failures.
+* Ensures that security vulnerabilities are not opened up by stressful conditions.
+* Determines the side effects of common hardware or supporting application failures.
+* Helps to determine what kinds of failures are most valuable to plan for.
+
+Challenges and Areas Not Addressed
+* Because stress tests are unrealistic by design, some stakeholders may dismiss test results.
+* It is often difficult to know how much stress is worth applying.
+* It is possible to cause application and/or network failures that may result in significant disruption if not isolated to the test environment.
+
+
+## Capacity test
+Benefits
+* Provides information about how workload can be handled to meet business requirements.
+* Provides actual data that capacity planners can use to validate or enhance their models and/or predictions.
+* Enables you to conduct various tests to compare capacity-planning models and/or predictions.
+* Determines the current usage and capacity of the existing system to aid in capacity planning.
+* Provides the usage and capacity trends of the existing system to aid in capacity planning
+
+Challenges and Areas Not Addressed
+* Capacity model validation tests are complex to create.
+* Not all aspects of a capacity-planning model can be validated through testing at a time when those aspects would provide the most value.
+
+
 # Modeling Performance Tests
 https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924367(v=pandp.10)
 https://www.neotys.com/blog/modeling-performance-tests/
