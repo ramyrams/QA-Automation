@@ -600,6 +600,334 @@ Report - Reporting on the results and analysis is just as significant as the col
 Iterate - Iterating is virtually a given for any type of testing. Sometimes we iterate based on builds, defect resolutions or environment changes.
 
 
+# Coordinating Performance Testing with an Iteration-Based Process
+
+Iterative Performance Testing Activities
+This approach can be represented by using the following nine activities:
+Iterative Performance Testing Activities
+
+Activity 1. Understand the Project Vision and Context. The outcome of this activity is a shared understanding of the project vision and context.
+Activity 2. Identify Reasons for Testing Performance. Explicitly identify the reasons for performance testing.
+Activity 3. Identify the Value Performance Testing Adds to the Project. Translate the project- and business-level objectives into specific, identifiable, and manageable performance-testing activities.
+Activity 4. Configure the Test Environment. Set up the load-generation tools and the system under test, collectively known as the performance test environment.
+Activity 5. Identify and Coordinate Tasks. Prioritize and coordinate support, resources, and schedules to make the tasks efficient and successful.
+Activity 6. Execute Task(s). Execute the activities for the current iteration.
+Activity 7. Analyze Results and Report. Analyze and share results with the team.
+Activity 8. Revisit Activities 1-3 and Consider Performance Acceptance Criteria. Between iterations, ensure that the foundational information has not changed. Integrate new information such as customer feedback and update the strategy as necessary.
+Activity 9. Reprioritize Tasks. Based on the test results, new information, and the availability of features and components, reprioritize, add to, or delete tasks from the strategy, and then return to activity 5.
+
+![1](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924360.image001%28en-us%2cpandp.10%29.gif)
+![2](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924360.image002%28en-us%2cpandp.10%29.gif)
+
+
+## Activity 1. Understand the Project Vision and Context
+The project vision and context are the foundation for determining what performance testing activities are necessary and valuable. Because the performance tester is not driving these items, the coordination aspect refers more to team education about the performance implications of the project vision and context, and to identifying areas where future coordination will likely be needed for success.
+
+A critical part of working with an iteration-based process is asking the correct questions, providing the correct value, and performing the correct task related to each step. Although situations can shift or add more questions, values, or tasks, a sample checklist is provided as a starting point for each step.
+
+### Checklist
+Questions to ask:
+* What are the performance implications of the project vision?
+* What are the performance implications of the service the application is intended to provide, or what problem are we trying to solve for the customer?
+* How does the team envision performance testing as it relates to the project schedule, structure, and available resources?
+
+### Value provided:
+* Be involved in the product concept.
+* Point out any areas of concern immediately.
+* Point out assumptions related to available resources, tools, and resource-monitoring instrumentation based on the project vision and context as soon as they arise.
+
+### Tasks accomplished:
+* Ask the whole team questions and provide answers.
+* Determine the team’s perception of performance testing.
+* Gain a conceptual understanding of the project’s critical performance implications.
+* Begin to define equipment and/or resources needed for conducting performance testing.
+* Understand resource constrains; for example, budget, people, equipment.
+* Understand how the team will coordinate.
+* Understand how the team will communicate.
+
+Coordinate with:
+* Whole team
+
+## Activity 2. Identify Reasons for Testing Performance
+The underlying reasons for testing performance on a particular project are not always obvious based on the vision and context alone. Project teams generally do not include performance testing as part of the project unless there is some performance-related risk or concern they feel needs to be mitigated. Explicitly identifying these risks and areas of concern is the next fundamental step in determining what specific performance testing activities will add the most value to the project.
+
+Having a full-time performance tester on the team from the start of the project may frequently be a good idea, but it does not happen frequently. Generally, when a performance tester is present at project inception, it means there is a specific, significant risk that the tester is there to address.
+
+Regardless of when a performance tester joins the team, once the project vision and context are understood, it is worth taking the time to verbalize and/or document the overall objectives of the performance-testing effort based on the risks or concerns that the team has. The following checklist should help you to accomplish this step.
+
+### Checklist
+Questions to ask:
+* What risk(s) is performance testing intended to mitigate for this project?
+* Are there specific contractual, compliance, or customer performance expectations that are already known to be required?
+* What performance concerns relating to this project already exist?
+
+### Value provided:
+* Be involved in the product concept.
+* Point out any areas of concern immediately.
+* Point out resource and instrumentation assumptions based on the project vision and context when they arise.
+* Guide the process of collecting/determining performance-testing objectives.
+* Capture implied usage scenarios of particular performance concerns.
+* Capture implied performance goals, requirements, targets, and thresholds as they come up in conversation.
+
+### Tasks accomplished:
+* Ask the whole team questions and provide answers.
+* Determine the project-level objectives for conducting performance testing.
+* Refine estimates of equipment and/or resources required for conducting performance testing.
+* Identify disconnects between the objectives of the performance-testing effort and the equipment and resources to be made available.
+* Capture implied performance goals, requirements, targets, and thresholds to be fleshed out later.
+* Capture implied usage scenarios of particular concern to be fleshed out later.
+
+### Coordinate with:
+* Whole team
+
+## Activity 3. Identify the Value Performance Testing Adds to the Project
+Using information gained from activities 1 and 2, you can now clarify the value added through performance testing, and convert that value into a conceptual performance-testing strategy. The point is to translate the project- and business-level objectives into specific, identifiable, and manageable performance-testing activities. The coordination aspect of this step involves team-wide discussion and agreement on which performance-testing activities are likely to add value or provide valuable information, and if these activities are worth planning for at this time.
+
+### Checklist
+Questions to ask:
+* What performance-testing activities will help achieve the performance-testing objectives?
+* What performance-testing activities are needed to validate any contractual, compliance, project, or customer performance criteria or expectations that are known at this time?
+* What performance-testing activities will help address currently known performance concerns?
+
+### Value provided:
+* Ensure team-wide support of performance-testing activities.
+* Ensure that the team has adequate warning about performance-testing activities that will require the support of additional team members.
+* Determine if resource and instrumentation assumptions are adequate.
+* Guide the process of determining how performance-testing objectives will be measured.
+* Capture additional implied usage scenarios of particular performance concerns.
+* Capture additional implied performance goals, requirements, targets, and thresholds as they come up in conversation.
+
+### Tasks accomplished:
+* Ask the whole team questions and provide answers.
+* Determine a conceptual project-level strategy for determining if the objectives for conducting performance testing have been met.
+* Refine estimates of equipment and/or resources required for conducting performance testing.
+* Identify disconnects between the objectives of the performance-testing effort and the equipment and resources to be made available.
+* Capture additional implied performance goals, requirements, targets, and thresholds to be fleshed out later.
+* Capture additional implied usage scenarios of particular concern to be fleshed out later.
+
+### Coordinate with:
+* Whole team
+
+## Activity 4. Configure the Test Environment
+With a conceptual strategy in place, prepare the tools and resources in order to execute the strategy as features and components become available for test. Take this step as soon as possible, so that the team has this resource from the beginning.
+
+This step is fairly straightforward. Set up the load-generation tools and the system under test — collectively known as the performance test environment — and ensure that this environment will meet engineering needs. The coordination component of this step typically involves asking managers and administrators to obtain and/or configure equipment and other resources that are not under the direct control of the team or performance tester.
+
+### Checklist
+Questions to ask:
+* Who administrates the performance-testing environment of the application under test?
+* Who administrates the load-generation tool/environment?
+* Who configures and operates resource monitors for the application under test?
+* Is special permission needed prior to generating load of a certain volume?
+* Who can reset the application under test?
+* What other components require special coordination?
+* What security or authentication considerations are there for simulating multiple users?
+* What coordination needs to be done to enable the use of recording and/or monitoring software?
+
+### Value provided:
+* Ensure that the load-generation and performance-test environments are ready when the team needs them.
+* Ensure that the entire team knows who to contact for help with performance-testing environment support.
+* Ensure that performance testing support staff knows what they are supporting.
+
+### Tasks accomplished:
+* Performance-test environment configured and ready to begin testing.
+* Load-generation environment configured and ready to begin testing.
+* Support responsibilities assigned.
+* Special permissions, time of day for high load tests, etc., determined.
+
+### Coordinate with:
+* System administrators
+* Network support
+* Database administrators
+* Infrastructure support
+* Managers of those above
+* Development team
+
+## Activity 5. Identify and Coordinate Tasks
+Performance testing tasks do not happen in isolation. The performance specialist needs to work with the team to prioritize and coordinate support, resources, and schedules to make the tasks efficient and successful.
+
+During the pre-iteration planning meeting, look at where the project is now and where you want to be to determine what should and can be done next. When planning for the iteration cycle, the performance tester is driven by the goals that have been determined for this cycle. This step also includes signing up for the activities that will be accomplished during this cycle.
+
+### Checklist
+Questions to ask:
+* What is the performance goal for this cycle?
+* Where is the project in terms of the overall project performance goals?
+* Has the system achieved all of its performance objectives?
+* Has tuning been accomplished since the last iteration?
+* What analysis, reports, or retesting will add value during this iteration?
+* Who requires pairing in order to do performance testing?
+* How much time is available?
+* How much time does each task take?
+* What is the most critical activity?
+
+### Value provided:
+* Provide insight on how the overall project is achieving its goal.
+* Provide insight on what can be measured and reported on in this cycle.
+* Provide insight on any critical issues that may have arisen from the last iteration cycle.
+* Make suggestions to other team members.
+* Transfer lessons learned as they emerge from the test.
+* Pair with developers to improve performance unit testing.
+* Help reuse unit tests.
+* Help reuse functional tests.
+
+### Tasks accomplished:
+* Estimate how much work is achievable.
+* Determine if anyone needs to be paired out.
+* Prioritize achievable work.
+* Identify primary and alternate tasks for this cycle.
+
+### Coordinate with:
+* Managers and stakeholders
+* Developers and administrators
+* Infrastructure and test environment support
+* Users or user representatives
+
+## Activity 6. Execute Task(s)
+Conduct tasks in one- to two-day segments. See them through to completion, but be willing to take important detours along the way if an opportunity to add additional value presents itself. Step 5 defines what work the team members will sign up for in this iteration. Now it is time to execute the activities for this iteration.
+
+### Checklist
+Questions to ask:
+* Have recent test results or project updates made this task more or less valuable compared to other tests we could be conducting right now?
+* What additional team members should be involved with this task?
+* Are there other important tasks that can be conducted in parallel with this one?
+* Do the preliminary results make sense?
+* Is the test providing the data we expected?
+
+### Value provided:
+* Evaluate algorithm efficiency.
+* Monitor resource usage trends.
+* Measure response times.
+* Collect data for scalability and capacity planning.
+* Transfer lessons learned as they emerge from the test.
+* Improve performance unit testing by pairing performance testers with developers.
+* Help reuse unit tests.
+* Help reuse functional tests.
+
+### Tasks accomplished:
+* Conduct tests.
+* Collect data.
+* Validate test assumptions and techniques.
+* Potentially tune while testing.
+* Pair with other team members; this does not mean only working with a developer or tester but can also mean working with a writer to capture his or her understanding of how the * system performance works, or working with the customer directly.
+
+### Coordinate with:
+* Developers and administrators
+* Infrastructure and test environment support
+* Users or user representatives
+* Managers and stakeholders
+* Other performance testers who are not on the project
+
+# Activity 7. Analyze Results and Report
+To keep up with an iterative process, results need to be analyzed and shared quickly. If the analysis is inconclusive, retest at the earliest possible opportunity to give the team maximum time to react to performance issues. As the project is wrapped for final shipping, it is usually worth having a meeting afterward to collect and pass along lessons learned. In most cases it is valuable to have a daily or every-other-day update to share information and coordinate next tasks.
+
+### Checklist
+Questions to ask:
+* Do the preliminary results make sense?
+* Is the test providing the data we expected?
+* Is the data valuable?
+* Are more tests required to derive meaning from the data?
+* Is tuning required? If so, do we know what to tune?
+* Do the results indicate that there are additional tests that we need to execute that have not been planned for?
+* Do the results indicate that any of the tests we are planning to conduct are no longer necessary?
+* Have any performance objectives been met?
+* Have any performance objectives been rendered obsolete?
+
+### Value provided:
+* Evaluate algorithm efficiency.
+* Monitor resource usage trends.
+* Measure response times.
+* Collect data for scalability and capacity planning.
+* Transfer lessons learned as they emerge from the test.
+
+### Tasks accomplished:
+* Analyze data collaboratively.
+* Determine the meaning of the results.
+* Share data with the whole team.
+* Import lessons learned into future iteration planning.
+
+### Coordinate with:
+* Developers and administrators
+* Managers and stakeholders
+* Users or user representatives
+* Other performance testers who are not on the project
+
+## Activity 8. Revisit Activities 1-3 and Consider Performance Acceptance Criteria
+Between iterations, ensure that the foundational information has not changed. Integrate new information, such as customer feedback, and update the strategy as necessary.
+
+### Checklist
+Questions to ask:
+* Have the performance implications of the project vision changed?
+* Have the performance implications of the service we are trying to provide changed, or has the problem we are trying to solve for the customer changed?
+* Have the project schedule, structure, or available resources changed?
+* Have the performance-testing objectives changed?
+* Have the performance-testing activities needed to validate any contractual, compliance, project, or customer performance criteria or expectations changed?
+* What performance-testing activities will help address currently known performance concerns?
+
+### Value provided:
+* Update resource and instrumentation assumptions and needs.
+* Point out any areas of concern.
+* Point out resource and instrumentation needs and/or risks.
+* Update performance-testing objectives.
+* Enhance and update usage scenarios of particular performance concerns.
+* Enhance and update performance goals, requirements, targets, and thresholds.
+* Ensure that the team has adequate warning about upcoming performance-testing activities that will require the support of additional team members.
+
+### Tasks accomplished:
+* Enhance and update understanding of the project’s critical performance implications.
+* Update resource constraints; for example, budget, people, and equipment.
+* Update/improve how the team will coordinate.
+* Update/improve how the team will communicate.
+* Revise performance-testing strategy.
+* Refine estimates of equipment and/or resources required for conducting performance testing.
+* Identify incompatibilities or conflicts between the objectives of the performance-testing effort and the equipment and resources to be made available.
+* Capture additional performance goals, requirements, targets, and thresholds.
+* Capture additional usage scenarios of particular concern.
+* Report current performance-testing status.
+
+### Coordinate with:
+* Whole team
+
+## Activity 9. Reprioritize Tasks
+Based on the test results, new information, and the availability of features and components, reprioritize, add to, or delete tasks from the strategy, and then return to activity 5.
+
+### Checklist
+Questions to ask:
+* What performance-testing activities will help address currently known performance concerns?
+* What is the performance goal for this cycle?
+* Where is the project in terms of the overall project performance goals?
+* Has the system achieved all of its performance objectives?
+* Has tuning been accomplished since the last iteration?
+* What analysis, reports, or retesting will add value during this iteration cycle?
+* Who requires pairing to do performance testing?
+* How much time is available?
+* How much time does each task take?
+* What is the most critical activity?
+
+### Value provided:
+* Provide insight on how the overall project is achieving its goal.
+* Provide insight on what can be measured and reported on in this cycle.
+* Provide insight on any critical issues that may have arisen from the last iteration.
+* Make suggestions to other team members.
+* Transfer lessons learned as they emerge from the test.
+* Pair with developers to improve performance unit testing.
+* Help reuse unit tests.
+* Help reuse functional tests.
+
+### Tasks accomplished:
+* Report current performance-testing status.
+* Estimate how much work is achievable.
+* Determine if anyone needs to be paired out.
+* Prioritize achievable work.
+* Identify primary and alternate tasks for this cycle.
+
+### Coordinate with:
+* Managers and stakeholders
+* Developers and administrators
+* Infrastructure and test environment support
+* Users or user representatives
+
+
+
 # Performance Testing Strategy
 https://www.360logica.com/blog/mobile-app-performance-testing-strategy/
 
