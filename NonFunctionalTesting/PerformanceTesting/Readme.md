@@ -81,7 +81,32 @@ Baselines evolve. At times you will have to redefine your baseline because of ch
 * When a tuning phase is complete, the test environment is generally reset to its initial state, the successful remedial changes are applied again, and any unsuccessful remedial changes (together with temporary instrumentation and diagnostic changes) are discarded. The performance test should then be repeated to prove that the correct changes have been identified. It might also be the case that the test environment itself is changed to reflect new expectations as to the minimal required production environment. This is unusual, but a potential outcome of the tuning effort.
 
 
+# Project Context
+For a performance testing project to be successful, both the approach to testing performance and the testing itself must be relevant to the context of the project. Without an understanding of the project context, performance testing is bound to focus on only those items that the performance tester or test team assumes to be important, as opposed to those that truly are important, frequently leading to wasted time, frustration, and conflicts.
 
+The project context is nothing more than those things that are, or may become, relevant to achieving project success. This may include, but is not limited to:
+* The overall vision or intent of the project
+* Performance testing objectives
+* Performance success criteria
+* The development life cycle
+* The project schedule
+* The project budget
+* Available tools and environments
+* The skill set of the performance tester and the team
+* The priority of detected performance concerns
+* The business impact of deploying an application that performs poorly
+* Some examples of items that may be relevant to the performance-testing effort in your project context include:
+
+* **Project vision.** Before beginning performance testing, ensure that you understand the current project vision. The project vision is the foundation for determining what performance testing is necessary and valuable. Revisit the vision regularly, as it has the potential to change as well.
+* **Purpose of the system.** Understand the purpose of the application or system you are testing. This will help you identify the highest-priority performance characteristics on which you should focus your testing. You will need to know the system’s intent, the actual hardware and software architecture deployed, and the characteristics of the typical end user.
+* **Customer or user expectations.** Keep customer or user expectations in mind when planning performance testing. Remember that customer or user satisfaction is based on expectations, not simply compliance with explicitly stated requirements.
+* **Business drivers.** Understand the business drivers – such as business needs or opportunities – that are constrained to some degree by budget, schedule, and/or resources. It is important to meet your business requirements on time and within the available budget.
+* **Reasons for testing performance.** Understand the reasons for conducting performance testing very early in the project. Failing to do so might lead to ineffective performance testing. These reasons often go beyond a list of performance acceptance criteria and are bound to change or shift priority as the project progresses, so revisit them regularly as you and your team learn more about the application, its performance, and the customer or user.
+* **Value that performance testing brings to the project.** Understand the value that performance testing is expected to bring to the project by translating the project- and business-level objectives into specific, identifiable, and manageable performance testing activities. Coordinate and prioritize these activities to determine which performance testing activities are likely to add value.
+* **Project management and staffing.** Understand the team’s organization, operation, and communication techniques in order to conduct performance testing effectively.
+* **Process.** Understand your team’s process and interpret how that process applies to performance testing. If the team’s process documentation does not address performance testing directly, extrapolate the document to include performance testing to the best of your ability, and then get the revised document approved by the project manager and/or process engineer.
+* **Compliance criteria.** Understand the regulatory requirements related to your project. Obtain compliance documents to ensure that you have the specific language and context of any statement related to testing, as this information is critical to determining compliance tests and ensuring a compliant product. Also understand that the nature of performance testing makes it virtually impossible to follow the same processes that have been developed for functional testing.
+* **Project schedule.** Be aware of the project start and end dates, the hardware and environment availability dates, the flow of builds and releases, and any checkpoints and milestones in the project schedule.
 
 # Modeling Performance Tests
 https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924367(v=pandp.10)
