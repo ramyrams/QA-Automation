@@ -1,4 +1,31 @@
 
+
+Performance testing is a type of testing intended to determine the responsiveness, throughput, reliability, and/or scalability of a system under a given workload. 
+
+Performance testing is commonly conducted to accomplish the following:
+* Assess production readiness
+* Evaluate against performance criteria
+* Compare performance characteristics of multiple systems or system configurations
+* Find the source of performance problems
+* Support system tuning
+* Find throughput levels
+
+Performance testing is typically done to help identify bottlenecks in a system, establish a baseline for future testing, support a performance tuning effort, determine compliance with performance goals and requirements, and/or collect other performance-related data to help stakeholders make informed decisions related to the overall quality of the application being tested. In addition, the results from performance testing and analysis can help you to estimate the hardware configuration required to support the application(s) when you “go live” to production operation.
+
+# Core Activities of Performance Testing
+https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924375.image001%28en-us%2cpandp.10%29.gif
+
+The performance testing approach used in this guide consists of the following activities:
+
+* Activity 1. Identify the Test Environment. Identify the physical test environment and the production environment as well as the tools and resources available to the test team. The physical environment includes hardware, software, and network configurations. Having a thorough understanding of the entire test environment at the outset enables more efficient test design and planning and helps you identify testing challenges early in the project. In some situations, this process must be revisited periodically throughout the project’s life cycle.
+* Activity 2. Identify Performance Acceptance Criteria. Identify the response time, throughput, and resource utilization goals and constraints. In general, response time is a user concern, throughput is a business concern, and resource utilization is a system concern. Additionally, identify project success criteria that may not be captured by those goals and constraints; for example, using performance tests to evaluate what combination of configuration settings will result in the most desirable performance characteristics.
+* Activity 3. Plan and Design Tests. Identify key scenarios, determine variability among representative users and how to simulate that variability, define test data, and establish metrics to be collected. Consolidate this information into one or more models of system usage to be implemented, executed, and analyzed.
+* Activity 4. Configure the Test Environment. Prepare the test environment, tools, and resources necessary to execute each strategy as features and components become available for test. Ensure that the test environment is instrumented for resource monitoring as necessary.
+* Activity 5. Implement the Test Design. Develop the performance tests in accordance with the test design.
+* Activity 6. Execute the Test. Run and monitor your tests. Validate the tests, test data, and results collection. Execute validated tests for analysis while monitoring the test and the test environment.
+* Activity 7. Analyze Results, Report, and Retest. Consolidate and share results data. Analyze the data both individually and as a cross-functional team. Reprioritize the remaining tests and re-execute them as needed. When all of the metric values are within accepted limits, none of the set thresholds have been violated, and all of the desired information has been collected, you have finished testing that particular scenario on that particular configuration.
+
+
 # Modeling Performance Tests
 https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924367(v=pandp.10)
 https://www.neotys.com/blog/modeling-performance-tests/
