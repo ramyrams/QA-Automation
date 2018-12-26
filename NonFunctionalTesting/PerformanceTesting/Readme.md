@@ -1,6 +1,9 @@
 Technical Skills of a Performance Test Engineer
 https://dzone.com/articles/technical-skills-of-performance-test-engineer
 
+
+https://smartbear.com/blog/test-and-monitor/7-types-of-web-performance-tests-and-how-they-fit/
+
 Measuring Performance With Gatling
 https://dzone.com/articles/let-measure-performance-with-gatling
 
