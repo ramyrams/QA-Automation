@@ -927,6 +927,177 @@ Questions to ask:
 * Users or user representatives
 
 
+The following are examples of high-level project visions:
+* Evaluate a new architecture for an existing system.
+* Develop a new custom system to solve a specific business problem.
+* Evaluate the new software-development tools.
+* As a team, become proficient in a new language or technology.
+* Re-engineer an inadequate application before a period of peak user activity to avoid user dissatisfaction due to application failure.
+
+## Project Context
+The project context is nothing more than those factors that are, or may become, relevant to achieving the project vision. Some examples of items that may be relevant to your project context include:
+* Client expectations
+* Budget
+* Timeline
+* Staffing
+* Project environment
+* Management approach
+
+
+## Understand the Project Environment
+In terms of the project environment, it is most important to understand the team’s organization, operation, and communications techniques. Agile teams tend not to use long-lasting documents and briefings as their management and communications methods; instead, they opt for daily stand-ups, story cards, and interactive discussions. Failing to understand these methods at the beginning of a project can put performance testing behind before it even begins. Asking the following or similar questions may be helpful:
+
+* Does the team have any scheduled meetings, stand-ups, or scrums?
+* How are issues raised or results reported?
+* If I need to collaborate with someone, should I send an e-mail message? Schedule a meeting? Use Instant Messenger? Walk over to his or her office?
+* Does this team employ a “do not disturb” protocol when an individual or sub-team desires “quiet time” to complete a particularly challenging task?
+* Who is authorized to update the project plan or project board?
+* How are tasks assigned and tracked? Software system? Story cards? Sign-ups?
+* How do I determine which builds I should focus on for performance testing? Daily builds? Friday builds? Builds with a special tag?
+* How do performance testing builds get promoted to the performance test environment?
+* Will the developers be writing performance unit tests? Can I pair with them periodically so that we can share information?
+* How do you envision coordination of performance-testing tasks?
+
+
+## Success Criteria
+It is also useful to start identifying the desired success criteria associated with the reasons for conducting performance testing, early in the project. As with the reasons for testing, the success criteria are bound to change, so you should revisit them regularly as you and your team learn more about the application, its performance, and the customer or user. Success criteria not only include the performance requirements, goals, and targets for the application, but also the objectives behind conducting performance testing in the first place, including those objectives that are financial or educational in nature. For example, success criteria may include:
+
+* Validate that the application be able to handle X users per hour.
+* Validate that the users will experience response times of Y seconds or less 95 percent of the time.
+* Validate that performance tests predict production performance within a +/- 10-percent range of variance.
+* Investigate hardware and software as it becomes available, to detect significant performance issues early.
+* The performance team, developers, and administrators work together with minimal supervision to tune and determine the capacity of the architecture.
+* Conduct performance testing within the existing project duration and budget.
+* Determine the most likely failure modes for the application under higher-than-expected load conditions.
+* Determine appropriate system configuration settings for desired performance characteristics.
+
+
+
+## Discussion Points
+In general, the types of information that may be valuable to discuss with the team when preparing a performance-testing strategy for a performance build include:
+
+* The reason for performance testing this delivery
+* Prerequisites for strategy execution
+* Tools and scripts required
+* External resources required
+* Risks to accomplishing the strategy
+* Data of special interest
+* Areas of concern
+* Pass/fail criteria
+* Completion criteria
+* Planned variants on tests
+* Load range
+* Tasks to accomplish the strategy
+
+
+
+## Keys to Conducting a Performance-Testing Task
+In general, the keys to conducting a performance-testing task include:
+* Analyze results immediately and revise the plan accordingly.
+* Work closely with the team or sub-team that is most relevant to the task.
+* Communicate frequently and openly across the team.
+* Record results and significant findings.
+* Record other data needed to repeat the test later.
+* Revisit performance-testing priorities after no more than two days.
+
+
+
+## 
+https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924362.image002%28en-us%2cpandp.10%29.gif
+https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924362.image003%28en-us%2cpandp.10%29.gif
+
+## Understand the System
+The information about the system contained in these documents is frequently abstracted from the end user in such a way that it is difficult to envision how individuals and groups of users will interact with the system. This is where you need to put your business analyst skills to use. Some of the things you will want to make sure you understand include:
+
+* Who or what are the users of the system? What are their reasons for using the system, their expectations, and their motivations?
+* What are the most frequently occurring usage scenarios for the system?
+* What are the business-critical usage scenarios for the system?
+* What are the different ways that a user can accomplish a task with system?
+* How frequently will a user access the system?
+* What is the relative distribution of tasks that a group of users will conduct over time?
+* How many users are likely to interact with the system at different points in time?
+
+
+
+* 500 users will be able to log in over a 5-minute period (interim and final requirement).
+* All page response times will be under 6 seconds (goal).
+* Tune application server for improved performance and scalability (objective).
+* Ensure that all procedures, scripts, data, and results from tests used to validate interim or final requirements are archived sufficiently to repeat the test and results later, if needed (compliance).
+
+
+
+# Add Detail to the Plan
+Finally, with this information you can detail the plan for each work item to include:
+
+* The reason for this test at this time
+* Priority for execution at this time
+* Prerequisites for execution
+* Tools and scripts required
+* External resources required
+* Risks to completing the work item
+* Data of special interest
+* Areas of concern
+* Pass/fail criteria
+* Completion criteria
+* Planned variants on tests
+* Load range
+* Specifically what data will be collected
+* Specifically how that data will be collected
+* Who will assist, how, and when
+* Additional information needed to repeat the work item later, if needed
+
+
+Determine Individual User Data and Variances
+During the early stages of development and testing, user data and variances are most often estimated based on expected usage and observation of users working with similar applications. These estimates are generally enhanced or revised when empirical data from Web server logs becomes available. Some of the more useful metrics that can be read or interpreted from Web server logs include:
+
+*Page views per period. **A *page view is a page request that includes all dependent file requests (.jpg files, CSS files, etc). Page views can be tracked over hourly, daily, or weekly time periods to account for cyclical patterns or bursts of peak user activity on the Web site.
+*User sessions per period. **A *user session is the sequence of related requests originating from a user visit to the Web site, as explained previously. As with page views, user sessions can span hourly, daily, and weekly time periods.
+**Session duration. **This metric represents the amount of time a user session lasts, measured from the first page request until the last page request is completed, and including the time the user pauses for when navigating from page to page.
+**Page request distribution. **This metric represents the distribution, in percentages, of page hits according to functional types (Home, login, Pay, etc.). The distribution percentages will establish a weighting ratio of page hits based on the actual user utilization of the Web site.
+Interaction speed. Also known as “user think time,” “page view time,” and “user delay,” this metric represents the time users take to transition between pages when navigating the Web site, constituting the think time behavior. It is important to remember that every user will interact with the Web site at a different rate.
+User abandonment. This metric represents the length of time that users will wait for a page to load before growing dissatisfied, exiting the site, and thus abandoning their user session. Abandoned sessions are quite normal on the Internet and consequently will have an impact on the load test results.
+
+
+## Determine the Relative Distribution of Scenarios
+
+The most common methods for determining the relative distribution of activities include:
+
+* Extract the actual usage, load values, common and uncommon usage scenarios (user paths), user delay time between clicks or pages, and input data variance (to name a few) directly from log files.
+* Interview the individuals responsible for selling/marketing new features to find out what features/functions are expected and therefore most likely to be used. By interviewing existing users, you may also determine which of the new features/functions they believe they are most likely to use.
+* Deploy a beta release to a group of representative users — roughly 10-20 percent the size of the expected user base — and analyze the log files from their usage of the site.
+* Run simple in-house experiments using employees, customers, clients, friends, or family members to determine, for example, natural user paths and the page-viewing time differences between new and returning users.
+* As a last resort, you can use your intuition, or best guess, to make estimations based on your own familiarity with the site.
+
+
+
+
+# Identify Target Load Levels
+By performing a quantitative analysis on Web server logs, you can determine:
+* The total number of visits to the site over a period of time (month/week/day).
+* The volume of usage, in terms of total averages and peak loads, on an hourly basis.
+* The duration of sessions for total averages and peak loads, on an hourly basis.
+* The total hourly averages and peak loads translated into overlapping user sessions to simulate real scalability volume for the load test
+
+
+
+Considerations
+Consider the following key points when designing a test:
+
+* Real-world test designs are sensitive to dependencies outside the control of the system, such as humans and other systems interacting with the application.
+* Realistic test designs are based on real operations and data, not mechanistic procedures.
+* Realistic test designs produce more credible results and thus enhance the value of performance testing.
+* Realistic simulation of user delays and think times is crucial to the accuracy of the test.
+* If users are likely to abandon a task for any reason, this should be accounted for in your test design.
+* Remember to include common user errors in your scenarios.
+* Component-level performance tests are an integral part of real-world testing.
+* Real-world test designs can be more costly and time-consuming to implement, but they deliver far more accurate results to the business and stakeholders.
+* Extrapolation of performance results from unrealistic tests can be inaccurate as the system scope increases, and frequently lead to poor decisions.
+* Involve the developers and administrators in the process of determining which metrics are likely to add value and which method best integrates the capturing of those metrics into the test.
+* Beware of allowing your tools to influence your test design. Better tests almost always result from designing tests on the assumption that they can be executed and then adapting * the test or the tool when that assumption is proven false, rather than by not designing particular tests based on the assumption that you do not have access to a tool to execute the test.
+
+
+
+
 
 # Performance Testing Strategy
 https://www.360logica.com/blog/mobile-app-performance-testing-strategy/
