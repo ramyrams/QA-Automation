@@ -1,4 +1,8 @@
 
+# Modeling Performance Tests
+https://www.neotys.com/blog/modeling-performance-tests/
+
+# Statergy
 
 1. Determine the Scope of Testing/Nonfunctional Requirements: This includes basic check on what all requirements are agreed upon under what deadlines, Resources,Identified performance targets, tools, skills, and appropriate licenses for the performance test(if required). Adequate training for all team members in the tools to be used.
  
