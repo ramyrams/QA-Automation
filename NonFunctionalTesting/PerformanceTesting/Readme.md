@@ -1,6 +1,25 @@
 
 # Modeling Performance Tests
 https://www.neotys.com/blog/modeling-performance-tests/
+https://techbeacon.com/how-define-right-workload-model-your-performance-tests
+https://dzone.com/articles/modeling-performance-tests
+http://www.agileload.com/agileload/blog/2013/06/12/performance-test-workload-modeling
+https://smartbear.com/blog/test-and-monitor/workload-modeling-and-profiles-for-load-testing/
+https://www.cs.auckland.ac.nz/~christof/publications/LutterothWeber2008-LoadTesting.pdf
+
+![1](https://qph.fs.quoracdn.net/main-qimg-7d320fdbfe44f5ef1c1b7ef974bdc988.webp)
+
+Considerations while designing Workload Model :
+
+* Some users will complete more than one activity during a visit to your site.
+* Some users will complete the same activity more than once per visit.
+* Some users may not actually complete any activities during a visit to your site.
+* Navigation paths are often easiest to capture by using page titles.
+* If page titles do not work or are not intuitive for your application, the navigation path may be easily defined by steps the user takes to complete the activity.
+* First-time users frequently follow a different path to accomplish a task than users experienced with the application. Consider this difference and what percentage of new versus return user navigation paths you should represent in your model.
+* Different users will spend different amounts of time on the site. Some will log out, some will close their browser, and others will leave their session to time out. Take these factors into account when determining or estimating session durations.
+* When discussing navigation paths with your team or others, it is frequently valuable to use visual representations.
+
 
 # Statergy
 
