@@ -1,5 +1,8 @@
 
 
+https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924367.image001%28en-us%2cpandp.10%29.gif
+
+
 Performance testing is a type of testing intended to determine the responsiveness, throughput, reliability, and/or scalability of a system under a given workload. 
 
 Performance testing is commonly conducted to accomplish the following:
