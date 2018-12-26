@@ -1,6 +1,121 @@
+
+
+1. Determine the Scope of Testing/Nonfunctional Requirements: This includes basic check on what all requirements are agreed upon under what deadlines, Resources,Identified performance targets, tools, skills, and appropriate licenses for the performance test(if required). Adequate training for all team members in the tools to be used.
+ 
+ 2. Performance Test Environment Build: Take into account the load models(server monitoring/load test) and deploying,configuring performance testing tools correctly so that build/env is ready to work since we strive to make test environment as close as that of production Test Page for the Apache HTTP Server & InterWorx-CP also involves identifying acceptance criteria.
+ 
+ 3. Scripting/Use-Case Scripting: Now once above 2 things are handles,here comes in major approach/line item to be followed i.e scripting of all the business scenarios,for which following steps will be required:
+ a. Identifying the sessions data requirement and then Confirm and apply input data.
+ b. Checkpoint coverage at appropriate places which provides first-level analysis of potential problem areas within the use case.
+ c. Identify the changes required and apply them in use cases so as to get correct results/output.[Note: Use cases should work correctly in both cases whether for Single or Multi-user ]
+ 
+ 4. Performance Test Scenario Build: It includes making use of the load model created which was captured as part of NFR/scope defining approach.Focus is on below areas:
+ a. Type of test to be run: Whether pipe-clean, Spike,Volume,Soak, or Stress? Mostly, we use pipe-clean tests for each use case initially as a single user to establish a performance baseline, and then target throughput for the use case.
+ b. For each use case, decision on how many load injector deployments are required and virtual users to be assigned to each point of presence
+ c. Put required think time and pacing as business flow demands
+ 
+ 5. Performance Test Execution and Analysis: Last and the important approach is to Run and monitor test results. Final check/dress rehearsals are performed so that there are no problems accessing the application or with the test configuration.
+ a. Ensuring that we haven’t omitted anything fundamental in performance test configuration.
+ b. Execute volume tests once performance baselines are established.
+ c. Execute isolation tests to explore any problems revealed by volume testing and stress tests, which are crucial from a capacity perspective.
+ 
+ 6. Post-Test Analysis and Reporting: Final and important step is after running/executing ,make sure to have clean and precise analysis of the task and the best way is to prepare the reports after each run performed and a closure report for same.
+ a. Determine success or failure by comparing test results to performance targets set as part of project requirements.
+ b. Document the results using your preferred reporting template
+ c. A closure report containing Key business scenario,Scopes,Bottlenecks Identified(database configuration, coding errors, hardware issues etc) and vulnerable areas being identified shall prove good.
+ A conclusion with recommendation ideas is always treated good & interactive way to Report.
+ 
+ 
+ At a minimum, a performance testing plan needs to address the following:
+
+Overall approach
+Focus on mitigating the performance risks for this new implementation.
+Make basic working assumptions on which parts of the implementation need to be performance-tested.
+Reach consensus on these working assumptions and determine the appropriate level of performance and stress testing that shall be completed within this compressed time schedule.
+Dependencies and baseline assumptions
+Components to be performance tested shall be completely functional.
+Components to be performance tested shall be housed in hardware/firmware components that are representative or scaleable to the intended production systems.
+Data repositories shall be representative or scaleable to the intended production systems.
+Performance objectives shall be agreed upon, including working assumptions and testing scenarios.
+Performance testing tools and supporting technologies shall be installed and fully licensed.
+Pre-performance testing actions
+Create a "stubs" or "utilities" to push transactions through the QA environment -– using projected peak loads.
+Create a "stubs" or "utilities" to replace business-to-business transactions that are not going to be tested or will undergo limited performance. This would remove any dependencies on B2B transactions.
+Create a "stubs" or "utilities" to replace internal components that will not be available during performance testing. This would remove any dependencies on these components.
+Implement appropriate performance monitors on all high-volume servers.
+Performance testing approach
+Focus on mitigating the performance risks for this new implementation.
+Make basic working assumptions on which parts of the implementation need to be performance-tested.
+Reach consensus on these working assumptions and determine the appropriate level of performance that shall be completed.
+Use a tier 1 performance testing tool that can replicate the expected production volumes.
+Use an environment that replicates the components (as they will exist in production) that will be performance-tested -– noting all exceptions.
+Use both production and non-production (testing) monitors to measure the performance of the system during performance testing.
+Performance testing activities
+Performance test shall create appropriate loads against the system following agreed-upon scenarios that include:User actions (workflow)Agreed-upon loads (transactions per minute)Agreed-upon metrics (response times)
+Manual testing and automated functional tests shall be conducted during performance testing to ensure that user activities are not impacted by the current load.
+System monitors shall be used to observe the performance of all servers involved in the test to ensure they meet predefined performance requirements.
+Post-implementation support teams shall be represented during performance testing to observe and support the performance testing efforts.
+In-scope business processes
+Out-of-scope business processes
+Performance testing scenarios
+Business scenario
+Expected throughput (peak)
+Acceptance performance criteria (acceptable response times under various loads)
+Data requirements (scenario and implementation specific)
+Performance test execution
+Performance test metrics
+In-short a good approach organises "CCD IS EARI" into a flow that fits your project
+
+Context - the overall vision or intent of the project, performance testing objectives, performance success criteria, the development life cycle, the project schedule, the project budget, the available tools and environments, the skill set of the performance tester and the team, the priority of detected performance concerns, and the business impact of deploying an application that performs poorly
+
+Criteria - criteria include requirements, goals, targets, thresholds and objectives related to both the application's performance and the performance testing sub-project
+
+Design - A significant component of performance test design is determining, designing and creating data associated with the natural variances of application users
+
+Install - This heuristic is actually short for "Install and Configure or Update Tools and the Load Generation Environment
+
+Script - It is most likely that your test design will be implemented using a load generation tool that requires some degree of scripting.
+
+Execute - The fact is that test execution involves continually validating the tests and test environment, running new tests and archiving all of the data associated with test execution.
+
+Analyse - Analysing test results and collected data, whether to determine requirement compliance, track trends, detect bottlenecks or evaluate the effectiveness of tuning efforts, is crucial to the success of a performance testing project
+
+Report - Reporting on the results and analysis is just as significant as the collection and analysis of the data
+
+Iterate - Iterating is virtually a given for any type of testing. Sometimes we iterate based on builds, defect resolutions or environment changes.
+
+
+# Performance Testing Strategy
+https://www.360logica.com/blog/mobile-app-performance-testing-strategy/
+
+
+Cloud Performance Testing: How to Build an Effective Strategy?
+
+http://bento.cdn.pbs.org/hostedbento-qa/filer_public/smoke/load_testing.pdf
+
+
 Technical Skills of a Performance Test Engineer
 https://dzone.com/articles/technical-skills-of-performance-test-engineer
 
+# Load Testing Strategy
+1. Baseline Profile
+2. Peak Profile
+3. Stress Profile
+4. Soak Profile
+https://www.soapui.org/learn/load-testing/load-testing-strategies-apis.html
+
+
+API Load Testing
+Mobile Load Testing
+Web Load Testing
+
+http://www.performance-workshop.org/documents/Perf_Testing_Strategy_Collard.pdf
+
+http://www.perftestplus.com/resources/Performance_Engineering_Strategy_Template.pdf
+
+
+
+https://www.akamai.com/us/en/multimedia/documents/white-paper/the-complete-guide-to-performance-testing-your-retail-websites-and-apps.pdf
 
 https://smartbear.com/blog/test-and-monitor/7-types-of-web-performance-tests-and-how-they-fit/
 
