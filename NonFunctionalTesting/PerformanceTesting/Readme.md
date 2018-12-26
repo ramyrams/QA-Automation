@@ -50,6 +50,38 @@ At the highest level, performance testing is almost always conducted to address 
 * Identifying bottlenecks in the application.
 * Providing information related to the speed, scalability, and stability of a product prior to production release, thus enabling you to make informed decisions about whether and when to tune the system.
 
+# Baselines
+* Creating a baseline is the process of running a set of tests to capture performance metric data for the purpose of evaluating the effectiveness of subsequent performance-improving changes to the system or application. A critical aspect of a baseline is that all characteristics and configuration options except those specifically being varied for comparison must remain invariant. Once a part of the system that is not intentionally being varied for comparison to the baseline is changed, the baseline measurement is no longer a valid basis for comparison.
+* With respect to Web applications, you can use a baseline to determine whether performance is improving or declining and to find deviations across different builds and versions. For example, you could measure load time, the number of transactions processed per unit of time, the number of Web pages served per unit of time, and resource utilization such as memory usage and processor usage. Some considerations about using baselines include:
+* A baseline can be created for a system, component, or application. A baseline can also be created for different layers of the application, including a database, Web services, and so on.
+* A baseline can set the standard for comparison, to track future optimizations or regressions. It is important to validate that the baseline results are repeatable, because considerable fluctuations may occur across test results due to environment and workload characteristics.
+* Baselines can help identify changes in performance. Baselines can help product teams identify changes in performance that reflect degradation or optimization over the course of the development life cycle. Identifying these changes in comparison to a well-known state or configuration often makes resolving performance issues simpler.
+* Baselines assets should be reusable. Baselines are most valuable if they are created by using a set of reusable test assets. It is important that such tests accurately simulate repeatable and actionable workload characteristics.
+* Baselines are metrics. Baseline results can be articulated by using a broad set of key performance indicators, including response time, processor capacity, memory usage, disk capacity, and network bandwidth.
+* Baselines act as a shared frame of reference. Sharing baseline results allows your team to build a common store of acquired knowledge about the performance characteristics of an application or component.
+* Avoid over-generalizing your baselines. If your project entails a major reengineering of the application, you need to reestablish the baseline for testing that application. A baseline is application-specific and is most useful for comparing performance across different versions. Sometimes, subsequent versions of an application are so different that previous baselines are no longer valid for comparisons.
+* Know your application’s behavior. It is a good idea to ensure that you completely understand the behavior of the application at the time a baseline is created. Failure to do so before making changes to the system with a focus on optimization objectives is frequently counterproductive.
+Baselines evolve. At times you will have to redefine your baseline because of changes that have been made to the system since the time the baseline was initially captured.
+
+# Benchmarking
+* Benchmarking is the process of comparing your system’s performance against a baseline that you have created internally or against an industry standard endorsed by some other organization.
+* In the case of a Web application, you would run a set of tests that comply with the specifications of an industry benchmark in order to capture the performance metrics necessary to determine your application’s benchmark score. You can then compare your application against other systems or applications that also calculated their score for the same benchmark. You may choose to tune your application performance to achieve or surpass a certain benchmark score. Some considerations about benchmarking include:
+* You need to play by the rules. A benchmark is achieved by working with industry specifications or by porting an existing implementation to meet such standards. Benchmarking entails identifying all of the necessary components that will run together, the market where the product exists, and the specific metrics to be measured.
+* Because you play by the rules, you can be transparent. Benchmarking results can be published to the outside world. Since comparisons may be produced by your competitors, you will want to employ a strict set of standard approaches for testing and data to ensure reliable results.
+* You divulge results across various metrics. Performance metrics may involve load time, number of transactions processed per unit of time, Web pages accessed per unit of time, processor usage, memory usage, search times, and so on.
+
+
+# Tuning Process Overview
+* Tuning follows an iterative process that is usually separate from, but not independent of, the performance testing approach a project is following. The following is a brief overview of a typical tuning process:
+* Tests are conducted with the system or application deployed in a well-defined, controlled test environment in order to ensure that the configuration and test results at the start of the testing process are known and reproducible.
+* When the tests reveal performance characteristics deemed to be unacceptable, the performance testing and tuning team enters a diagnosis and remediation stage (tuning) that will require changes to be applied to the test environment and/or the application. It is not uncommon to make temporary changes that are deliberately designed to magnify an issue for diagnostic purposes, or to change the test environment to see if such changes lead to better performance.
+* The cooperative testing and tuning team is generally given full and exclusive control over the test environment in order to maximize the effectiveness of the tuning phase.
+* Performance tests are executed, or re-executed after each change to the test environment, in order to measure the impact of a remedial change.
+* The tuning process typically involves a rapid sequence of changes and tests. This process can take exponentially more time if a cooperative testing and tuning team is not fully available and dedicated to this effort while in a tuning phase.
+* When a tuning phase is complete, the test environment is generally reset to its initial state, the successful remedial changes are applied again, and any unsuccessful remedial changes (together with temporary instrumentation and diagnostic changes) are discarded. The performance test should then be repeated to prove that the correct changes have been identified. It might also be the case that the test environment itself is changed to reflect new expectations as to the minimal required production environment. This is unusual, but a potential outcome of the tuning effort.
+
+
+
 
 # Modeling Performance Tests
 https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924367(v=pandp.10)
