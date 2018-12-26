@@ -26,6 +26,31 @@ The performance testing approach used in this guide consists of the following ac
 * Activity 7. Analyze Results, Report, and Retest. Consolidate and share results data. Analyze the data both individually and as a cross-functional team. Reprioritize the remaining tests and re-execute them as needed. When all of the metric values are within accepted limits, none of the set thresholds have been violated, and all of the desired information has been collected, you have finished testing that particular scenario on that particular configuration.
 
 
+# Why Do Performance Testing?
+At the highest level, performance testing is almost always conducted to address one or more risks related to expense, opportunity costs, continuity, and/or corporate reputation. Some more specific reasons for conducting performance testing include:
+
+## Assessing release readiness by:
+* Enabling you to predict or estimate the performance characteristics of an application in production and evaluate whether or not to address performance concerns based on those predictions. These predictions are also valuable to the stakeholders who make decisions about whether an application is ready for release or capable of handling future growth, or whether it requires a performance improvement/hardware upgrade prior to release.
+* Providing data indicating the likelihood of user dissatisfaction with the performance characteristics of the system.
+* Providing data to aid in the prediction of revenue losses or damaged brand credibility due to scalability or stability issues, or due to users being dissatisfied with application response time.
+
+## Assessing infrastructure adequacy by:
+* Evaluating the adequacy of current capacity.
+* Determining the acceptability of stability.
+* Determining the capacity of the application’s infrastructure, as well as determining the future resources required to deliver acceptable application performance.
+* Comparing different system configurations to determine which works best for both the application and the business.
+* Verifying that the application exhibits the desired performance characteristics, within budgeted resource utilization constraints.
+
+## Assessing adequacy of developed software performance by:
+* Determining the application’s desired performance characteristics before and after changes to the software.
+* Providing comparisons between the application’s current and desired performance characteristics.
+
+## Improving the efficiency of performance tuning by:
+* Analyzing the behavior of the application at various load levels.
+* Identifying bottlenecks in the application.
+* Providing information related to the speed, scalability, and stability of a product prior to production release, thus enabling you to make informed decisions about whether and when to tune the system.
+
+
 # Modeling Performance Tests
 https://docs.microsoft.com/en-us/previous-versions/msp-n-p/bb924367(v=pandp.10)
 https://www.neotys.com/blog/modeling-performance-tests/
