@@ -13,7 +13,7 @@ Performance testing is commonly conducted to accomplish the following:
 Performance testing is typically done to help identify bottlenecks in a system, establish a baseline for future testing, support a performance tuning effort, determine compliance with performance goals and requirements, and/or collect other performance-related data to help stakeholders make informed decisions related to the overall quality of the application being tested. In addition, the results from performance testing and analysis can help you to estimate the hardware configuration required to support the application(s) when you “go live” to production operation.
 
 # Core Activities of Performance Testing
-https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924375.image001%28en-us%2cpandp.10%29.gif
+![1](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/images/bb924375.image001%28en-us%2cpandp.10%29.gif)
 
 The performance testing approach used in this guide consists of the following activities:
 
