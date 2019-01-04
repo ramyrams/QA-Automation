@@ -1,5 +1,14 @@
 
 
+# QA
+* [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
+* [Career Path of a Tester!](https://essenceoftesting.blogspot.sg/2016/12/career-path-of-tester.html)
+* [AUTOMATED TEST CLASSIFICATION](http://www.jamkey.fr/automated-test-classification/)
+* [TECHNICAL TEST STRATEGY](http://www.jamkey.fr/technical-test-strategy/)
+* [Continuous Testing](http://www.awesome-testing.com/2016/10/testops-3-continuous-testing.html)
+* [What Tools Should I Learn? ](https://dojo.ministryoftesting.com/lessons/what-tools-should-i-learn)
+* [Hiring Good Testers](http://pixelgrill.com/hiring-good-testers/)
+
 # Software Testing Metrics & KPIs
 https://www.thinksys.com/qa-testing/software-testing-metrics-kpis/
 
@@ -9,14 +18,6 @@ As a good first guess, Google often suggests a 70/20/10 split: 70% unit tests, 2
 ![1](https://res.infoq.com/articles/contract-testing-spring-cloud-contract/en/resources/1image14-contract-testing-spring-cloud-1532762674022.png)
 
 ![1](https://toyerm.files.wordpress.com/2018/10/slide13.jpg)
-
-# QA
-* [A real-world guide to continuous testing](http://techbeacon.com/real-world-guide-continuous-testing)
-* [Career Path of a Tester!](https://essenceoftesting.blogspot.sg/2016/12/career-path-of-tester.html)
-* [AUTOMATED TEST CLASSIFICATION](http://www.jamkey.fr/automated-test-classification/)
-* [TECHNICAL TEST STRATEGY](http://www.jamkey.fr/technical-test-strategy/)
-* [Continuous Testing](http://www.awesome-testing.com/2016/10/testops-3-continuous-testing.html)
-* [What Tools Should I Learn? ](https://dojo.ministryoftesting.com/lessons/what-tools-should-i-learn)
 
 7 Quick Steps To Become a Great Automation Testing Engineer 
 https://dzone.com/articles/7-quick-steps-to-become-a-great-automation-testing?
