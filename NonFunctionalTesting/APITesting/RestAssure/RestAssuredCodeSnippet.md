@@ -454,12 +454,7 @@ public class CreateCustomerPostCall {
 	
 	
 	
-  http://www.javased.com/?api=com.jayway.restassured.RestAssured
-https://static.javadoc.io/com.jayway.restassured/rest-assured/1.2.3/com/jayway/restassured/RestAssured.html
-https://github.com/adriangonciarz/rest-assured-example
-https://developers.redhat.com/blog/2017/07/20/testing-rest-apis-with-rest-assured/
-https://www.programcreek.com/java-api-examples/index.php?api=com.jayway.restassured.RestAssured
-https://www.programcreek.com/java-api-examples/?ClassName=RestAssured&action=search&submit=Search
+
 
 
 RestAssured.baseURI = "http://myhost.org";
