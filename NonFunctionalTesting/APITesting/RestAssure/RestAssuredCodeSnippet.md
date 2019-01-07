@@ -445,3 +445,278 @@ public class CreateCustomerPostCall {
 	
 	
 	
+  http://www.javased.com/?api=com.jayway.restassured.RestAssured
+https://static.javadoc.io/com.jayway.restassured/rest-assured/1.2.3/com/jayway/restassured/RestAssured.html
+https://github.com/adriangonciarz/rest-assured-example
+https://developers.redhat.com/blog/2017/07/20/testing-rest-apis-with-rest-assured/
+https://www.programcreek.com/java-api-examples/index.php?api=com.jayway.restassured.RestAssured
+https://www.programcreek.com/java-api-examples/?ClassName=RestAssured&action=search&submit=Search
+
+
+RestAssured.baseURI = "http://myhost.org";
+RestAssured.basePath = "/resource";
+RestAssured.port = getApplicationPort(applicationName);
+RestAssured.config().redirect(RedirectConfig.redirectConfig().followRedirects(false));
+RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+RestAssured.reset();
+RestAssured.port = 80;
+RestAssured.authentication = basic("username", "password");
+RestAssured.rootPath = "store.book";
+ 
+ 
+JsonPath response = RestAssured.given().when().delete(TYPE_API).then().statusCode(405).extract().jsonPath();
+Assert.assertEquals("Request method 'DELETE' not supported", response.getString("message"));
+Assert.assertEquals("Method Not Allowed", response.getString("error"));
+	
+
+String port = System.getProperty("server.port");
+RestAssured.port = (port == null) ? 8082 : Integer.valueOf(port);
+
+
+@BeforeClass
+public static void startApp() {
+
+    RestAssured.config = RestAssured.config().sessionConfig(new SessionConfig().sessionIdName("APPSESSIONID"));
+    RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+    RestAssured.port = 9090;
+
+    Thread thread = new Thread(() -> {
+        try {
+            JettyApp.main(new String[]{Integer.toString(RestAssured.port)});
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    });
+    thread.start();
+    // give the app time to spin up
+    try {
+        Thread.sleep(3000);
+    } catch (InterruptedException ex) {
+        Thread.currentThread().interrupt();
+    }
+
+}
+ 
+ 
+  restAssured.given().get("/base/data").andReturn();
+  
+
+
+**Given**= a context or Getting a system in a particular state
+**When**= something happens or Poke it
+**Then**=we expect some outcome or examine the new state
+
+@Test
+public void testGetSingleUserProgrammatic() {
+  Response res = get("/service/single-user");
+  assertEquals(200, res.getStatusCode());
+  String json = res.asString();
+  JsonPath jp = new JsonPath(json);
+  assertEquals("test@hascode.com", jp.get("email"));
+  assertEquals("Tim", jp.get("firstName"));
+  assertEquals("Testerman", jp.get("lastName"));
+  assertEquals("1", jp.get("id"));
+}
+
+@Test
+public void testFindUsingGroovyClosure() {
+  String json = get("/service/persons/json").asString();
+  JsonPath jp = new JsonPath(json);
+  jp.setRoot("person");
+  Map person = jp.get("find {e -> e.email =~ /test@/}");
+  assertEquals("test@hascode.com", person.get("email"));
+  assertEquals("Tim", person.get("firstName"));
+  assertEquals("Testerman", person.get("lastName"));
+}
+
+
+@Test
+public void testGetSingleUserAsXml() {
+  expect().
+    statusCode(200).
+    body(
+      "user.email", equalTo("test@hascode.com"),
+      "user.firstName", equalTo("Tim"),
+      "user.lastName", equalTo("Testerman"),
+      "user.id", equalTo("1")).
+    when().
+    get("/service/single-user/xml");
+}
+
+
+@Test
+public void testGetSingleUserAgainstSchema() {
+  InputStream xsd = getClass().getResourceAsStream("/user.xsd");
+  assertNotNull(xsd);
+  expect().
+  statusCode(200).
+  body(
+    matchesXsd(xsd)).
+  when().
+  get("/service/single-user/xml");
+}
+
+
+@Test
+public void testCreateuser() {
+  final String email = "test@hascode.com";
+  final String firstName = "Tim";
+  final String lastName = "Tester";
+ 
+  given().
+    parameters(
+      "email", email,
+      "firstName", firstName,
+      "lastName", lastName).
+  expect().
+    body("email", equalTo(email)).
+    body("firstName", equalTo(firstName)).
+    body("lastName", equalTo(lastName)).
+  when().
+  get("/service/user/create");
+}
+
+
+@Test
+public void testAuthenticationWorking() {
+  // we're not authenticated, service returns "401 Unauthorized"
+  expect().
+    statusCode(401).
+  when().
+  get("/service/secure/person");
+ 
+  // with authentication it is working
+  expect().
+    statusCode(200).
+  when().
+    with().
+      authentication().basic("admin", "admin").
+  get("/service/secure/person");
+}
+
+
+@Test
+public void testSetRequestHeaders() {
+  expect().
+    body(equalTo("TEST")).
+  when().
+    with().
+    header("myparam", "TEST").
+  get("/service/header/print");
+ 
+  expect().
+    body(equalTo("foo")).
+  when().
+    with().
+    header("myparam", "foo").
+  get("/service/header/print");
+}
+
+
+@Test
+public void testReturnedHeaders() {
+  expect().
+    headers("customHeader1", "foo", "anotherHeader", "bar").
+  when().
+  get("/service/header/multiple");
+}
+
+
+@Test
+public void testAccessSecuredByCookie() {
+  expect().
+    statusCode(403).
+  when().
+  get("/service/access/cookie-token-secured");
+ 
+  given().
+    cookie("authtoken", "abcdef").
+  expect().
+    statusCode(200).
+  when().
+  get("/service/access/cookie-token-secured");
+}
+
+
+@Test
+public void testModifyCookie() {
+  expect().
+    cookie("userName", equalTo("Ted")).
+  when().
+    with().param("name", "Ted").
+  get("/service/cookie/modify");
+ 
+  expect().
+    cookie("userName", equalTo("Bill")).
+  when().
+    with().param("name", "Bill").
+  get("/service/cookie/modify");
+}
+
+
+@Test
+public void testFileUpload() {
+  final File file = new File(getClass().getClassLoader()
+      .getResource("test.txt").getFile());
+  assertNotNull(file);
+  assertTrue(file.canRead());
+  given().
+    multiPart(file).
+  expect().
+    body(equalTo("This is an uploaded test file.")).
+  when().
+  post("/service/file/upload");
+}
+
+
+
+@Test
+public void testSpecReuse() {
+  ResponseSpecBuilder builder = new ResponseSpecBuilder();
+  builder.expectStatusCode(200);
+  builder.expectBody("email", equalTo("test@hascode.com"));
+  builder.expectBody("firstName", equalTo("Tim"));
+  builder.expectBody("lastName", equalTo("Testerman"));
+  builder.expectBody("id", equalTo("1"));
+  ResponseSpecification responseSpec = builder.build();
+ 
+  // now we're able to use this specification for this test
+  expect().
+    spec(responseSpec).
+  when().
+  get("/service/single-user");
+ 
+  // now re-use for another test that returns similar data .. you may
+  // extend the specification with further tests as you wish
+  final String email = "test@hascode.com";
+  final String firstName = "Tim";
+  final String lastName = "Testerman";
+ 
+  expect().
+    spec(responseSpec).
+  when().
+    with().
+    parameters(
+      "email", email,
+      "firstName", firstName,
+      "lastName",lastName).
+  get("/service/user/create");
+}
+
+
+@Before
+ public void setUp(){
+ RestAssured.basePath = "yourbasepath";
+RestAssured.port = config.getInteger("server.port");
+ }
+
+
+@Test
+public void testStatusPage()
+{
+  expect()
+     .statusCode(200)
+     .log().ifError()
+  .when()
+     .get("/status/server");
+}
