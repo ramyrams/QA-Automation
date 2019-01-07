@@ -1259,3 +1259,109 @@ public class NewTest {
 	
   
 }
+
+
+
+
+//You don't have to extract the response to validate this. You can just do like this:
+given().
+       header("authToken",userToken).
+when().
+       get("/students").
+then().
+       contentType(ContentType.JSON).
+       body("list.size()", is(5));
+
+//But if you want to extract it from the response you can as well:
+
+Response response = 
+given().
+       header("authToken",userToken).
+when().
+       get("/students").
+then().
+       contentType(ContentType.JSON).
+extract().
+       response(); 
+int sizeOfList = response.body().path("list.size()");
+
+
+//If you're only interested in the size of the list and nothing else you can do like this:
+int sizeOfList = 
+given().
+       header("authToken",userToken).
+when().
+       get("/students").
+then().
+       contentType(ContentType.JSON).
+extract().
+       path("list.size()"); 
+	   
+
+@Test
+public void testStatusPage()
+{
+  expect()
+     .statusCode(200)
+     .log().ifError()
+  .when()
+     .get("/status/server");
+}
+
+given()
+   .auth().basic("user","name23")
+.expect()
+   .statusCode(401)
+.when()
+   .get("/rest/status"); 
+   
+
+@Before
+public void setUp() {
+   RestAssured.authentication = basic("rhqadmin","rhqadmin");
+}
+
+
+
+AlertDefinition alertDefinition = new AlertDefinition(….);
+Header acceptJson = new Header("Accept", "application/json")
+ 
+AlertDefinition result =
+given()
+   .contentType(ContentType.JSON)
+   .header(acceptJson)
+   .body(alertDefinition)
+   .log().everything()
+   .queryParam("resourceId", 10001)
+.expect()
+   .statusCode(201)
+   .log().ifError()
+.when()
+   .post("/alert/definitions")
+.as(AlertDefinition.class);
+
+
+
+// Do an OPTIONS call to the remote and then translate into JsonPath
+JsonPath jsonPath =
+    given()
+      .header("Accept",APPLICATION_JSON)
+    .options("http://localhost:8080/metrics/vendor")
+      .extract().body().jsonPath();
+ 
+// Now find the buffer direct pool
+Map<String,String> aMap = jsonPath.getMap("find {it.name == 'BufferPool_used_memory_direct'}");
+// And make sure its display name is correct
+assert directPool.get("displayName").equals("BufferPool_used_memory_direct");
+
+
+when()
+   .get("http://localhost:8080/metrics/base")
+.then()
+   .header("ETag",notNullValue())
+   .body("scheduleId", hasItem( numericScheduleId)) 
+   .body(containsString("total-started-thread-count"));
+   
+   
+   
+   
