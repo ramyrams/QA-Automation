@@ -720,3 +720,333 @@ public void testStatusPage()
   .when()
      .get("/status/server");
 }
+
+
+req.given().when().get().then().log().ifValidationFails().statusCode(200);
+
+https://stackoverflow.com/questions/32182479/rest-assured-size-of-json-response?rq=1
+
+Scem Validation
+https://github.com/rest-assured/rest-assured/blob/master/examples/rest-assured-itest-java/src/test/java/io/restassured/itest/java/JsonSchemaValidationITest.java
+
+
+https://github.com/rest-assured/rest-assured/tree/master/examples/rest-assured-itest-java/src/test/java/io/restassured/itest/java
+
+
+# Auth - https://github.com/rest-assured/rest-assured/blob/master/examples/rest-assured-itest-java/src/test/java/io/restassured/itest/java/AuthenticationITest.java
+
+	@Test
+    public void basicAuthentication() throws Exception {
+        given().auth().basic("jetty", "jetty").expect().statusCode(200).when().get("/secured/hello");
+    }
+
+
+    @Test
+    public void explicitExcludeOfBasicAuthenticationWhenUsingDefault() throws Exception {
+        authentication = basic("jetty", "jetty");
+        try {
+            given().auth().none().and().expect().statusCode(401).when().get("/secured/hello");
+        } finally {
+            RestAssured.reset();
+        }
+    }
+
+
+    @Test
+    public void supportsPreemptiveBasicAuthentication() throws Exception {
+        given().auth().preemptive().basic("jetty", "jetty").expect().statusCode(200).when().get("/secured/hello");
+    }
+
+    @Test
+    public void supportsExpectingStatusCodeWhenPreemptiveBasicAuthenticationError() throws Exception {
+        given().auth().preemptive().basic("jetty", "bad password").expect().statusCode(401).when().get("/secured/hello");
+    }
+
+	
+
+expect().statusCode(HttpStatus.SC_OK)
+    .given()
+    .parameters("user", user, "password", URL)
+    .cookie("cookie_name", "cookie_value")
+    .post("/someURL");
+	
+
+@Test
+public void loginAndLogout(){
+    final String login = randomLogin();
+    // First post to login()
+    given()
+    .queryParam("login", login)
+    .queryParam("password", randomPassword())
+    .when().post("/login/");    
+
+    // Second post to logout() with an assert
+    expect().statusCode(200)
+    .given()
+    .when().post("/logout/");   
+}
+
+
+## Getting and parsing a response body:
+
+// Example with JsonPath
+String json = get("/lotto").asString()
+List<String> winnderIds = from(json).get("lotto.winners.winnerId");
+    
+// Example with XmlPath
+String xml = post("/shopping").andReturn().body().asString()
+Node category = from(xml).get("shopping.category[0]");
+
+
+
+package com.googlerestapi.com.rest;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+import com.jayway.jsonpath.JsonPath;
+import com.jayway.restassured.RestAssured;
+import com.jayway.restassured.response.Response;
+import com.jayway.restassured.specification.RequestSpecification;
+
+import static com.jayway.restassured.RestAssured.*;
+
+public class NewTest {
+ 
+
+	 @BeforeClass
+	  public void setBaseUri () {
+
+	    RestAssured.baseURI = "https://maps.googleapis.com";
+	  }
+
+	 
+	 @Test
+     public void makeSureThatGoogleIsUp() {
+         given().when().get("http://www.google.com").then().statusCode(200);
+     }
+	 
+	 /*
+
+	 @Test public void
+	    extract_response_as_string_works() {
+	        String body = get("https://reqres.in/api/users/2").then().assertThat().contentType().and().extract().body().asString();
+
+	       System.out.println(body);
+	    }
+*/
+	 
+	 public void DisplayAllNodesInWeatherAPI()
+	 {
+	  RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
+	  RequestSpecification httpRequest = RestAssured.given();
+	  Response response = httpRequest.get("/Hyderabad");
+	  
+	  // First get the JsonPath object instance from the Response interface
+	  JsonPath jsonPathEvaluator = response.jsonPath();
+	  
+	  // Let us print the city variable to see what we got
+	  System.out.println("City received from Response " + jsonPathEvaluator.get("City"));
+	  
+	  // Print the temperature node
+	  System.out.println("Temperature received from Response " + jsonPathEvaluator.get("Temperature"));
+	  
+	  // Print the humidity node
+	  System.out.println("Humidity received from Response " + jsonPathEvaluator.get("Humidity"));
+	  
+	  // Print weather description
+	  System.out.println("Weather description received from Response " + jsonPathEvaluator.get("Weather"));
+	  
+	  // Print Wind Speed
+	  System.out.println("City received from Response " + jsonPathEvaluator.get("WindSpeed"));
+	  
+	  // Print Wind Direction Degree
+	  System.out.println("City received from Response " + jsonPathEvaluator.get("WindDirectionDegree"));
+	 }
+	 
+	 /*
+	 @Test
+	    public void aCarGoesIntoTheGarage() {
+	        Map<String,String> car = new HashMap<>();
+	        car.put("plateNumber", "xyx1111");
+	        car.put("brand", "audi");
+	        car.put("colour", "red");
+
+	        given()
+	        .contentType("application/json")
+	        .body(car)
+	        .when().post("/garage/slots").then()
+	        .statusCode(200);
+	    }
+	 
+	 
+	 @Test
+	    public void basicPingTest() {
+	        given().when().get("/garage").then().statusCode(200);
+	    }
+	 
+	 
+	   @Test
+	    public void invalidParkingSpace() {
+	        given().when().get("/garage/slots/999")
+	            .then().statusCode(404);
+	    }
+	   
+	   @Test
+	    public void verifyNameOfGarage() {
+	        given().when().get("/garage").then()
+	            .body(containsString("Acme garage"));
+	    }
+	   
+	   
+	   @Test
+	    public void verifyNameStructured() {
+	        given().when().get("/garage").then()
+	            .body("name",equalTo("Acme garage"));
+	    }
+	   
+	   
+	   @Test
+	    public void verifySlotsOfGarage() {
+	        given().when().get("/garage").then().
+	            body("info.slots",equalTo(150))
+	                .body("info.status",equalTo("open"));
+	    }
+	   
+	   
+	   @Test
+	    public void verifyTopLevelURL() {
+	        given().when().get("/garage").then()
+	        .body("name",equalTo("Acme garage"))
+	        .body("info.slots",equalTo(150))
+	        .body("info.status",equalTo("open"))
+	        .statusCode(200);
+	    }
+	   
+	   
+	   @Test
+	    public void aCarGoesIntoTheGarage() {
+	        Map<String,String> car = new HashMap<>();
+	        car.put("plateNumber", "xyx1111");
+	        car.put("brand", "audi");
+	        car.put("colour", "red");
+
+	        given()
+	        .contentType("application/json")
+	        .body(car)
+	        .when().post("/garage/slots").then()
+	        .statusCode(200);
+	    }
+	   
+	   
+	   @Test
+	    public void aCarGoesIntoTheGarageStructured() {
+	        Map<String,String> car = new HashMap<>();
+	        car.put("plateNumber", "xyx1111");
+	        car.put("brand", "audi");
+	        car.put("colour", "red");
+
+	        given()
+	        .contentType("application/json")
+	        .body(car)
+	        .when().post("/garage/slots").then()
+	        .body("empty",equalTo(false))
+	        .body("position",lessThan(150));
+	    }
+	   
+	   
+	   @Test
+	    public void aCarObjectGoesIntoTheGarage() {
+	        Car car = new Car();
+	        car.setPlateNumber("xyx1111");
+	        car.setBrand("audi");
+	        car.setColour("red");
+
+	        given()
+	        .contentType("application/json")
+	        .body(car)
+	        .when().post("/garage/slots").then()
+	        .body("empty",equalTo(false))
+	        .body("position",lessThan(150));
+	    }
+	   
+	   
+	   @Test
+	    public void aCarIsRegisteredInTheGarage() {
+	        Car car = new Car();
+	        car.setPlateNumber("xyx1111");
+	        car.setBrand("audi");
+	        car.setColour("red");
+
+	        Slot slot = given()
+	        .contentType("application/json")
+	        .body(car)
+	        .when().post("/garage/slots")
+	        .as(Slot.class);
+
+	        assertFalse(slot.isEmpty());
+	        assertTrue(slot.getPosition() < 150);
+
+	    }
+	   
+	   
+	   @Test
+	    public void aCarLeaves() {
+	        given().pathParam("slotID", 27)
+	        .when().delete("/garage/slots/{slotID}")
+	        .then().statusCode(200);
+
+	    }
+	   
+	   
+	   @Test
+	    public void aCarEntersAndThenLeaves() {
+	        Car car = new Car();
+	        car.setPlateNumber("xyx1111");
+	        car.setBrand("audi");
+	        car.setColour("red");
+
+	        int positionTakenInGarage = given()
+	        .contentType("application/json")
+	        .body(car)
+	        .when().post("/garage/slots").then()
+	        .body("empty",equalTo(false))
+	        .extract().path("position");
+
+	        given().pathParam("slotID", positionTakenInGarage)
+	        .when().delete("/garage/slots/{slotID}").then()
+	        .statusCode(200);
+
+	    }
+	   
+	   
+	 @Test
+	  public void testStatusCode () {
+	    
+	    Response res = 
+	    given ()
+	    .param ("query", "restaurants in mumbai")
+	    .param ("key", "Xyz")
+	    .when()
+	    .get ("/maps/api/place/textsearch/json");
+
+	    Assert.assertEquals (res.statusCode (), 200);
+	  }
+
+	@Test
+	public void testStatusCodeRestAssured () {
+
+	given ().param ("query", "restaurants in mumbai")
+	        .param ("key", "Xyz")
+	        .when()
+	        .get ("/maps/api/place/textsearch/json")
+	        .then ()
+	        .assertThat ().statusCode (200);
+
+	}*/
+
+	
+  
+}
+
+
