@@ -1,4 +1,11 @@
 
+What is Hamcrest?
+Hamcrest is a framework for creating matcher objects. These matcher objects are predicates and are used to write rules which can be satisfied under certain conditions. They are most often used in automated testing, though the can be used in other scenarios such as data validation. Hamcrest lets us step beyond simple JUnit asserts and enables us to craft very specific, readable verification code.
+
+Hamcrest is designed to make tests very readable. It makes liberal use of static methods to create an assertion grammar which is easy to write and to understand. When used in conjunction with JUnit and Mockito it allows us to write clear, concise tests which satisfy the property of good unit testing which is to ‘test one thing’.
+
+
+
 # Defining a Hamcrest dependency for Maven
 ```xml
 <dependency>
@@ -13,7 +20,43 @@
 ```java
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.equalTo;
+
 ```
+
+# An Example Test
+```java
+public class StringMatcherTest {
+    
+    @Test
+	public void test_failed() throws Exception {
+	// Given
+	Integer number = 7;
+	// Then
+	assertThat(number, greaterThan(10));
+	}
+
+
+    @Test
+	public void given2Strings_whenIsEqual_thenCorrect() {
+	    String str1 = "text";
+	    String str2 = "text";
+	    assertThat(str1, is(str2));
+	}
+
+    @Test
+    public void given2Strings_whenEqual_thenCorrect() {
+        String a = "foo";
+        String b = "FOO";
+        assertThat(a, equalToIgnoringCase(b));
+    }
+}
+```
+
+# Hamcrest 1.3 Quick Reference
+https://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/Hamcrest-1.3.pdf
 
 # Hamcrest matchers
 * XML matchers [Examples](https://www.leveluplunch.com/java/examples/hamcrest-xml-matchers-junit-testing/)
@@ -89,3 +132,7 @@ import static org.hamcrest.Matchers.*;
   * Starts with
   * String contains in order
 
+
+
+
+https://www.baeldung.com/java-junit-hamcrest-guide
