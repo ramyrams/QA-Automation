@@ -16,6 +16,14 @@ Hamcrest is designed to make tests very readable. It makes liberal use of static
 </dependency>
 ```
 
+# Defining a Hamcrest dependency for Gradle
+```java
+dependencies {
+    testCompile "org.hamcrest:hamcrest-all:1.3"
+}
+```
+
+
 # Static import
 ```java
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -134,5 +142,7 @@ https://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/H
 
 
 
-
+https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
 https://www.baeldung.com/java-junit-hamcrest-guide
+https://www.programcreek.com/java-api-examples/org.hamcrest.Matchers
+https://objectpartners.com/2013/09/18/the-benefits-of-using-assertthat-over-other-assert-methods-in-unit-tests/
