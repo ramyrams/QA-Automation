@@ -219,6 +219,260 @@ public void object_has_property_values_as () {
 }    
 ```
 
+# Hamcrest collection matchers
+
+## Object has property
+```java
+@Test
+public void object_has_property () {
+    Truck pickupTruck = new Truck("Ram", "Dodge", 1965);
+    assertThat(pickupTruck, hasProperty("model"));
+} 
+```
+
+## Iterables - With size
+```java
+@Test
+public void check_size_of_iterable () {
+
+    List<String> cloths = Lists.newArrayList(
+            "shirts", "shoes", "pants", "socks");
+
+    assertThat(cloths, IsIterableWithSize.<String>iterableWithSize(4));
+}
+```
+
+## Has order
+```java
+@Test
+public void iterable_has_any_order () {
+
+    List<String> cloths = Lists.newArrayList(
+            "shirts", "shoes", "pants", "socks");
+
+    assertThat(cloths, IsIterableContainingInAnyOrder.
+            <String>containsInAnyOrder("shoes", "pants", "shirts", "socks"));
+
+}
+```
+
+## Matches order
+```java
+@Test
+public void iterable_matches_order () {
+
+    List<String> cloths = Lists.newArrayList(
+            "shirts", "shoes", "pants", "socks");
+
+    assertThat(cloths, IsIterableContainingInOrder.
+            <String>contains("shirts", "shoes", "pants", "socks"));
+
+}
+```
+
+## Array - With size
+```java
+@Test
+public void check_size_of_array () {
+
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers, arrayWithSize(3));
+}
+```
+
+## Contains all
+```java
+@Test
+public void array_contains_all_elements () {
+
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers, arrayContaining(10, 15, 20));
+}
+```
+
+## Contains in any order
+```java
+@Test
+public void array_contains_all_elements_in_any_order () {
+
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers, arrayContainingInAnyOrder(20, 10, 15));
+}
+```
+
+## Elements equal
+```java
+@Test
+public void check_array_elements_equal() {
+
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers,
+            is(array(equalTo(10), equalTo(15), equalTo(20))));
+}
+```
+
+## Collection - Has size
+```java
+@Test
+public void check_size_of_collection () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, hasSize(5));
+}
+```
+
+## In order
+```java
+@Test
+public void collection_contains_elements_in_order () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, contains(
+            "apple", "banana", "pear", "blackberry", "grape"));
+}
+```
+
+## In any order
+```java
+@Test
+public void collection_contains_elements_in_any_order () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, containsInAnyOrder(
+            "banana", "apple", "blackberry", "grape", "pear"));
+}
+```
+
+## Has item
+```java
+@Test
+public void collection_contains_element () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, hasItem("apple"));
+}
+```
+
+## Has items
+```java
+@Test
+public void collection_contains_elements () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, hasItems("apple", "pear"));
+}
+```
+
+## Element in
+```java
+@Test
+public void element_in_collection () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat("apple", isIn(fruit));
+}
+```
+
+## Element is one of
+```java
+@Test
+public void element_in_one_of () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat("apple", isOneOf(fruit.toArray()));
+}
+```
+
+## Is empty
+```java
+@Test
+public void collection_is_empty () {
+
+    List<String> fruit = Lists.newArrayList();
+    assertThat(fruit, empty());
+}
+```
+
+## Is not empty
+```java
+@Test
+public void collection_is_not_empty () {
+
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+    assertThat(fruit, not(empty()));
+}
+```
+
+## Each element ends with
+```java
+@Test
+public void each_element_ends_with () {
+
+    List<String> cereal = Lists.newArrayList(
+            "mini wheats", "corn flakes",
+            "honey smacks", "apple jacks",
+            "lucky charms");
+
+    assertThat(cereal, hasItem(endsWith("s")));
+}
+```
+
+## Map - Has entry
+```java
+@Test
+public void map_has_entry () {
+
+    Map<String, String> breeds = Maps.newHashMap();
+    breeds.put("labrador", "buzz");
+    breeds.put("dachshund", "gypsy");
+    breeds.put("boxer", "buddy");
+
+    assertThat(breeds, hasEntry("labrador", "buzz"));
+}
+```
+
+## Has key
+```java
+@Test
+public void map_has_key () {
+
+    Map<String, String> breeds = Maps.newHashMap();
+    breeds.put("labrador", "buzz");
+    breeds.put("dachshund", "gypsy");
+    breeds.put("boxer", "buddy");
+
+    assertThat(breeds, hasKey("labrador"));
+}
+```
+
+## Has value
+```java
+@Test
+public void map_has_hasValue () {
+
+    Map<String, String> breeds = Maps.newHashMap();
+    breeds.put("labrador", "buzz");
+    breeds.put("dachshund", "gypsy");
+    breeds.put("boxer", "buddy");
+
+    assertThat(breeds, hasValue("gypsy"));
+}
+```
 
 https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
 https://www.baeldung.com/java-junit-hamcrest-guide
