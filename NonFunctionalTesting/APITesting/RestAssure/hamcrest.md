@@ -918,6 +918,111 @@ public void test_object_nullValue () {
 }
 ```
 
+# Hamcrest text matchers
+
+## Has toString
+```java
+@Test
+public void test_object_toString () {
+
+    Drink softDrink = new Drink("Pepsi", "Mountain Dew", "Soft Drink");
+
+    assertThat(
+            softDrink,
+            hasToString("Drink{=Pepsi, Mountain Dew=Mountain Dew, Mountain Dew=Soft Drink}"));
+}
+```
+
+## Is Empty
+```java
+@Test
+public void string_is_empty () {
+
+    String favoriteCereal = "";
+    assertThat(favoriteCereal, isEmptyOrNullString());
+}
+```
+
+## Is empty or null string
+```java
+@Test
+public void string_is_empty_or_null () {
+    String favoriteCereal = null;
+    assertThat(favoriteCereal, isEmptyOrNullString());
+}
+```
+
+## Equal to
+```java
+@Test
+public void string_equal_to () {
+
+    String favoriteCereal = "cinnamon life";
+    assertThat(favoriteCereal, equalTo("cinnamon life"));
+}
+```
+
+## Equal to ignore case
+```java
+@Test
+public void string_equal_to_ignoring_case () {
+
+    String favoriteCereal = "CINNAMON LIFE";
+    assertThat(favoriteCereal, equalToIgnoringCase("cinnamon life"));
+}
+```
+
+## Equal to ignore whitespace
+```java
+@Test
+public void string_equal_to_ignoring_whitespace () {
+
+    String favoriteCereal = "CINNAMON LIFE          ";
+    assertThat(favoriteCereal, equalToIgnoringWhiteSpace("cinnamon life"));
+}
+```
+
+## Contains string
+```java
+@Test
+public void string_contains () {
+
+    String cereal = "mini wheats";
+    assertThat(cereal, containsString("mini"));
+}
+```
+
+## Ends with
+```java
+@Test
+public void string_ends_with () {
+
+    String cereal = "corn flakes";
+    assertThat(cereal, endsWith("s"));
+}
+```
+
+## Starts with
+```java
+@Test
+public void string_starts_with () {
+
+    String cereal = "honey smacks";
+    assertThat(cereal, startsWith("honey"));
+}
+```
+
+## String contains in order
+```java
+@Test
+public void string_has_order () {
+
+    String cereal = "apple jacks";
+    assertThat(cereal, stringContainsInOrder(Lists.newArrayList("apple", "jacks")));
+}
+```
+
+
 
 https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
 https://www.baeldung.com/java-junit-hamcrest-guide
