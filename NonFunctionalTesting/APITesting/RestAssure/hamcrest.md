@@ -35,33 +35,104 @@ import static org.hamcrest.Matchers.equalTo;
 ```
 
 # An Example Test
+
+# Basic
 ```java
-public class StringMatcherTest {
-    
-    @Test
-	public void test_failed() throws Exception {
-	// Given
-	Integer number = 7;
-	// Then
-	assertThat(number, greaterThan(10));
-	}
+//Hamcrest strives to make your tests as readable as possible. For example, the is matcher is a wrapper that doesn’t add any extra behavior to the underlying matcher.
+// all statements test the same
+assertThat(a, equalTo(b));
+assertThat(a, is(equalTo(b)));
+assertThat(a, is(b));
+```
+
+# JUnit 4 vs Hamcrest
+```java
+// JUnit 4 for equals check
+assertEquals(expected, actual);
+// Hamcrest for equals check
+assertThat(actual, is(equalTo(expected)));
+
+// JUnit 4 for not equals check
+assertNotEquals(expected, actual)
+// Hamcrest for not equals check
+assertThat(actual, is(not(equalTo(expected))));
+```
+
+# Quick start
+```java
+@Test
+public void isMatcherTest() {
+	assertThat("Onur", is("Onur"));
+	assertThat(34, is(34));
+}
+
+@Test
+public void isnotMatcherTest() {
+	assertThat("Onur", is(not("Mike")));
+}
+
+@Test
+public void allOfMatcherTest() {
+	assertThat("myValue", allOf(startsWith("my"), containsString("Val")));
+}
+
+@Test
+public void anyOfMatcherTest() {
+	assertThat("myValue", anyOf(startsWith("your"), containsString("Val")));
+}
+
+@Test
+public void describedAsMatcherTest() {
+	assertThat("Sunday", describedAs("Sunday is not Saturday.", is(not("Saturday"))));
+}
+
+@Test
+public void isAnythingMatcherTest() {
+	assertThat("Onur", is(anything("Bla Bla Bla")));
+}
+
+@Test
+public void isEqualMatcherTest() {
+	assertThat("str", equalTo("str"));
+	assertThat("str", is(equalTo("str")));
+}
+
+InstanceTest myInstanceTest = new InstanceTest();
+@Test
+public void isInstanceOfMatcherTest() {
+	assertThat(myInstanceTest, instanceOf(InstanceTest.class));
+}
+
+@Test
+public void isNotMatcherTest() {
+	assertThat("onur", is(not(equalTo("mike"))));
+}
+
+String myStr = null;
+String myStr2 = "Onur";
+@Test
+public void isNullMatcherTest() {
+	assertThat(myStr, is(nullValue()));
+	assertThat(myStr2, is(notNullValue()));
+}
 
 
-    @Test
-	public void given2Strings_whenIsEqual_thenCorrect() {
-	    String str1 = "text";
-	    String str2 = "text";
-	    assertThat(str1, is(str2));
-	}
 
-    @Test
-    public void given2Strings_whenEqual_thenCorrect() {
-        String a = "foo";
-        String b = "FOO";
-        assertThat(a, equalToIgnoringCase(b));
-    }
+assertThat(responseString, either(containsString("color")).or(containsString("colour")));
+assertThat(myList, hasItem("3"));
+
+ 
+
+Asserting Boolean Values
+@Test
+@DisplayName("Should be true")
+void shouldBeTrue() {
+	assertThat(true, is(true));
 }
 ```
+		
+
+		
 
 # Hamcrest 1.3 Quick Reference
 https://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/Hamcrest-1.3.pdf
