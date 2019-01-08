@@ -1,6 +1,18 @@
 
+# Defining a Hamcrest dependency for Maven
+<dependency>
+	<groupId>org.hamcrest</groupId>
+	<artifactId>hamcrest-library</artifactId>
+	<version>1.3</version>
+	<scope>test</scope>
+</dependency>
 
-Hamcrest matchers
+# Static import
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
+
+# Hamcrest matchers
 * XML matchers [Examples](https://www.leveluplunch.com/java/examples/hamcrest-xml-matchers-junit-testing/)
   * Has xpath
 * Bean matchers [Examples](https://www.leveluplunch.com/java/examples/hamcrest-bean-matchers-junit-testing/)
