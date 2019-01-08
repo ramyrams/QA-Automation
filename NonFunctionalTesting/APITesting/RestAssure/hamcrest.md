@@ -1,8 +1,11 @@
-
-What is Hamcrest?
-Hamcrest is a framework for creating matcher objects. These matcher objects are predicates and are used to write rules which can be satisfied under certain conditions. They are most often used in automated testing, though the can be used in other scenarios such as data validation. Hamcrest lets us step beyond simple JUnit asserts and enables us to craft very specific, readable verification code.
-
-Hamcrest is designed to make tests very readable. It makes liberal use of static methods to create an assertion grammar which is easy to write and to understand. When used in conjunction with JUnit and Mockito it allows us to write clear, concise tests which satisfy the property of good unit testing which is to ‘test one thing’.
+# Hamcrest
+* Hamcrest is a framework for creating matcher objects. 
+* These matcher objects are predicates and are used to write rules which can be satisfied under certain conditions. 
+* They are most often used in automated testing, though the can be used in other scenarios such as data validation. 
+* Hamcrest lets us step beyond simple JUnit asserts and enables us to craft very specific, readable verification code.
+* Hamcrest is designed to make tests very readable. 
+* It makes liberal use of static methods to create an assertion grammar which is easy to write and to understand. 
+* When used in conjunction with JUnit and Mockito it allows us to write clear, concise tests which satisfy the property of good unit testing which is to ‘test one thing’.
 
 
 
@@ -211,348 +214,145 @@ https://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/H
 * XML matchers [Examples](https://www.leveluplunch.com/java/examples/hamcrest-xml-matchers-junit-testing/)
   * Has xpath
 
-# Hamcrest XML matchers
-## Has xpath
+# Hamcrest Text Matchers
+
+## Has toString
 ```java
 @Test
-public void test_xml_path () throws Exception {
+public void test_object_toString () {
+    Drink softDrink = new Drink("Pepsi", "Mountain Dew", "Soft Drink");
 
-    String aListApartXML = "<daily-values> " +
-             "  <total-fat units=\"g\">65</total-fat> " +
-             "  <saturated-fat units=\"g\">20</saturated-fat> " +
-             "  <cholesterol units=\"mg\">300</cholesterol> " +
-             "  <sodium units=\"mg\">2400</sodium> " +
-             "  <carb units=\"g\">300</carb> " +
-             "  <fiber units=\"g\">25</fiber> " +
-             "  <protein units=\"g\">50</protein> " +
-             "</daily-values> ";
-
-    Document xml = parse(aListApartXML);
-
-    assertThat(xml, hasXPath("/daily-values/saturated-fat", equalTo("20")));
-}
-
-private static Document parse(String xml) throws Exception {
-    DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-    documentBuilderFactory.setNamespaceAware(false);
-    DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-    return documentBuilder.parse(new ByteArrayInputStream(xml.getBytes()));
+    assertThat(softDrink,
+            hasToString("Drink{=Pepsi, Mountain Dew=Mountain Dew, Mountain Dew=Soft Drink}"));
 }
 ```
 
-# Hamcrest bean matchers
-## Setup
+## Is Empty
 ```java
-class Truck {
-
-    private String model;
-    private String make;
-    private int year;
-
-    public Truck(String model, String make, int year) {
-        super();
-        this.model = model;
-        this.make = make;
-        this.year = year;
-    }
-
-    // getters/setters
+@Test
+public void string_is_empty () {
+    String favoriteCereal = "";
+    assertThat(favoriteCereal, isEmptyOrNullString());
 }
 ```
 
-## Object has property
+## Is empty or null string
 ```java
 @Test
-public void object_has_property () {
-    Truck pickupTruck = new Truck("Ram", "Dodge", 1965);
-    assertThat(pickupTruck, hasProperty("model"));
-} 
-```
-
-
-## Object has property with value
-```java
-@Test
-public void object_has_property_with_value () {
-    Truck pickupTruck = new Truck("Big 10", "Chevy", 1976);
-    assertThat(pickupTruck, hasProperty("model", equalTo("Big 10")));
-}  
-```
-  
-## Object has same property as
-```java
-@Test
-public void object_has_property_values_as () {
-    Truck pickupTruck1 = new Truck("Big 10", "Chevy", 1976);
-    Truck pickupTruck2 = new Truck("Big 10", "Chevy", 1976);
-    assertThat(pickupTruck1, samePropertyValuesAs(pickupTruck2));
-}    
-```
-
-# Hamcrest collection matchers
-
-## Object has property
-```java
-@Test
-public void object_has_property () {
-    Truck pickupTruck = new Truck("Ram", "Dodge", 1965);
-    assertThat(pickupTruck, hasProperty("model"));
-} 
-```
-
-## Iterables - With size
-```java
-@Test
-public void check_size_of_iterable () {
-
-    List<String> cloths = Lists.newArrayList(
-            "shirts", "shoes", "pants", "socks");
-
-    assertThat(cloths, IsIterableWithSize.<String>iterableWithSize(4));
+public void string_is_empty_or_null () {
+    String favoriteCereal = null;
+    assertThat(favoriteCereal, isEmptyOrNullString());
 }
 ```
 
-## Has order
+## Equal to
 ```java
 @Test
-public void iterable_has_any_order () {
-
-    List<String> cloths = Lists.newArrayList(
-            "shirts", "shoes", "pants", "socks");
-
-    assertThat(cloths, IsIterableContainingInAnyOrder.
-            <String>containsInAnyOrder("shoes", "pants", "shirts", "socks"));
-
+public void string_equal_to () {
+    String favoriteCereal = "cinnamon life";
+    assertThat(favoriteCereal, equalTo("cinnamon life"));
 }
 ```
 
-## Matches order
+## Equal to ignore case
 ```java
 @Test
-public void iterable_matches_order () {
-
-    List<String> cloths = Lists.newArrayList(
-            "shirts", "shoes", "pants", "socks");
-
-    assertThat(cloths, IsIterableContainingInOrder.
-            <String>contains("shirts", "shoes", "pants", "socks"));
-
+public void string_equal_to_ignoring_case () {
+    String favoriteCereal = "CINNAMON LIFE";
+    assertThat(favoriteCereal, equalToIgnoringCase("cinnamon life"));
 }
 ```
 
-## Array - With size
+## Equal to ignore whitespace
 ```java
 @Test
-public void check_size_of_array () {
-
-    Integer[] numbers = new Integer[] {10, 15, 20};
-    assertThat(numbers, arrayWithSize(3));
+public void string_equal_to_ignoring_whitespace () {
+    String favoriteCereal = "CINNAMON LIFE          ";
+    assertThat(favoriteCereal, equalToIgnoringWhiteSpace("cinnamon life"));
 }
 ```
 
-## Contains all
+## Contains string
 ```java
 @Test
-public void array_contains_all_elements () {
-
-    Integer[] numbers = new Integer[] {10, 15, 20};
-    assertThat(numbers, arrayContaining(10, 15, 20));
+public void string_contains () {
+    String cereal = "mini wheats";
+    assertThat(cereal, containsString("mini"));
 }
 ```
 
-## Contains in any order
+
+# Hamcrest Number Matchers
+## Is closeTo
 ```java
 @Test
-public void array_contains_all_elements_in_any_order () {
-
-    Integer[] numbers = new Integer[] {10, 15, 20};
-    assertThat(numbers, arrayContainingInAnyOrder(20, 10, 15));
+public void number_close_to_number () {
+    assertThat(200.24, is(closeTo(200, 1)));
 }
 ```
 
-## Elements equal
+## greaterThan
 ```java
 @Test
-public void check_array_elements_equal() {
-
-    Integer[] numbers = new Integer[] {10, 15, 20};
-    assertThat(numbers,
-            is(array(equalTo(10), equalTo(15), equalTo(20))));
+public void number_greaterthan () {
+    assertThat(20, greaterThan(18));
 }
 ```
 
-## Collection - Has size
+## Every item greaterThan
 ```java
-@Test
-public void check_size_of_collection () {
+@Test0
+public void everyitem_in_list_greaterthan_number () {
 
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-
-    assertThat(fruit, hasSize(5));
+    List<Integer> ages = Lists.newArrayList(21, 25, 30);
+    assertThat(ages, everyItem(greaterThan(18)));
 }
 ```
 
-## In order
+## Every item greaterThanOrEqualTo
 ```java
 @Test
-public void collection_contains_elements_in_order () {
-
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-
-    assertThat(fruit, contains(
-            "apple", "banana", "pear", "blackberry", "grape"));
+public void everyitem_in_list_greaterthan_or_equal_to_number () {
+    List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
+    assertThat(ages, everyItem(greaterThanOrEqualTo(18)));
 }
 ```
 
-## In any order
+## Every item lessthan
 ```java
 @Test
-public void collection_contains_elements_in_any_order () {
-
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-
-    assertThat(fruit, containsInAnyOrder(
-            "banana", "apple", "blackberry", "grape", "pear"));
+public void everyitem_in_list_lessthan_number() {
+    List<Integer> ages = Lists.newArrayList(21, 25, 30);
+    assertThat(ages, everyItem(lessThan(31)));
 }
 ```
 
-## Has item
+## Every item lessThanOrEqualTo
 ```java
 @Test
-public void collection_contains_element () {
-
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-
-    assertThat(fruit, hasItem("apple"));
+public void everyitem_in_list_lessthan_or_equal_to_number () {
+    List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
+    assertThat(ages, everyItem(lessThanOrEqualTo(30)));
 }
 ```
 
-## Has items
+## Is closeTo
 ```java
 @Test
-public void collection_contains_elements () {
+public void bigdecimal_is_close_to_bigdecimal () {
+    BigDecimal seniorCitizen = new BigDecimal(65);
 
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-
-    assertThat(fruit, hasItems("apple", "pear"));
+    // is close to retirement 
+    assertThat(new BigDecimal(60), is(closeTo(seniorCitizen, new BigDecimal(5))));
 }
 ```
 
-## Element in
-```java
-@Test
-public void element_in_collection () {
-
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-
-    assertThat("apple", isIn(fruit));
-}
-```
-
-## Element is one of
-```java
-@Test
-public void element_in_one_of () {
-
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-
-    assertThat("apple", isOneOf(fruit.toArray()));
-}
-```
-
-## Is empty
-```java
-@Test
-public void collection_is_empty () {
-
-    List<String> fruit = Lists.newArrayList();
-    assertThat(fruit, empty());
-}
-```
-
-## Is not empty
-```java
-@Test
-public void collection_is_not_empty () {
-
-    List<String> fruit = Lists.newArrayList(
-            "apple", "banana", "pear", "blackberry", "grape");
-    assertThat(fruit, not(empty()));
-}
-```
-
-## Each element ends with
-```java
-@Test
-public void each_element_ends_with () {
-
-    List<String> cereal = Lists.newArrayList(
-            "mini wheats", "corn flakes",
-            "honey smacks", "apple jacks",
-            "lucky charms");
-
-    assertThat(cereal, hasItem(endsWith("s")));
-}
-```
-
-## Map - Has entry
-```java
-@Test
-public void map_has_entry () {
-
-    Map<String, String> breeds = Maps.newHashMap();
-    breeds.put("labrador", "buzz");
-    breeds.put("dachshund", "gypsy");
-    breeds.put("boxer", "buddy");
-
-    assertThat(breeds, hasEntry("labrador", "buzz"));
-}
-```
-
-## Has key
-```java
-@Test
-public void map_has_key () {
-
-    Map<String, String> breeds = Maps.newHashMap();
-    breeds.put("labrador", "buzz");
-    breeds.put("dachshund", "gypsy");
-    breeds.put("boxer", "buddy");
-
-    assertThat(breeds, hasKey("labrador"));
-}
-```
-
-## Has value
-```java
-@Test
-public void map_has_hasValue () {
-
-    Map<String, String> breeds = Maps.newHashMap();
-    breeds.put("labrador", "buzz");
-    breeds.put("dachshund", "gypsy");
-    breeds.put("boxer", "buddy");
-
-    assertThat(breeds, hasValue("gypsy"));
-}
-```
-
-# Hamcrest core matchers
-
+# Hamcrest Core Matchers
 ## allOf
 ```java
 @Test
 public void hamcrest_core_allof () {
-
     String microBrew = "Lake Louie Brewery Company";
-
     assertThat(microBrew, allOf(startsWith("Lake"), containsString("Brew")));
 }
 ```
@@ -561,9 +361,7 @@ public void hamcrest_core_allof () {
 ```java
 @Test
 public void hamcrest_core_anyOf () {
-
     String microBrew = "Grumpy Troll Brewery";
-
     assertThat(microBrew, anyOf(startsWith("brew"), containsString("Troll")));
 }
 ```
@@ -572,7 +370,6 @@ public void hamcrest_core_anyOf () {
 ```java
 @Test
 public void hamcrest_core_anything () {
-
     assertThat("", anything());
 }
 ```
@@ -581,9 +378,7 @@ public void hamcrest_core_anything () {
 ```java
 @Test
 public void hamcrest_core_combinableMatcher () {
-
     String isLite = "Miller Lite";
-
     assertThat(isLite, both(containsString("Miller")).and(containsString("Lite")));
 }
 ```
@@ -592,9 +387,7 @@ public void hamcrest_core_combinableMatcher () {
 ```java
 @Test
 public void hamcrest_core_containsString () {
-
     String brewery = "Pabst Brewing Company";
-
     assertThat(brewery, containsString("Brew"));
 }
 ```
@@ -602,7 +395,6 @@ public void hamcrest_core_containsString () {
 ## describedAs
 @Test
 public void hamcrest_core_describedAs () {
-
     BigDecimal myBigDecimal = new BigDecimal("0");
 
     assertThat(myBigDecimal,
@@ -615,17 +407,15 @@ public void hamcrest_core_describedAs () {
 ## everyItem
 @Test
 public void hamcrest_core_every () {
-
     List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
     assertThat(ages, everyItem(greaterThanOrEqualTo(18)));
 }
-
 ```
+
 ## hasItems
 ```java
 @Test
 public void hamcrest_core_hasItems () {
-
     List<String> regionalBreweries = Lists.newArrayList(
             "Capital Brewery",
             "City Brewing Company ",
@@ -668,9 +458,7 @@ public void hamcrest_core_hasItems_matchers () {
 ```java
 @Test
 public void hamcrest_core_is() {
-
     String isLite = "Miller Brewing Company";
-
     assertThat("Miller Brewing Company", is(equalTo(isLite)));
 }
 ```
@@ -679,9 +467,7 @@ public void hamcrest_core_is() {
 ```java
 @Test
 public void hamcrest_core_is_notNullValue () {
-
     Set<String> daNull = new HashSet<String>();
-
     assertThat(daNull, is(notNullValue()));
 }
 ```
@@ -690,9 +476,7 @@ public void hamcrest_core_is_notNullValue () {
 ```java
 @Test
 public void hamcrest_core_is_nullValue () {
-
     Set<String> daNull = null;
-
     assertThat(daNull, is(nullValue()));
 }
 ```
@@ -701,9 +485,7 @@ public void hamcrest_core_is_nullValue () {
 ```java
 @Test
 public void hamcrest_core_is_same_list () {
-
     List<String> someList = new ArrayList<String>();
-
     assertThat(someList, IsSame.<List<String>>sameInstance(someList));
 }
 ```
@@ -712,9 +494,7 @@ public void hamcrest_core_is_same_list () {
 ```java
 @Test
 public void hamcrest_core_isA() {
-
     Map<Integer, String> map = new HashMap<Integer, String>();
-
     assertThat(map, isA(Map.class));
 }
 ```
@@ -723,9 +503,7 @@ public void hamcrest_core_isA() {
 ```java
 @Test
 public void hamcrest_core_isEqual () {
-
     String spottedCreator = "New Glarus Brewing Company";
-
     assertThat(spottedCreator, equalTo("New Glarus Brewing Company"));
 }
 ```
@@ -733,32 +511,27 @@ public void hamcrest_core_isEqual () {
 ## instanceOf
 @Test
 public void hamcrest_core_isInstanceOf () {
-
     Calendar cal = Calendar.getInstance();
-
     assertThat(cal, instanceOf(Calendar.class));
 }
-
 ```
+
 ## is sameInstance
 ```java
 @Test
 public void hamcrest_core_isSame_string () {
-
     String wiBrewery = "Capital Brewery";
     String wiRegionalBrewery = "Capital Brewery";
 
     assertThat(wiRegionalBrewery, IsSame.<String>sameInstance(wiBrewery));
 }
-
 ```
+
 ## endsWith
 ```java
 @Test
 public void hamcrest_core_string_endsWith () {
-
     String baseBallTeam = "Milwaukee brewers";
-
     assertThat(baseBallTeam, endsWith("brewers"));
 }
 ```
@@ -767,85 +540,247 @@ public void hamcrest_core_string_endsWith () {
 ```java
 @Test
 public void hamcrest_core_string_startsWith () {
-
     String highSchool = "Tarpon spring spongers";
-
     assertThat(highSchool, startsWith("Tarpon"));
 }
 ```
 
-# Hamcrest number matchers
+# Hamcrest Collection Matchers
 
-## Is closeTo
+## Object has property
 ```java
 @Test
-public void number_close_to_number () {
-    assertThat(200.24, is(closeTo(200, 1)));
-}
+public void object_has_property () {
+    Truck pickupTruck = new Truck("Ram", "Dodge", 1965);
+    assertThat(pickupTruck, hasProperty("model"));
+} 
 ```
 
-## greaterThan
+## Iterables - With size
 ```java
 @Test
-public void number_greaterthan () {
-    assertThat(20, greaterThan(18));
+public void check_size_of_iterable () {
+    List<String> cloths = Lists.newArrayList(
+            "shirts", "shoes", "pants", "socks");
+
+    assertThat(cloths, IsIterableWithSize.<String>iterableWithSize(4));
 }
 ```
 
-## Every item greaterThan
-```java
-@Test0
-public void everyitem_in_list_greaterthan_number () {
-
-    List<Integer> ages = Lists.newArrayList(21, 25, 30);
-    assertThat(ages, everyItem(greaterThan(18)));
-}
-```
-
-## Every item greaterThanOrEqualTo
+## Has order
 ```java
 @Test
-public void everyitem_in_list_greaterthan_or_equal_to_number () {
+public void iterable_has_any_order () {
+    List<String> cloths = Lists.newArrayList(
+            "shirts", "shoes", "pants", "socks");
 
-    List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
-    assertThat(ages, everyItem(greaterThanOrEqualTo(18)));
+    assertThat(cloths, IsIterableContainingInAnyOrder.
+            <String>containsInAnyOrder("shoes", "pants", "shirts", "socks"));
+
 }
 ```
 
-## Every item lessthan
+## Matches order
 ```java
 @Test
-public void everyitem_in_list_lessthan_number() {
+public void iterable_matches_order () {
+    List<String> cloths = Lists.newArrayList(
+            "shirts", "shoes", "pants", "socks");
 
-    List<Integer> ages = Lists.newArrayList(21, 25, 30);
-    assertThat(ages, everyItem(lessThan(31)));
+    assertThat(cloths, IsIterableContainingInOrder.
+            <String>contains("shirts", "shoes", "pants", "socks"));
+
 }
 ```
 
-## Every item lessThanOrEqualTo
+## Array - With size
 ```java
 @Test
-public void everyitem_in_list_lessthan_or_equal_to_number () {
-
-    List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
-    assertThat(ages, everyItem(lessThanOrEqualTo(30)));
+public void check_size_of_array () {
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers, arrayWithSize(3));
 }
 ```
 
-## Is closeTo
+## Contains all
 ```java
 @Test
-public void bigdecimal_is_close_to_bigdecimal () {
-
-    BigDecimal seniorCitizen = new BigDecimal(65);
-
-    // is close to retirement 
-    assertThat(new BigDecimal(60),
-            is(closeTo(seniorCitizen, new BigDecimal(5))));
+public void array_contains_all_elements () {
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers, arrayContaining(10, 15, 20));
 }
 ```
 
-# Hamcrest object matchers
+## Contains in any order
+```java
+@Test
+public void array_contains_all_elements_in_any_order () {
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers, arrayContainingInAnyOrder(20, 10, 15));
+}
+```
+
+## Elements equal
+```java
+@Test
+public void check_array_elements_equal() {
+    Integer[] numbers = new Integer[] {10, 15, 20};
+    assertThat(numbers,
+            is(array(equalTo(10), equalTo(15), equalTo(20))));
+}
+```
+
+## Collection - Has size
+```java
+@Test
+public void check_size_of_collection () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, hasSize(5));
+}
+```
+
+## In order
+```java
+@Test
+public void collection_contains_elements_in_order () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, contains(
+            "apple", "banana", "pear", "blackberry", "grape"));
+}
+```
+
+## In any order
+```java
+@Test
+public void collection_contains_elements_in_any_order () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, containsInAnyOrder(
+            "banana", "apple", "blackberry", "grape", "pear"));
+}
+```
+
+## Has item
+```java
+@Test
+public void collection_contains_element () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, hasItem("apple"));
+}
+```
+
+## Has items
+```java
+@Test
+public void collection_contains_elements () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat(fruit, hasItems("apple", "pear"));
+}
+```
+
+## Element in
+```java
+@Test
+public void element_in_collection () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat("apple", isIn(fruit));
+}
+```
+
+## Element is one of
+```java
+@Test
+public void element_in_one_of () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+
+    assertThat("apple", isOneOf(fruit.toArray()));
+}
+```
+
+## Is empty
+```java
+@Test
+public void collection_is_empty () {
+    List<String> fruit = Lists.newArrayList();
+    assertThat(fruit, empty());
+}
+```
+
+## Is not empty
+```java
+@Test
+public void collection_is_not_empty () {
+    List<String> fruit = Lists.newArrayList(
+            "apple", "banana", "pear", "blackberry", "grape");
+    assertThat(fruit, not(empty()));
+}
+```
+
+## Each element ends with
+```java
+@Test
+public void each_element_ends_with () {
+    List<String> cereal = Lists.newArrayList(
+            "mini wheats", "corn flakes",
+            "honey smacks", "apple jacks",
+            "lucky charms");
+
+    assertThat(cereal, hasItem(endsWith("s")));
+}
+```
+
+## Map - Has entry
+```java
+@Test
+public void map_has_entry () {
+    Map<String, String> breeds = Maps.newHashMap();
+    breeds.put("labrador", "buzz");
+    breeds.put("dachshund", "gypsy");
+    breeds.put("boxer", "buddy");
+
+    assertThat(breeds, hasEntry("labrador", "buzz"));
+}
+```
+
+## Has key
+```java
+@Test
+public void map_has_key () {
+    Map<String, String> breeds = Maps.newHashMap();
+    breeds.put("labrador", "buzz");
+    breeds.put("dachshund", "gypsy");
+    breeds.put("boxer", "buddy");
+
+    assertThat(breeds, hasKey("labrador"));
+}
+```
+
+## Has value
+```java
+@Test
+public void map_has_hasValue () {
+    Map<String, String> breeds = Maps.newHashMap();
+    breeds.put("labrador", "buzz");
+    breeds.put("dachshund", "gypsy");
+    breeds.put("boxer", "buddy");
+
+    assertThat(breeds, hasValue("gypsy"));
+}
+```
+
+# Hamcrest Object Matchers
 
 ## Setup
 ```java
@@ -923,11 +858,9 @@ class Drink {
 ```java
 @Test
 public void test_object_toString () {
-
     Drink softDrink = new Drink("Pepsi", "Mountain Dew", "Soft Drink");
 
-    assertThat(
-            softDrink,
+    assertThat(softDrink,
             hasToString("Drink{=Pepsi, Mountain Dew=Mountain Dew, Mountain Dew=Soft Drink}"));
 }
 ```
@@ -936,7 +869,6 @@ public void test_object_toString () {
 ```java
 @Test
 public void test_object_equals_hashcode () {
-
     Drink softDrink1 = new Drink("coca-cola", "Coke Zero", "Soft Drink");
     Drink softDrink2 = new Drink("coca-cola", "Coke Zero", "Soft Drink");
 
@@ -948,9 +880,7 @@ public void test_object_equals_hashcode () {
 ```java
 @Test
 public void test_object_instanceOf () {
-
     Drink softDrink = new Drink(null, "Iced Tea", "Natural");
-
     assertThat(softDrink, instanceOf(Object.class));
 }
 ```
@@ -959,9 +889,7 @@ public void test_object_instanceOf () {
 ```java
 @Test
 public void test_object_isComatiable_with () {
-
     assertThat(Drink.class, not(typeCompatibleWith(Number.class)));
-
     assertThat(Drink.class, typeCompatibleWith(Object.class));
 }
 ```
@@ -970,9 +898,7 @@ public void test_object_isComatiable_with () {
 ```java
 @Test
 public void test_object_notNullValue () {
-
     Drink sportDrink = new Drink("Gatorade Co", "Gatorade", "Sport");
-
     assertThat(sportDrink, notNullValue());
 }
 ```
@@ -981,84 +907,8 @@ public void test_object_notNullValue () {
 ```java
 @Test
 public void test_object_nullValue () {
-
     Drink sportDrink = null;
-
     assertThat(sportDrink, nullValue());
-}
-```
-
-# Hamcrest text matchers
-
-## Has toString
-```java
-@Test
-public void test_object_toString () {
-
-    Drink softDrink = new Drink("Pepsi", "Mountain Dew", "Soft Drink");
-
-    assertThat(
-            softDrink,
-            hasToString("Drink{=Pepsi, Mountain Dew=Mountain Dew, Mountain Dew=Soft Drink}"));
-}
-```
-
-## Is Empty
-```java
-@Test
-public void string_is_empty () {
-
-    String favoriteCereal = "";
-    assertThat(favoriteCereal, isEmptyOrNullString());
-}
-```
-
-## Is empty or null string
-```java
-@Test
-public void string_is_empty_or_null () {
-    String favoriteCereal = null;
-    assertThat(favoriteCereal, isEmptyOrNullString());
-}
-```
-
-## Equal to
-```java
-@Test
-public void string_equal_to () {
-
-    String favoriteCereal = "cinnamon life";
-    assertThat(favoriteCereal, equalTo("cinnamon life"));
-}
-```
-
-## Equal to ignore case
-```java
-@Test
-public void string_equal_to_ignoring_case () {
-
-    String favoriteCereal = "CINNAMON LIFE";
-    assertThat(favoriteCereal, equalToIgnoringCase("cinnamon life"));
-}
-```
-
-## Equal to ignore whitespace
-```java
-@Test
-public void string_equal_to_ignoring_whitespace () {
-
-    String favoriteCereal = "CINNAMON LIFE          ";
-    assertThat(favoriteCereal, equalToIgnoringWhiteSpace("cinnamon life"));
-}
-```
-
-## Contains string
-```java
-@Test
-public void string_contains () {
-
-    String cereal = "mini wheats";
-    assertThat(cereal, containsString("mini"));
 }
 ```
 
@@ -1066,7 +916,6 @@ public void string_contains () {
 ```java
 @Test
 public void string_ends_with () {
-
     String cereal = "corn flakes";
     assertThat(cereal, endsWith("s"));
 }
@@ -1076,7 +925,6 @@ public void string_ends_with () {
 ```java
 @Test
 public void string_starts_with () {
-
     String cereal = "honey smacks";
     assertThat(cereal, startsWith("honey"));
 }
@@ -1086,11 +934,90 @@ public void string_starts_with () {
 ```java
 @Test
 public void string_has_order () {
-
     String cereal = "apple jacks";
     assertThat(cereal, stringContainsInOrder(Lists.newArrayList("apple", "jacks")));
 }
 ```
+
+# Hamcrest Bean Matchers
+## Setup
+```java
+class Truck {
+
+    private String model;
+    private String make;
+    private int year;
+
+    public Truck(String model, String make, int year) {
+        super();
+        this.model = model;
+        this.make = make;
+        this.year = year;
+    }
+
+    // getters/setters
+}
+```
+
+## Object has property
+```java
+@Test
+public void object_has_property () {
+    Truck pickupTruck = new Truck("Ram", "Dodge", 1965);
+    assertThat(pickupTruck, hasProperty("model"));
+} 
+```
+
+
+## Object has property with value
+```java
+@Test
+public void object_has_property_with_value () {
+    Truck pickupTruck = new Truck("Big 10", "Chevy", 1976);
+    assertThat(pickupTruck, hasProperty("model", equalTo("Big 10")));
+}  
+```
+  
+## Object has same property as
+```java
+@Test
+public void object_has_property_values_as () {
+    Truck pickupTruck1 = new Truck("Big 10", "Chevy", 1976);
+    Truck pickupTruck2 = new Truck("Big 10", "Chevy", 1976);
+    assertThat(pickupTruck1, samePropertyValuesAs(pickupTruck2));
+}    
+```
+
+
+# Hamcrest XML mCollection matchersatchers
+## Has xpath
+```java
+@Test
+public void test_xml_path () throws Exception {
+Number matchers
+    String aListApartXML = "<daily-values> " +
+             "  <total-fat units=\"g\">65</total-fat> " +
+             "  <saturated-fat units=\"g\">20</saturated-fat> " +
+             "  <cholesterol units=\"mg\">300</cholesterol> " +
+             "  <sodium units=\"mg\">2400</sodium> " +
+             "  <carb units=\"g\">300</carb> " +
+             "  <fiber units=\"g\">25</fiber> " +
+             "  <protein units=\"g\">50</protein> " +
+             "</daily-values> ";
+
+    Document xml = parse(aListApartXML);
+
+    assertThat(xml, hasXPath("/daily-values/saturated-fat", equalTo("20")));
+}
+
+private static Document parse(String xml) throws Exception {
+    DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+    documentBuilderFactory.setNamespaceAware(false);
+    DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+    return documentBuilder.parse(new ByteArrayInputStream(xml.getBytes()));
+}
+```
+
 
 # A Custom Matcher
 ```java
