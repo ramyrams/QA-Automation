@@ -704,6 +704,76 @@ public void hamcrest_core_string_startsWith () {
 }
 ```
 
+# Hamcrest number matchers
+
+## Is closeTo
+```java
+@Test
+public void number_close_to_number () {
+    assertThat(200.24, is(closeTo(200, 1)));
+}
+```
+
+## greaterThan
+```java
+@Test
+public void number_greaterthan () {
+    assertThat(20, greaterThan(18));
+}
+```
+
+## Every item greaterThan
+```java
+@Test0
+public void everyitem_in_list_greaterthan_number () {
+
+    List<Integer> ages = Lists.newArrayList(21, 25, 30);
+    assertThat(ages, everyItem(greaterThan(18)));
+}
+```
+
+## Every item greaterThanOrEqualTo
+```java
+@Test
+public void everyitem_in_list_greaterthan_or_equal_to_number () {
+
+    List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
+    assertThat(ages, everyItem(greaterThanOrEqualTo(18)));
+}
+```
+
+## Every item lessthan
+```java
+@Test
+public void everyitem_in_list_lessthan_number() {
+
+    List<Integer> ages = Lists.newArrayList(21, 25, 30);
+    assertThat(ages, everyItem(lessThan(31)));
+}
+```
+
+## Every item lessThanOrEqualTo
+```java
+@Test
+public void everyitem_in_list_lessthan_or_equal_to_number () {
+
+    List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
+    assertThat(ages, everyItem(lessThanOrEqualTo(30)));
+}
+```
+
+## Is closeTo
+```java
+@Test
+public void bigdecimal_is_close_to_bigdecimal () {
+
+    BigDecimal seniorCitizen = new BigDecimal(65);
+
+    // is close to retirement 
+    assertThat(new BigDecimal(60),
+            is(closeTo(seniorCitizen, new BigDecimal(5))));
+}
+```
 
 https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
 https://www.baeldung.com/java-junit-hamcrest-guide
