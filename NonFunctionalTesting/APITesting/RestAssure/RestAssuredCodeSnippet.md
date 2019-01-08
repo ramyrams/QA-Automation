@@ -2,6 +2,7 @@
 
 # URL
 * https://github.com/rest-assured/rest-assured/tree/master/examples
+* https://github.com/rest-assured/rest-assured/tree/master/examples/rest-assured-itest-java/src/test/java/io/restassured/itest/java
 * https://www.programcreek.com/java-api-examples/?ClassName=RestAssured&action=search&submit=Search
 * http://www.javased.com/?api=com.jayway.restassured.RestAssured
 * https://static.javadoc.io/com.jayway.restassured/rest-assured/1.2.3/com/jayway/restassured/RestAssured.html
