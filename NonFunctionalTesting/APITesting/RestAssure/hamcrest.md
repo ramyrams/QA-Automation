@@ -474,6 +474,237 @@ public void map_has_hasValue () {
 }
 ```
 
+# Hamcrest core matchers
+
+## allOf
+```java
+@Test
+public void hamcrest_core_allof () {
+
+    String microBrew = "Lake Louie Brewery Company";
+
+    assertThat(microBrew, allOf(startsWith("Lake"), containsString("Brew")));
+}
+```
+
+## anyOf
+```java
+@Test
+public void hamcrest_core_anyOf () {
+
+    String microBrew = "Grumpy Troll Brewery";
+
+    assertThat(microBrew, anyOf(startsWith("brew"), containsString("Troll")));
+}
+```
+
+## anyThing
+```java
+@Test
+public void hamcrest_core_anything () {
+
+    assertThat("", anything());
+}
+```
+
+## Combine matchers
+```java
+@Test
+public void hamcrest_core_combinableMatcher () {
+
+    String isLite = "Miller Lite";
+
+    assertThat(isLite, both(containsString("Miller")).and(containsString("Lite")));
+}
+```
+
+## containString
+```java
+@Test
+public void hamcrest_core_containsString () {
+
+    String brewery = "Pabst Brewing Company";
+
+    assertThat(brewery, containsString("Brew"));
+}
+```
+
+## describedAs
+@Test
+public void hamcrest_core_describedAs () {
+
+    BigDecimal myBigDecimal = new BigDecimal("0");
+
+    assertThat(myBigDecimal,
+            describedAs("a big decimal equal to %0",
+                    equalTo(myBigDecimal),
+                    myBigDecimal.toPlainString()));
+}
+```
+
+## everyItem
+@Test
+public void hamcrest_core_every () {
+
+    List<Integer> ages = Lists.newArrayList(21, 25, 30, 18);
+    assertThat(ages, everyItem(greaterThanOrEqualTo(18)));
+}
+
+```
+## hasItems
+```java
+@Test
+public void hamcrest_core_hasItems () {
+
+    List<String> regionalBreweries = Lists.newArrayList(
+            "Capital Brewery",
+            "City Brewing Company ",
+            "Jacob Leinenkugel Brewing Company",
+            "Lakefront Brewery, Inc.",
+            "New Glarus Brewing Company",
+            "Stevens Point Brewery");
+
+    assertThat(regionalBreweries, hasItems(
+            "Capital Brewery",
+            "City Brewing Company ",
+            "Jacob Leinenkugel Brewing Company",
+            "Lakefront Brewery, Inc.",
+            "New Glarus Brewing Company",
+            "Stevens Point Brewery"));
+}
+```
+
+## hasItems w/ matchers
+```java
+@Test
+@SuppressWarnings("unchecked")
+public void hamcrest_core_hasItems_matchers () {
+
+    List<String> regionalBreweries = Lists.newArrayList(
+            "Capital Brewery",
+            "City Brewing Company ",
+            "Jacob Leinenkugel Brewing Company",
+            "Lakefront Brewery",
+            "New Glarus Brewing Company",
+            "Stevens Point Brewery");
+
+    assertThat(regionalBreweries, hasItems(
+            containsString("Brew"),
+            endsWith("y")));
+}
+```
+
+## is equalTo
+```java
+@Test
+public void hamcrest_core_is() {
+
+    String isLite = "Miller Brewing Company";
+
+    assertThat("Miller Brewing Company", is(equalTo(isLite)));
+}
+```
+
+## is notNullValue
+```java
+@Test
+public void hamcrest_core_is_notNullValue () {
+
+    Set<String> daNull = new HashSet<String>();
+
+    assertThat(daNull, is(notNullValue()));
+}
+```
+
+## is nullValue
+```java
+@Test
+public void hamcrest_core_is_nullValue () {
+
+    Set<String> daNull = null;
+
+    assertThat(daNull, is(nullValue()));
+}
+```
+
+## isSameInstance
+```java
+@Test
+public void hamcrest_core_is_same_list () {
+
+    List<String> someList = new ArrayList<String>();
+
+    assertThat(someList, IsSame.<List<String>>sameInstance(someList));
+}
+```
+
+## isA
+```java
+@Test
+public void hamcrest_core_isA() {
+
+    Map<Integer, String> map = new HashMap<Integer, String>();
+
+    assertThat(map, isA(Map.class));
+}
+```
+
+## equalTo
+```java
+@Test
+public void hamcrest_core_isEqual () {
+
+    String spottedCreator = "New Glarus Brewing Company";
+
+    assertThat(spottedCreator, equalTo("New Glarus Brewing Company"));
+}
+```
+
+## instanceOf
+@Test
+public void hamcrest_core_isInstanceOf () {
+
+    Calendar cal = Calendar.getInstance();
+
+    assertThat(cal, instanceOf(Calendar.class));
+}
+
+```
+## is sameInstance
+```java
+@Test
+public void hamcrest_core_isSame_string () {
+
+    String wiBrewery = "Capital Brewery";
+    String wiRegionalBrewery = "Capital Brewery";
+
+    assertThat(wiRegionalBrewery, IsSame.<String>sameInstance(wiBrewery));
+}
+
+```
+## endsWith
+```java
+@Test
+public void hamcrest_core_string_endsWith () {
+
+    String baseBallTeam = "Milwaukee brewers";
+
+    assertThat(baseBallTeam, endsWith("brewers"));
+}
+```
+
+## startsWith
+```java
+@Test
+public void hamcrest_core_string_startsWith () {
+
+    String highSchool = "Tarpon spring spongers";
+
+    assertThat(highSchool, startsWith("Tarpon"));
+}
+```
+
+
 https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
 https://www.baeldung.com/java-junit-hamcrest-guide
 https://www.programcreek.com/java-api-examples/org.hamcrest.Matchers
