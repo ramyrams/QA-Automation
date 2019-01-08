@@ -170,6 +170,55 @@ private static Document parse(String xml) throws Exception {
 }
 ```
 
+# Hamcrest bean matchers
+## Setup
+```java
+class Truck {
+
+    private String model;
+    private String make;
+    private int year;
+
+    public Truck(String model, String make, int year) {
+        super();
+        this.model = model;
+        this.make = make;
+        this.year = year;
+    }
+
+    // getters/setters
+}
+```
+
+## Object has property
+```java
+@Test
+public void object_has_property () {
+    Truck pickupTruck = new Truck("Ram", "Dodge", 1965);
+    assertThat(pickupTruck, hasProperty("model"));
+} 
+```
+
+
+## Object has property with value
+```java
+@Test
+public void object_has_property_with_value () {
+    Truck pickupTruck = new Truck("Big 10", "Chevy", 1976);
+    assertThat(pickupTruck, hasProperty("model", equalTo("Big 10")));
+}  
+```
+  
+## Object has same property as
+```java
+@Test
+public void object_has_property_values_as () {
+    Truck pickupTruck1 = new Truck("Big 10", "Chevy", 1976);
+    Truck pickupTruck2 = new Truck("Big 10", "Chevy", 1976);
+    assertThat(pickupTruck1, samePropertyValuesAs(pickupTruck2));
+}    
+```
+
 
 https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
 https://www.baeldung.com/java-junit-hamcrest-guide
