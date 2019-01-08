@@ -141,6 +141,35 @@ https://www.marcphilipp.de/downloads/posts/2013-01-02-hamcrest-quick-reference/H
   * String contains in order
 
 
+# Hamcrest XML matchers
+## Has xpath
+```java
+@Test
+public void test_xml_path () throws Exception {
+
+    String aListApartXML = "<daily-values> " +
+             "  <total-fat units=\"g\">65</total-fat> " +
+             "  <saturated-fat units=\"g\">20</saturated-fat> " +
+             "  <cholesterol units=\"mg\">300</cholesterol> " +
+             "  <sodium units=\"mg\">2400</sodium> " +
+             "  <carb units=\"g\">300</carb> " +
+             "  <fiber units=\"g\">25</fiber> " +
+             "  <protein units=\"g\">50</protein> " +
+             "</daily-values> ";
+
+    Document xml = parse(aListApartXML);
+
+    assertThat(xml, hasXPath("/daily-values/saturated-fat", equalTo("20")));
+}
+
+private static Document parse(String xml) throws Exception {
+    DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+    documentBuilderFactory.setNamespaceAware(false);
+    DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+    return documentBuilder.parse(new ByteArrayInputStream(xml.getBytes()));
+}
+```
+
 
 https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
 https://www.baeldung.com/java-junit-hamcrest-guide
