@@ -1093,6 +1093,34 @@ public void string_has_order () {
 }
 ```
 
+# A Custom Matcher
+```java
+public class IsPositiveInteger extends TypeSafeMatcher<Integer> {
+ 
+    public void describeTo(Description description) {
+        description.appendText("a positive integer");
+    }
+ 
+    @Factory
+    public static Matcher<Integer> isAPositiveInteger() {
+        return new IsPositiveInteger();
+    }
+ 
+    @Override
+    protected boolean matchesSafely(Integer integer) {
+        return integer > 0;
+    }
+ 
+}
+
+@Test
+public void givenInteger_whenAPositiveValue_thenCorrect() {
+    int num = 1;
+    assertThat(num, isAPositiveInteger());
+}
+```java
+
+
 
 
 https://www.javacodegeeks.com/2015/11/hamcrest-matchers-tutorial.html
