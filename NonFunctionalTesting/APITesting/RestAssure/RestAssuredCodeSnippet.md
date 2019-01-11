@@ -1,15 +1,15 @@
 # REST Code Snippet
 
 # Dependency [More](https://github.com/rest-assured/rest-assured/wiki/GettingStarted)
-REST Assured - io.rest-assured -> rest-assured
-JsonPath - io.rest-assured->json-path
-JSON Schema Validation - io.rest-assured ->json-schema-validator
+* REST Assured - io.rest-assured -> rest-assured
+* JsonPath - io.rest-assured->json-path
+* JSON Schema Validation - io.rest-assured ->json-schema-validator
 
 # Static imports
-io.restassured.RestAssured.*
-io.restassured.matcher.RestAssuredMatchers.*
-org.hamcrest.Matchers.*
-io.restassured.module.jsv.JsonSchemaValidator.*
+* io.restassured.RestAssured.*
+* io.restassured.matcher.RestAssuredMatchers.*
+* org.hamcrest.Matchers.*
+* io.restassured.module.jsv.JsonSchemaValidator.*
 
 
 
