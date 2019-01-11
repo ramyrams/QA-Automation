@@ -20,7 +20,9 @@ https://github.com/mwinteringham/api-framework
 https://github.com/lwfwind/smart-api-framework
 https://github.com/lwfwind/smart-ui-automation-example
 
-
+https://github.com/mwinteringham/api-framework
+https://github.com/eviltester/rest-listicator-automating-examples
+https://github.com/mwinteringham/api-framework
 https://github.com/lwfwind/java-common-helper/tree/master/src/com/library/common
 
 # smart ui automation framework to support web and moblie automaton based on webdriver and appium
