@@ -11,7 +11,12 @@ https://github.com/ashokpuduri/API-Testing-Automation-Framework-SourceCode
 https://github.com/vibskant007/restautomation
 https://github.com/harshpatil/automation-framework
 https://github.com/mohitkaushik1987/rest-api-automation-testing-framework
-
+https://github.com/britka/rest-assured-example
+https://github.com/pavankovurru/API_Automation_Framework
+https://github.com/hpai1990/MyAutomationFramework
+https://github.com/naveenanimation20/RestAssuredFramework
+https://github.com/BushnevYuri/e2e-automation-pipeline
+https://github.com/mtajith12/RESTAPI_Rest-assured-CucumberTesting_Framework
 https://github.com/swtestacademy/api-automation-rest-assured-basic/
 
 https://github.com/mwinteringham/api-framework
