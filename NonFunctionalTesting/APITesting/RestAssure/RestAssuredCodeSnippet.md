@@ -95,6 +95,51 @@ formParam("df", "dfd").
 param("df", "dfd") - it automatically detedct and convert QuertParam for GET and POST it will tread as formParam
 		
 	
+	RestAssured
+		.given()
+			.baseUri("http://" + si.getIp() + ":" + si.getPort())
+		.when()
+			.get("/greeting")
+		.then()
+			.assertThat()
+			.statusCode(200)
+			.and()
+			.body("greeting", equalTo("Hello Dockerunit!!!"));
+			
+			
+
+RestAssured.baseURI = "http://localhost";
+RestAssured.port = config.getInteger("server.port");
+RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+this.baseURI = conf.getString("server.baseURI");
+this.port = conf.getInt("server.port");
+this.timeout = conf.getInt("service.api.timeout");
+RestAssured.registerParser(Params.MIME_TYPE_TEXT_PLAIN, Parser.JSON);
+RestAssured.config = new RestAssuredConfig().encoderConfig(encoderConfig().defaultContentCharset("UTF-8").encodeContentTypeAs("application-json", ContentType.JSON));
+RestAssured.registerParser("text/plain", Parser.TEXT);
+RestAssured.defaultParser = Parser.JSON;
+	
+			
+@Test
+public void testIllegalMethodTypes() {	
+	JsonPath response = RestAssured.given().when().delete(RESTAURANT_API).then().statusCode(405).extract().jsonPath();
+	Assert.assertEquals("Request method 'DELETE' not supported", response.getString("message"));
+	Assert.assertEquals("Method Not Allowed", response.getString("error"));
+
+	response = RestAssured.given().when().put(RESTAURANT_API).then().statusCode(405).extract().jsonPath();
+	Assert.assertEquals("Request method 'PUT' not supported", response.getString("message"));
+	Assert.assertEquals("Method Not Allowed", response.getString("error"));
+
+	response = RestAssured.given().when().post(RESTAURANT_API).then().statusCode(405).extract().jsonPath();
+	Assert.assertEquals("Request method 'POST' not supported", response.getString("message"));
+	Assert.assertEquals("Method Not Allowed", response.getString("error"));
+
+	response = RestAssured.given().when().patch(RESTAURANT_API).then().statusCode(405).extract().jsonPath();
+	Assert.assertEquals("Request method 'PATCH' not supported", response.getString("message"));
+	Assert.assertEquals("Method Not Allowed", response.getString("error"));
+}
+
+
 
 		
 		
