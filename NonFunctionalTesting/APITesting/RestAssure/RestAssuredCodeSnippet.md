@@ -1449,4 +1449,104 @@ when()
    .body("scheduleId", hasItem( numericScheduleId)) 
    .body(containsString("total-started-thread-count"));
       
-   
+   Response temp =RestAssured.get("https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22");		
+String Sessionid =temp.getSessionId();
+System.out.println("Session ID "+Sessionid);
+System.out.println("Body :: "+temp.body());		
+System.out.println("Body XML Path :: "+temp.body().xmlPath());
+System.out.println("getSessionId "+temp.getSessionId());
+System.out.println("getStatusLine "+temp.getStatusLine());
+System.out.println("Time "+temp.getTime());
+System.out.println("getContentType "+temp.getContentType());
+System.out.println("detailedCookies "+temp.detailedCookies());
+System.out.println("contentType "+temp.contentType());
+System.out.println("getTimeIn "+temp.getTimeIn(TimeUnit.MILLISECONDS));
+
+
+ResponseBody<?>  temp = RestAssured.get(
+				"https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22").getBody();
+		JsonPath  path = temp.jsonPath();
+		System.out.println("Json Path od Response : "+path);
+		System.out.println(temp);
+		
+		
+String text = RestAssured.get("http://restcountries.eu/rest/v1").asString();
+System.out.println(text);
+
+
+RestAssured.baseURI= "https://developers.zomato.com/api/v2.1/";
+Header someHeader = new Header("user-key","a9a8b860396953c3de905e9ad8283dff");
+System.out.println(RestAssured.given().header(someHeader).when().get("cuisines?city_id=5").getStatusCode());
+Response request = RestAssured.given().header(someHeader).when().get("cuisines?city_id=5");
+System.out.println(request.body().asString());
+System.out.println(request.contentType());
+System.out.println(request.getSessionId());
+System.out.println(request.getStatusLine());
+System.out.println(request.getTime());
+System.out.println(request.cookies());
+System.out.println(request.getHeaders());
+
+
+RestAssured.baseURI= "https://developers.zomato.com/api/v2.1/";
+Response repvalue = RestAssured.given().header("user-key","a9a8b860396953c3de905e9ad8283dff").when().get("cities?q=jhansi");
+System.out.println(repvalue.body());
+System.out.println(repvalue.getBody().asString());
+System.out.println("City ID :: "+repvalue.body().jsonPath().get("location_suggestions.id"));
+		
+		
+		
+RequestSpecification request = given();
+request.header("Content-Type", "application/json");
+
+JSONObject json = new JSONObject();
+json.put("author", "Abhishek 06");
+json.put("created", "2018-08-20T15:08:07.200");
+json.put("message", "Hello WebServices Programming6");
+
+request.body(json.toJSONString());
+Response response = request.post("http://localhost:8080/messenger3/webapi/messages");
+int statusCode = response.getStatusCode();
+System.out.println("Status code after msg creation is " + statusCode);
+Assert.assertEquals(statusCode, 201);
+		
+
+@Test
+	public void verifyDeleteRequest() {
+
+		RequestSpecification request = given();
+		// request.header("Content-Type","application/json");
+		Response response = request.delete("http://localhost:8080/messenger3/webapi/messages/6");
+		int statusCode = response.getStatusCode();
+		System.out.println("Status code is " + statusCode);
+		// Assert.assertEquals(statusCode, 200);
+
+	}
+
+public static String getLoginSessionID() throws IOException{
+		log.info("Inside  getLoginSessionID() method");
+		
+		String loginPayload = PayloadParser.generatePayloadString("JIRALogin.json");
+		String endPointURI = URL.getEndPoint("rest/auth/1/session");
+		Response loginResponse = RESTCalls.POSTRequest(endPointURI, loginPayload);
+		String sessionID = TestUtils.extractJSONResponseValue(loginResponse, "session.value");
+		
+		log.info("Current JIRA JSessionID = " + sessionID);
+		
+		return sessionID;
+	}
+
+
+	
+	public static Response GETRequest(String URI){
+		RequestSpecification requestSpecs = RestAssured.given().contentType(ContentType.JSON);
+		Response response = requestSpecs.get(URI); 
+		
+		log.info("Inside GETRequest call");
+		log.debug(requestSpecs.log().all());
+		
+		return response;
+	}
+	
+	
+	
+		
