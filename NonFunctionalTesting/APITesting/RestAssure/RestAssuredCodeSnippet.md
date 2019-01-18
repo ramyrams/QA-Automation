@@ -106,19 +106,29 @@ param("df", "dfd") - it automatically detedct and convert QuertParam for GET and
 			.and()
 			.body("greeting", equalTo("Hello Dockerunit!!!"));
 			
-			
+this.baseURI = conf.getString("server.baseURI");
+this.port = conf.getInt("server.port");
+this.timeout = conf.getInt("service.api.timeout");
+
 
 RestAssured.baseURI = "http://localhost";
 RestAssured.port = config.getInteger("server.port");
 RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-this.baseURI = conf.getString("server.baseURI");
-this.port = conf.getInt("server.port");
-this.timeout = conf.getInt("service.api.timeout");
 RestAssured.registerParser(Params.MIME_TYPE_TEXT_PLAIN, Parser.JSON);
 RestAssured.config = new RestAssuredConfig().encoderConfig(encoderConfig().defaultContentCharset("UTF-8").encodeContentTypeAs("application-json", ContentType.JSON));
 RestAssured.registerParser("text/plain", Parser.TEXT);
 RestAssured.defaultParser = Parser.JSON;
-	
+
+
+RestAssured.baseURI = "http://myhost.org";
+RestAssured.basePath = "/resource";
+RestAssured.port = getApplicationPort(applicationName);
+RestAssured.config().redirect(RedirectConfig.redirectConfig().followRedirects(false));
+RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+RestAssured.reset();
+RestAssured.authentication = basic("username", "password");
+RestAssured.rootPath = "store.book";
+
 			
 @Test
 public void testIllegalMethodTypes() {	
@@ -540,15 +550,6 @@ public class CreateCustomerPostCall {
 
 
 
-RestAssured.baseURI = "http://myhost.org";
-RestAssured.basePath = "/resource";
-RestAssured.port = getApplicationPort(applicationName);
-RestAssured.config().redirect(RedirectConfig.redirectConfig().followRedirects(false));
-RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-RestAssured.reset();
-RestAssured.port = 80;
-RestAssured.authentication = basic("username", "password");
-RestAssured.rootPath = "store.book";
  
  
 JsonPath response = RestAssured.given().when().delete(TYPE_API).then().statusCode(405).extract().jsonPath();
