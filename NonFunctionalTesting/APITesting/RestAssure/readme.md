@@ -1,4 +1,35 @@
+REST APIs have four types of parameters:
 
+Header parameters: Parameters included in the request header, usually related to authorization.
+Path parameters: Parameters within the path of the endpoint, before the query string (?). These are usually set off within curly braces.
+Query string parameters: Parameters in the query string of the endpoint, after the ?.
+Request body parameters: Parameters included in the request body. Usually submitted as JSON.
+
+
+Path parameters
+For example, in the following endpoint, {user} and {bicycleId} are required path parameters:
+/service/myresource/user/{user}/bicycles/{bicycleId}
+
+Query string parameters
+Query string parameters appear after a question mark (?) in the endpoint. The question mark followed by the parameters and their values is referred to as the “query string.” In the query string, each parameter is listed one right after the other with an ampersand (&) separating them. The order of the query string parameters does not matter.
+
+/surfreport/{beachId}?days=3&units=metric&time=1400
+
+# Request body parameters
+
+{
+"days": 2,
+"units": "imperial",
+"time": 1433524597
+}
+
+
+https://idratherbewriting.com/learnapidoc/images/sendgridresponseexample1.png
+https://idratherbewriting.com/learnapidoc/images/sendgridresponseexample2.png
+
+
+https://idratherbewriting.com/learnapidoc/images/bitlyresponsedoc.png
+https://idratherbewriting.com/learnapidoc/images/myobjsondoc.png
 https://developer.ibm.com/recipes/wp-content/uploads/sites/41/2018/06/Framework.png
 
 Step by step
