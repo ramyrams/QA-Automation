@@ -71,6 +71,11 @@ WS-Security Status
 WS-Addressing Response Assertion
 WS-Addressing Request Assertion
 
+https://www.katalon.com/resources-center/blog/web-api-testing-interview-questions/
+
+https://d1f5pmhur9pirz.cloudfront.net/wp-content/uploads/2017/08/API-Login-2.png
+https://d1f5pmhur9pirz.cloudfront.net/wp-content/uploads/2017/08/api-13.png
+
 https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_image1_new.png
 https://www.soapui.org/soapui/media/images/stories/newfunctesting/feature-focus_2.png
 https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_4_new.png
