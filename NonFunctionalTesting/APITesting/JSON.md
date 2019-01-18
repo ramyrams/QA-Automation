@@ -40,6 +40,7 @@ an array
 a boolean
 null
 
+```json
  { name: "John", age: 31, city: "New York" };
 
 
@@ -67,18 +68,19 @@ myObj = { "name":"John", "age":30, "car":null };
 }
 
 x = myObj.cars[0];
-
+```
 
 https://www.w3resource.com/w3r_images/json-introduction.png
 
+```json
 //Empty Collection Set
 {};
+
 //Single string/value pair
 {"abc":"123"};
+
 //Multiple string/value pairs
 {"captainsLog":"starDate 9522.6","message":"I've never trusted Klingons, and I never will."};
-
-
 
 Valid Numerical Values
 -0.01 //valid use of 0's
@@ -86,15 +88,16 @@ Valid Numerical Values
 1/3 //fraction form
 .3333333333333333 //decimal form
 1.2e-1 //scientific notation
+```
 
 
-
-
+```json
 Examples of JSON Text Containing a Variety of Valid JSON Values
 // JSON text of an array with primitives
 [
 null, true, 8
 ]
+
 // JSON text of an object with two members
 {
 "first": "Ben"
@@ -102,6 +105,7 @@ null, true, 8
 "last": "Smith"
 ,
 }
+
 // JSON text of an array with nested composites
 [
 { "abc": "123" },
@@ -115,7 +119,7 @@ null, true, 8
 "array": [true]
 }
 }
-
+```
 
 
 A	valid	JSON	document	can	be	either	of	the	following: An	Object	surrounded	by	curly	braces,	{	and	}
