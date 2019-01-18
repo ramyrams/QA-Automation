@@ -21,12 +21,13 @@
 * https://json-schema-validator.herokuapp.com/
 * https://www.liquid-technologies.com/online-json-to-schema-converter
 
-
+```json
 {name: "John", age: 31, city: "New York"};
 
 JSON Data - A Name and a Value
 -- Data is in name/value pairs
 { "name":"John" }
+```
 
 JSON Values
 In JSON, values must be one of the following data types:
