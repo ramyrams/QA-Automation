@@ -21,12 +21,13 @@
 * https://json-schema-validator.herokuapp.com/
 * https://www.liquid-technologies.com/online-json-to-schema-converter
 
-```json
-{name: "John", age: 31, city: "New York"};
-
 JSON Data - A Name and a Value
+
+```json
 -- Data is in name/value pairs
 { "name":"John" }
+
+{name: "John", age: 31, city: "New York"};
 ```
 
 JSON Values
@@ -41,8 +42,6 @@ a boolean
 null
 
 ```json
- { name: "John", age: 31, city: "New York" };
-
 
 {"employees":[
     { "firstName":"John", "lastName":"Doe" },
@@ -70,7 +69,6 @@ myObj = { "name":"John", "age":30, "car":null };
 x = myObj.cars[0];
 ```
 
-https://www.w3resource.com/w3r_images/json-introduction.png
 
 ```json
 //Empty Collection Set
@@ -125,3 +123,5 @@ null, true, 8
 A	valid	JSON	document	can	be	either	of	the	following: An	Object	surrounded	by	curly	braces,	{	and	}
 An	Array	enclosed	by	brackets,	[	and	]
 
+
+![](https://www.w3resource.com/w3r_images/json-introduction.png)
