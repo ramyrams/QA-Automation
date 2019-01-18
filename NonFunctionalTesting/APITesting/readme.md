@@ -764,3 +764,9 @@ http://i0.wp.com/www.testautomationguru.com/wp-content/uploads/2017/03/rest004.p
 
 # PERFORMANCE TESTING OF A RESTFUL API USING JMETER
 https://www.3pillarglobal.com/insights/performance-testing-of-a-restful-api-using-jmeter
+
+
+https://github.com/shieldfy/API-Security-Checklist
+https://github.com/s0wr0b1ndef/API-Security-Checklist
+https://github.com/mbabazadeh/API-Security-Checklist
+https://github.com/npanigrahy/API-Security-Guidelines
