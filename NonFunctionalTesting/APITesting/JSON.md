@@ -125,3 +125,103 @@ An	Array	enclosed	by	brackets,	[	and	]
 
 
 ![](https://www.w3resource.com/w3r_images/json-introduction.png)
+
+
+```json
+{
+	"string": "Hello World",
+	"number": 123,
+	"boolean": true,
+	"color": "#82b92c",
+	"null": null,
+	"array": [
+		1,
+		2,
+		3
+	],
+	"object": {
+		"a": "b",
+		"c": "d",
+		"e": "f"
+	},
+	
+	"winners":[{
+   "winnerId":23,
+   "numbers":[2,45,34,23,3,5]
+ },{
+   "winnerId":54,
+   "numbers":[52,3,12,11,18,22]
+ }]
+	
+	
+}
+
+
+{
+	"id": "0001",
+	"type": "donut",
+	"name": "Cake",
+	"ppu": 0.55,
+	"batters":
+		{
+			"batter":
+				[
+					{ "id": "1001", "type": "Regular" },
+					{ "id": "1002", "type": "Chocolate" },
+					{ "id": "1003", "type": "Blueberry" },
+					{ "id": "1004", "type": "Devil's Food" }
+				]
+		},
+	"topping":
+		[
+			{ "id": "5001", "type": "None" },
+			{ "id": "5002", "type": "Glazed" },
+			{ "id": "5005", "type": "Sugar" },
+			{ "id": "5007", "type": "Powdered Sugar" },
+			{ "id": "5006", "type": "Chocolate with Sprinkles" },
+			{ "id": "5003", "type": "Chocolate" },
+			{ "id": "5004", "type": "Maple" }
+		]
+}
+
+
+
+{ "name"   : "Alice Brown",
+  "sku"    : "54321",
+  "price"  : 199.95,
+  "shipTo" : { "name" : "Bob Brown",
+               "address" : "456 Oak Lane",
+               "city" : "Pretendville",
+               "state" : "HI",
+               "zip"   : "98999" },
+  "billTo" : { "name" : "Alice Brown",
+               "address" : "456 Oak Lane",
+               "city" : "Pretendville",
+               "state" : "HI",
+               "zip"   : "98999" }
+}
+
+
+
+{
+    "firstName": "Grace",
+    "lastName": "Hopper",
+    "age": 107,
+    "address": {
+        "streetAddress": "21 2nd Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": 10021
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "212-555-1234"
+        },
+        {
+            "type": "mobile",
+            "number": "646-555-4567"
+        }
+    ]
+}
+```
