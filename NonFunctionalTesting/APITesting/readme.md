@@ -30,6 +30,8 @@ JSON Schema
 API Testing
 Katalon
 
+https://www.slideshare.net/TechWellPresentations/automate-rest-services-testing-with-restassured
+
 http://www.tjmaher.com/2018/11/jason-ioannides-api-testing-from-entry.html
 
 Jason Ioannides, API Testing: From Entry Level to a PhD in 40 mins
