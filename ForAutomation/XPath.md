@@ -2,6 +2,63 @@
 
 * http://pragmatictestlabs.com/2018/05/16/mastering-xpath-for-selenium-test-automation/
 
+
+https://www.guru99.com/images/3-2016/032816_0758_XPathinSele1.png
+
+# Absolute XPath:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele2.png)
+
+# Relative xpath:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele3.png)
+
+# Basic XPath:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele4.png)
+
+# Contains():
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele5.png)
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele6.png)
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele7.png)
+
+
+# Using OR & AND:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele8.png)
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele9.png)
+
+# Start-with function:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele10.png)
+
+# Text():
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele11.png)
+
+# Following:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele12.png)
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele13.png)
+
+
+# Ancestor:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele14.png)
+
+# Child:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele15.png)
+
+# Preceding:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele16.png)
+
+# Following-sibling:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele17.png)
+
+
+# Parent:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele18.png)
+
+# Self:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele19.png)
+
+# Descendant:
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele20.png)
+
+
+
 # XPath Tester
 * https://codebeautify.org/Xpath-Tester
 * https://www.webtoolkitonline.com/xml-xpath-tester.html
