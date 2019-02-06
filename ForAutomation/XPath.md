@@ -4,11 +4,11 @@
 
 
 # Types of XPath
-http://pragmatictestlabs.com/wp-content/uploads/2016/09/1-1.png
-http://pragmatictestlabs.com/wp-content/uploads/2016/09/30.png
+![1](http://pragmatictestlabs.com/wp-content/uploads/2016/09/1-1.png)
+![1](http://pragmatictestlabs.com/wp-content/uploads/2016/09/30.png)
 
 # Locating elements relative to known element
-http://pragmatictestlabs.com/wp-content/uploads/2016/09/11.png
+![1](http://pragmatictestlabs.com/wp-content/uploads/2016/09/11.png)
 
 # Absolute XPath:
 ![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele2.png)
