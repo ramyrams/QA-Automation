@@ -1,6 +1,42 @@
-https://codebeautify.org/Xpath-Tester
+# Must Read
 
+* http://pragmatictestlabs.com/2018/05/16/mastering-xpath-for-selenium-test-automation/
+
+# XPath Tester
+* https://codebeautify.org/Xpath-Tester
+* https://www.webtoolkitonline.com/xml-xpath-tester.html
+http://www.utilities-online.info/xpath/#.XFsXuKpKiUk
 https://www.freeformatter.com/xpath-tester.html
+
+https://www.webperformance.com/load-testing-tools/blog/real-browser-manual/building-a-testcase/how-locate-element-the-page/xpath-locator-examples/
+
+
+
+# Types of XPath
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/1-1.png
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/30.png
+
+# Locating elements relative to known element
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/11.png
+
+# Tools for extracting XPaths
+Ranorex Selocity - 
+# Ranorex Selocity
+* Install Ranorex Selocity plugin from [Chrome store](https://chrome.google.com/webstore/detail/ranorex-selocity/ocgghcnnjekfpbmafindjmijdpopafoe)
+* Navigate to your web page
+* Inspect the element
+* Select Ranorex Selocity in developer tool
+![1](http://pragmatictestlabs.com/wp-content/uploads/2016/09/20.png)
+
+* XPath is automatically generated
+* Type the XPath syntax in enter selector input box
+* Hit enter to verify the syntax
+* Following demonstrate using Ranorex Selocity to validate the XPath syntax
+![1](http://pragmatictestlabs.com/wp-content/uploads/2016/09/31.gif)
+
+
+
+
 http://pragmatictestlabs.com/2018/05/16/mastering-xpath-for-selenium-test-automation/
 https://www.softwaretestinghelp.com/using-selenium-xpath-and-other-locators-selenium-tutorial-5/
 
