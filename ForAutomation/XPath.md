@@ -3,7 +3,12 @@
 * http://pragmatictestlabs.com/2018/05/16/mastering-xpath-for-selenium-test-automation/
 
 
-https://www.guru99.com/images/3-2016/032816_0758_XPathinSele1.png
+# Types of XPath
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/1-1.png
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/30.png
+
+# Locating elements relative to known element
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/11.png
 
 # Absolute XPath:
 ![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele2.png)
@@ -29,6 +34,8 @@ https://www.guru99.com/images/3-2016/032816_0758_XPathinSele1.png
 
 # Text():
 ![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele11.png)
+
+![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele1.png)
 
 # Following:
 ![1](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele12.png)
@@ -69,12 +76,7 @@ https://www.webperformance.com/load-testing-tools/blog/real-browser-manual/build
 
 
 
-# Types of XPath
-http://pragmatictestlabs.com/wp-content/uploads/2016/09/1-1.png
-http://pragmatictestlabs.com/wp-content/uploads/2016/09/30.png
 
-# Locating elements relative to known element
-http://pragmatictestlabs.com/wp-content/uploads/2016/09/11.png
 
 # Tools for extracting XPaths
 Ranorex Selocity - 
