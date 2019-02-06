@@ -35,6 +35,38 @@ Ranorex Selocity -
 ![1](http://pragmatictestlabs.com/wp-content/uploads/2016/09/31.gif)
 
 
+XPath or CSS
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/27.png
+
+# Convert your XPath to CSS
+* http://cssify.appspot.com/
+* If you have decided use CSS and want to convert existing XPaths into CSS following program can be used
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/28.gif
+
+# XPath game
+
+
+# Xpath Helper  
+* Install XPath helper from Chrome store  and restart the browser
+* Access the web page
+* Open the XPath console by Ctrl + Shift + X
+* Hold down the Shift key and move the mouse to the target element
+* XPath will be generated into the Query window
+
+
+# Element Locator
+
+* Install Element locator from Chrome store and restart the browser
+* Access the web page
+* Open the extension and enable the button(s)
+* Click on the target element(s) to generate XPath
+* Open the Element Locator to view the generated XPaths
+http://pragmatictestlabs.com/wp-content/uploads/2016/09/25.gif
+
+
+https://www.w3schools.com/xml/xpath_syntax.asp
+
+https://topswagcode.com/xpath/
 
 
 http://pragmatictestlabs.com/2018/05/16/mastering-xpath-for-selenium-test-automation/
