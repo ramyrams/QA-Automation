@@ -16,6 +16,10 @@
 * https://resources.oreilly.com/examples/9781787122536/blob/master/Chapter01/TestUnivocity.java
 * https://github.com/uniVocity/univocity-examples
 
+# Flat File Reader Example
+* https://github.com/uniVocity/univocity-parsers/blob/f616d151b48150bc9cb98943f9b6f8353b704359/src/test/java/com/univocity/parsers/examples/FixedWidthParserExamples.java
+
+
 # fastexcel-reader
 * https://github.com/dhatim/fastexcel/tree/master/fastexcel-reader/src/main/java/org/dhatim/fastexcel/reader
 * https://github.com/dhatim/fastexcel/blob/master/fastexcel-reader/src/test/java/org/dhatim/fastexcel/reader/FastExcelReaderTest.java
