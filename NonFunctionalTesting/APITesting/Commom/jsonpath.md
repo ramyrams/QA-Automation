@@ -7,3 +7,6 @@ https://github.com/json-path/JsonPath/
 
 Jayway JsonPath Evaluator
 https://jsonpath.herokuapp.com/
+
+Example:
+https://github.com/json-path/JsonPath/tree/master/json-path/src/test/java/com/jayway/jsonpath
