@@ -6,3 +6,4 @@ https://github.com/jdereg/java-util
 # JDBC Utility Component Examples
 http://commons.apache.org/proper/commons-dbutils/examples.html
 https://commons.apache.org/
+https://www.tutorialspoint.com/commons_collections/index.htm
