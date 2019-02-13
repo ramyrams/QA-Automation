@@ -7,3 +7,9 @@ https://github.com/jdereg/java-util
 http://commons.apache.org/proper/commons-dbutils/examples.html
 https://commons.apache.org/
 https://www.tutorialspoint.com/commons_collections/index.htm
+https://www.baeldung.com/apache-commons-collection-utils
+
+ # Guava: Google Core Libraries for Java
+https://github.com/google/guava
+
+https://github.com/akullpp/awesome-java
