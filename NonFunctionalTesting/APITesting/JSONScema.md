@@ -1,4 +1,11 @@
 
+https://json-editor.tangramjs.com/editor.html#/
+https://json-schema.org/implementations.html
+
+# JSON Schema Validator
+https://github.com/everit-org/json-schema
+
+https://www.baeldung.com/introduction-to-json-schema-in-java
 
 # Getting Started Step-By-Step
 * http://json-schema.org/learn/getting-started-step-by-step.html
