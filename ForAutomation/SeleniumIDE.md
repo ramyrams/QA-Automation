@@ -1,4 +1,15 @@
 
+https://thaygivietnay.files.wordpress.com/2017/02/selenium-tutorial.pdf
+https://www.joecolantonio.com/selenium-ide/
+http://www.absofttrainings.com/selenium-training-v3-selenium-ide-in-depth-for-your-job/
+http://seleniummaster.com/sitecontent/index.php/introduction-to-selenium-automation/selenium-ide/114-selenium-ide-complete-list-of-commands
+https://a9t9.com/kantu/docs/selenium-ide
+http://www.inviul.com/selenese-relation-selenium-ide/
+https://docs.katalon.com/katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
+https://www.joecolantonio.com/selenium-ide-guide/
+https://www.seleniumhq.org/docs/02_selenium_ide.jsp
+
+
 A command refers to what Selenium has to do and commands in selenium are of three types. Click on each one of them to know more about the commands.
 
 Actions https://www.tutorialspoint.com/selenium/selenium_commands_actions.htm
