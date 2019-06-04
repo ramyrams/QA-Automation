@@ -578,3 +578,5 @@ https://github.com/Divshiv/KatalonProject/blob/master/Test%20Suites/SampleTestSu
 
 https://github.com/Divshiv/KatalonProject/tree/master/Test%20Suites
 
+# Create Global Variables on the fly
+https://docs.katalon.com/katalon-studio/docs/create-global-variables-on-the-fly.html
