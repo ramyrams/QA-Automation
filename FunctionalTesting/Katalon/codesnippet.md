@@ -17,6 +17,22 @@ https://github.com/nhannguyenth/katalon-excel-keyword/tree/master/ExcelKeywords/
 https://github.com/nhannguyenth/katalon-vuejs-modal-keyword
 
 
+```groovy
+def string = ‘ThisString’;
+println(string.substring(0,4));
+```
+
+String partName = selectedChannelName.split(/\s/)[1] // 0 == first, 1 == second, etc
+WebUI.verifyMatch(displayedChannelname, partName, false)
+
+#You can link two verifications:
+assert WebUI.verifyTextPresent('01234 567890') || WebUI.verifyTextPresent('01234567890')
+
+
+import com.kms.katalon.core.logging.KeywordLogger
+KeywordLogger log = new KeywordLogger()
+log.logInfo("yourMsg")
+Next time, you can autocomplete imports clicking Ctrl+Shift+O
 
 WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Checkpoint1'), false)
 
