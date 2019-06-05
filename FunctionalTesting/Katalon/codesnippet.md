@@ -601,65 +601,197 @@ https://docs.katalon.com/katalon-studio/docs/create-global-variables-on-the-fly.
 
 
 
+# Browser Comments - Open, navigate, maximize and close browser
+WebUI.openBrowser()
+WebUI.navigateToUrl()
+WebUI.maximizeWindow()
+WebUI.closeBrowser()
+
+# Events - click, doubleClick, rightClick, clickImage, rightClickOffset, clickOffset
+WebUI.click()
+WebUI.doubleClick()
+WebUI.rightClick()
+WebUI.rightClickOffset()
+WebUI.clickImage()
+WebUI.clickOffset()
+
+# Text Box - Set, Get, Clear and focus 
+WebUI.setText()
+WebUI.getText()
+WebUI.clearText()
+WebUI.focus()
+
+#Form Actions
+WebUI.sendKeys()
+WebUI.submit()
+WebUI.uploadFile()
+
+# Alert Handle: Accept/dismiss and Set/get alert text
+WebUI.acceptAlert()
+WebUI.dismissAlert()
+WebUI.setAlertText()
+WebUI.getAlertText()
+
+# Browser Navigation 
+WebUI.back()
+WebUI.forward()
+WebUI.refresh()
+
+#Handle Selectbox - Select and Deselect
+WebUI.selectAllOption()
+WebUI.selectOptionByIndex()
+WebUI.selectOptionByLabel()
+WebUI.selectOptionByValue()
+
+WebUI.deselectAllOption()
+WebUI.deselectOptionByIndex()
+WebUI.deselectOptionByLabel()
+WebUI.deselectOptionByValue()
+
+#Handle checkbox - Select and Deselect
+WebUI.check()
+WebUI.uncheck()
+
+#Handle DragandDrop
+WebUI.dragAndDropByOffset()
+WebUI.dragAndDropToObject()
+
+#Swtich frame, window
+WebUI.switchToDefaultContent()
+WebUI.switchToFrame()
+WebUI.switchToWindowIndex()
+WebUI.switchToWindowTitle()
+WebUI.switchToWindowUrl()
+
+#Handle Window
+WebUI.closeWindowIndex()
+WebUI.closeWindowTitle()
+WebUI.closeWindowUrl()
+
+# Get statements
+WebUI.getText()
+WebUI.getUrl()
+WebUI.getAlertText()
+WebUI.getAllLinksOnCurrentPage()
+WebUI.getAttribute()
+WebUI.getCSSValue()
+WebUI.getElementHeight()
+WebUI.getElementWidth()
+WebUI.getElementLeftPosition()
+WebUI.getNumberOfSelectedOption()
+WebUI.getNumberOfTotalOption()
+WebUI.getPageHeight()
+WebUI.getPageWidth()
+WebUI.getViewportHeight()
+WebUI.getViewportLeftPosition()
+WebUI.getViewportTopPosition()
+WebUI.getViewportWidth()
+WebUI.getWindowIndex()
+WebUI.getWindowTitle()
+
+# Set statements
+WebUI.setText()
+WebUI.setEncryptedText()
+WebUI.setMaskedText()
+WebUI.setAlertText()
+WebUI.setViewPortSize()
+
+# MouseOver
+WebUI.mouseOver()
+WebUI.mouseOverOffset()
+
+# Handle Property
+WebUI.modifyObjectProperty()
+WebUI.removeObjectProperty()
+
+# Scroll
+WebUI.scrollToElement()
+WebUI.scrollToPosition()
+
+# Handle Cookie
+WebUI.deleteAllCookies()
+
+WebUI.delay()
+WebUI.executeJavaScript()
+WebUI.takeScreenshot()
+WebUI.typeOnImage()
+WebUI.authenticate()
+WebUI.comment()
+WebUI.concatenate()
 
 
-WebUI.waitForAlert()
+
+# Wait Commands
+WebUI.waitForPageLoad()
+WebUI.waitForJQueryLoad()
 WebUI.waitForAngularLoad()
-WebUI.waitForElementAttributeValue()
+WebUI.waitForAlert()
+WebUI.waitForElementPresent()
+WebUI.waitForElementVisible()
 WebUI.waitForElementClickable()
+WebUI.waitForElementAttributeValue()
 WebUI.waitForElementHasAttribute()
 WebUI.waitForElementNotClickable()
 WebUI.waitForElementNotHasAttribute()
 WebUI.waitForElementNotPresent()
 WebUI.waitForElementNotVisible()
-WebUI.waitForElementPresent()
-WebUI.waitForElementVisible()
 WebUI.waitForImagePresent()
-WebUI.waitForJQueryLoad()
-WebUI.waitForPageLoad()
 
 
-WebUI.verifyAlertNotPresent()
-WebUI.verifyAlertPresent()
-WebUI.verifyAllLinksOnCurrentPageAccessible()
-WebUI.verifyCheckpoint()
-WebUI.verifyElementAttributeValue()
+
+
+
+# Verify Commands
+WebUI.verifyElementPresent()
+WebUI.verifyElementNotPresent()
+WebUI.verifyElementVisible()
+WebUI.verifyElementNotVisible()
+WebUI.verifyElementText()
 WebUI.verifyElementChecked()
 WebUI.verifyElementClickable()
 WebUI.verifyElementHasAttribute()
-WebUI.verifyElementInViewport()
+WebUI.verifyElementNotHasAttribute()
+WebUI.verifyElementAttributeValue()
 WebUI.verifyElementNotChecked()
 WebUI.verifyElementNotClickable()
-WebUI.verifyElementNotHasAttribute()
+WebUI.verifyElementInViewport()
 WebUI.verifyElementNotInViewport()
-WebUI.verifyElementNotPresent()
-WebUI.verifyElementNotVisible()
 WebUI.verifyElementNotVisibleInViewport()
-WebUI.verifyElementPresent()
-WebUI.verifyElementText()
-WebUI.verifyElementVisible()
 WebUI.verifyElementVisibleInViewport()
+WebUI.verifyAlertPresent()
+WebUI.verifyAlertNotPresent()
+WebUI.verifyCheckpoint()
+
 WebUI.verifyEqual()
+WebUI.verifyNotEqual()
+
+WebUI.verifyMatch()
+WebUI.verifyNotMatch()
+
 WebUI.verifyGreaterThan()
 WebUI.verifyGreaterThanOrEqual()
-WebUI.verifyImagePresent()
 WebUI.verifyLessThan()
 WebUI.verifyLessThanOrEqual()
+
+WebUI.verifyImagePresent()
+
 WebUI.verifyLinksAccessible()
-WebUI.verifyMatch()
-WebUI.verifyNotEqual()
-WebUI.verifyNotMatch()
-WebUI.verifyOptionNotPresentByLabel()
-WebUI.verifyOptionNotPresentByValue()
-WebUI.verifyOptionNotSelectedByIndex()
-WebUI.verifyOptionNotSelectedByLabel()
-WebUI.verifyOptionNotSelectedByValue()
+WebUI.verifyAllLinksOnCurrentPageAccessible()
+
+
+WebUI.verifyOptionsPresent()
 WebUI.verifyOptionPresentByLabel()
 WebUI.verifyOptionPresentByValue()
 WebUI.verifyOptionSelectedByIndex()
 WebUI.verifyOptionSelectedByLabel()
 WebUI.verifyOptionSelectedByValue()
-WebUI.verifyOptionsPresent()
-WebUI.verifyTextNotPresent()
-WebUI.verifyTextPresent()
 
+
+WebUI.verifyOptionNotPresentByLabel()
+WebUI.verifyOptionNotPresentByValue()
+WebUI.verifyOptionNotSelectedByIndex()
+WebUI.verifyOptionNotSelectedByLabel()
+WebUI.verifyOptionNotSelectedByValue()
+
+WebUI.verifyTextPresent()
+WebUI.verifyTextNotPresent()
