@@ -1,3 +1,18 @@
+
+
+```groovy
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+
+if (RC.getExecutionProfile()=='default'){
+    def data = TestDataFactory.findTestData("excel_file_1")
+    } else {
+    def data = TestDataFactory.findTestData("excel_file_2")
+}
+```
+
+
+
 #Web UI
 * Alert
   * Accept Alert
