@@ -68,3 +68,35 @@ Generally, the recommended sequence is that:
 * **Check the Alerts:** Once the attack is completed, you can check the results in the Alerts tab. The alerts are classified as high, medium or low.
 
 [Read Original Doc](https://www.srijan.net/blog/intro-owasp-zed-attack-proxy)
+
+
+
+# Context includes:
+1. Authentication
+2. Session management
+3. Users management
+
+
+# Context: Form based authentication
+1. log-in from target url: https://pr-uat.iptquote.com/login.php
+2. Login Request POST Data: username={%username%}&password={%password%}&proceed=login
+3. Set params as: username =password
+4. Include regex pattern for logged in or logged out response
+Regex pattern for logged in response :- \Qa href=”https://pr-uat.iptquote.com/login.php?proceed=logout\E
+
+![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic3-650x365.jpg)
+
+# Context: Session Management
+![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic4-650x365.jpg)
+
+
+# Context: User management
+For user management, we can add 2 users, one valid user let it be the “Existing user” here “superadmin” in our example and other is “Test User” invalid user.
+
+![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic5-650x365.jpg)
+
+# Spider url attack applied to “Test user”
+
+
+
+# Spider url attack for existing valid user “Superadmin”
