@@ -5,6 +5,8 @@ https://mikethetesternz.wordpress.com/2018/10/31/30-days-of-security-testing-day
 
 # Tools
 
+https://securityheaders.com/?q=augustahitech.com&followRedirects=on
+
 Some tools include:
 
 * **BDD Security.** A security testing automation framework. This uses a natural language syntax to describe security functions as features.
