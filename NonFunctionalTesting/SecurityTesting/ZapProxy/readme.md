@@ -73,8 +73,8 @@ Generally, the recommended sequence is that:
 
 # Context includes:
 1. Authentication
-2. Session management
-3. Users management
+2. Session Management
+3. Users Management
 
 
 # Context: Form based authentication
@@ -85,6 +85,19 @@ Generally, the recommended sequence is that:
 Regex pattern for logged in response :- \Qa href=”https://pr-uat.iptquote.com/login.php?proceed=logout\E
 
 ![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic3-650x365.jpg)
+
+## Example - 2
+
+Authentication-
+
+* Select authentication Form Based Form
+
+* Target URLs' and Username and Password are shown prefilled once you include the context of post request as it shown as like below:-
+Login Request POST Data: username={%username%}&password={%password%}&proceed=login
+* Set Parameters as a Username and Password.* Include regex pattern for logged in or logged out response.
+* You need to find the pattern in response view at the right side.
+* Find out the log out link and select it and Flag as context and select logged in indicator.
+* Its set the regex log-out pattern automatically  in “Form Based Authentication”
 
 # Context: Session Management
 ![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic4-650x365.jpg)
