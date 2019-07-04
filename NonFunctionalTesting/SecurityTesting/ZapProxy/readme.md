@@ -108,6 +108,14 @@ For user management, we can add 2 users, one valid user let it be the “Existin
 
 ![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic5-650x365.jpg)
 
+## Example - 2
+Context- User Management
+* You need to add 2 users here, one is existing users while recorded the script and another is invalid user which you need to be added. For example test@gmail.com
+* Check the Forced User Mode should be enable before attacking it. (Forced User Mode placed at top icon)
+We can select the get request and applied attack for spider and select test user/invalid user and attack on site.
+If invalid user is shown in the response, it means user able login through invalid user otherwise scenario is passing.
+
+
 # Spider url attack applied to “Test user”
 If spider url attack applied to the Test user returns get_login.php (error_message), also once spider attack completed “Test User” accesses home url only. uri’s covered: 31 is shown in the screenshot, where as only scan through https://pr-uat.iptquote.com
 
