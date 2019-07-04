@@ -67,3 +67,4 @@ Generally, the recommended sequence is that:
  
 * **Check the Alerts:** Once the attack is completed, you can check the results in the Alerts tab. The alerts are classified as high, medium or low.
 
+[Read Original Doc](https://www.srijan.net/blog/intro-owasp-zed-attack-proxy)
