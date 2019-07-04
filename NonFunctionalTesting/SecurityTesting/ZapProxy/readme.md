@@ -27,9 +27,7 @@ You can save your session in ZAP with the extension .session and reuse it.
 
 Following are the types of attacks which ZAP provides:
 
-* **Quick Attack:** This helps you test the application using ZAP in the quickest way possible. Under the tab Quick Start, put the URL in the URL to attack field and click on the 'Attack' button. 
-
-ZAP will use its spider to crawl through the application, which will automatically scan all of the pages discovered. It will then use the active scanner to attack all of the pages. This is a useful way to perform an initial assessment of an application.
+* **Quick Attack:** This helps you test the application using ZAP in the quickest way possible. Under the tab Quick Start, put the URL in the URL to attack field and click on the 'Attack' button. ZAP will use its spider to crawl through the application, which will automatically scan all of the pages discovered. It will then use the active scanner to attack all of the pages. This is a useful way to perform an initial assessment of an application.
 
 * **Spider:** It is used to automatically discover new resources/URLs on your website. It visits those URLs, identifies the hyperlinks and adds them to the list.
 
