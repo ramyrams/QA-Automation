@@ -76,6 +76,9 @@ Generally, the recommended sequence is that:
 2. Session Management
 3. Users Management
 
+# Authentication
+
+![](https://i.stack.imgur.com/X8Azj.png)
 
 # Context: Form based authentication
 1. log-in from target url: https://pr-uat.iptquote.com/login.php
