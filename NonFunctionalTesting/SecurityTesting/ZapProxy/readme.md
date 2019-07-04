@@ -47,7 +47,7 @@ For using any other browser, go to the browser and go to Tools Menu -> Options -
 You just need to open the browser, hit the URL of your website (to be attacked) and crawl throughout the website. For crawling you can either use a tool or do it manually.
 
 The more you crawl the website, the more URLs ZAP will be able to find.
-Create a session: It is not mandatory to save a session. But if required, a session can be saved and used again in future after you are done with scanning the application. This is done before you start working on ZAP. As soon as you launch ZAP, it asks you if you want to persist your session and you can select the option accordingly.
+* **Create a session:** It is not mandatory to save a session. But if required, a session can be saved and used again in future after you are done with scanning the application. This is done before you start working on ZAP. As soon as you launch ZAP, it asks you if you want to persist your session and you can select the option accordingly.
 
 * **Create a context:** To create a new context right click on the site (to be attacked) and click on “Include in context”. 
 
