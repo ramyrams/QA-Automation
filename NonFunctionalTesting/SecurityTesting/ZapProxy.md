@@ -382,6 +382,109 @@ Carpet clearner
 Plastic bucket
 Paste - Aque fressh extra clean pure breath action
 
+
+
+Running Penetration Tests for your Website as a Simple Developer with OWASP ZAP
+https://medium.com/volosoft/running-penetration-tests-for-your-website-as-a-simple-developer-with-owasp-zap-493d6a7e182b
+
+Good One - Dynamic Scanning with OWASP ZAP for Identifying Security Threats
+https://medium.com/@PrakhashS/dynamic-scanning-with-owasp-zap-for-identifying-security-threats-complete-guide-52b3643eee04
+
+
+
+https://medium.com/@ethicalevil/how-http-proxies-read-tls-traffic-from-browsers-f15364e91226
+
+OWASP Top 10 2017 — Web Application Security Risks
+https://medium.com/@infosecsanyam/owasp-top-10-2017-web-application-security-risks-31f356491712
+
+
+https://www.slideshare.net/hacker0x01/owasp-top-10-2017-84029876
+
+
+Automating Security Testing of web applications using OWASP Zed Attack Proxy in Jenkins
+https://medium.com/@PrakhashS/automating-security-testing-of-web-applications-using-owasp-zed-attack-proxy-in-jenkins-aa0f9eafdcba
+
+ZAP Penetration Testing Tutorial to Detect Vulnerabilitie
+https://medium.com/@Toobler/zap-penetration-testing-a-simple-tutorial-to-detect-vulnerabilities-e9a8311182a9
+
+
+OWASP Security Knowledge Framework
+https://www.peerlyst.com/posts/introduction-owasp-security-knowledge-framework-project
+
+SQL Injection in API - Time and Boolean based
+https://medium.com/bugbountywriteup/sql-injection-time-and-boolean-based-27239b6a55e8
+
+
+APIdays Paris 2018 - Business Security vs. OWASP Top 10, Jean-Baptiste Aviat, CTO, Sqreen
+https://www.youtube.com/watch?v=JLZKKTgU30o
+
+
+Security Champions Playbook
+https://www.peerlyst.com/posts/security-champions-playbook-alexander-antukh
+
+
+
+Catch vulnerabilities before pushing to production
+Avoid PHP SQL injections
+Automate security testing in your CI
+Integrate security tools in your workflow
+How to secure your infrastructure
+How to meet your application security needs
+
+
+https://code.likeagirl.io/links-for-getting-started-in-application-security-cc529d969cc6
+
+
+
+https://blog.appsecco.com/automating-discovery-and-exploiting-dom-client-xss-vulnerabilities-using-sboxr-part-1-2e55c120c9e1
+
+
+Getting Started with AppSec
+https://medium.com/faun/getting-started-with-appsec-1dfaf1181e53
+
+
+https://code.likeagirl.io/pushing-left-like-a-boss-part-4-secure-coding-3a544dd30e20
+
+
+
+XSS : Crash Course
+https://medium.com/blue-space/xss-crash-course-aee555d525d3
+
+
+Using Retire.js with ZAP to identify vulnerabilities in JavaScript libraries
+https://medium.com/@PrakhashS/using-retire-js-with-zap-to-identify-vulnerabilities-in-javascript-libraries-7baad56690aa
+
+
+Security Testing for APIs using ZAP
+https://medium.com/@PrakhashS/security-testing-for-apis-using-zap-5df8ec07a131
+
+
+Automating the boring stuff in development using ZAP and Jenkins : continuous Integration
+https://medium.com/@PrakhashS/automating-the-boring-stuffs-using-zap-and-jenkins-continues-integration-d4461a6ace1a
+
+
+Automating Security Testing of web applications using OWASP Zed Attack Proxy in Jenkins
+https://medium.com/@PrakhashS/automating-security-testing-of-web-applications-using-owasp-zed-attack-proxy-in-jenkins-aa0f9eafdcba
+
+
+OWASP Top 10: Real-World Examples (Part 1)
+https://medium.com/@cxosmo/owasp-top-10-real-world-examples-part-1-a540c4ea2df5
+
+OWASP Top 10: Real-World Examples (Part 2)
+https://medium.com/@cxosmo/owasp-top-10-real-world-examples-part-2-3cdb3bebc976
+
+Owasp-Security Knowledge Framework (SKF) Installation Guide
+https://medium.com/@priyankajain997/installing-security-knowledge-framework-skf-233f08a6c1ff
+
+
+OWASP ZAP  Automated Pen Test with Jenkins
+https://medium.com/@priyank.it/owasp-zap-automated-pen-test-with-jenkins-e4f155a33f6f
+
+
+OWASP ZAP — Security testing technique
+https://medium.com/@suthagar23/owasp-zap-security-testing-technique-3c6966d1b50
+
+
 Mubbing system
 
 http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6823/pdf/imm6823.pdf
