@@ -96,7 +96,13 @@ For user management, we can add 2 users, one valid user let it be the “Existin
 ![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic5-650x365.jpg)
 
 # Spider url attack applied to “Test user”
+If spider url attack applied to the Test user returns get_login.php (error_message), also once spider attack completed “Test User” accesses home url only. uri’s covered: 31 is shown in the screenshot, where as only scan through https://pr-uat.iptquote.com
 
-
+https://www.toobler.com/wp-content/uploads/2016/03/blogpic6-650x365.jpg
 
 # Spider url attack for existing valid user “Superadmin”
+
+Here spider url attack applied to the Existing valid user. That is user with super admin logged in credentials. In the attached screenshots returns “POST login.php ( request _url) if selected, returns Uri’s covered 182 for the valid user. He can access all sites.
+
+https://www.toobler.com/wp-content/uploads/2016/03/blogpic7-650x365.jpg
+
