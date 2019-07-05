@@ -122,11 +122,18 @@ If invalid user is shown in the response, it means user able login through inval
 # Spider url attack applied to “Test user”
 If spider url attack applied to the Test user returns get_login.php (error_message), also once spider attack completed “Test User” accesses home url only. uri’s covered: 31 is shown in the screenshot, where as only scan through https://pr-uat.iptquote.com
 
-https://www.toobler.com/wp-content/uploads/2016/03/blogpic6-650x365.jpg
+![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic6-650x365.jpg
 
 # Spider url attack for existing valid user “Superadmin”
 
 Here spider url attack applied to the Existing valid user. That is user with super admin logged in credentials. In the attached screenshots returns “POST login.php ( request _url) if selected, returns Uri’s covered 182 for the valid user. He can access all sites.
 
-https://www.toobler.com/wp-content/uploads/2016/03/blogpic7-650x365.jpg
+![](https://www.toobler.com/wp-content/uploads/2016/03/blogpic7-650x365.jpg
+
+
+
+
+![](https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a1b75e95b9c-600x470.png)
+![](https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b61201f45-1024x508.png)
+![](https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b84a203ce-1024x223.png)
 
