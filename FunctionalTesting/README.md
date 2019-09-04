@@ -1,3 +1,31 @@
+Types of testing
+Functional types of testing
+* Functional testing
+* GUI Testing
+* Security and Access Control Testing
+* Interoperability Testing
+
+Non-functional types of testing
+* Performance testing:
+  * Performance and Load Testing
+  * Stress Testing
+  * Stability / Reliability Testing
+  * Volume testing
+
+* Installation testing
+* Usability Testing
+* Failover and Recovery Testing
+* Configuration Testing
+
+Change-Related Types of Testing
+* Smoke Testing
+* Regression testing
+* Re-testing
+* Build Verification Test
+* Sanity Testing
+ 
+ 
+
 
 Types of Functional testing are
 * Unit Testing
