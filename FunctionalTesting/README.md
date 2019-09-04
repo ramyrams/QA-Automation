@@ -32,7 +32,7 @@ After making the necessary changes, such as fixing the bug / defect, the softwar
 
 
 # Smoke Testing
-https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_smoked_test_pass.jpg
+![1](https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_smoked_test_pass.jpg)
 
 * The concept of smoke testing came from the engineering environment:
 * “When the commissioning of the new equipment (” hardware “), it was considered that the test is successful, if there is no smoke from the plant.”
@@ -42,7 +42,7 @@ https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_smoked
 * To facilitate the work, save time and human resources, it is recommended to implement the automation of test scenarios for smoke testing.
 
 # Regression Testing
-https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_testing_analisis.jpg
+![1](https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_testing_analisis.jpg)
 
 Regression testing is a type of testing aimed at checking changes made in an application or the environment (fixing a defect, merging code, migrating to another operating system, database, web server or application server) to confirm the fact that the existing functionality is working as before. Regression can be both functional and non-functional tests.
 
@@ -54,7 +54,7 @@ Software Testing Education & Research, described 3 basic types of regression tes
 * Side effect regression is an attempt to prove that a recent change in code or data has broken other parts of the application being developed
 
 # Build Verification Test
-https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_Thorough.jpg
+![1](https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_Thorough.jpg)
 
 Testing aimed at determining the compliance of the released version with the quality criteria for the start of testing. For its purposes is the analogue of Smoke Testing, aimed at accepting a new version for further testing or operation. In depth, it can penetrate further, depending on the requirements for the quality of the released version.
 
@@ -64,6 +64,6 @@ Sanitary testing is a narrowly targeted test sufficient to prove that a particul
 
 
 # Sanity vs Smoke testing
-https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_regression_testing.jpg
+![1](https://newline.tech/wp-content/uploads/2018/03/Illustration_for_nlt_blog_regression_testing.jpg)
 
 Some sources mistakenly believe that Sanitary and Smoke testing is the same thing. We believe that these types of testing have “motion vectors” with different directions. Unlike Smoke testing, Sanity testing is directed deep into the function being tested, while smoke is directed in breadth, to cover the tests with as much functionality as possible in the shortest possible time.
