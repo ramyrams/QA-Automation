@@ -246,5 +246,23 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 ```
 	
-	
+
+# Postman Echo
+```javascript
+pm.sendRequest('https://postman-echo.com/time/now', function (err, res) {
+    if (err) { console.log(err); }
+    else {
+        var currentTime = res.stream.toString();
+        console.log(currentTime);
+        pm.environment.set("currentTime", currentTime);
+    }
+});
+```
+
+# Workflows
+```javascript
+postman.setNextRequest(“Request name");
+postman.setNextRequest(null);
+```
+
 	
