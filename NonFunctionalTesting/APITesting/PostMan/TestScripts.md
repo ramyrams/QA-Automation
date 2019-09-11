@@ -37,6 +37,21 @@ var myVar = pm.globals.get("myVar");
 console.log(myVar);
 ```
 
+# Local variables
+``` javascript
+Local variables are only available withing the request that has set them or when using Newman / Collection runner during the entire exection.
+
+When to use:
+
+whenever you would like to override all other variable scopes — for whatever reason. Not sure though then this is needed.
+Setting
+
+pm.variables.set('myVariable', MY_VALUE);
+Getting
+
+pm.variables.get('myVariable', MY_VALUE);
+Removing
+```
 
 # Response handling
 
@@ -322,5 +337,27 @@ const response = xml2Json(responseBody);
 ```
 
 
+# pm.sendRequest
+```javascript
+//Allows to send simple HTTP(S) GET requests from tests and pre-request scripts. Example:
+pm.sendRequest('http://example.com', function (err, res) {
+    console.log(err ? err : res.json());
+});
+
+Full-option HTTP(S) request:
+
+const postRequest = {
+    url: 'http://example.com', method: 'POST',
+    header: 'X-Foo:foo',
+    body: {
+        mode: 'raw',
+        raw: JSON.stringify({ name: 'John' })
+    }
+};
+pm.sendRequest(postRequest, function (err, res) {
+    console.log(err ? err : res.json());
+});
+
+```
 
 
