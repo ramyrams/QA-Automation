@@ -75,3 +75,62 @@ pm.test("Successful POST request", function () {
     pm.expect(pm.response.code).to.be.oneOf([201,202]);
 });
 ```
+
+
+
+# Validate response structure
+```javascript
+//JSON schema validation with tv4
+var schema = {
+ "items": {
+ "type": "boolean"
+ }
+};
+var data1 = [true, false];
+var data2 = [true, 123];
+
+pm.test('Schema is valid', function() {
+  pm.expect(tv4.validate(data1, schema)).to.be.true;
+  pm.expect(tv4.validate(data2, schema)).to.be.true;
+});
+
+//JSON schema validation with ajv
+var Ajv = require('ajv'),
+    ajv = new Ajv({logger: console}),
+    schema = {
+        "properties": {
+            "alpha": {
+                "type": "boolean"
+            }
+        }
+    };
+
+pm.test('Schema is valid', function() {
+    pm.expect(ajv.validate(schema, {alpha: true})).to.be.true;
+    pm.expect(ajv.validate(schema, {alpha: 123})).to.be.false;
+});
+```
+
+
+
+# Encode/decode
+### Decode base64 data
+```javascript
+// Assume `base64Content` has a base64 encoded value
+var rawContent = base64Content.slice('data:application/octet-stream;base64,'.length);
+
+// CryptoJS is an inbuilt object, documented here: https://www.npmjs.com/package/crypto-js
+var intermediate = CryptoJS.enc.Base64.parse(base64content);
+pm.test('Contents are valid', function() {
+  pm.expect(CryptoJS.enc.Utf8.stringify(intermediate)).to.be.true; // a check for non-emptiness
+});
+
+### Convert XML body to a JSON object
+var jsonObject = xml2Json(responseBody);
+
+
+## Send an asynchronous request
+pm.sendRequest("https://postman-echo.com/get", function (err, response) {
+    console.log(response.json());
+});
+```
