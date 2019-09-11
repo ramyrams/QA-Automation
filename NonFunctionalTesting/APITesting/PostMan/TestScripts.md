@@ -1,9 +1,10 @@
-
 # Global variables
 
 ## Setting
+```javascript
 //Set a global variable
 pm.globals.set('myVariable', MY_VALUE);
+```
 
 ##Getting
 //Get a global variable
@@ -14,8 +15,5 @@ pm.variables.get('myVariable');
 //Clear a global variable
 pm.globals.unset('myVariable');
 
-Remove ALL global variables (rather unusual)
+//Remove ALL global variables (rather unusual)
 pm.globals.clear();
-
-# Variables
-var value = pm.variables.get("variable_key");
