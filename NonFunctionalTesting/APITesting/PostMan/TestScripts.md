@@ -245,6 +245,48 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 
 ```
+
+```javascript
+pm.test("Your test name", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.value).to.eql(100);
+});
+
+
+//Check if status code is 200:
+pm.response.to.have.status(200);
+
+//Checking multiple status codes:
+pm.expect(pm.response.code).to.be.oneOf([201,202]);
+
+//Response time below 100ms:
+pm.expect(pm.response.responseTime).to.be.below(9);
+
+
+//Header exists:
+pm.response.to.have.header(X-Cache');
+pm.expect(pm.response.headers.get('X-Cache')).to.eql('HIT');
+
+
+//Cookie exists:
+pm.expect(pm.cookies.has('sessionId')).to.be.true;
+pm.expect(pm.cookies.get('sessionId')).to.eql(’ad3se3ss8sg7sg3');
+
+//Any content type / HTML responses
+pm.response.to.have.body("OK");
+pm.response.to.have.body('{"success"=true}');
+Partial body match / body contains:
+pm.expect(pm.response.text()).to.include('Order placed.');
+
+## JSON responses
+const response = pm.response.json();
+pm.expect(response.age).to.eql(30);
+pm.expect(response.name).to.eql('John);
+
+//Nested value check:
+pm.expect(response.products.0.category).to.eql('Detergent');
+```
+
 	
 
 # Postman Echo
@@ -266,3 +308,12 @@ postman.setNextRequest(null);
 ```
 
 	
+# XML responses
+```javascript
+//Convert XML body to JSON:
+const response = xml2Json(responseBody);
+```
+
+
+
+
