@@ -6,7 +6,7 @@
 pm.globals.set('myVariable', MY_VALUE);
 ```
 
-##Getting
+## Getting
 ```javascript
 //Get a global variable
 pm.globals.get('myVariable');
@@ -23,4 +23,3 @@ pm.globals.unset('myVariable');
 //Remove ALL global variables (rather unusual)
 pm.globals.clear();
 ```
-
