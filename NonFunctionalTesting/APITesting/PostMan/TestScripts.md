@@ -31,6 +31,13 @@ pm.globals.clear();
 var value = pm.variables.get("variable_key");
 ```
 
+# Logging / Debugging variables
+``` javascript
+var myVar = pm.globals.get("myVar");
+console.log(myVar);
+```
+
+
 # Response handling
 
 ```javascript
