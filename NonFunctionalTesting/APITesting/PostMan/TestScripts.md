@@ -309,6 +309,50 @@ pm.expect(response.name).to.eql('John);
 pm.expect(response.products.0.category).to.eql('Detergent');
 ```
 
+
+### pm.response
+```javascript
+pm.response.code:Number
+pm.response.reason():Function → String
+pm.response.headers:HeaderList
+pm.response.responseTime:Number
+pm.response.text():Function → String
+pm.response.json():Function → Object
+```
+
+### pm.expect
+```javascript
+pm.response.to.have.status(code:Number)
+pm.response.to.have.status(reason:String)
+pm.response.to.have.header(key:String)
+pm.response.to.have.header(key:String, optionalValue:String)
+pm.response.to.have.body()
+pm.response.to.have.body(optionalValue:String)
+pm.response.to.have.body(optionalValue:RegExp)
+pm.response.to.have.jsonBody()
+pm.response.to.have.jsonBody(optionalExpectEqual:Object)
+pm.response.to.have.jsonBody(optionalExpectPath:String)
+pm.response.to.have.jsonBody(optionalExpectPath:String, optionalValue:*)
+pm.response.to.have.jsonSchema(schema:Object)
+pm.response.to.have.jsonSchema(schema:Object, ajvOptions:Object)
+```
+
+### pm.response.to.be.*
+```javascript
+pm.response.to.be.info
+pm.response.to.be.success
+pm.response.to.be.redirection
+pm.response.to.be.clientError
+pm.response.to.be.serverError
+pm.response.to.be.error
+pm.response.to.be.ok
+pm.response.to.be.accepted
+pm.response.to.be.badRequest
+pm.response.to.be.unauthorized
+pm.response.to.be.forbidden
+pm.response.to.be.notFound
+pm.response.to.be.rateLimited
+```
 	
 
 # Postman Echo
