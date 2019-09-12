@@ -309,6 +309,21 @@ pm.expect(response.name).to.eql('John);
 pm.expect(response.products.0.category).to.eql('Detergent');
 ```
 
+### Asserting Datatype
+```javascript
+pm.expect(response.id).to.be.a(‘number’);
+pm.expect(response.name).to.be.a(‘string’);
+pm.expect(response.isDeleted).to.be.a(‘boolean’)
+pm.expect(response.isDeleted).to.be.a(‘null’)
+pm.expect(response.isDeleted).to.be.a(‘object’)
+pm.expect(element.id).to.be.an('array');
+```
+
+### Asserting Length
+```javascript
+pm.expect(pm.response.json().length).to.be.greaterThan(3401);
+```
+
 
 ### pm.response
 ```javascript
