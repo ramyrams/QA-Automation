@@ -367,6 +367,7 @@ pm.response.to.be.unauthorized
 pm.response.to.be.forbidden
 pm.response.to.be.notFound
 pm.response.to.be.rateLimited
+pm.response.to.be.json;
 ```
 	
 
