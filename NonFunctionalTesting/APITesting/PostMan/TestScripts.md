@@ -369,7 +369,98 @@ pm.response.to.be.notFound
 pm.response.to.be.rateLimited
 pm.response.to.be.json;
 ```
-	
+
+### pm.expect
+```javascript
+pm.expect(pm.response.headers.get("Content-Type")).to.eql("application/json");
+
+pm.expect(jsonData.data.owner).to.have.property('property_name','property_value)
+
+pm.expect('foo').to.have.lengthOf(3); /
+pm.expect(jsonData.data[0].userId).to.exist //check if it is not equal to undefined
+
+pm.expects(pm.response.json().enabled).to.be.true;
+pm.expects(pm.response.json().enabled).to.be.false;
+
+pm.expect(pm.response.json().value).to.equal("viktor");
+pm.expect(pm.response.text()).to.include("wheeled")
+pm.expect(jsonData.name).to.eql('Sand Crawler')
+
+pm.expect(pm.response.code).to.be.oneOf([201,202]);
+pm.expect(pm.response.json().value).to.eql(12345);
+pm.expects(pm.response.json().value).to.equal(10);
+pm.expect(pm.response.json().value).to.be.below(100);
+pm.expects(pm.response.json().value).to.be.within(1, 20);
+pm.expects(pm.response.json().values).to.be.empty;
+pm.expect(pm.response.json().values).not.empty;
+pm.expects(pm.response.json().values).to.have.lengthOf(5);
+pm.expects(pm.response.json().values).to.have.lengthOf.above(5);
+pm.expect(jsonData.data.length).to.be.above(0);
+
+pm.expect(token).not.to.eql(null)
+pm.expect(jsonData.data[0].userId).to.not.be.null; //if it is not equal to null
+
+pm.expect(json).to.have.property('userId');
+pm.expect(json).to.have.property('id');
+pm.expect(json).to.have.property('title');
+pm.expect(json).to.have.property('bady');
+
+\\Verifying request
+pm.expect(req).to.have.param('orderby', 'date');
+pm.expect(req).to.not.have.param('orderby');
+pm.expect(req).to.have.cookie('session_id', '1234');
+pm.expect(req).to.not.have.cookie('PHPSESSID');
+
+
+\\Verifying Response body
+pm.expect(response).to.be.json;
+pm.expect(response).to.be.html;
+pm.expect(response).to.be.text;
+
+
+\\Verifying Header information
+expect(response).to.have.status(500);
+expect(response).to.have.header('x-api-key');
+expect(response).to.have.header('content-type', 'text/plain');
+expect(request).to.have.header('content-type', /^text/);
+expect(response).to.have.header('content-type', 'application/json; charset=utf-8');
+expect(response).to.have.headers;
+
+
+
+expect('127.0.0.1').to.be.an.ip;
+```
+
+
+### pm.response
+```javascript
+pm.response.to.have.jsonBody("");
+pm.response.to.not.have.jsonBody("error")
+
+
+pm.response.to.have.property(‘status’, ‘OK’);
+pm.response.to.have.header(“Content-Type”);
+
+
+pm.response.to.not.be.error;
+pm.response.to.be.error
+
+pm.response.to.have.jsonBody("");
+pm.response.to.not.have.jsonBody("error")
+
+
+
+
+response.should.have.status(200); 
+response.body.should.not.be.empty;
+response.ok.should.be.true;            // sucess with code 2XX
+response.error.should.be.true; //failures
+
+```
+
+
+
+
 
 # Postman Echo
 ```javascript
