@@ -415,3 +415,275 @@ http://localhost:8082/spring-boot-rest/auth/foos/{{id}}
 pm.expect(pm.response.json().id).to.equal(pm.variables.get("id"))
 
 
+
+### How find object in array by property value?
+
+{
+    "companyId": 10101,
+    "regionId": 36554,
+    "filters": [
+        {
+            "id": 101,
+            "name": "VENDOR",
+            "isAllowed": false
+        },
+        {
+            "id": 102,
+            "name": "COUNTRY",
+            "isAllowed": true
+        },
+        {
+            "id": 103,
+            "name": "MANUFACTURER",
+            "isAllowed": false
+        }
+    ]
+}
+ 
+pm.test("Check the country filter is allowed", function () {
+    // Parse response body
+    var jsonData = pm.response.json();
+
+    // Find the array index for the COUNTRY
+    var countryFilterIndex = jsonData.filters.map(
+            function(filter) {
+                return filter.name; // <-- HERE is the name of the property
+            }
+        ).indexOf('COUNTRY'); // <-- HERE is the value we are searching for
+
+    // Get the country filter object by using the index calculated above
+    var countryFilter = jsonData.filters[countryFilterIndex];
+
+    // Check that the country filter exists
+    pm.expect(countryFilter).to.exist;
+
+    // Check that the country filter is allowed
+    pm.expect(countryFilter.isAllowed).to.be.true;
+});
+
+
+### How find nested object by object name
+
+{
+    "id": "5a866bd667ff15546b84ab78",
+    "limits": {
+        "59974328d59230f9a3f946fe": {
+            "lists": {
+                "openPerBoard": {
+                    "count": 13,
+                    "status": "ok", <-- CHECK ME
+                    "disableAt": 950,
+                    "warnAt": 900
+                },
+                "totalPerBoard": {
+                    "count": 20,
+                    "status": "ok",  <-- CHECK ME
+                    "disableAt": 950,
+                    "warnAt": 900
+                }
+            }
+        }
+    }
+}
+
+function findObjectContaininsLists(limits) {
+    // Iterate over the properties (keys) in the object
+    for (var key in limits) {
+        // console.log(key, limits[key]);
+        // If the property is lists, return the lists object
+        if (limits[key].hasOwnProperty('lists')) {
+            // console.log(limits[key].lists);
+            return limits[key].lists;
+        }
+    }
+}
+
+### How to compare value of a response with an already defined variable?
+// Getting values from response
+var jsonData = pm.response.json();
+var username = jsonData.userName;
+
+// Saving the value for later use
+pm.globals.set("username", username);
+
+
+pm.test("Your test name", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.value).to.eql(pm.globals.get("username"));
+});
+
+### How to compare value of a response against multiple valid values?
+{
+    "SiteId": "aaa-ccc-xxx",
+    "ACL": [
+        {
+            "GroupId": "xxx-xxx-xx-xxx-xx",
+            "TargetType": "Subscriber"
+        }
+    ]
+}
+
+pm.test("Should be subscriber or customer", function () {
+    var jsonData = pm.response.json();
+    pm.expect(.TargetType).to.be.oneOf(["Subscriber", "Customer"]);
+});
+
+
+### How to parse a HTML response to extract a specific value?
+
+
+<form name="loginForm" action="/login" method="POST">
+        <input type="hidden" name="_csrf" value="a0e2d230-9d3e-4066-97ce-f1c3cdc37915" />
+        <ul>
+            <li>
+                <label for="username">Username:</label>
+                <input required type="text" id="username" name="username" />
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input required type="password" id="password" name="password" />
+            </li>
+            <li>
+                <input name="submit" type="submit" value="Login" />
+            </li>
+        </ul>
+</form>
+
+
+// Parse HTML and get the CSRF token
+responseHTML = cheerio(pm.response.text());
+console.log(responseHTML.find('[name="_csrf"]').val());
+
+### How to do a partial object match assertion?
+
+pm.test("Should include object", function () {
+    var jsonData = pm.response.json();
+    var expectedObject = {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "companyName": "ACME"
+    }
+    pm.expect(jsonData).to.include(expectedObject);
+
+    // Optional check if properties actually exist
+    pm.expect(jsonData).to.have.property('uid');
+    pm.expect(jsonData).to.have.property('pid');
+});
+
+
+### Sending asynchronous request
+pm.sendRequest("https://staging-server:10000/api/person/viktor", function(err, resp) {
+  var person = resp.json();
+  pm.test("Person was updated correctly", function() {
+    pm.expect(person.city).to.equal("stockholm");
+  }
+} 
+
+
+
+// we can do stuff to the data here to ensure it fits our needs
+// for example, perhaps we want to ensure the user is over 18
+var age = parseInt(jsonData.results[0].dob.age, 10);
+if (age<18) age = age + 18;
+
+
+### Assert: An array to be empty
+pm.expect([2]).to.be.an(‘array’).that.is.empty;
+
+### Verify objects
+m.test(“Test Name”, function(){
+
+let a= {
+
+“name” : “Harish”
+
+};
+
+let b= {
+
+“name”  : “Harish”
+
+};
+
+pm.expect(a).to.eql(b);
+
+});
+
+
+### Loop
+for(i=0; i < response.body.length; i++) {
+          console.log(response.body[i])
+          response.body[i].should.have.property('id')
+      }
+
+
+
+// expect interface
+expect(response).to.have.header('content-type', 'application/json');
+
+// should interface
+response.should.have.header('content-type', 'application/json');
+
+
+
+var responseJSON = pm.response.json();
+for(i=0; i< pm.response.json().length;i++){
+	console.log(responseJSON[i].organizationTypeID);
+}
+
+
+pm.sendRequest({
+    url: pm.environment.get("api-url") + 'v1/authenticate',
+    method: 'POST',
+    header: {
+        'content-type': 'application/json',
+        'x-site-code': pm.environment.get("x-site-code")
+    },
+    body: {
+        mode: 'raw',
+        raw: JSON.stringify({ email: pm.environment.get("email"), password: pm.environment.get("password") })
+    }
+}, function (err, res) {
+    pm.environment.set("authorization", "Bearer " + res.json().token);
+});
+
+
+pm.sendRequest({
+      url:  pm.environment.get("OAUTH_URL")+"/uaa/oauth/token", 
+      method: 'POST',
+      header: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Authorization': 'Basic Abcdefghijk=='
+      },
+      body: {
+          mode: 'urlencoded',
+          urlencoded: [
+            {key: "grant_type", value: "password", disabled: false},
+            {key: "username", value: pm.environment.get("OAUTH_USERNAME"), disabled: false},
+            {key: "password", value: pm.environment.get("OAUTH_PASSWORD"), disabled: false}
+        ]
+      }
+  }, function (err, res) {
+        pm.globals.set("token", res.json().access_token);
+  });
+
+# on a pre-run script
+
+pm.environment.set("token", pm.environment.get("admin_token"));
+
+pm.sendRequest({
+    url: "http://127.0.0.1:5000/api/toggles/{{$guid}}", // PM dynamic var
+    method: "PUT",
+    header: {
+        "Content-Length": "1",
+        "Authorization": "Bearer {{token}}",
+        "Content-Type": "application/json"
+    },
+    body: {},
+    function (err, res) {
+        pm.environment.set("toggle_id", res.json().name)
+    }
+});
+
+
