@@ -361,3 +361,57 @@ pm.sendRequest(postRequest, function (err, res) {
 ```
 
 
+
+var timeInSeconds = parseInt((new Date()).getTime() / 1000);
+var sigString = postman.getGlobalVariable("apiKey") + postman.getGlobalVariable("secretKey") + timeInSeconds
+var token = CryptoJS.SHA256(sigString);
+postman.setGlobalVariable("token", token);
+
+
+
+### Code reuse between requests
+
+postman.setGlobalVariable("loadHelpers", function loadHelpers() {
+    let helpers = {};
+ 
+    helpers.verifyCount = function verifyCount(expectedCount) {
+        var jsonData = JSON.parse(responseBody);
+        tests["Response count is: " + expectedCount] 
+            = jsonData.length === expectedCount;
+    }
+ 
+    // ...additional helpers
+ 
+    return helpers;
+} + '; loadHelpers();');
+
+
+
+
+//Then from other requests helpers are taken from global variables and verification functions can be used:
+var helpers = eval(globals.loadHelpers);
+helpers.verifyCount(4);
+
+
+### Loop
+var jsonData = JSON.parse(responseBody);
+var expectedCount = 4
+tests["Response count is: " + expectedCount] = jsonData.length === expectedCount;
+ 
+for(var i=1; i<=expectedCount; i++) {
+    tests["Verify id is: " + i] = jsonData[i-1].id === i;
+}
+
+### null
+pm.expect(pm.response.json().name).to.equal("Transformers")
+pm.expect(pm.response.json().id).to.be.not.null 
+m.response.json().id
+
+
+### Adding a GET Request
+
+http://localhost:8082/spring-boot-rest/auth/foos/{{id}}
+
+pm.expect(pm.response.json().id).to.equal(pm.variables.get("id"))
+
+
