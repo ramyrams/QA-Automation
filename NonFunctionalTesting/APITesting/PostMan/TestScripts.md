@@ -838,3 +838,74 @@ pm.sendRequest({
 });
 
 
+    response.body.id.should.equal(12345);
+    response.body.age.should.be.above(18).and.below(99);
+    response.body.firstName.should.be.a('string').and.not.empty;
+    response.body.lastName.should.be.oneOf(['Smith', 'Jones', 'Robinson']);
+
+
+
+https://postman-quick-reference-guide.readthedocs.io/en/latest/dynamic-variables.html
+
+
+### Request creation
+
+
+var requestUrl = pm.environment.get("url") + "/mediaitem/");
+
+pm.sendRequest(requestUrl, function (err, res) {
+    // do stuff
+});
+
+// Save the object as a variable.
+// JSON.stringify will serialize the object so that Postman can save it
+pm.globals.set('user', JSON.stringify(user));
+
+{
+    "user": {{user}}
+    "address": {
+        "street": "Foo"
+        "number": "2"
+        "city": "Bar"
+    }
+}
+
+
+function getRandomNumber(minValue, maxValue) {
+    return Math.floor(Math.random() * (maxValue - minValue +1)) + min;
+}
+
+var myRandomNumber = getRandomNumber(0, 100);
+
+### How to read links from response and execute a request for each of them?
+{
+    "links": [
+        "http://example.com/1",
+        "http://example.com/2",
+        "http://example.com/3",
+        "http://example.com/4",
+        "http://example.com/5"
+    ]
+}
+
+// Parse the response
+var jsonData = pm.response.json();
+
+// Check the response
+pm.test("Response contains links", function () {
+    pm.response.to.have.status(200);
+    pm.expect(jsonData.links).to.be.an('array').that.is.not.empty;
+});
+
+
+// Iterate over the response
+var links = jsonData.links;
+
+links.forEach(function(link) {
+    pm.test("Status code is 404", function () {
+        pm.sendRequest(link, function (err, res) {
+            pm.expect(res).to.have.property('code', 404);
+        });
+    });
+});
+
