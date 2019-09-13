@@ -521,7 +521,7 @@ postman.setGlobalVariable("token", token);
 
 
 ### Code reuse between requests
-
+```javascript
 postman.setGlobalVariable("loadHelpers", function loadHelpers() {
     let helpers = {};
  
@@ -542,9 +542,10 @@ postman.setGlobalVariable("loadHelpers", function loadHelpers() {
 //Then from other requests helpers are taken from global variables and verification functions can be used:
 var helpers = eval(globals.loadHelpers);
 helpers.verifyCount(4);
-
+```
 
 ### Loop
+```javascript
 var jsonData = JSON.parse(responseBody);
 var expectedCount = 4
 tests["Response count is: " + expectedCount] = jsonData.length === expectedCount;
@@ -552,23 +553,25 @@ tests["Response count is: " + expectedCount] = jsonData.length === expectedCount
 for(var i=1; i<=expectedCount; i++) {
     tests["Verify id is: " + i] = jsonData[i-1].id === i;
 }
+```
 
 ### null
+```javascript
 pm.expect(pm.response.json().name).to.equal("Transformers")
 pm.expect(pm.response.json().id).to.be.not.null 
 m.response.json().id
-
+```
 
 ### Adding a GET Request
-
+```javascript
 http://localhost:8082/spring-boot-rest/auth/foos/{{id}}
 
 pm.expect(pm.response.json().id).to.equal(pm.variables.get("id"))
-
+```
 
 
 ### How find object in array by property value?
-
+```javascript
 {
     "companyId": 10101,
     "regionId": 36554,
@@ -611,10 +614,10 @@ pm.test("Check the country filter is allowed", function () {
     // Check that the country filter is allowed
     pm.expect(countryFilter.isAllowed).to.be.true;
 });
-
+```
 
 ### How find nested object by object name
-
+```javascript
 {
     "id": "5a866bd667ff15546b84ab78",
     "limits": {
@@ -648,8 +651,10 @@ function findObjectContaininsLists(limits) {
         }
     }
 }
+```
 
 ### How to compare value of a response with an already defined variable?
+```javascript
 // Getting values from response
 var jsonData = pm.response.json();
 var username = jsonData.userName;
@@ -662,8 +667,10 @@ pm.test("Your test name", function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData.value).to.eql(pm.globals.get("username"));
 });
+```
 
 ### How to compare value of a response against multiple valid values?
+```javascript
 {
     "SiteId": "aaa-ccc-xxx",
     "ACL": [
@@ -678,10 +685,10 @@ pm.test("Should be subscriber or customer", function () {
     var jsonData = pm.response.json();
     pm.expect(.TargetType).to.be.oneOf(["Subscriber", "Customer"]);
 });
-
+```
 
 ### How to parse a HTML response to extract a specific value?
-
+```javascript
 
 <form name="loginForm" action="/login" method="POST">
         <input type="hidden" name="_csrf" value="a0e2d230-9d3e-4066-97ce-f1c3cdc37915" />
@@ -704,9 +711,10 @@ pm.test("Should be subscriber or customer", function () {
 // Parse HTML and get the CSRF token
 responseHTML = cheerio(pm.response.text());
 console.log(responseHTML.find('[name="_csrf"]').val());
+```
 
 ### How to do a partial object match assertion?
-
+```javascript
 pm.test("Should include object", function () {
     var jsonData = pm.response.json();
     var expectedObject = {
@@ -720,9 +728,10 @@ pm.test("Should include object", function () {
     pm.expect(jsonData).to.have.property('uid');
     pm.expect(jsonData).to.have.property('pid');
 });
-
+```
 
 ### Sending asynchronous request
+```javascript
 pm.sendRequest("https://staging-server:10000/api/person/viktor", function(err, resp) {
   var person = resp.json();
   pm.test("Person was updated correctly", function() {
@@ -736,12 +745,15 @@ pm.sendRequest("https://staging-server:10000/api/person/viktor", function(err, r
 // for example, perhaps we want to ensure the user is over 18
 var age = parseInt(jsonData.results[0].dob.age, 10);
 if (age<18) age = age + 18;
-
+```
 
 ### Assert: An array to be empty
+```javascript
 pm.expect([2]).to.be.an(‘array’).that.is.empty;
+```
 
 ### Verify objects
+```javascript
 m.test(“Test Name”, function(){
 
 let a= {
@@ -760,8 +772,10 @@ pm.expect(a).to.eql(b);
 
 });
 
+```
 
 ### Loop
+```javascript
 for(i=0; i < response.body.length; i++) {
           console.log(response.body[i])
           response.body[i].should.have.property('id')
@@ -846,10 +860,10 @@ pm.sendRequest({
 
 
 https://postman-quick-reference-guide.readthedocs.io/en/latest/dynamic-variables.html
-
+```
 
 ### Request creation
-
+```javascript
 
 var requestUrl = pm.environment.get("url") + "/mediaitem/");
 
@@ -876,8 +890,10 @@ function getRandomNumber(minValue, maxValue) {
 }
 
 var myRandomNumber = getRandomNumber(0, 100);
+```
 
 ### How to read links from response and execute a request for each of them?
+```javascript
 {
     "links": [
         "http://example.com/1",
@@ -908,4 +924,4 @@ links.forEach(function(link) {
         });
     });
 });
-
+```
