@@ -1,3 +1,5 @@
+https://postman-quick-reference-guide.readthedocs.io/en/latest/dynamic-variables.html
+
 
 # Global variables
 
