@@ -988,4 +988,65 @@ pm.globals.clear();
 
 
 
-	
+### Data TYPE
+```javascript
+expect( '1' ).to.be.a( 'string' );
+expect( 1 ).to.be.a( 'number' );
+expect( true ).to.be.a( 'boolean' );
+expect( {} ).to.be.an( 'object' );
+expect( null ).to.be.a( 'null' );
+expect( undefined ).to.be.a( 'undefined' );
+expect( null ).to.be.a( 'null' );
+expect( [] ).to.be.an( 'array' );
+expect( 0/0 ).to.be.a( 'number' );
+```
+### Compare
+```javascript
+var o = {};
+ 
+// x is truthy iff !!x is true.
+expect( 'John' ).to.be.ok;
+expect( true ).to.be.ok;
+expect( o ).to.be.ok;
+expect( 1 ).to.be.ok;
+expect( 0 ).to.be.not.ok;
+
+// y is falsy iff !!x is false.     
+expect( null ).to.be.not.ok;
+expect( o.member ).to.be.not.ok;
+expect( "" ).to.be.not.ok;  
+```
+http://www.zsoltnagy.eu/writing-automated-tests-with-mocha-and-chai/
+
+
+### satisfy
+```javascript
+expect(1).to.satisfy(function(num) { return num > 0; });
+
+yourVariable.should.satisfy(function (num) {
+    if ((num === 4) || (num === 5)) {
+        return true;
+    } else {
+        return false;
+    }
+});
+
+
+// delete all products, need token with admin role to complete this operation
+pm.test("response is ok and should delete all products", function() {
+pm.expect(pm.response.code).to.satisfy(function (status) {
+       if ((status === 204) || (status === 404)) {
+           return true;
+       } else {
+           return false;
+       }
+    });
+});
+
+```
+### With in or oneOf
+```javascript
+expect(7).to.be.within(5,10);
+expect(1).to.be.oneOf([1, 2, 3]);
+expect(1).to.not.be.oneOf([2, 3, 4]);
+```	
