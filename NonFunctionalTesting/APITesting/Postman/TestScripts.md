@@ -927,3 +927,65 @@ links.forEach(function(link) {
     });
 });
 ```
+
+
+
+### Status Check
+```javascript
+pm.test("Status code is 200 OK", function () {     
+    pm.response.to.have.status(200);  
+    pm.response.to.be.success;
+    pm.response.to.be.ok;     
+});
+
+
+pm.test("Status code is 302 Moved Temporarily", function () {     
+    pm.response.to.have.status(302);
+    pm.response.to.be.redirection
+});
+
+pm.test("Status code is 400 Bad Request", function () {     
+    pm.response.to.have.status(400);     
+    pm.response.to.be.clientError;
+    pm.response.to.be.badRequest;     
+});
+
+pm.test("Status code is 401 Unauthorized", function () {     
+    pm.response.to.have.status(401); 
+    pm.response.to.be.clientError;    
+    pm.response.to.be.unauthorized;
+     
+});
+
+pm.test("Status code is 404 Not Found", function () {     
+    pm.response.to.have.status(404);     
+    pm.response.to.be.clientError;
+    pm.response.to.be.notFound;     
+});
+
+pm.test("Status code is 500 Internal Server Error", function () {
+    pm.response.to.have.status(500);
+    pm.response.to.be.serverError;
+    pm.response.to.have.status("Internal Server Error");
+});
+```
+
+### Response Header Checks
+```javascript
+pm.test("Correct Headers Found", function () {
+    pm.expect(pm.response.headers.get('Content-Type')).to.eql('application/json')
+    pm.response.to.have.header("Date")===(new Date().toISOString());
+    pm.response.to.have.header("Content-Length");
+  
+});
+```
+
+### Clear Environment Data
+```javascript
+pm.environment.clear();
+pm.globals.clear();
+```
+
+
+
+	
