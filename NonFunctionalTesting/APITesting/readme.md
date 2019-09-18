@@ -30,6 +30,35 @@ JSON Schema
 API Testing
 Katalon
 
+
+
+* **Test Coverage:** Dynamically analyze how well your API tests match your API functionality and ensure that you are testing the most important aspects from your stakeholders' viewpoints. 
+* **Multi-environment Support:** SoapUI Pro lets you quickly change your test setup depending on the target environment.
+* **Test Debugging:** Improve your test quality and follow test flows step-by-step with our test debugging. The debugging interface simplifies test flow, variables, properties, requests, context and more—making test creation and improvement more streamlined.
+* **Complex Scenarios:** Perform and validate a login procedure while testing your enterprise messaging and capture client-server SOAP traffic. That's just one use case that SoapUI Pro can support, proving that our tool can handle the complexities of an enterprise architecture.
+* **Drag and Drop Test Creation:** Enhance your productivity with a code-free test environment. Create and run even the most complex test scenarios with drag and drop actions.
+
+
+### What must be checked when performing API testing?
+* Accuracy of data
+* Schema validation
+* HTTP status codes
+* Data type, validations, order and completeness
+* Authorization checks
+* Implementation of response timeout
+* Error codes in case API returns, and
+* Non-functional testing like performance and security testing
+
+### What is the best approach method to perform API testing?
+* Defining the correct input parameters
+* Verifying the calls of the mixture of two or more added value parameters
+* Defining the basic functionality and scope of the API program
+* Writing appropriate API test cases and making use of testing techniques such as equivalence class, boundary value, etc. to check the operability
+* Testing case execution
+* Comparing the test result with the expected result
+* Verifying the API behavior under conditions such as connection to files and so on.
+
+
 https://www.slideshare.net/TechWellPresentations/automate-rest-services-testing-with-restassured
 
 http://www.tjmaher.com/2018/11/jason-ioannides-api-testing-from-entry.html
