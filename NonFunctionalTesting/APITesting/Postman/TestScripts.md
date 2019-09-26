@@ -319,6 +319,16 @@ pm.expect(response.isDeleted).to.be.a(‘boolean’)
 pm.expect(response.isDeleted).to.be.a(‘null’)
 pm.expect(response.isDeleted).to.be.a(‘object’)
 pm.expect(element.id).to.be.an('array');
+
+expect('foo').to.be.a('string');
+expect({a: 1}).to.be.an('object');
+expect(null).to.be.a('null');
+expect(undefined).to.be.an('undefined');
+expect(new Error).to.be.an('error');
+expect(Promise.resolve()).to.be.a('promise');
+expect(new Float32Array).to.be.a('float32array');
+expect(Symbol()).to.be.a('symbol');
+
 ```
 
 ### Asserting Length
