@@ -894,6 +894,12 @@ function getRandomNumber(minValue, maxValue) {
 var myRandomNumber = getRandomNumber(0, 100);
 ```
 
+### Random
+```javascript
+console.log(Math.floor(Math.random() * 1000));
+console.log(_.random(0, 1000));
+```
+
 ### How to read links from response and execute a request for each of them?
 ```javascript
 {
