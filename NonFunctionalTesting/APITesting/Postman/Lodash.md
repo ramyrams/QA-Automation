@@ -55,3 +55,8 @@ pm.request.url.getQueryString()
 var query = {};
 pm.request.url.query.all().forEach((param) => { query[param.key] = param.value});
 ```
+
+https://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting
+http://zetcode.com/javascript/lodash/
+https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#_random
+https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d
