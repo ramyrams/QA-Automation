@@ -27,3 +27,13 @@ console.log(DeptJSON.departmentName);
 ```
 
 https://medium.com/building-ibotta/testing-arrays-and-objects-with-chai-js-4b372310fe6d
+
+### string manupulation
+```javascript
+var str = pm.response.json().url
+pm.environment.set('value', str.split('=', 2)[1])
+
+_.each(pm.response.json(), (arrItem) => {
+    pm.environment.set('value', arrItem[0].url.split('=', 2)[1])
+})
+```
