@@ -25,3 +25,5 @@ console.log(DeptJSON.departmentName);
 });
 
 ```
+
+https://medium.com/building-ibotta/testing-arrays-and-objects-with-chai-js-4b372310fe6d
