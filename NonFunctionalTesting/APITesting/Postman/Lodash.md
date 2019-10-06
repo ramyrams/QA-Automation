@@ -1,4 +1,8 @@
 
+//https://lodash.com/docs/4.17.15#find
+
+
+### Get the first object from the response
 ```javascript
 var user = _.find(pm.response.json(), { 
     firstName: "Jia", 
@@ -8,6 +12,7 @@ var user = _.find(pm.response.json(), {
 console.log(user.memberId)
 ```
 
+### search the perticular object from the response
 ```javascript
 //https://lodash.com/docs/4.17.15#find
 pm.test("Verify /api/DepartmentType endpoint is up and running", function(){
