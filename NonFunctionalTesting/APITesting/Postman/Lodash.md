@@ -37,3 +37,21 @@ _.each(pm.response.json(), (arrItem) => {
     pm.environment.set('value', arrItem[0].url.split('=', 2)[1])
 })
 ```
+
+
+```javascript
+itineraryId = itineraryId.replace("&","&amp;");
+
+var data = JSON.parse(postman.getResponseHeader("Location"));
+postman.setEnvironmentVariable("dataObj", data.href.substring(10));
+```
+
+
+### How to get to request parameters in Postman?
+```javascript
+pm.request.url.getQueryString()
+
+
+var query = {};
+pm.request.url.query.all().forEach((param) => { query[param.key] = param.value});
+```
