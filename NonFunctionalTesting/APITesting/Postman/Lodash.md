@@ -45,7 +45,11 @@ itineraryId = itineraryId.replace("&","&amp;");
 var data = JSON.parse(postman.getResponseHeader("Location"));
 postman.setEnvironmentVariable("dataObj", data.href.substring(10));
 ```
-
+```javascript
+// Using the _.uniq() function to create a new array within the replicated values
+let uniqueAnimals = ["Dog", "Cat", "Dog", "Cow", "Dog", "Lion", "Dog", "Horse"];
+pm.globals.set("uniqueAnimals", _.uniq(uniqueAnimals));
+```
 
 ### How to get to request parameters in Postman?
 ```javascript
