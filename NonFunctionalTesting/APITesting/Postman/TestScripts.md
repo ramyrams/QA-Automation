@@ -1023,8 +1023,12 @@ pm.globals.clear();
 
 
 
-### Data TYPE
+### Data Type
+
 ```javascript
+    pm.response.json().modelList.forEach(result => {
+        pm.expect(result).to.be.a('object').and.have.keys(listKey);
+    });
 expect( '1' ).to.be.a( 'string' );
 expect( 1 ).to.be.a( 'number' );
 expect( true ).to.be.a( 'boolean' );
