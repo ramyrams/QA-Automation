@@ -13,6 +13,20 @@ newman run https://www.getpostman.com/collections/24473d1926b7ff9a8567 -r progre
 To use more than one reporter, just simply add a comma and the name of the reporter:
 newman run https://www.getpostman.com/collections/24473d1926b7ff9a8567 -r cli,progress,junit
 
+npm install -g newman-reporter-<reporter name>
+
+## Sample Report
+
+### newman-reporter-html
+https://www.npmjs.com/package/newman-reporter-html
+$ npm install -g newman-reporter-html
+* https://newman-htmlextra-reports.s3.eu-west-2.amazonaws.com/postmanHTMLReport.html
+
+### newman-reporter-htmlextra
+https://www.npmjs.com/package/newman-reporter-htmlextra
+$ npm install -g newman-reporter-htmlextra
+* https://newman-htmlextra-reports.s3.eu-west-2.amazonaws.com/Full_Report.html
+
 
 ![](https://github.com/DannyDainton/post-con-2019-workshop/raw/master/Assets/Newman/Newman_File_Export.gif)
 
