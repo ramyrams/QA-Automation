@@ -567,6 +567,25 @@ for(var i=1; i<=expectedCount; i++) {
 }
 ```
 
+```javascript
+pm.test("Loop Data", function () {
+    
+    var responseParentJSON = pm.response.json().modelList;
+
+    responseParentJSON.forEach(result => {
+        pm.expect(result).to.be.a('object').and.have.keys(listKey);
+
+        let rn = result.roleName;
+        console.log(rn);
+        console.log('${rn.replace(" ", "")}@example.com');
+        
+    });
+
+})
+```
+
+
+
 ### null
 ```javascript
 pm.expect(pm.response.json().name).to.equal("Transformers")
