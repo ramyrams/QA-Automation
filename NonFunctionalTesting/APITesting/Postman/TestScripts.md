@@ -1,5 +1,12 @@
 https://postman-quick-reference-guide.readthedocs.io/en/latest/dynamic-variables.html
 
+```javascript
+pm.test()
+
+pm.test("Test Description", function () {
+    
+})
+```
 
 # Global variables
 
