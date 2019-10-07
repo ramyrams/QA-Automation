@@ -1,4 +1,6 @@
 
+
+```javascript
 var Ajv = require('ajv'),
     // Using the Ajv options
     ajv = new Ajv({logger: console, allErrors: true, verbose: true}),
@@ -9,3 +11,4 @@ var Ajv = require('ajv'),
 pm.test('Schema is valid', () => {
     pm.expect(ajv.validate(schema, pm.response.json()), JSON.stringify(ajv.errors)).to.be.true;
 });
+```
