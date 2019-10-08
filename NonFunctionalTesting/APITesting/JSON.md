@@ -1,5 +1,8 @@
 
-# Online JSON Tools -
+# Awesome JSON
+* https://github.com/burningtree/awesome-json
+
+# Online JSON Tools 
 * https://onlinejsontools.com/ - Online json tools world's simplest json utilities
 * http://jsonpath.com/ - JSONPath Online Evaluator
 * http://jsoneditoronline.org/ - JSON tree stucture
