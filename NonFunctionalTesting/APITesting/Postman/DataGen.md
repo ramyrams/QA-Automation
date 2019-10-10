@@ -1,13 +1,20 @@
-//Generate UUID
+
+
+### Generate UUID
+```javascript
 var uuid = require('uuid'); 
 var myUUID = uuid.v4(); 
 console.log(myUUID);
+```
 
 //Generate Timestamp
+```javascript
 const moment = require('moment');
 console.log(`Timestamp: ${moment().valueOf()}`);
+```
 
 //Generate number
+```javascript
 var firstName =  '$randomLoremWord';
 var ranint = _.random(1000); // Return random number between 0 to 1000
 var ranin1 = _.random(15, 20, true); // Return random floating numbers between 15 and 20
@@ -40,3 +47,4 @@ function randomString(len, an){
     }
     return str;
 }
+```
