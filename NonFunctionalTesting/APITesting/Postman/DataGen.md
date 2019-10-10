@@ -7,13 +7,13 @@ var myUUID = uuid.v4();
 console.log(myUUID);
 ```
 
-//Generate Timestamp
+### Generate Timestamp
 ```javascript
 const moment = require('moment');
 console.log(`Timestamp: ${moment().valueOf()}`);
 ```
 
-//Generate number
+### Generate number
 ```javascript
 var firstName =  '$randomLoremWord';
 var ranint = _.random(1000); // Return random number between 0 to 1000
