@@ -1,4 +1,4 @@
-
+Create Department creating the dynamic data, check POST API/departtype
 
 ### Generate UUID
 ```javascript
