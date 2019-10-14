@@ -1096,3 +1096,27 @@ expect(7).to.be.within(5,10);
 expect(1).to.be.oneOf([1, 2, 3]);
 expect(1).to.not.be.oneOf([2, 3, 4]);
 ```	
+
+
+# URL encode Postman variable?
+var encoded = encodeURIComponent(postman.getEnvironmentVariable("phone number"));
+
+and to proceed, use:
+postman.setEnvironmentVariable("encoded phone number", encoded);
+
+And set your URL to /path/get?phone={{encoded phone number}}
+
+
+
+## repeat a command
+_.times(5, () => {
+    //do stuff
+})
+
+
+
+
+
+
+postman.setNextRequest('name of request')
+
