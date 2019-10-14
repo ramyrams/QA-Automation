@@ -24,3 +24,48 @@ pm.globals.set("timestamp", moment().format("MM/DD/YYYY"));
 const dateNow= new Date();
 pm.environment.set('currentDate', dateNow.toISOString());
 
+
+
+# How to get to request parameters in Postman?
+pm.request.url.getQueryString() // example output: foo=1&bar=2&baz=3
+
+pm.request.url.query.all()
+
+var query = {};
+pm.request.url.query.all().forEach((param) => { query[param.key] = param.value});
+
+const paramsString = request.url.split('?')[1];
+const eachParamArray = paramsString.split('&');
+let params = {};
+eachParamArray.forEach((param) => {
+    const key = param.split('=')[0];
+    const value = param.split('=')[1];
+    Object.assign(params, {[key]: value});
+});
+console.log(params); // this is object with request params as key value pairs
+
+
+
+pm.request.headers.add({
+    'key': "myvar",
+    'value': pm.environment.get("myvar")    
+})
+
+
+pm.sendRequest({
+    url: "https://mydomain/ers/config/endpoint",
+    method: 'GET',
+    header: {
+        'content-type': 'application/json',
+        'accept': 'application/json',
+        //'x-site-code': pm.environment.get("x-site-code")
+        'X-CSRF-TOKEN': 'fetch'
+    },
+    body: {
+        mode: 'raw'//,
+        raw: JSON.stringify({ email: pm.environment.get("email"), password: pm.environment.get("password") })
+    }
+}, function (err, res) {
+
+    pm.environment.set("X-CSRF-TOKEN", "Bearer " + res.json().token);
+});
