@@ -1109,12 +1109,22 @@ And set your URL to /path/get?phone={{encoded phone number}}
 
 
 ## repeat a command
+```javascript
 _.times(5, () => {
     //do stuff
 })
+```
 
+# How do I set a global function in Postman?
+```javascript
+var stringWrap = function wrapTest(param1, param2, param3) {
+...
+};
 
-
+postman.setEnvironmentVariable("wrap", stringWrap);
+var parsedFunc = eval("("+environment.wrap+")");
+parsedFunc("1", 2, 3);
+```
 
 
 
