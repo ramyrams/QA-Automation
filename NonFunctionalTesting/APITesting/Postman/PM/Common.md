@@ -10,3 +10,17 @@ function cleanup() {
     })
 }
 cleanup()
+
+
+
+// Check that the date format is correct using .match()
+pm.expect(result.dob.date).to.match(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/);
+
+
+const moment = require('moment');
+pm.globals.set("timestamp", moment().format("MM/DD/YYYY"));
+
+
+const dateNow= new Date();
+pm.environment.set('currentDate', dateNow.toISOString());
+
