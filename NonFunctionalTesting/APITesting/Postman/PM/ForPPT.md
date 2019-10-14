@@ -2,6 +2,12 @@ https://stackoverflow.com/questions/1133770/convert-a-string-to-an-integer/11338
 
 https://medium.com/@vdespa/demystifying-postman-variables-how-and-when-to-use-different-variable-scopes-66ad8dc11200
 
+https://www.moesif.com/blog/api-guide/api-design-guidelines/#nested-or-sub-resources
+https://www.merixstudio.com/blog/best-practices-rest-api-development/
+https://code-maze.com/top-rest-api-best-practices/
+https://blog.florimond.dev/restful-api-design-13-best-practices-to-make-your-users-happy
+
+
 
 https://learning.getpostman.com/docs/postman/environments_and_globals/variables_complete_reference/
 
