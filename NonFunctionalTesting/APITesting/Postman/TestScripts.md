@@ -1126,7 +1126,22 @@ var parsedFunc = eval("("+environment.wrap+")");
 parsedFunc("1", 2, 3);
 ```
 
+```javascript
+I use this little hack:
 
+pm.globals.set('loadUtils', function loadUtils() {
+    let utils = {};
+    utils.reuseableFunction = function reuseableFunction() {
+        let jsonData = JSON.parse(responseBody);
+    }
+    return utils;
+} + '; loadUtils();');
+tests['Utils initialized'] = true;
+In another request I can reuse the global variable loadUtils:
+
+const utils = eval(globals.loadUtils);
+utils.reuseableFunction();
+```
 
 postman.setNextRequest('name of request')
 
