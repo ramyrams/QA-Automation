@@ -1,3 +1,7 @@
+https://github.com/RobotRogue/postmanScripts/blob/master/getStripeToken.js
+https://github.com/RobotRogue/postmanScripts/blob/master/preReqScripts.js
+https://github.com/RobotRogue/postmanScripts/tree/master/workflows
+
 
 When placed in the Postman 'Tests' tab, this script will unset all the variables that start with a specifically given prefix so that it's slightly different from the .clear() built-in fuction.
 
