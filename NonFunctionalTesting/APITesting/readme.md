@@ -104,16 +104,16 @@ WS-Addressing Request Assertion
 
 https://www.katalon.com/resources-center/blog/web-api-testing-interview-questions/
 
-https://d1f5pmhur9pirz.cloudfront.net/wp-content/uploads/2017/08/API-Login-2.png
-https://d1f5pmhur9pirz.cloudfront.net/wp-content/uploads/2017/08/api-13.png
+![1](https://d1f5pmhur9pirz.cloudfront.net/wp-content/uploads/2017/08/API-Login-2.png
+![1](https://d1f5pmhur9pirz.cloudfront.net/wp-content/uploads/2017/08/api-13.png
 
-https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_image1_new.png
-https://www.soapui.org/soapui/media/images/stories/newfunctesting/feature-focus_2.png
-https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_4_new.png
-https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_5_new.png
-https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_6_new.png
-https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_7_new.png
-https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_8_new.png
+![1](https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_image1_new.png)
+![1](https://www.soapui.org/soapui/media/images/stories/newfunctesting/feature-focus_2.png)
+![1](https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_4_new.png)
+![1](https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_5_new.png)
+![1](https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_6_new.png)
+![1](https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_7_new.png)
+![1](https://www.soapui.org/soapui/media/images/stories/newfunctesting/func_test_8_new.png)
 
 
 API limits
@@ -131,21 +131,19 @@ https://club.ministryoftesting.com/c/30-days-of-testing/30-days-of-api-testing
 
 
 # Writing your first test case
-https://docs.optimizory.com/download/attachments/10326993/configure-base-url.png 				
-https://docs.optimizory.com/download/attachments/10326993/add-contact-api-form.png				
-https://docs.optimizory.com/download/attachments/10326993/add-contact-api-details.png			
-https://docs.optimizory.com/download/attachments/10326993/add-contact-request-params.png		
-https://docs.optimizory.com/download/attachments/10326993/add-contact-raw-body.png				
-https://docs.optimizory.com/download/attachments/10326993/add-contact-request-headers.png		
-https://docs.optimizory.com/download/attachments/10326993/add-contact-response-validation.png	
-https://docs.optimizory.com/download/attachments/10326993/add-contact-assertions.png			
-https://docs.optimizory.com/download/attachments/10326993/dv-assertion-failed-empty-body.png	
-https://docs.optimizory.com/download/attachments/10326993/tc-failed-dynamic-props.png			
-https://docs.optimizory.com/download/attachments/10326993/testsuite.png							
-
-https://docs.optimizory.com/download/attachments/10327036/tc-environment-switcher.png
-
-https://docs.optimizory.com/download/attachments/10326995/assertions.png	
+![1](https://docs.optimizory.com/download/attachments/10326993/configure-base-url.png)			
+![1](https://docs.optimizory.com/download/attachments/10326993/add-contact-api-form.png)				
+![1](https://docs.optimizory.com/download/attachments/10326993/add-contact-api-details.png)			
+![1](https://docs.optimizory.com/download/attachments/10326993/add-contact-request-params.png)		
+![1](https://docs.optimizory.com/download/attachments/10326993/add-contact-raw-body.png)				
+![1](https://docs.optimizory.com/download/attachments/10326993/add-contact-request-headers.png)		
+![1](https://docs.optimizory.com/download/attachments/10326993/add-contact-response-validation.png)	
+![1](https://docs.optimizory.com/download/attachments/10326993/add-contact-assertions.png)			
+![1](https://docs.optimizory.com/download/attachments/10326993/dv-assertion-failed-empty-body.png)	
+![1](https://docs.optimizory.com/download/attachments/10326993/tc-failed-dynamic-props.png)			
+![1](https://docs.optimizory.com/download/attachments/10326993/testsuite.png)							
+![1](https://docs.optimizory.com/download/attachments/10327036/tc-environment-switcher.png)
+![1](https://docs.optimizory.com/download/attachments/10326995/assertions.png)	
 
 https://docs.optimizory.com/download/attachments/11141404/write-tcs.png?version=1&modificationDate=1450876476700&api=v2
 
