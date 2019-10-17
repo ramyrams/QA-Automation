@@ -1,4 +1,5 @@
 https://google-gruyere.appspot.com/
+https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part1/rules.html
 
 30 Days of Security Testing – Day Three
 https://www.ministryoftesting.com/dojo/lessons/30-days-of-security-testing
