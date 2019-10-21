@@ -1,3 +1,5 @@
+
+```javascript
 var messageTitle = 'GetSourceSystemLkp Successfull';
 var responseBodyKeys = ['message', 'hasError', 'errorMessage', 'statusCode', 'errorLogID', 'model', 'modelList'];
 var modelKeys = ['sourceSystemID', 'sourceSystemName', 'recCreatedBy', 'recUpdatedBy']
@@ -20,7 +22,7 @@ Common for any API -> Basic validation
 ----------------------------------------------------*/
 
 //Common Test:1->Basic Test: Is URL up and running
-pm.test("Verify  endpoint is up and running", function(){
+pm.test("Verify the API endpoint is up and running: " + pm.environment.get('APIURL') + pm.request.url.getPath(), function(){
 	// info, success, redirection, clientError,  serverError, are other variants
 	pm.response.to.be.ok;
 	
@@ -57,6 +59,11 @@ pm.test("Verify the response returns in less than 2 sec", function(){
 	pm.expect(pm.response.responseTime).to.be.below(2000);
 });
 
+
+// To verify response time is in between
+pm.test("Response time is in between 20 and 1200ms", function () {
+    pm.expect(_.inRange(pm.response.responseTime, 20, 1201)).to.eql(true);
+});
 
 
 /**************************************************************************************************
@@ -106,6 +113,7 @@ pm.test("Verify the reponse message model is null", function(){
 pm.test("Verify the response JSON body contains modelList with rows more than 0", function () {
     pm.expect(pm.response.json().modelList.length).to.be.above(0);
 })
+
 
 
 
@@ -165,9 +173,9 @@ Data value validation
 pm.test("Verify the value of each column for the departmentID ID=2", function(){
     var responseJSON = pm.response.json().modelList;
 
-	var extractedJSON = _.find(responseJSON, function(o) { return o.departmentID == 1; });
+	var extractedJSON = _.find(responseJSON, function(o) { return o.individualAffiliationRoleID == pm.environment.get('new_IndividualAffiliationRoleID'); });
 
-
+	pm.expect(extractedJSON.sourceSystemID).to.include("Created");
     pm.expect(extractedJSON.sourceSystemID).to.eql(2);
     pm.expect(extractedJSON.sourceSystemName).to.eql('Paylocity 45777');
 
@@ -209,3 +217,4 @@ pm.test("Testing...", function () {
     console.log(pm.info.requestName);
 });
 
+```
