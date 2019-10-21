@@ -1,3 +1,4 @@
+```javascript
 /**************************************************************************************************
 ** POST Method - Common for any API -> Basic validation
 ***************************************************************************************************/
@@ -6,13 +7,14 @@
 var messageTitle = 'GetSourceSystemLkp Successfull';
 var responseKeys = ['message', 'hasError', 'errorMessage', 'statusCode', 'errorLogID', 'model', 'modelList'];
 var modelKeys = ['sourceSystemID', 'sourceSystemName', 'recCreatedBy', 'recUpdatedBy']
+var SQL = "SELECT * FROM [Import].[RoleLkp] WHERE RoleID = ";
 
 /*----------------------------------------------------
 Common for any API -> Basic validation
 ----------------------------------------------------*/
 
 //Common Test:1->Basic Test: Is URL up and running
-pm.test("Verify the API endpoint URL is up and running", function(){
+pm.test("Verify the API endpoint is up and running: " + pm.environment.get('APIURL') + pm.request.url.getPath(), function(){
 	// info, success, redirection, clientError,  serverError, are other variants
 	pm.response.to.be.ok;
 	
@@ -126,20 +128,22 @@ pm.test("Verify the reponse data type", function(){
 //Data Stucture Test1: The generated ID should be greater than 0
 pm.test("Verify the response JSON body contains the newly created the ID", function () {
     pm.expect(pm.response.json().model.organizationID).to.be.greaterThan(0);
+	pm.environment.set('new_RoleID', pm.response.json().model.roleId);
 })
 
 //Data value Test1: Is the request body coming back with response body with ID
-pm.test("Verify the values of each column for the departmentID ID=1", function(){
+pm.test("Verify the response body resource object match with the request object value, New ID:", function(){
+    var newrolename = pm.environment.get('new_RoleName');
+    
     var responseJSON = pm.response.json().model;
-
-    pm.expect( responseJSON.departmentID).to.eql(164);
-    pm.expect( responseJSON.businessEntityID).to.eql(25);
-    pm.expect( responseJSON.sourceSystemID).to.eql(3);
-    pm.expect( responseJSON.sourceSystemName).to.eql('PMC');
-    pm.expect( responseJSON.organizationID).to.eql(1004);
-    pm.expect( responseJSON.departmentName).to.eql('New department From API SEP 25 2 10 PM');
-	pm.expect( responseJSON.recCreatedBy).to.eql('APITester');
+    pm.expect( responseJSON.roleName).to.eql(newrolename);
+    pm.expect(responseJSON.sourceSystemID).to.eql(Number(pm.environment.get('hc_sourceSystemID')));
+    pm.expect( responseJSON.recCreatedBy).to.eql('APITester');
 });
+
+pm.test("Run manually  - SQL DB", function () {
+    console.log(SQL + pm.response.json().model.organizationID + "\n\r" + SQL1 + pm.response.json().model.organizationID);
+})
 
 
 
@@ -174,6 +178,9 @@ pm.test("Verify the reponse message has traceId length > 0", function(){
 
 pm.test("Verify the reponse message should have the expected error message", function(){
     pm.expect(pm.response.json().errors.sourceSystemID[0]).to.eql(expectedErrMsg);
+	
+	//Child object check
+	pm.expect(pm.response.json().errors["Roles[0].Category"][0]).to.eql(expectedErrMsg);
 });
 
 
@@ -252,3 +259,4 @@ pm.test("Verify the reponse message should have  errorLogID with ID", function()
 
 
 
+```
