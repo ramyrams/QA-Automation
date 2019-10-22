@@ -1,3 +1,9 @@
+# Forced Test Failed
+```java
+
+pm.test('sample-test-fail', function () { throw new Error(); });
+```
+
 https://github.com/RobotRogue/postmanScripts/blob/master/getStripeToken.js
 https://github.com/RobotRogue/postmanScripts/blob/master/preReqScripts.js
 https://github.com/RobotRogue/postmanScripts/tree/master/workflows
