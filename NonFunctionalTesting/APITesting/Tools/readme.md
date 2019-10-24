@@ -1,5 +1,5 @@
 
-
+# Diffrent type of API Endpoints
 {{url}}/api/v1/users/{{userId}}/roles
 https://api.twitter.com/1.1/search/tweets.json?q=PostCon2018&count=10
 https://api.twitter.com/1.1/search/tweets.json?q=PostCon2018&count=10&until={{until}}
