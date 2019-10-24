@@ -58,7 +58,15 @@ Katalon
 * Comparing the test result with the expected result
 * Verifying the API behavior under conditions such as connection to files and so on.
 
-Examples of API tests
+
+
+# Part 1: API tests
+* When some people talk about “units tests” for an API, they are likely referring to a test of a single HTTP API request. Similar to how software unit tests are written to assess the smallest unit of functionality, you can think of an API test like a unit test.
+* With this type of testing, you may or may not have access to the underlying code. However, you can validate that an API behaves as expected from the user’s perspective.
+
+![1](https://miro.medium.com/max/378/1*FHN_cVlqnsoZasl9pqtabg.png)
+
+## Examples of API tests
 * **Status:** the correct response code was returned
 * **Performance:** the response was returned within a certain time
 * **Syntax:** the content type of the returned content was as expected
@@ -71,6 +79,46 @@ Examples of API tests
 * **Functional:** the server returns a predictable value based on the input condition
 * **Functional:** the request predictably modifies a resource
 * **Security checks:** SQL injections do not result in data leakage
+
+
+# Part 2: Integration tests
+* Integration tests are built across multiple units to verify that components are working together as expected. This can encompass two or more individual components, or endpoints. Integration tests can include internal services, third-party services, and other external dependencies.
+
+![1](https://miro.medium.com/max/444/1*FvQk3ioQfoRd6f_2_1sDLA.png)
+
+
+# Setup and teardown
+* Sometimes your test cases require some initial groundwork to prepare your test environment. Perhaps you’re generating new users, creating authentication tokens, or simply initializing variables.
+* After your tests run, you may need to clean up the test conditions, so that you’re not littering new users, records, and other side effects throughout your test environment.
+
+![1](https://miro.medium.com/max/2256/1*2tytTigCQZlib4Nu_uFxIQ.png)
+
+# Scenario tests
+
+* Make sure your application is robust and stable across a spectrum of scenarios. Testing both expected and unexpected use cases is critical to a good user experience. Visualize the user’s workflow and think about how they interact with the application.
+* Write and run your API tests in a sequence that mirrors a typical user workflow, commonly identified in the user story business requirements. Testers should also identify test cases for atypical user behaviors.
+![1](https://miro.medium.com/max/528/1*9Muh0JIuuctdpsNOIgFGGw.png)
+
+
+# Mocking dependencies
+* If your test case involves shared or production resources, some teams will use mock services. Mocking the actual service allows you to rely on a predictable response so you can isolate the component under test when debugging issues.
+* You can also use mocks to simulate error conditions or rare instances that might be difficult or problematic to set up in a production environment.
+
+![1](https://miro.medium.com/max/408/1*jBMZGDntY-Y3tJHNY9GQSQ.png)
+
+
+# Contract testing
+* As organizations continue to transition to a microservices architecture, teams become increasingly dependent on internal services. An API-first approach assumes the design and development of an application programming interface (API) comes before the implementation.
+* Consumer-Driven Contract Testing (CDC Testing) ensures that your service doesn’t break when a service that you rely on is updated. This type of contract testing requires the consumer of the service to define the format of the expected responses, including any validation tests. The provider must pass these tests before releasing any updates to the service.
+
+![1](https://miro.medium.com/max/2256/1*i4K7dWsxZ4jfpebHtmJQIg.png)
+
+
+# Regression testing
+* Run initial smoke tests to verify that your build is stable enough to proceed with more rigorous, regression testing.
+* Regression tests can be either unit tests, integration tests, or both. Run your entire test suite after a patch, upgrade, or bug fix. Even if you’re working on a part of the code that you don’t believe impacts a previous patch, you should run your regression tests to ensure that new functionality doesn’t break something that was previously working.
+
+
 
 * **Useful:** Is the API useful from an end user’s point of view?
 * **Usable: **Can the API be quickly used by a developer and provide easy-to-use functionality?
