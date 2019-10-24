@@ -58,6 +58,38 @@ Katalon
 * Comparing the test result with the expected result
 * Verifying the API behavior under conditions such as connection to files and so on.
 
+Examples of API tests
+* **Status:** the correct response code was returned
+* **Performance:** the response was returned within a certain time
+* **Syntax:** the content type of the returned content was as expected
+* **Syntax:** the server accepts correct input
+* **Error handling:** the server rejects incorrect input
+* **Error handling:** excluding a required parameter results in an error
+* **Error handling:** submitting incorrect data types results in an error
+* **Error detection:** negative testing to identify exceptions and race conditions
+* **Schema:** the response payload conforms to an expected structure or format
+* **Functional:** the server returns a predictable value based on the input condition
+* **Functional:** the request predictably modifies a resource
+* **Security checks:** SQL injections do not result in data leakage
+
+* **Useful:** Is the API useful from an end user’s point of view?
+* **Usable: **Can the API be quickly used by a developer and provide easy-to-use functionality?
+* **Desirable:** Is the functionality provided by the API something that generates desire in developers and end users?
+* **Findable:** Can the API documentation be found easily, and can developers start using it immediately?
+* **Accessible:** Can the API provide functionality for end users who have technical constraints/limitations in consuming it?
+* **Credible:** Is the data provided by the API trustworthy?
+* **Valuable:** Does the API contribute to the company’s bottom line and improve customer satisfaction?
+
+* **URL Structure:** How should a URL format for a given resource look like, what should be the path, query parameters, etc.
+* **Request methods:** Define a list of request method and define when to use which request method. This will make sure that request methods have the same behavior across your APIs.
+* **Request/Response Headers:** List of headers that should be used with the API while requesting to service and responding back.
+* **Response status codes:** Create a list of allowed status codes for your API and clearly set the guidelines on when to use a specific status code.
+* **Errors:** Design a common error response format that all other developers can use. A good error response should let a developer recognize, diagnose and recover from errors.
+* **Versioning: **Establish guidelines on how to version an API and points to keep in mind while versioning an API.
+* **Filtering/Pagination/Sorting:** How to support filtering and pagination in your APIs which returns a collection of data, what should the response JSON look like with filtered/paginated/sorted result.
+
+
+
 
 https://www.slideshare.net/TechWellPresentations/automate-rest-services-testing-with-restassured
 
