@@ -28,3 +28,8 @@ https://restful-booker.herokuapp.com/apidoc/index.html
 https://documenter.getpostman.com/view/3322108/S1ERwwza?version=latest#f101fd59-861a-4b8d-93bd-ccf4ce3b106b
 https://apidocs.imgur.com/?version=latest#authorization-and-oauth
 https://developer.travefy.com/?version=latest
+
+# Common Variable 
+{{APIRoot}}
+{{PerRequestResponseTime}}
+
