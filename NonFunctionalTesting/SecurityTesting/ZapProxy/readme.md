@@ -137,3 +137,7 @@ Here spider url attack applied to the Existing valid user. That is user with sup
 ![](https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b61201f45-1024x508.png)
 ![](https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b84a203ce-1024x223.png)
 
+# Fuzz 
+Data File for username and password
+Payload\File Fuzzers\fuzzdb\worklist-user-passwd\generic-listparirs
+
