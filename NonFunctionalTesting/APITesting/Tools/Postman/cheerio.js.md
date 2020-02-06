@@ -1,4 +1,10 @@
 
+
+[cheerio](https://cheerio.js.org/) - Fast, flexible & lean implementation of core jQuery designed specifically for the server.
+	
+	
+	
+	
 ```html
 <div id="case-details">
 	<h2>Case Details</h2>
@@ -11,11 +17,14 @@
 ```
 
 ```javascript
+//get number of li element in ul 
 console.log($('div[id="case-details"]').find('ul > li').length);
 => 3
 ```
 
 ```javascript
+//Loop through the all theli  elements in UL
+
 const contInfo = [];
 
 $('div[id="case-details"]').find('ul > li').each(function(i, elem) {
@@ -29,16 +38,7 @@ Contract ID: 118734
 ```
 
 ```javascript
-console.log($('div[id="case-details"]').find('ul > li').first().text());
-=> Claim Number: PMtest4172C
-```
-
-```javascript
-console.log($('div[id="case-details"]').find('ul > li').last().text());
-=> Contract ID: 118734
-```
-
-```javascript
+//Loop though the list in the UL and access the value
 console.log($('div[id="case-details"]').find('ul > li').slice(1).eq(0).text());
 console.log($('div[id="case-details"]').find('ul > li').slice(2).eq(0).text());
 console.log($('div[id="case-details"]').find('ul > li').slice(3).eq(0).text());
@@ -46,3 +46,17 @@ console.log($('div[id="case-details"]').find('ul > li').slice(3).eq(0).text());
 Patient ID: 108762
 Contract ID: 118734
 ```
+
+```javascript
+//First li element in the ul
+console.log($('div[id="case-details"]').find('ul > li').first().text());
+=> Claim Number: PMtest4172C
+```
+
+```javascript
+//Last li element in the ul
+console.log($('div[id="case-details"]').find('ul > li').last().text());
+=> Contract ID: 118734
+```
+
+
