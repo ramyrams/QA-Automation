@@ -15,6 +15,7 @@ console.log($('div[id="case-details"]').find('ul > li').length);
 => 3
 ```
 
+```javascript
 const contInfo = [];
 
 $('div[id="case-details"]').find('ul > li').each(function(i, elem) {
@@ -25,17 +26,23 @@ $('div[id="case-details"]').find('ul > li').each(function(i, elem) {
 Claim Number: PMtest4172C
 Patient ID: 108762
 Contract ID: 118734
+```
 
+```javascript
 console.log($('div[id="case-details"]').find('ul > li').first().text());
 => Claim Number: PMtest4172C
+```
 
+```javascript
 console.log($('div[id="case-details"]').find('ul > li').last().text());
 => Contract ID: 118734
+```
 
-
+```javascript
 console.log($('div[id="case-details"]').find('ul > li').slice(1).eq(0).text());
 console.log($('div[id="case-details"]').find('ul > li').slice(2).eq(0).text());
 console.log($('div[id="case-details"]').find('ul > li').slice(3).eq(0).text());
 =>Claim Number: PMtest4172
 Patient ID: 108762
 Contract ID: 118734
+```
