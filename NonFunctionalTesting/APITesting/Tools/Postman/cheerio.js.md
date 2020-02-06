@@ -1,3 +1,5 @@
+
+```html
 <div id="case-details">
 	<h2>Case Details</h2>
 	<ul>
@@ -6,7 +8,7 @@
 		<li><span class="case-overview-label">Contract ID:</span> 118734</li>
 	</ul>
 </div>
-
+```
 
 
 console.log($('div[id="case-details"]').find('ul > li').length);
