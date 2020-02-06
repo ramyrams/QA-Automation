@@ -175,45 +175,26 @@ $(".poster >a:nth-child(1) >img:nth-child(1)")[0].attribs.src.split("@._")[0] + 
 
 
 
-const html = cheerio.load(text);
-
-html("h2").each((index, element) => {
-	headers.push(element.firstChild.nodeValue);
-});
-
-	
-	
-	
-
-
-
-http://zetcode.com/javascript/cheerio/
 
 
 
 
-  $('head + meta')
-  
-
-
-
-
-
-
-
+```javascript
 var data = [];
 $('table tr td table tr').each(function(i, td){
 	var children = $(this).children();
 	var itemNum = children.eq(0);
 	var itemName = children.eq(1);
 }
-	
-	
+```
+
+# Get title	
+```javascript	
 console.log($('head title').html());
+```
 
-
-
-
+# get attribute
+```html
 <body>
 <a href="google.fr" class="test"></a>
 <a href="yahoo.com" class="test"></a>
@@ -222,31 +203,38 @@ console.log($('head title').html());
 <a href="facebook.com" class="no_select"></a>
 <a href="twitter.com" class="no_select"></a>
 </body>
+```
 
+```javascript
 const links = $('.test').each( (index, elem) =>{
 	console.log(elem.attribs.href);
 });
+```
 
 
-
-//How do get script content using cheerio
+# How do get script content using cheerio
+```javascript
 console.log( $('script').get()[0] ); 
 console.log( $('script').get()[0].attribs['src'] );
 $('script').length;
+```
 
+#Get and print all attrubutes of all the link tags
 
-// Get and print all attrubutes of all the link tags
-
+```html
 <link href="/EDDG-Web/Images/favicon.ico" rel="icon" type="image/x-icon" />
+```
 
+```javascript
 $('link').each( (index, elem) =>{
 	console.log(elem.attribs.href);
 	console.log(elem.attribs.rel);
 	console.log(elem.attribs.type);
 });
+```
 
-
-
+# Get parse 
+```html
 <div class="info">
       <p>132 Purple Grove</p>
       <p>Albany, Texas 76801</p>
@@ -255,35 +243,41 @@ $('link').each( (index, elem) =>{
       </p>
       <p class="fax">Fax: (111) 111-1111</p>
 </div>
+```
 
+```javascript
 var addresslines=$('.info').children('p').filter(function(n, el){ 
   if(!$(el).hasClass('phone') && !$(el).hasClass('fax')){
     return el;
   }
 });
+```
 
-
-
+# get the css attribute
+```javascript
 <body>
   <a class="my_class" href="/" title="link"/>
 </body>
+```
 
+```javascript
 $('.my_class').css('color')
+```
 
-
-
+# Exception
+```javascript
 try {
   const $ = cheerio.load(html)
 } catch (e) {
   console.log(e) // handle error
 }
+```
 
 
-
-//How do you clone a cheerio object
-
+# How do you clone a cheerio object
+```javascript
 cheerio.load($.html())
-
+```
 
 
 //Get the 3 script detail 
@@ -294,25 +288,31 @@ console.log(text[3].attribs.type);
 console.log(text[3].attribs.src);
 
 
-//Cheerio Get Image Src With No Class
+# Cheerio Get Image Src With No Class
 
+```html
 <div class="container_c89a5 lazyLoadContainer_b1038">
 	<img height="80" src="https://stuff.com" srcset="https://stuff.com" width="80">
 </div>
+```
 
-
+```javascript
 a.find('.container_c89a5').find('img').attr('src');
 a.find('.container_c89a5').children('img').eq(0).attr('src');
 
+```
 
-
+# Get the option
+```html
 <select class="list_items">
   <option value="1">1</option>
   <option value="2">2</option>
   <option value="3">3</option>
   <option value="4">4</option>
 </select>
+```
 
+```javascript
 $('.list_items').find('option').each((i,op) => {
    console.log($(op).text())
 })
@@ -320,17 +320,19 @@ $('.list_items').find('option').each((i,op) => {
 $(".list_items option").each(() => {
     console.log($(this).val());
 });
+```
 
-//how to filter cheerio objects in `each` with selector?
-
+# how to filter cheerio objects in `each` with selector?
+```html
 <tr class="human">
     <td class="event"><a>event1</a></td>
     <td class="name">name1</td>
     <td class="surname"><a>surname1</a></td>
     <td class="date">2011</td>
 </tr>
+```
 
-
+```javascript
 var results = $('tr.human')
 
     results.each(function(i, result){
@@ -341,9 +343,9 @@ var results = $('tr.human')
 
        var object = {"name":name,"date":date,"surname":surname}
    })
+```   
    
-   
-
+```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
 <div class="gallery-carousel">
 <ul>
@@ -358,17 +360,18 @@ var results = $('tr.human')
 </li>
 </ul>
 </div>
- 
+```
 
-
+```javascript
 let firstElem = $('.product-name a[href]').get()[0]
 console.log($(firstElem).attr('href'));
+```
 
 
-
-//Apply selector on sub elements with cheerio
+#Apply selector on sub elements with cheerio
+```javascript
 $('table').each((i, table) => { if ($(table).find("td:contains('Foo')").length > 0) {$('tr', table).each((i, tr)=>{console.log($(tr).text())})} })
- 
+
 
 var listItems = $(".gallery-carousel ul li");
 listItems.each(function(idx, li) {
@@ -378,53 +381,62 @@ listItems.each(function(idx, li) {
 });
 
 const result = $('p[id="target-content"]').text();
+```
 
 
-
-//How to get immediate child in cheerio
+# How to get immediate child in cheerio
+```javascript
 $('html > body > font > table > tbody > tr').html()
 console.log($('html > head').html());
 console.log($('html > head > title').html());
+```
 
 
-
-//Getting hrefs under <li> from <ul> using Cheerio
-
+# Getting hrefs under <li> from <ul> using Cheerio
+```javascript
 <ul id="nav-products">
   <li><a class="" href="/shop/hats/">yellow good looking hat</a></li>
   <li><a class="" href="/shop/shoes/">cat feet holders</a></li>
 </ul>
+```javascript
 
-
+```javascript
 $('#nav-products LI A').each((i, el) => {
   console.log($(el).text());
   console.log($(el).attr('href'));
 });
+```javascript
 
-//How to loop through cheerio object in reverse?
+
+# How to loop through cheerio object in reverse?
+```javascript
 const li = $('li');
 
 for (let i = li.length - 1; i >= 0; i--) {
   $(li[i]).text();
 }
+```javascript
 
 
-//How do I get an element name in cheerio with node.js
+#How do I get an element name in cheerio with node.js
 
+```javascript
    $ = cheerio.load('<input id="one" type="input" /><input id="two" name="some_name" />');
 
 console.log( $('#one').attr('name') ); // undefined
 console.log( $('#two').attr('name') ); // some_name
+```javascript
 
-//How do I access table elements in cheerio?
+# How do I access table elements in cheerio?
+```javascript
 var table = $('.g  table td')
 var deptime = table.eq(5).text()
 var city = table.eq(8).text()
 var terminal = table.eq(6).text()
+```javascript
 
 
-
-
+```javascript
 const list = $('div.titles li')
 
 list.each((index, li) => {
@@ -432,10 +444,10 @@ list.each((index, li) => {
 
   console.log(title)
 })
+```javascript
 
-
-//Getting div text inside nested table td with Cheerio
-
+# Getting div text inside nested table td with Cheerio
+```javascript
 <div class="ux-section-other">
   <h3 class="itemdetails-section-header right">More Info</h3>
   <div>
@@ -453,7 +465,9 @@ list.each((index, li) => {
     </table>
   </div>
 </div>
+```javascript
 
+```javascript
 $(".ux-table-metadata > tbody > tr > td").each(function() {
     console.log($(this).children().html());
 });
@@ -461,10 +475,11 @@ $(".ux-table-metadata > tbody > tr > td").each(function() {
 $(".ux-table-metadata > tbody > tr > td").each(function() {
     console.log($(this).find("div").html());
 });
+```javascript
 
 
-
-//Parse text from HTML form inside table cell with Cheerio
+# Parse text from HTML form inside table cell with Cheerio
+```javascript
 <tr class="row-class" role="row">
     <td>Text1</td>
     <td>
@@ -476,8 +491,9 @@ $(".ux-table-metadata > tbody > tr > td").each(function() {
         </form>
     </td>  
 </tr>
+```javascript
 
-
+```javascript
 $('tr').each(function(i, tr){
       var children = $(this).children('td');
       var x        = $(children[0]);
@@ -487,10 +503,11 @@ $('tr').each(function(i, tr){
           "id_num":   id_num.val()
       };
 }
+```javascript
 
 
-
-//How to write cheerio query for HTML structure?
+# How to write cheerio query for HTML structure?
+```javascript
 var arr = [];
 $(".content tr a").each(function (i, elem) {
   var a = $(elem);
@@ -498,10 +515,10 @@ $(".content tr a").each(function (i, elem) {
   arr.push(text);
 });
 
+```javascript
 
 
-
-
+```javascript
 <table class="content">
     <tbody>
         <tr>
@@ -530,9 +547,9 @@ $(".content tr a").each(function (i, elem) {
         </tr>
     </tbody>
 </table>
+```javascript
 
-
-
+```javascript
 var self = this;
     self.thejson = {};
     $('.content tr').each(function(index, value){
@@ -540,10 +557,10 @@ var self = this;
         self.thejson[k] = v;
     });
     return self.thejson;
+```javascript	
 	
-	
-//Getting text from Table Cheerio
-
+# Getting text from Table Cheerio
+```javascript
 $('#table-id > tbody > tr > td.data').toArray().map(item => {
   console.log($(item).text());
 });
@@ -551,11 +568,12 @@ $('#table-id > tbody > tr > td.data').toArray().map(item => {
 $('#table-id > tbody > tr > td.data').each(() => {
    console.log($(this).text());
 });
-	
+```javascript
 
 
-Parsing a specific table in a html page that has multiple tables using cheerio
+# Parsing a specific table in a html page that has multiple tables using cheerio
 
+```javascript
 <table class = "one">
   <thead>..</thead>
   <tbody>
@@ -573,9 +591,10 @@ Parsing a specific table in a html page that has multiple tables using cheerio
     </tr>
   </tbody>
 </table>
+```javascript
 
 
-
+```javascript
 1) Use a :first-of-type, :last-of-type, :nth-of-type(n), :first-child, :last-child, or nth-child(n) selector. Some examples:
 
 // to select rows in table 1:
@@ -594,10 +613,12 @@ $('table').eq(0).find('tr')
 // to select rows in table 2:
 $('table').last().find('tr')
 $('table').filter(i => i === 1).find('tr')
+```javascript
 
 
 
-
-//selecting certain elements that ARE present in HTML string
-
+# selecting certain elements that ARE present in HTML string
+```javascript
 $('table').eq(0).find('tr').eq(i+2).find('td').eq(2).find('font')
+```
+
