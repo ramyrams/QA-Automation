@@ -398,14 +398,14 @@ console.log($('html > head > title').html());
   <li><a class="" href="/shop/hats/">yellow good looking hat</a></li>
   <li><a class="" href="/shop/shoes/">cat feet holders</a></li>
 </ul>
-```javascript
+```
 
 ```javascript
 $('#nav-products LI A').each((i, el) => {
   console.log($(el).text());
   console.log($(el).attr('href'));
 });
-```javascript
+```
 
 
 # How to loop through cheerio object in reverse?
@@ -415,7 +415,7 @@ const li = $('li');
 for (let i = li.length - 1; i >= 0; i--) {
   $(li[i]).text();
 }
-```javascript
+```
 
 
 #How do I get an element name in cheerio with node.js
@@ -425,7 +425,7 @@ for (let i = li.length - 1; i >= 0; i--) {
 
 console.log( $('#one').attr('name') ); // undefined
 console.log( $('#two').attr('name') ); // some_name
-```javascript
+```
 
 # How do I access table elements in cheerio?
 ```javascript
@@ -433,7 +433,7 @@ var table = $('.g  table td')
 var deptime = table.eq(5).text()
 var city = table.eq(8).text()
 var terminal = table.eq(6).text()
-```javascript
+```
 
 
 ```javascript
@@ -444,10 +444,10 @@ list.each((index, li) => {
 
   console.log(title)
 })
-```javascript
+```
 
 # Getting div text inside nested table td with Cheerio
-```javascript
+```html
 <div class="ux-section-other">
   <h3 class="itemdetails-section-header right">More Info</h3>
   <div>
@@ -465,7 +465,7 @@ list.each((index, li) => {
     </table>
   </div>
 </div>
-```javascript
+```
 
 ```javascript
 $(".ux-table-metadata > tbody > tr > td").each(function() {
@@ -475,11 +475,11 @@ $(".ux-table-metadata > tbody > tr > td").each(function() {
 $(".ux-table-metadata > tbody > tr > td").each(function() {
     console.log($(this).find("div").html());
 });
-```javascript
+```
 
 
 # Parse text from HTML form inside table cell with Cheerio
-```javascript
+```html
 <tr class="row-class" role="row">
     <td>Text1</td>
     <td>
@@ -491,7 +491,7 @@ $(".ux-table-metadata > tbody > tr > td").each(function() {
         </form>
     </td>  
 </tr>
-```javascript
+```
 
 ```javascript
 $('tr').each(function(i, tr){
@@ -503,7 +503,7 @@ $('tr').each(function(i, tr){
           "id_num":   id_num.val()
       };
 }
-```javascript
+```
 
 
 # How to write cheerio query for HTML structure?
@@ -515,10 +515,10 @@ $(".content tr a").each(function (i, elem) {
   arr.push(text);
 });
 
-```javascript
+```
 
-
-```javascript
+# Read table
+```html
 <table class="content">
     <tbody>
         <tr>
@@ -547,7 +547,7 @@ $(".content tr a").each(function (i, elem) {
         </tr>
     </tbody>
 </table>
-```javascript
+```
 
 ```javascript
 var self = this;
@@ -557,7 +557,7 @@ var self = this;
         self.thejson[k] = v;
     });
     return self.thejson;
-```javascript	
+```	
 	
 # Getting text from Table Cheerio
 ```javascript
@@ -568,12 +568,12 @@ $('#table-id > tbody > tr > td.data').toArray().map(item => {
 $('#table-id > tbody > tr > td.data').each(() => {
    console.log($(this).text());
 });
-```javascript
+```
 
 
 # Parsing a specific table in a html page that has multiple tables using cheerio
 
-```javascript
+```html
 <table class = "one">
   <thead>..</thead>
   <tbody>
@@ -591,7 +591,7 @@ $('#table-id > tbody > tr > td.data').each(() => {
     </tr>
   </tbody>
 </table>
-```javascript
+```
 
 
 ```javascript
@@ -613,7 +613,7 @@ $('table').eq(0).find('tr')
 // to select rows in table 2:
 $('table').last().find('tr')
 $('table').filter(i => i === 1).find('tr')
-```javascript
+```
 
 
 
