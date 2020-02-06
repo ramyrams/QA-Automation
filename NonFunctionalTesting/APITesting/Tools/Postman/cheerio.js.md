@@ -59,4 +59,18 @@ console.log($('div[id="case-details"]').find('ul > li').last().text());
 => Contract ID: 118734
 ```
 
+```javascript
+// Get the title from HTML  
+$('title')
+```
+
+```javascript
+//Cheerio get parent element, title is child of head
+let h1El = $('title');
+let parentEl = h1El.parent();
+console.log(parentEl.get(0).tagName)
+=> head
+```
+
+
 
