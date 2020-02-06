@@ -105,3 +105,51 @@ $('span.comhead').each(function(i, element){
     console.log(parsedResults);
 }
 ```
+
+
+```javascript
+//Cheerio filter elements
+let allEls = $('*');
+
+let filteredEls = allEls.filter(function (i, el) {
+    // this === el
+    return $(this).children().length > 3;
+});
+
+let items = filteredEls.get();
+
+items.forEach(e => {
+    console.log(e.name);
+});
+```
+
+```javascript
+$("*") — selects all elements
+$("#first") — selects the element with id="first"
+$(".intro") — selects all elements with class="intro"
+$("div") — selects all <div> elements
+$("h2, div, p") — selects all <h2>, <div>, <p> elements
+$("li:first") — selects the first <li> element
+$("li:last") — selects the last <li> element
+$("li:even") — selects all even <li> elements
+$("li:odd") — selects all odd <li> elements
+$(":empty") — selects all elements that are empty
+$(":focus") — selects the element that currently has focus
+```
+
+```javascript
+//Cheerio add element
+let ulEl = $('ul');
+
+ulEl.append('<li>Travel</li>');
+
+let lis = $('ul').html();
+let items = lis.split('\n');
+
+items.forEach((e) => {
+	if (e) {
+		console.log(e.replace(/(\s+)/g, ''));
+	}
+});
+```
+
