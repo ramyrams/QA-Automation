@@ -153,3 +153,20 @@ items.forEach((e) => {
 });
 ```
 
+
+```javascript
+$("div.inline:nth-child(3) > p:nth-child(1) > span:nth-child(1)")
+.text()
+.trim()
+		
+		
+$("#titleStoryLine > div:nth-child(10)")
+.find("a")
+.text()
+.trim()
+.split(" ")
+//=>[ 'Action', 'Adventure', 'Crime', 'Drama', 'Mystery', 'Sci-Fi']
+
+
+$(".poster >a:nth-child(1) >img:nth-child(1)")[0].attribs.src.split("@._")[0] + "@._V1_QL50.jpg"
+```
