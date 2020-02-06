@@ -10,9 +10,10 @@
 </div>
 ```
 
-
+```javascript
 console.log($('div[id="case-details"]').find('ul > li').length);
 => 3
+```
 
 const contInfo = [];
 
