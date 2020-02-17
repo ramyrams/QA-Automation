@@ -29,6 +29,7 @@ https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part2/
 
 
 # Solutions
+Video Solution - https://7ms.us/7ms-234-pentesting-owasp-juice-shop-part5/
 https://incognitjoe.github.io/hacking-the-juice-shop.html
 https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/appendix/solutions.html
 https://github.com/bsqrl/juice-shop-walkthrough
