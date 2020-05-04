@@ -1,5 +1,5 @@
 
-### sendRequest - raw
+# sendRequest - raw
 ```javascript
 pm.sendRequest({
     url: 'https://postman-echo.com/post',
