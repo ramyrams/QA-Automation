@@ -2,6 +2,7 @@
 https://postman-echo.com/get?city={{City}}&ramen={{Ramen}}
 
 
+```javascript
 pm.test("Body contains City", function () {
     
     pm.expect(pm.response.text()).to.include(pm.iterationData.get("City"));
@@ -31,5 +32,5 @@ pm.test("Another way to check if Body contains number of ramen searches", functi
         });
         
 });
-
+```
 
