@@ -240,6 +240,104 @@ pm.test("Set auth token", function () {
 });
 ```
 
+### Working with a Response Data
+```javascript
+//JSON Response
+var response = pm.response.json();
+//Text Response
+var response = pm.response.text()
+//XML Response
+var jsonObject = xml2Json(responseBody);
+//Choosing First Response from array of JSON
+var userdata= pm.response.json()[0];
+
+var jsonData = pm.response.json();
+pm.expect(response.id).to.be.a(‘number’);
+pm.expect(response.name).to.be.a(‘string’);
+pm.expect(response.isDeleted).to.be.a(‘boolean’);
+```
+
+### Workflows
+```javascript
+switch(pm.environment.get("PROFILE_set1")) {
+    case 1:
+        postman.setNextRequest("PROF_02 - Verify  the profile details");
+        break;
+    case 2:
+        postman.setNextRequest("PROF_04 - Verify  update profile without firstname");
+        break;
+    case 3:
+        postman.setNextRequest("PROF_05 - Verify update profile only with firstname");
+        break;
+    case 4:
+        postman.setNextRequest("PROF_06 - Verify update profile only with phone");
+        break;
+    case 5:
+        postman.setNextRequest("PROF_07 - Verify update profile only with last name");
+        break;
+    case 6:
+        postman.setNextRequest("[Pre-condition] Logout - Profile");
+        break;
+}
+```
+
+### How to sort array in postman?
+```javascript
+var tests = eval(pm.environment.get("tests")),
+    body1 = {
+        "arr": [
+            1,
+            2,
+            3
+        ]
+    },
+    body2 = {
+        "arr": [
+            2,
+            1,
+            3
+        ]
+    };
+
+
+function checkArr(body1, body2) {
+  let arr1 = body1.arr.sort(), //javascript has this in-built for arrays
+    arr2 = body2.arr.sort();
+
+  pm.expect(arr1).to.eql(arr2);
+}
+```
+
+
+
+# How to send a request inside Tests?
+```javascript
+pm.test("Child category is also deleted", (done) => {
+    pm.sendRequest({
+        url:  "url", 
+        method: 'GET',
+        header: {
+            'content-type': 'application/json',
+            'Authorization': "Bearer " + pm.environment.get("accessToken"),
+            'Accept': "*/*"
+        },
+    }, (err, res) => {
+        pm.expect(res.code).to.equal(404);
+        done();
+    });
+});
+
+
+pm.test("Order Details are Present", () => {
+    let jsonData = pm.response.json()
+    pm.expect(jsonData.items).to.be.an("array");
+    pm.expect(jsonData.items[0]).to.have.keys('oID','oInvoiceNo','OrderBlocks').and.be.an("object");
+    pm.expect(jsonData.items[0].OrderBlocks).to.be.an("array");
+    pm.expect(jsonData.items[0].OrderBlocks[0]).to.have.keys('olLine','olProductCode').and.be.an("object");
+});
+```
+
+
 ## terminate collection run
 ```javascript
 pm.environment.unset("nextEffect");
