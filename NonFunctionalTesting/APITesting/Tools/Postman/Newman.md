@@ -1,6 +1,9 @@
 
 * [Newman is a command-line collection runner for Postman](https://github.com/postmanlabs/newman#cli-reporter)
 
+https://github.com/postmanlabs/newman
+https://github.com/DannyDainton/newman-reporter-htmlextra
+https://ravivamsi.github.io/postmanframework/
 
 # Reporting
 ## Postman Newman HTML reporter
