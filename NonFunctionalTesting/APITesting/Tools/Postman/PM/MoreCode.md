@@ -1,6 +1,7 @@
 
 
 # Exception Handling
+```javascript
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
@@ -47,9 +48,10 @@ pm.test("Set auth token", function () {
     }
     
 });
-
+```
 
 ## terminate collection run
+```javascript
 pm.environment.unset("nextEffect");
 
 postman.setNextRequest(null);
@@ -75,9 +77,10 @@ pm.test('requesting http client should accept compressed response', function () 
     pm.expect(pm.response.json()).to.have.nested.property('headers.accept-encoding')
         .and.to.match(/.*gzip.*/);
 });
-
+```
 
 # Regex
+```javascript
 pm.test("response must return a valid ip address", function () {
     pm.expect(pm.response.json().ip).to
         // a really gnarly regular expression to ensure that ip address is in correct format
@@ -98,10 +101,11 @@ var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),
     nonceStart = authenticateHeader.indexOf('"',authenticateHeader.indexOf("nonce")) + 1,
     nonceEnd = authenticateHeader.indexOf('"',nonceStart),
     nonce = authenticateHeader.slice(nonceStart,nonceEnd);
-	
+```	
 	
 
-
+# Schema Validation
+```javascript
 var schema = {
   "items": {
     "type": "boolean"
@@ -115,7 +119,7 @@ pm.test('Schema is valid', function() {
   pm.expect(tv4.validate(data1, schema)).to.be.true;
 //   pm.expect(tv4.validate(data2, schema)).to.be.true; // this statement would not be true
 });
-
+```
 
 
 	
