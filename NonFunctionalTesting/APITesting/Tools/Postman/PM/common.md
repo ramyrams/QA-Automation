@@ -1,3 +1,5 @@
+
+```javascript
 function getPath(url) {
     var pathRegex = /.+?\:\/\/.+?(\/.+?)(?:#|\?|$)/;
     var result = url.match(pathRegex);
@@ -29,8 +31,9 @@ function getAuthHeader(httpMethod, requestUrl, requestBody) {
 }
  
 postman.setEnvironmentVariable('hmacAuthHeader', getAuthHeader(request['method'], request['url'], request['data']));
+```
 
-
+```javascript
 ******Encode*****
 
 var val = "To be Encoded";
@@ -44,11 +47,12 @@ pm.environment.set("To be used in Parameter", base64);
 var en-text = CryptoJS.enc.Base64.parse(base64);
 var de-text = en-text.toString(CryptoJS.enc.Utf8);
 pm.environment.set("To be used in Parameter", de-text);
-
+```
 
 
 
 //refresh token script
+```javascript
 pm.sendRequest({
     url: pm.environment.get('keycloakHost')+"/auth/realms/"+pm.environment.get('realm')+"/protocol/openid-connect/token",
     method: 'POST',
@@ -68,8 +72,10 @@ pm.sendRequest({
     postman.setEnvironmentVariable('access_token', res.json().access_token)
     postman.setEnvironmentVariable('refresh_token', res.json().refresh_token)
 });
+```
 
 
+```javascript
 //save token to enviroment variable (first login)
 var jsonData = JSON.parse(responseBody)
 postman.setEnvironmentVariable('access_token', jsonData.access_token)
@@ -84,9 +90,9 @@ for (var i = 0; i < headers.length; i++) {
         pm.environment.set("x-auth-token", headers[i].value);
     }
 }
+```
 
-
-
+```javascript
 var api_key = "xxxxxxxxx";
 var name = "Hammad";
 var apiSecret = "xxxxxxxxxxxx";
@@ -104,7 +110,7 @@ pm.environment.set("request_timestamp", request_timestamp);
 pm.environment.set("signature", hash);
 pm.environment.set("api_key", api_key);
 pm.environment.set("name", name);
-
+```
 
 
 https://github.com/r1990v/Postman_LearnAPI
