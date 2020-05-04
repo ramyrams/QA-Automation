@@ -1,4 +1,4 @@
-
+```javascript
 
 pm.environment.set("random_number", _.random(1, 5))
 
@@ -73,3 +73,5 @@ pm.test("Response time is in between 20 and 1200ms", function () {
 pm.test("Response size is not zero", function () {
     pm.expect(pm.response.responseSize).to.not.equal(0);
 });
+
+```
