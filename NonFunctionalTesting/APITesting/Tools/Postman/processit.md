@@ -82,7 +82,7 @@ https://blog.getpostman.com/2014/05/09/writing-automated-tests-with-postman-part
 
 
 
-The workflow:
+# The workflow:
 * First makes the API call to GET the list of approved food for Cooper from the database.
 * Then it creates an entry for each day, 3 times a day, 7 days a week
 * All 3 meals in a single day have to be unique.
@@ -91,10 +91,10 @@ The workflow:
 
 
 
-Capture Network Traffic by setting up Proxies
-Learn how to do multi-part File Uploads
-Perform data driven testing (create 1000 students with a click of a button)
-Learn how to send SOAP Requests using Postman
-Integrate Postman with Newman & Jenkins
-Different types of Authentication (BASIC,OAuth 1.0,OAuth 2.0)
-Scripting in Postman
+* Capture Network Traffic by setting up Proxies
+* Learn how to do multi-part File Uploads
+* Perform data driven testing (create 1000 students with a click of a button)
+* Learn how to send SOAP Requests using Postman
+* Integrate Postman with Newman & Jenkins
+* Different types of Authentication (BASIC,OAuth 1.0,OAuth 2.0)
+* Scripting in Postman
