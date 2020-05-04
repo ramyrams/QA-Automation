@@ -1,3 +1,4 @@
+```javascript
 pm.myUtility = {
     interpolateVariable: function (str) {
         return str.replace(/\{\{([^}]+)\}\}/g, function (match, $1) {
@@ -30,3 +31,4 @@ pm.myUtility = {
         return pm.request.url.parse(url);
     }
 }
+```
