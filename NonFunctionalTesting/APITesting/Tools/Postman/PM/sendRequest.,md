@@ -1,5 +1,6 @@
 
 ### sendRequest - raw
+```javascript
 pm.sendRequest({
     url: 'https://postman-echo.com/post',
     method: 'POST',
@@ -25,10 +26,11 @@ pm.sendRequest({
     pm.environment.set("authorization", "Bearer " + res.json().token);
     console.log(res);
 });
-
+```
 
 
 ### sendRequest - urlencoded 
+```javascript
 pm.sendRequest({
       url:  pm.environment.get("OAUTH_URL")+"/uaa/oauth/token", 
       method: 'POST',
@@ -48,10 +50,10 @@ pm.sendRequest({
   }, function (err, res) {
         pm.globals.set("token", res.json().access_token);
   });
-  
+```
   
 ### sendRequest - raw - 'application/json'
-
+```javascript
   const echoPostRequest = {
   url: 'https://<my url>.auth0.com/oauth/token',
   method: 'POST',
@@ -67,10 +69,10 @@ pm.sendRequest({
         })
   }
 };
-
+```
   
 ### sendRequest - formdata 
-
+```javascript
 pm.sendRequest({
     url: 'https://login.microsoftonline.com/' + tenant + '/oauth2/token',
     method: 'POST',
@@ -91,12 +93,12 @@ pm.sendRequest({
   const jsonResponse = response.json();
   pm.environment.set("access_token", jsonResponse.access_token);
 });
-
+```
 
 
 # Automating Web API Authorization in Postman
 
-
+```javascript
 var expiresOn = pm.variables.get('ExpiresOn');
 if (!expiresOn || new Date(expiresOn) <= new Date()) {
     var clientId = '51f81489-12ee-4a9e-aaae-a2591f45987d';
@@ -126,11 +128,12 @@ if (!expiresOn || new Date(expiresOn) <= new Date()) {
         }
     });
 }
-
+```
 
 
 
 // example with a plain string URL
+```javascript
 pm.sendRequest('https://postman-echo.com/get', function (err, res) {
     if (err) {
         console.log(err);
@@ -138,7 +141,7 @@ pm.sendRequest('https://postman-echo.com/get', function (err, res) {
         pm.environment.set("variable_key", "new_value");
     }
 });
-
+```
 
 
 
