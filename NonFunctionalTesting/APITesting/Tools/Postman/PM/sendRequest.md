@@ -146,7 +146,7 @@ pm.sendRequest('https://postman-echo.com/get', function (err, res) {
 
 
 
-
+```javascript
 
 pm.sendRequest({
     url: 'https://postman-echo.com/post',
@@ -174,4 +174,4 @@ pm.sendRequest({
     console.log(res);
 });
 
-
+```
