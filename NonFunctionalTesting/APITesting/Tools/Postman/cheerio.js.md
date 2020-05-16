@@ -4,6 +4,192 @@
 	
 	
 	
+responseBody = '<ul id="fruits">  <li class="apple">Apple</li>  <li class="orange">Orange</li>  <li class="pear">Pear</li></ul>'
+
+
+
+const $ = cheerio.load(responseBody);
+
+
+
+$('.apple', '#fruits').text()
+//=> Apple
+
+$('ul .pear').attr('class')
+//=> pear
+
+$('li[class=orange]').html()
+//=> Orange
+
+
+$('ul').attr('id')
+//=> fruits
+
+$('.apple').attr('id', 'favorite').html()
+//=> <li class="apple" id="favorite">Apple</li>
+
+
+$('input[type="checkbox"]').prop('checked')
+//=> false
+
+$('input[type="checkbox"]').prop('checked', true).val()
+//=> ok
+
+
+$('.pear').hasClass('pear')
+//=> true
+
+$('apple').hasClass('fruit')
+//=> false
+
+$('li').hasClass('pear')
+//=> true
+
+
+$('#fruits').find('li').length
+//=> 3
+$('#fruits').find($('.apple')).length
+//=> 1
+
+
+
+$('.pear').parent().attr('id')
+//=> fruits
+
+
+$('.orange').parents().length
+// => 2
+$('.orange').parents('#fruits').length
+// => 1
+
+
+$('.orange').parentsUntil('#food').length
+// => 1
+
+$('.apple').next().hasClass('orange')
+//=> true
+
+$('.apple').nextAll()
+//=> [<li class="orange">Orange</li>, <li class="pear">Pear</li>]
+$('.apple').nextAll('.orange')
+//=> [<li class="orange">Orange</li>]
+
+
+$('li').slice(1).eq(0).text()
+//=> 'Orange'
+
+$('li').slice(1, 2).length
+//=> 1
+
+
+
+$('.pear').siblings().length
+//=> 2
+
+$('.pear').siblings('.orange').length
+//=> 1
+
+
+
+
+$('#fruits').children().length
+//=> 3
+
+$('#fruits').children('.pear').text()
+//=> Pear
+
+
+
+
+$('#fruits').contents().length
+//=> 3
+
+
+$('li').not('.apple').length;
+//=> 2
+
+
+
+$('ul').has('.pear').attr('id');
+//=> fruits
+
+$('ul').has($('.pear')[0]).attr('id');
+//=> fruits
+
+
+$('#fruits').children().first().text()
+//=> Apple
+
+
+$('#fruits').children().last().text()
+//=> Pear
+
+
+$('li').eq(0).text()
+//=> Apple
+
+$('li').eq(-1).text()
+//=> Pear
+
+
+$('li').get(0).tagName
+//=> li
+
+$('li').get().length
+//=> 3
+
+$('.pear').index()
+//=> 2
+$('.orange').index('li')
+//=> 1
+$('.apple').index($('#fruit, li'))
+//=> 1
+
+
+$('.apple').add('.orange').length
+//=> 2
+
+
+$('li').eq(0).addBack('.orange').length
+//=> 2
+
+
+$('ul').append('<li class="plum">Plum</li>')
+$.html()
+//=>  <ul id="fruits">
+//      <li class="apple">Apple</li>
+//      <li class="orange">Orange</li>
+//      <li class="pear">Pear</li>
+//      <li class="plum">Plum</li>
+//    </ul>
+
+
+$('.pear').remove()
+$.html()
+//=>  <ul id="fruits">
+//      <li class="apple">Apple</li>
+//      <li class="orange">Orange</li>
+//    </ul>
+
+
+$('.apple').before('<li class="plum">Plum</li>')
+$.html()
+
+
+$('<li class="plum">Plum</li>').insertBefore('.apple')
+$.html()
+
+
+$('.orange').text()
+//=> Orange
+
+$('ul').text()
+//=>  Apple
+//    Orange
+//    Pear
+
+	
+	
 	
 ```html
 <div id="case-details">
