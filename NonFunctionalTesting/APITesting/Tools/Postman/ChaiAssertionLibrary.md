@@ -12,11 +12,12 @@ Chai is a BDD / TDD assertion library for node and the browser that can be delig
 *[]()
 
 The Chai.js library allows 3 syntaxes for writing expectations
+```javascript
 value.should.XXX 
 expect(value).XXX
 assert.XXX(value)
 expect(valueUnderTest).foo.bar.whatever;
-
+```
 
 
 
