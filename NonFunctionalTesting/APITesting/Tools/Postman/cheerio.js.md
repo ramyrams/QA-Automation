@@ -808,3 +808,86 @@ $('table').filter(i => i === 1).find('tr')
 $('table').eq(0).find('tr').eq(i+2).find('td').eq(2).find('font')
 ```
 
+
+
+
+console.log($('p').get(0).children[0].data);
+
+
+$ = cheerio.load('<p>cheerio!<\/p><p class=\"foo\">foo text<\/p><p id=\"name\">Dustin</p>');
+ 
+$('p').each(function (i, el) {
+ 
+    console.log(el.children[0].data); // 'cheerio!', 'foo text', 'Dustin'
+ 
+});
+ 
+console.log( $('.foo')[0].children[0].data); // 'foo text'
+ 
+console.log( $('#name')[0].children[0].data); // 'Dustin'
+
+
+
+
+
+$ = cheerio.load('<p class=\"red\">red<\/p><p class=\"red big\">red and big<\/p><p class=\"red\">red</p>');
+ 
+console.log(  $('.red').hasClass('big') ); // true
+console.log(  $('.red').hasClass('little') ); // false
+
+
+
+
+$('p').each(function(index, el){
+ 
+    console.log(el.children[0].data);
+ 
+});
+
+
+
+
+https://www.codota.com/code/javascript/functions/cheerio/Cheerio/find
+https://www.codota.com/code/javascript/functions/cheerio/Cheerio/length
+https://www.codota.com/code/javascript/functions/cheerio/Cheerio/each
+https://www.codota.com/code/javascript/modules/cheerio
+
+<div id="list">
+
+  <div class="item-level-a">
+    <div class="item-level-b">
+      <a href="http://www.example.com/1"></a>
+    </div>
+  </div>
+
+  <div class="item-level-a">
+    <div class="item-level-b">
+      <a href="http://www.example.com/2"></a>
+    </div>
+  </div>
+
+  <div class="item-level-a">
+    <div class="item-level-b">
+      <a href="http://www.example.com/3"></a>
+    </div>
+  </div>
+
+</div>
+
+
+var list = [];
+$('div[id="list"]').find('div > div > a').each(function (index, element) {
+  list.push($(element).attr('href'));
+});
+console.dir(list);
+
+
+
+
+responseHTML = cheerio(pm.response.text()); 
+console.log(responseHTML.find('[name="_csrf"]').val());
+
+
+
+
+
