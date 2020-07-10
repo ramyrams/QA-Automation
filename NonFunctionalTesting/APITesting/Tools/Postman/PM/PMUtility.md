@@ -23,7 +23,7 @@ if (typeof pmutil == "undefined") {
 }
 ```
 
-
+```javascript
 pm.myUtility = {
     interpolateVariable: function (str) {
         return str.replace(/\{\{([^}]+)\}\}/g, function (match, $1) {
@@ -58,3 +58,5 @@ pm.myUtility = {
 }
 
 pm.myUtility.getUrl().getPath() Work like a charm
+
+```
