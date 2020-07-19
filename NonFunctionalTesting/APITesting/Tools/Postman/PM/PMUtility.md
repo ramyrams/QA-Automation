@@ -7,6 +7,26 @@ https://github.com/etuchscherer/postman2curl
 # Load from JS File
 https://github.com/tarunlalwani/postman-utils
 
+```javascript
+(Re)using custom functions
+
+// collection Pre-request Script tab
+pm.globals.set("helper", function loadhelper() {
+  let helper = {};
+
+  helper.log = (string) => {
+    console.log(string);
+  }
+    
+  return helper;
+} + '; loadhelper();');
+
+
+// specific request Pre-request Script or Tests tab
+const helper = eval(pm.globals.get("helper"));
+helper.log('test');
+```
+
 
 ```javascript
 if (typeof pmutil == "undefined") {
