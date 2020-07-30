@@ -15,8 +15,10 @@ npm install -D cypress-xpath
 # Test Dev Environment Setup
 --------------------------------------------------------------------------------------------------------------------
 # Create a new project folder
+```batch
 MD <Project Folder>
 CD <Project Folder>
+```
 
 # to generate the  package.json file
 npm init -y
@@ -24,6 +26,7 @@ npm init -y
 --------------------------------------------------------------------------------------------------------------------
 # Developement
 --------------------------------------------------------------------------------------------------------------------
+```batch
 /// <reference types="cypress" />
 
 # Skeleton Class
@@ -36,10 +39,11 @@ describe(", ()=>{
     it('', ()=> {
     });
 });
-
+```
 --------------------------------------------------------------------------------------------------------------------
 # Test run during the development 
 --------------------------------------------------------------------------------------------------------------------
+```batch
 npx cypress open
 cypress run --record "--parallel" "--group" "4x-electron"
 
@@ -48,11 +52,12 @@ cypress run --record "--parallel" "--group" "4x-electron"
 	node_modules/
 	cypress/videos/
 	cypress/screenshots/
-
+```
  
 --------------------------------------------------------------------------------------------------------------------
 # Execure and generate Allure Report
 --------------------------------------------------------------------------------------------------------------------
+```batch
 npx cypress run --config video=false --env allure=true --browser chrome
 
 parallel execution
@@ -65,13 +70,14 @@ parallel execution
 	cypress run --record --group package/admin --spec 'cypress/integration/packages/admin/**/*'
 	cypress run --record --group package/customer --spec 'cypress/integration/packages/customer/**/*'
 	cypress run --record --group package/guest --spec 'cypress/integration/packages/guest/**/*'
-
+```
 
 
 
 --------------------------------------------------------------------------------------------------------------------
 # Allure Reports
 --------------------------------------------------------------------------------------------------------------------
+```batch
 Note: https://github.com/Shelex/cypress-allure-plugin
 Example: 
 	https://github.com/Shelex/cypress-allure-plugin-example/blob/master/cypress/integration/examples/actions.spec.js
@@ -79,7 +85,7 @@ Example:
 npx cypress run --config video=false --env allure=true --browser chrome
 npx allure generate --clean
 npx allure open
-
+```
 
 
 
