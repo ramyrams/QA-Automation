@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------------------------------------------
 # Dev Environment Setup
 --------------------------------------------------------------------------------------------------------------------
+```batch
 Install Node and confirm the version
 Install NPM and confirm the version
 Install VS Code
@@ -9,7 +10,7 @@ npx cypress --version
 npm install -g allure-commandline --save-dev
 npm i -D @shelex/cypress-allure-plugin
 npm install -D cypress-xpath
-
+```
 --------------------------------------------------------------------------------------------------------------------
 # Test Dev Environment Setup
 --------------------------------------------------------------------------------------------------------------------
