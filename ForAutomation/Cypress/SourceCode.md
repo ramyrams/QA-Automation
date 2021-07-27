@@ -1,3 +1,13 @@
+#Custom formatting of .log() messages
+cy.log('normal')
+cy.log('**bold**')
+cy.log('_italic_')
+cy.log('[blue](<http://example.com>)')
+
+Cypress basics: Selecting elements
+https://filiphric.com/cypress-basics-selecting-elements
+
+
 # Run your test multiple times
 Cypress._.times(10, () => {
 
