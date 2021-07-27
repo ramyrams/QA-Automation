@@ -1,4 +1,13 @@
+# Run your test multiple times
+Cypress._.times(10, () => {
 
+  it('flaky test', () => {
+
+    // test code
+
+  });
+
+});
 
 
 
