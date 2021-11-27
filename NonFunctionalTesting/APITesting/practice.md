@@ -31,5 +31,9 @@ https://webhook.site/#!/92f3201c-2e66-43e0-bba9-dbbc388e44b5
 * https://fakerestapi.azurewebsites.net/index.html
 
 
+# Postman Import
+* https://documenter.getpostman.com/view/6961294/S1TVXyAS
+
+
 https://www.sitelike.org/similar/reqres.in/
 
