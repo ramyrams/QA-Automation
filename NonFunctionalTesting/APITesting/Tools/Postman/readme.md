@@ -14,3 +14,6 @@
 * https://support.cloudflare.com/hc/en-us/articles/115002323852-Using-Cloudflare-API-with-Postman-Collections
 * https://developer.squareup.com/docs/testing/postman
 * https://www.zoho.com/writer/help/api/v1/download-postman-collection.html
+
+# Postman Worspace
+https://www.postman.com/postman/workspace/published-postman-templates/request/640245-c2d88e99-9491-f474-04d0-172533786073
