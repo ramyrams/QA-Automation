@@ -25,3 +25,6 @@ https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/over
 https://www.postman.com/anihm136/workspace/postman-30-day-challenge-21/overview
 https://www.postman.com/alchemist91/workspace/30-days-challenge-workspace/request/7952687-e920ce57-d00a-4919-8ea7-2e85e8e8e706
 https://www.postman.com/staglauft/workspace/30-days-coding-challenge/overview
+
+
+https://www.postman.com/postman/workspace/published-postman-templates/request/640245-c2d88e99-9491-f474-04d0-172533786073
