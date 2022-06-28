@@ -1,3 +1,6 @@
+Api Security testing using Postman and Burpsuite
+https://pentestguy.com/api-security-testing-using-postman-and-burpsuite/
+
 OWASP API Security Top 10 - Austin DevSecOps Days 
 https://www.slideshare.net/42crunch/owasp-api-security-top-10-austin-devsecops-days
 
